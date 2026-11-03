@@ -7,7 +7,7 @@ V2 is published separately from the ordered V1:
 | V1 | [NEMA14_RP2040](https://github.com/AnasSarkiz/NEMA14_RP2040) | [NEMA14_RP2040](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040) |
 | V2 | [NEMA14_RP2040_V2](https://github.com/AnasSarkiz/NEMA14_RP2040_V2) | [NEMA14_RP2040_V2](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d) |
 
-The current registry release is **2.0.0-dev.5**, adding the motor/direct-WAGO-lead assembly and restoring the full readable logo/evaluation artwork while retaining the verified source-analysis definitions and USB locating-slot
+The current registry release is **2.0.0-dev.6**, shortening and smoothing the four motor leads while keeping the motor/direct-WAGO assembly and full readable logo/evaluation artwork while retaining the verified source-analysis definitions and USB locating-slot
 rotation with the latest tscircuit toolchain. Its exact source revision is in
 the linked publication receipt.
 

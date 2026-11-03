@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "before_assembly_sha256": "05ee2ce3678d6b9db3975b66926427f479534ebd022870c0e00d3d922e54e505",
+  "after_assembly_sha256": "3429dea72d96a91d18ea95db60dd7df8732e06f667c7c702b05e2d523c791619",
+  "board_sha256": "e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76",
+  "PCB_bytes_unchanged": true,
+  "all_non_lead_CAD_and_source_records_unchanged": true,
+  "only_four_insulated_lead_CAD_shapes_changed": true,
+  "four_terminal_entry_points_and_conductor_tips_unchanged": true,
+  "wire_comparison": [
+    {
+      "pin": 1,
+      "previous_length_mm": 53.696122709590796,
+      "length_mm": 35.617267357291375,
+      "length_reduction_percent": 33.6688282878017,
+      "previous_peak_Z_mm": 20.267335031676925,
+      "peak_Z_mm": 14.27130620477029,
+      "previous_outer_Y_mm": -25,
+      "outer_Y_mm": -21.25
+    },
+    {
+      "pin": 2,
+      "previous_length_mm": 52.97100698220754,
+      "length_mm": 35.36148391115573,
+      "length_reduction_percent": 33.24370079837576,
+      "previous_peak_Z_mm": 20.267335031676925,
+      "peak_Z_mm": 14.27130620477029,
+      "previous_outer_Y_mm": -25,
+      "outer_Y_mm": -21.25
+    },
+    {
+      "pin": 3,
+      "previous_length_mm": 53.194996095769454,
+      "length_mm": 35.43184351255354,
+      "length_reduction_percent": 33.39252540076528,
+      "previous_peak_Z_mm": 20.267335031676925,
+      "peak_Z_mm": 14.27130620477029,
+      "previous_outer_Y_mm": -25,
+      "outer_Y_mm": -21.25
+    },
+    {
+      "pin": 4,
+      "previous_length_mm": 54.17123432814721,
+      "length_mm": 35.822121141593186,
+      "length_reduction_percent": 33.87242955440629,
+      "previous_peak_Z_mm": 20.267335031676925,
+      "peak_Z_mm": 14.27130620477029,
+      "previous_outer_Y_mm": -25,
+      "outer_Y_mm": -21.25
+    }
+  ]
+}

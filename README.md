@@ -6,10 +6,10 @@ V2 has its own repository and registry package:
 - tscircuit: https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2
 - V1 remains at `AnasSarkiz/NEMA14_RP2040`.
 
-The separate tscircuit preview is **2.0.0-dev.5**.
+The separate tscircuit preview is **2.0.0-dev.6**.
 [Publication details and verification](docs/v2-publication.md).
 
-Latest update: the default native preview includes the motor and four direct WAGO leads. The tscircuit wordmark and evaluation statement are repositioned clear of pads and read correctly from underneath. [Assembly and limits](docs/v2-motor-assembly.md) · [Full underside artwork](artifacts/v2/routing/full-bottom-silkscreen.svg).
+Latest update: the four motor leads are about one-third shorter, using smooth 3 mm-radius bends close to the motor and terminal. The default native preview includes the motor and direct WAGO leads. The tscircuit wordmark and evaluation statement are repositioned clear of pads and read correctly from underneath. [Assembly and limits](docs/v2-motor-assembly.md) · [Full underside artwork](artifacts/v2/routing/full-bottom-silkscreen.svg).
 
 The 22 prior analysis warnings are resolved; fresh source, pin and schematic checks report zero diagnostics. [Analysis evidence](docs/v2-analysis-warnings.md).
 

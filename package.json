@@ -1,6 +1,6 @@
 {
   "name": "NEMA14_RP2040_V2",
-  "version": "2.0.0-dev.5",
+  "version": "2.0.0-dev.6",
   "description": "NEMA14 RP2040 V2: checked four-layer routing, winding telemetry and WAGO spring terminal",
   "main": "index.circuit.json",
   "scripts": {
@@ -24,7 +24,7 @@
     "precheck": "python3 scripts/patch-native-circular-keepouts.py",
     "check:circle": "bun scripts/check-circle-regression.ts",
     "assembly:build": "python3 scripts/restore-v2-reviewed-routing.py && bun scripts/build-v2-assembly.ts",
-    "assembly:check": "node scripts/check-v2-assembly-schema.mjs && python3 scripts/check-v2-assembly-models.py && /workspace/.routing-venv/bin/python scripts/check-v2-assembly-fit.py",
+    "assembly:check": "node scripts/check-v2-assembly-schema.mjs && python3 scripts/check-v2-assembly-models.py && python3 scripts/check-v2-wire-shape.py && /workspace/.routing-venv/bin/python scripts/check-v2-assembly-fit.py",
     "assembly:export": "npm run assembly:check && bun scripts/export-assembly-3d.ts --v2",
     "assembly:viewer": "python3 scripts/make-v2-portable-viewer.py --source assembly.circuit.json --output artifacts/v2/assembly/NEMA14-V2-assembly-viewer.html --default-tab cad --notice 'V2 motor and WAGO leads \u00b7 Rear mounting and factory wire fit unverified'",
     "publish:assembly": "python3 scripts/publish-v2-tscircuit.py --publish",

@@ -86,7 +86,7 @@ def stage(source_repository, revision):
     assembly=json.loads(assembly_bytes);assert assembly[:len(records)]==records,'Assembly altered the PCB'
     assembly_check=json.loads((ROOT/'artifacts/v2/assembly/assembly-verification.json').read_text())
     assert assembly_check['passed'] and assembly_check['assembly_sha256']==sha(assembly_bytes) and assembly_check['board_sha256']==sha(original)
-    for name in ['schema-verification.json','model-verification.json','viewer-verification.json']:
+    for name in ['schema-verification.json','model-verification.json','wire-shape-verification.json','viewer-verification.json']:
         receipt=json.loads((ROOT/'artifacts/v2/assembly'/name).read_text())
         assert receipt['passed'] and receipt['assembly_sha256']==sha(assembly_bytes),'Stale assembly receipt: '+name
     artwork=json.loads((ROOT/'artifacts/v2/routing/branding-verification.json').read_text())
@@ -125,7 +125,7 @@ def stage(source_repository, revision):
         '**70/70 nets connected; 0 shorts; 0 native PCB DRC errors or warnings.**\n\n'
         'Fresh source, pin and schematic checks report zero diagnostics.\n\n'
         'Essential legends, the tscircuit wordmark and evaluation disclaimer are checked on the underside.\n\n'
-        'The default 3D preview includes the reference motor and four direct WAGO leads. Rear mounting and factory wire fit remain unverified.\n\n'
+        'The default 3D preview includes the reference motor and four shorter, smoothly curved WAGO leads. Rear mounting and factory wire fit remain unverified.\n\n'
         'This is an engineering preview. Thermal/power, USB reference, wire fit, sourcing\n'
         'and bench calibration remain unqualified. No manufacturing downloads included.\n\n'
         f'Verified full source and models: {source_url}\n\n'

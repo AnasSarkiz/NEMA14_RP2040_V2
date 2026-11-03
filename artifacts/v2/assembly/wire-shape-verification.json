@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "assembly_sha256": "3429dea72d96a91d18ea95db60dd7df8732e06f667c7c702b05e2d523c791619",
+  "routing_style": "compact circular bends with smooth fan-out and tangent bore entry",
+  "nominal_insulation_OD_mm": 1,
+  "limits": {
+    "maximum_length_mm": 38,
+    "minimum_sampled_bend_radius_mm": 2.9,
+    "maximum_Z_mm": 15,
+    "minimum_Y_mm": -22
+  },
+  "wires": [
+    {
+      "pin": 1,
+      "color": "black",
+      "length_mm": 35.617267357291375,
+      "minimum_sampled_centerline_bend_radius_mm": 2.9999999999997917,
+      "maximum_Z_mm": 14.27130620477029,
+      "outermost_Y_mm": -21.25,
+      "straight_bore_entry_tangent_preserved": true
+    },
+    {
+      "pin": 2,
+      "color": "green",
+      "length_mm": 35.36148391115573,
+      "minimum_sampled_centerline_bend_radius_mm": 2.9999999999997917,
+      "maximum_Z_mm": 14.27130620477029,
+      "outermost_Y_mm": -21.25,
+      "straight_bore_entry_tangent_preserved": true
+    },
+    {
+      "pin": 3,
+      "color": "red",
+      "length_mm": 35.43184351255354,
+      "minimum_sampled_centerline_bend_radius_mm": 2.9999999999997917,
+      "maximum_Z_mm": 14.27130620477029,
+      "outermost_Y_mm": -21.25,
+      "straight_bore_entry_tangent_preserved": true
+    },
+    {
+      "pin": 4,
+      "color": "blue",
+      "length_mm": 35.822121141593186,
+      "minimum_sampled_centerline_bend_radius_mm": 2.9999999999997917,
+      "maximum_Z_mm": 14.27130620477029,
+      "outermost_Y_mm": -21.25,
+      "straight_bore_entry_tangent_preserved": true
+    }
+  ],
+  "errors": [],
+  "scope": "CAD shape and compactness screen; actual lead diameter and manufacturer bend rating remain unverified"
+}

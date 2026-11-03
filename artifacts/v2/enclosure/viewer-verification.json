@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "enclosure_sha256": "106a38086f841977cfaff7873cfc7f8d6ae04b2a5bd579533754b4e48c486780",
+  "html_sha256": "f30605c51cb23017fce72f04ae14ebf8a09306d3793163bb6696af7f163e1722",
+  "tested_at": "2026-11-03T20:11:25.452Z",
+  "native_3D_viewer": true,
+  "browser_page_errors": [],
+  "console_errors": [],
+  "external_requests": [],
+  "circuit": {
+    "cad": 113,
+    "caseParts": [
+      "ENCLOSURE_LID_CONCEPT",
+      "ENCLOSURE_REAR_CARRIER_CONCEPT",
+      "ENCLOSURE_GRIP_LEFT_CONCEPT",
+      "ENCLOSURE_GRIP_RIGHT_CONCEPT",
+      "ENCLOSURE_GRIP_REAR_CONCEPT",
+      "ENCLOSURE_GRIP_FRONT_LEFT_CONCEPT",
+      "ENCLOSURE_GRIP_FRONT_RIGHT_CONCEPT"
+    ],
+    "translucent": 2,
+    "errors": 0
+  },
+  "scope": "Separate enclosure concept; retention, fastening, material and temperature qualification remain open"
+}

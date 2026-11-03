@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "base_assembly_sha256": "3429dea72d96a91d18ea95db60dd7df8732e06f667c7c702b05e2d523c791619",
+  "enclosure_sha256": "106a38086f841977cfaff7873cfc7f8d6ae04b2a5bd579533754b4e48c486780",
+  "approved_assembly_records_preserved": true,
+  "enclosure_parts": [
+    "LID",
+    "REAR_CARRIER",
+    "GRIP_LEFT",
+    "GRIP_RIGHT",
+    "GRIP_REAR",
+    "GRIP_FRONT_LEFT",
+    "GRIP_FRONT_RIGHT"
+  ],
+  "PCB_or_motor_or_wire_changes": false,
+  "prototype_exports_only": true,
+  "fabrication_ready": false
+}

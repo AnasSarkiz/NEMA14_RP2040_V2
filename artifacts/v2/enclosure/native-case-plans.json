@@ -1,0 +1,1046 @@
+{
+  "LID": {
+    "type": "subtract",
+    "shapes": [
+      {
+        "type": "subtract",
+        "shapes": [
+          {
+            "type": "union",
+            "shapes": [
+              {
+                "type": "subtract",
+                "shapes": [
+                  {
+                    "type": "union",
+                    "shapes": [
+                      {
+                        "type": "translate",
+                        "vector": [
+                          0,
+                          0,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cuboid",
+                          "size": [
+                            34.4,
+                            39.4,
+                            9.8
+                          ]
+                        }
+                      },
+                      {
+                        "type": "translate",
+                        "vector": [
+                          0,
+                          0,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cuboid",
+                          "size": [
+                            39.4,
+                            34.4,
+                            9.8
+                          ]
+                        }
+                      },
+                      {
+                        "type": "translate",
+                        "vector": [
+                          -17.2,
+                          -17.2,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cylinder",
+                          "radius": 2.5,
+                          "height": 9.8,
+                          "segments": 48
+                        }
+                      },
+                      {
+                        "type": "translate",
+                        "vector": [
+                          -17.2,
+                          17.2,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cylinder",
+                          "radius": 2.5,
+                          "height": 9.8,
+                          "segments": 48
+                        }
+                      },
+                      {
+                        "type": "translate",
+                        "vector": [
+                          17.2,
+                          -17.2,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cylinder",
+                          "radius": 2.5,
+                          "height": 9.8,
+                          "segments": 48
+                        }
+                      },
+                      {
+                        "type": "translate",
+                        "vector": [
+                          17.2,
+                          17.2,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cylinder",
+                          "radius": 2.5,
+                          "height": 9.8,
+                          "segments": 48
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "union",
+                    "shapes": [
+                      {
+                        "type": "translate",
+                        "vector": [
+                          0,
+                          0,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cuboid",
+                          "size": [
+                            34.4,
+                            36.4,
+                            10.0
+                          ]
+                        }
+                      },
+                      {
+                        "type": "translate",
+                        "vector": [
+                          0,
+                          0,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cuboid",
+                          "size": [
+                            36.4,
+                            34.4,
+                            10.0
+                          ]
+                        }
+                      },
+                      {
+                        "type": "translate",
+                        "vector": [
+                          -17.2,
+                          -17.2,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cylinder",
+                          "radius": 1.0,
+                          "height": 10.0,
+                          "segments": 48
+                        }
+                      },
+                      {
+                        "type": "translate",
+                        "vector": [
+                          -17.2,
+                          17.2,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cylinder",
+                          "radius": 1.0,
+                          "height": 10.0,
+                          "segments": 48
+                        }
+                      },
+                      {
+                        "type": "translate",
+                        "vector": [
+                          17.2,
+                          -17.2,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cylinder",
+                          "radius": 1.0,
+                          "height": 10.0,
+                          "segments": 48
+                        }
+                      },
+                      {
+                        "type": "translate",
+                        "vector": [
+                          17.2,
+                          17.2,
+                          4.1
+                        ],
+                        "shape": {
+                          "type": "cylinder",
+                          "radius": 1.0,
+                          "height": 10.0,
+                          "segments": 48
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "union",
+                "shapes": [
+                  {
+                    "type": "translate",
+                    "vector": [
+                      0,
+                      0,
+                      8.25
+                    ],
+                    "shape": {
+                      "type": "cuboid",
+                      "size": [
+                        34.4,
+                        39.4,
+                        1.5
+                      ]
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      0,
+                      0,
+                      8.25
+                    ],
+                    "shape": {
+                      "type": "cuboid",
+                      "size": [
+                        39.4,
+                        34.4,
+                        1.5
+                      ]
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      -17.2,
+                      -17.2,
+                      8.25
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 2.5,
+                      "height": 1.5,
+                      "segments": 48
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      -17.2,
+                      17.2,
+                      8.25
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 2.5,
+                      "height": 1.5,
+                      "segments": 48
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      17.2,
+                      -17.2,
+                      8.25
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 2.5,
+                      "height": 1.5,
+                      "segments": 48
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      17.2,
+                      17.2,
+                      8.25
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 2.5,
+                      "height": 1.5,
+                      "segments": 48
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "translate",
+                "vector": [
+                  -13,
+                  -13,
+                  4.15
+                ],
+                "shape": {
+                  "type": "cylinder",
+                  "radius": 2.8,
+                  "height": 6.7,
+                  "segments": 48
+                }
+              },
+              {
+                "type": "translate",
+                "vector": [
+                  -13,
+                  13,
+                  4.15
+                ],
+                "shape": {
+                  "type": "cylinder",
+                  "radius": 2.8,
+                  "height": 6.7,
+                  "segments": 48
+                }
+              },
+              {
+                "type": "translate",
+                "vector": [
+                  13,
+                  -13,
+                  4.15
+                ],
+                "shape": {
+                  "type": "cylinder",
+                  "radius": 2.8,
+                  "height": 6.7,
+                  "segments": 48
+                }
+              },
+              {
+                "type": "translate",
+                "vector": [
+                  13,
+                  13,
+                  4.15
+                ],
+                "shape": {
+                  "type": "cylinder",
+                  "radius": 2.8,
+                  "height": 6.7,
+                  "segments": 48
+                }
+              }
+            ]
+          },
+          {
+            "type": "translate",
+            "vector": [
+              0.2,
+              -12,
+              4.5
+            ],
+            "shape": {
+              "type": "cuboid",
+              "size": [
+                17.5,
+                17,
+                11
+              ]
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              0.6,
+              15.6,
+              8.0
+            ],
+            "shape": {
+              "type": "cuboid",
+              "size": [
+                10.5,
+                9.5,
+                5
+              ]
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              -15.6,
+              4.65,
+              8.0
+            ],
+            "shape": {
+              "type": "cuboid",
+              "size": [
+                9.5,
+                10.5,
+                5
+              ]
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              -13,
+              -13,
+              0
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 1.5,
+              "height": 30,
+              "segments": 48
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              -13,
+              13,
+              0
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 1.5,
+              "height": 30,
+              "segments": 48
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              13,
+              -13,
+              0
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 1.5,
+              "height": 30,
+              "segments": 48
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              13,
+              13,
+              0
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 1.5,
+              "height": 30,
+              "segments": 48
+            }
+          }
+        ]
+      },
+      {
+        "type": "translate",
+        "vector": [
+          10.0,
+          -6,
+          8.25
+        ],
+        "shape": {
+          "type": "cuboid",
+          "size": [
+            1.2,
+            6.5,
+            2
+          ]
+        }
+      },
+      {
+        "type": "translate",
+        "vector": [
+          12.0,
+          -6,
+          8.25
+        ],
+        "shape": {
+          "type": "cuboid",
+          "size": [
+            1.2,
+            6.5,
+            2
+          ]
+        }
+      },
+      {
+        "type": "translate",
+        "vector": [
+          14.0,
+          -6,
+          8.25
+        ],
+        "shape": {
+          "type": "cuboid",
+          "size": [
+            1.2,
+            6.5,
+            2
+          ]
+        }
+      },
+      {
+        "type": "translate",
+        "vector": [
+          16.0,
+          -6,
+          8.25
+        ],
+        "shape": {
+          "type": "cuboid",
+          "size": [
+            1.2,
+            6.5,
+            2
+          ]
+        }
+      },
+      {
+        "type": "translate",
+        "vector": [
+          13.7,
+          -1.6,
+          8.25
+        ],
+        "shape": {
+          "type": "cuboid",
+          "size": [
+            6.5,
+            1.0,
+            2
+          ]
+        }
+      },
+      {
+        "type": "translate",
+        "vector": [
+          13.7,
+          0,
+          8.25
+        ],
+        "shape": {
+          "type": "cuboid",
+          "size": [
+            6.5,
+            1.0,
+            2
+          ]
+        }
+      },
+      {
+        "type": "translate",
+        "vector": [
+          13.7,
+          1.6,
+          8.25
+        ],
+        "shape": {
+          "type": "cuboid",
+          "size": [
+            6.5,
+            1.0,
+            2
+          ]
+        }
+      }
+    ]
+  },
+  "REAR_CARRIER": {
+    "type": "subtract",
+    "shapes": [
+      {
+        "type": "union",
+        "shapes": [
+          {
+            "type": "subtract",
+            "shapes": [
+              {
+                "type": "union",
+                "shapes": [
+                  {
+                    "type": "translate",
+                    "vector": [
+                      0,
+                      0,
+                      -5.4
+                    ],
+                    "shape": {
+                      "type": "cuboid",
+                      "size": [
+                        34.4,
+                        39.4,
+                        9.2
+                      ]
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      0,
+                      0,
+                      -5.4
+                    ],
+                    "shape": {
+                      "type": "cuboid",
+                      "size": [
+                        39.4,
+                        34.4,
+                        9.2
+                      ]
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      -17.2,
+                      -17.2,
+                      -5.4
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 2.5,
+                      "height": 9.2,
+                      "segments": 48
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      -17.2,
+                      17.2,
+                      -5.4
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 2.5,
+                      "height": 9.2,
+                      "segments": 48
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      17.2,
+                      -17.2,
+                      -5.4
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 2.5,
+                      "height": 9.2,
+                      "segments": 48
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      17.2,
+                      17.2,
+                      -5.4
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 2.5,
+                      "height": 9.2,
+                      "segments": 48
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "union",
+                "shapes": [
+                  {
+                    "type": "translate",
+                    "vector": [
+                      0,
+                      0,
+                      -5.3999999999999995
+                    ],
+                    "shape": {
+                      "type": "cuboid",
+                      "size": [
+                        34.4,
+                        36.4,
+                        9.4
+                      ]
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      0,
+                      0,
+                      -5.3999999999999995
+                    ],
+                    "shape": {
+                      "type": "cuboid",
+                      "size": [
+                        36.4,
+                        34.4,
+                        9.4
+                      ]
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      -17.2,
+                      -17.2,
+                      -5.3999999999999995
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 1.0,
+                      "height": 9.4,
+                      "segments": 48
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      -17.2,
+                      17.2,
+                      -5.3999999999999995
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 1.0,
+                      "height": 9.4,
+                      "segments": 48
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      17.2,
+                      -17.2,
+                      -5.3999999999999995
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 1.0,
+                      "height": 9.4,
+                      "segments": 48
+                    }
+                  },
+                  {
+                    "type": "translate",
+                    "vector": [
+                      17.2,
+                      17.2,
+                      -5.3999999999999995
+                    ],
+                    "shape": {
+                      "type": "cylinder",
+                      "radius": 1.0,
+                      "height": 9.4,
+                      "segments": 48
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "translate",
+            "vector": [
+              -13,
+              -13,
+              -1.6
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 2.8,
+              "height": 1.6,
+              "segments": 48
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              -13,
+              13,
+              -1.6
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 2.8,
+              "height": 1.6,
+              "segments": 48
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              13,
+              -13,
+              -1.6
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 2.8,
+              "height": 1.6,
+              "segments": 48
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              13,
+              13,
+              -1.6
+            ],
+            "shape": {
+              "type": "cylinder",
+              "radius": 2.8,
+              "height": 1.6,
+              "segments": 48
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              -16.35,
+              -13,
+              -1.6
+            ],
+            "shape": {
+              "type": "cuboid",
+              "size": [
+                6.7,
+                4.4,
+                1.6
+              ]
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              -16.35,
+              13,
+              -1.6
+            ],
+            "shape": {
+              "type": "cuboid",
+              "size": [
+                6.7,
+                4.4,
+                1.6
+              ]
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              16.35,
+              -13,
+              -1.6
+            ],
+            "shape": {
+              "type": "cuboid",
+              "size": [
+                6.7,
+                4.4,
+                1.6
+              ]
+            }
+          },
+          {
+            "type": "translate",
+            "vector": [
+              16.35,
+              13,
+              -1.6
+            ],
+            "shape": {
+              "type": "cuboid",
+              "size": [
+                6.7,
+                4.4,
+                1.6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "type": "translate",
+        "vector": [
+          0.45,
+          -19,
+          -5
+        ],
+        "shape": {
+          "type": "cuboid",
+          "size": [
+            14.5,
+            5.0,
+            12
+          ]
+        }
+      },
+      {
+        "type": "translate",
+        "vector": [
+          -13,
+          -13,
+          0
+        ],
+        "shape": {
+          "type": "cylinder",
+          "radius": 1.5,
+          "height": 30,
+          "segments": 48
+        }
+      },
+      {
+        "type": "translate",
+        "vector": [
+          -13,
+          13,
+          0
+        ],
+        "shape": {
+          "type": "cylinder",
+          "radius": 1.5,
+          "height": 30,
+          "segments": 48
+        }
+      },
+      {
+        "type": "translate",
+        "vector": [
+          13,
+          -13,
+          0
+        ],
+        "shape": {
+          "type": "cylinder",
+          "radius": 1.5,
+          "height": 30,
+          "segments": 48
+        }
+      },
+      {
+        "type": "translate",
+        "vector": [
+          13,
+          13,
+          0
+        ],
+        "shape": {
+          "type": "cylinder",
+          "radius": 1.5,
+          "height": 30,
+          "segments": 48
+        }
+      }
+    ]
+  },
+  "GRIP_LEFT": {
+    "type": "translate",
+    "vector": [
+      -17.9,
+      0,
+      -8.3
+    ],
+    "shape": {
+      "type": "cuboid",
+      "size": [
+        0.6,
+        8,
+        2.6
+      ]
+    }
+  },
+  "GRIP_RIGHT": {
+    "type": "translate",
+    "vector": [
+      17.9,
+      0,
+      -8.3
+    ],
+    "shape": {
+      "type": "cuboid",
+      "size": [
+        0.6,
+        8,
+        2.6
+      ]
+    }
+  },
+  "GRIP_REAR": {
+    "type": "translate",
+    "vector": [
+      0,
+      17.9,
+      -8.3
+    ],
+    "shape": {
+      "type": "cuboid",
+      "size": [
+        8,
+        0.6,
+        2.6
+      ]
+    }
+  },
+  "GRIP_FRONT_LEFT": {
+    "type": "translate",
+    "vector": [
+      -10.5,
+      -17.9,
+      -8.3
+    ],
+    "shape": {
+      "type": "cuboid",
+      "size": [
+        4,
+        0.6,
+        2.6
+      ]
+    }
+  },
+  "GRIP_FRONT_RIGHT": {
+    "type": "translate",
+    "vector": [
+      10.5,
+      -17.9,
+      -8.3
+    ],
+    "shape": {
+      "type": "cuboid",
+      "size": [
+        4,
+        0.6,
+        2.6
+      ]
+    }
+  }
+}

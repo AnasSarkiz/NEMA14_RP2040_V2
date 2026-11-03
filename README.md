@@ -6,6 +6,9 @@ V2 has its own repository and registry package:
 - tscircuit: https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2
 - V1 remains at `AnasSarkiz/NEMA14_RP2040`.
 
+The separate tscircuit preview is **2.0.0-dev.1**.
+[Publication details and verification](docs/v2-publication.md).
+
 **All 70 physical net groups are connected. Zero shorts, zero native DRC errors
 or warnings, and zero floating copper islands.** The independent audit checks the
 actual supplier pads, traces, plated barrels and pours on all four copper layers.

@@ -137,7 +137,7 @@ def stage(source_repository, revision):
     return meta, files, proof
 
 
-def publish(meta, files, proof):
+def publish(meta, files, proof, verify_only=False):
     # Use the established CLI session as-is; never print or persist credentials.
     config = Path('/workspace/.config/tscircuit-nodejs/config.json')
     token = json.loads(config.read_text())['sessionToken']
@@ -157,7 +157,7 @@ def publish(meta, files, proof):
     try:
         package = get('packages/get', name=NAME)['package']
     except urllib.error.HTTPError as error:
-        if error.code != 404:
+        if error.code != 404 or verify_only:
             raise
         package = post('packages/create', {'name': NAME, 'is_private': False})['package']
     assert package['name'] == NAME
@@ -165,23 +165,23 @@ def publish(meta, files, proof):
     try:
         release = post('package_releases/get', {'package_name_with_version': version})['package_release']
     except urllib.error.HTTPError as error:
-        if error.code != 404:
+        if error.code != 404 or verify_only:
             raise
         release = post('package_releases/create', {'package_name_with_version': version})['package_release']
     rid = release['package_release_id']
     rows = get('package_files/list', package_release_id=rid)['package_files']
     assert {e['file_path'] for e in rows} <= set(files), 'Unexpected files; no deletion is authorized here'
-    for path, data in files.items():
-        archive = base64.b64encode(gzip.compress(encode({'files': [
-            {'file_path': path, 'content_text': data.decode()}]}), compresslevel=9)).decode()
-        assert len(archive) < 3_000_000, 'File exceeds bounded upload limit'
-        post('package_files/upload_archive', {'package_name_with_version': version, 'archive_base64': archive})
-        print('Uploaded V2:', path, flush=True)
-    post('package_releases/update', {'package_name_with_version': version,
-        'ready_to_build': True, 'is_latest': True, 'license': 'ISC'})
-    # Link only a real independent repository, when its public source was verified.
-    if not proof['separate_github_repository_pending']:
-        post('packages/update', {'package_id': package['package_id'], 'github_repo_full_name': REPO})
+    if not verify_only:
+        for path, data in files.items():
+            archive = base64.b64encode(gzip.compress(encode({'files': [
+                {'file_path': path, 'content_text': data.decode()}]}), compresslevel=9)).decode()
+            assert len(archive) < 3_000_000, 'File exceeds bounded upload limit'
+            post('package_files/upload_archive', {'package_name_with_version': version, 'archive_base64': archive})
+            print('Uploaded V2:', path, flush=True)
+        post('package_releases/update', {'package_name_with_version': version,
+            'ready_to_build': True, 'is_latest': True, 'license': 'ISC'})
+    # This is a bounded manual publication. Automatic GitHub integration is a
+    # separate service setting and is not required for repo/model links to work.
     rows = get('package_files/list', package_release_id=rid)['package_files']
     assert {e['file_path'] for e in rows} == set(files)
     verified = []
@@ -204,6 +204,8 @@ def publish(meta, files, proof):
     receipt = {**proof, 'verified_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
         'release_id': rid, 'registry_files_verified': verified,
         'public_native_preview_verified': True, 'v1_package_unchanged': True,
+        'publication_method': 'bounded native registry upload',
+        'github_automatic_sync_enabled': bool(package.get('is_source_from_github')),
         'v1_snapshot': {k: before[k] for k in protected}}
     (OUT / 'registry-verification.json').write_text(json.dumps(receipt, indent=2) + '\n')
     print(json.dumps({k: v for k, v in receipt.items() if k != 'supplier_assets'}, indent=2), flush=True)
@@ -211,7 +213,9 @@ def publish(meta, files, proof):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--publish', action='store_true')
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument('--publish', action='store_true')
+    mode.add_argument('--verify-only', action='store_true', help='Read back an existing release without uploading')
     parser.add_argument('--source-repository', default=REPO,
         help='Public repository containing the verified V2 source commit')
     parser.add_argument('--source-revision', help='Immutable public source commit (default: local HEAD)')
@@ -219,5 +223,5 @@ if __name__ == '__main__':
     revision = args.source_revision or subprocess.check_output(
         ['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     meta, files, proof = stage(args.source_repository, revision)
-    if args.publish:
-        publish(meta, files, proof)
+    if args.publish or args.verify_only:
+        publish(meta, files, proof, verify_only=args.verify_only)

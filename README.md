@@ -1,4 +1,10 @@
-# NEMA14 RP2040 V2 — routing checked
+# NEMA14 RP2040 V2 — independent V2 project
+
+V2 has its own repository and registry package:
+
+- GitHub: https://github.com/AnasSarkiz/NEMA14_RP2040_V2
+- tscircuit: https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2
+- V1 remains at `AnasSarkiz/NEMA14_RP2040`.
 
 **All 70 physical net groups are connected. Zero shorts, zero native DRC errors
 or warnings, and zero floating copper islands.** The independent audit checks the
@@ -27,8 +33,8 @@ PCB, schematic and 3D views; all models and rendering assets are embedded.
 
 **Passing routing checks are not manufacturing release.** USB reference and
 thermal/power integrity, factory motor-wire fit, procurement and hardware
-current-sense calibration remain unqualified. Manufacturing/publication gates
-remain blocked. See [V2 design details](docs/v2-design.md) and
+current-sense calibration remain unqualified. Manufacturing export remains blocked. The separate tscircuit package is a
+read-only engineering preview, with no manufacturing downloads. See [V2 design details](docs/v2-design.md) and
 [WAGO changes](docs/v2-wago-repack.md).
 
 **The ordered V1 board and public tscircuit package are unchanged.**

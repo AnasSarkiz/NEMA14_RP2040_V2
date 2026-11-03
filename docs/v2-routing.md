@@ -2,8 +2,9 @@
 
 **All 70 physical net groups are connected: zero shorts, zero native DRC errors
 or warnings, and zero floating copper islands.** The mistaken connector rotation
-was reverted; the WAGO 250-204 faces outward. The ordered V1 and public tscircuit
-package are unchanged.
+was reverted; the WAGO 250-204 faces outward. V2 now has its own GitHub repository and tscircuit package,
+`AnasSarkiz/NEMA14_RP2040_V2`. The ordered V1 and original public package remain
+unchanged.
 
 [Top copper](../artifacts/v2/routing/top.svg) ·
 [Inner1](../artifacts/v2/routing/inner1.svg) ·
@@ -51,7 +52,7 @@ IPC-2221 estimate is 0.410 A. This sizing estimate does not qualify operating
 temperature or authorize raising the current limit. USB ground reference,
 thermal/power integrity, wire/tool access, procurement and hardware calibration
 remain engineering release work. `fabrication_ready` stays false and order-file
-export/publication gates remain blocked.
+export remains blocked; the separate lean engineering-preview publication is allowed.
 
 ## Reproduce and preview
 

@@ -1,8 +1,8 @@
 {
-  "name": "NEMA14_RP2040",
+  "name": "NEMA14_RP2040_V2",
   "version": "2.0.0-dev.1",
   "description": "NEMA14 RP2040 V2: checked four-layer routing, winding telemetry and WAGO spring terminal",
-  "main": "index.circuit.tsx",
+  "main": "index.circuit.json",
   "scripts": {
     "build": "npm run build:v2 && npm run check:v2",
     "check": "npm run check:v2",
@@ -14,7 +14,7 @@
     "export": "npm run check:v2 && /workspace/.routing-venv/bin/python scripts/export-manufacturing.py",
     "typecheck": "tsc --noEmit",
     "shorts": "XDG_CONFIG_HOME=/workspace/.config tsci check shorts artifacts/board.circuit.json --mode gerber --layer all --pixels-per-mm 100",
-    "publish:tscircuit": "bash scripts/publish-tscircuit.sh",
+    "publish:tscircuit": "python3 scripts/publish-v2-tscircuit.py --publish",
     "presentation": "npm run source:check && python3 scripts/sync-presentation.py && npm run render && /workspace/.routing-venv/bin/python scripts/export-a4-pdf.py && /workspace/.routing-venv/bin/python scripts/report-presentation.py",
     "check:copper": "/workspace/.routing-venv/bin/python scripts/audit-trace-widths.py",
     "check:mounts": "python3 scripts/check-mount-drills.py && /workspace/.routing-venv/bin/python scripts/check-mechanical-mounts.py",
@@ -43,20 +43,21 @@
     "check:v2:schematic": "tsci check schematic-placement artifacts/v2/source.circuit.json",
     "route:v2:freerouting": "/workspace/.routing-venv/bin/python scripts/route-v2-freerouting.py",
     "check:v2:functional": "/workspace/.routing-venv/bin/python scripts/audit-v2-functional-routing.py --source artifacts/v2/routing/freerouted.circuit.json",
-    "check:v2:phase-current": "/workspace/.routing-venv/bin/python scripts/screen-v2-phase-current.py"
+    "check:v2:phase-current": "/workspace/.routing-venv/bin/python scripts/screen-v2-phase-current.py",
+    "publish:v2:stage": "python3 scripts/publish-v2-tscircuit.py"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnasSarkiz/NEMA14_RP2040.git"
+    "url": "git+https://github.com/AnasSarkiz/NEMA14_RP2040_V2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/AnasSarkiz/NEMA14_RP2040/issues"
+    "url": "https://github.com/AnasSarkiz/NEMA14_RP2040_V2/issues"
   },
-  "homepage": "https://github.com/AnasSarkiz/NEMA14_RP2040",
+  "homepage": "https://github.com/AnasSarkiz/NEMA14_RP2040_V2",
   "dependencies": {
     "@tscircuit/cli": "^0.1.2261",
     "circuit-json-to-gerber": "0.0.112",

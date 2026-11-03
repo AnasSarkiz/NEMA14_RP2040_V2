@@ -1,8 +1,7 @@
 {
-  "mainEntrypoint": "index.circuit.tsx",
+  "mainEntrypoint": "index.circuit.json",
   "includeBoardFiles": [
-    "index.circuit.json",
-    "assembly.circuit.json"
+    "index.circuit.json"
   ],
-  "previewComponentPath": "assembly.circuit.json"
+  "previewComponentPath": "index.circuit.json"
 }

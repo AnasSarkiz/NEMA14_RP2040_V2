@@ -1,0 +1,154 @@
+{
+  "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
+  "scope": "Read-only requirements/artwork screen; no manufacturing release",
+  "bottom_artwork": [
+    {
+      "name": "For evaluation only;",
+      "bounds_mm": [
+        -16.808048514285712,
+        -7.5789602857142855,
+        -15.4958372,
+        9.446046
+      ],
+      "inside_board": true,
+      "pad_overlaps": [
+        {
+          "reference": "J_DATA",
+          "pad_id": "pcb_plated_hole_4",
+          "overlap_mm2": 0.4530301479185248
+        },
+        {
+          "reference": "J_DATA",
+          "pad_id": "pcb_plated_hole_7",
+          "overlap_mm2": 0.48907139864992866
+        }
+      ]
+    },
+    {
+      "name": "not FCC approved for resale.",
+      "bounds_mm": [
+        -15.641752342857144,
+        -14.573904628571428,
+        -14.3307048,
+        9.514704628571428
+      ],
+      "inside_board": true,
+      "pad_overlaps": []
+    },
+    {
+      "name": "tscircuit official wordmark",
+      "bounds_mm": [
+        -12.728974038330207,
+        7.186396984055592,
+        -3.9943302315341978,
+        8.912072717159136
+      ],
+      "inside_board": true,
+      "pad_overlaps": []
+    }
+  ],
+  "source_warning_counts": {
+    "source_refdes_convention_warning": 5,
+    "source_no_power_pin_defined_warning": 6,
+    "source_no_ground_pin_defined_warning": 3,
+    "source_component_pins_underspecified_warning": 1,
+    "source_missing_manufacturer_part_number_warning": 7
+  },
+  "port_labels": [
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "pcb_silkscreen_text_102",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": -5.2,
+        "y": 14.6
+      },
+      "font": "tscircuit2024",
+      "font_size": 0.8,
+      "layer": "top",
+      "text": "PWR",
+      "ccw_rotation": 90,
+      "subcircuit_id": "subcircuit_source_group_0",
+      "is_knockout": true,
+      "knockout_padding": {
+        "left": 0.25,
+        "right": 0.25,
+        "top": 0.25,
+        "bottom": 0.25
+      },
+      "pcb_component_id": "pcb_component_6"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "pcb_silkscreen_text_103",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": -5,
+        "y": -15.9
+      },
+      "font": "tscircuit2024",
+      "font_size": 0.8,
+      "layer": "bottom",
+      "text": "DATA",
+      "ccw_rotation": 0,
+      "subcircuit_id": "subcircuit_source_group_0",
+      "is_knockout": true,
+      "knockout_padding": {
+        "left": 0.25,
+        "right": 0.25,
+        "top": 0.25,
+        "bottom": 0.25
+      },
+      "pcb_component_id": "pcb_component_6"
+    }
+  ],
+  "rgb_supply_net": "DATA_VBUS",
+  "firmware_files_found": false,
+  "factory_wire_fit_confirmed": false,
+  "live_jlcpcb_stock_confirmed": false,
+  "bottom_artwork_source_routes_present_in_native": 532,
+  "bottom_artwork_geometry_confirmed": true,
+  "identified_items": [
+    {
+      "id": "ART-01",
+      "status": "needs_correction",
+      "item": "Bottom evaluation-only line overlaps two J_DATA plated shell pads",
+      "evidence": "Native CAD ink overlaps actual bottom plated-pad copper; current V2 CAM artwork clipping still requires review."
+    },
+    {
+      "id": "ART-02",
+      "status": "needs_correction",
+      "item": "DATA port legend remains at the former bottom-edge position",
+      "evidence": "DATA text at (-5,-15.9) mm; J_DATA origin at (-14.85,4.5) mm on left edge."
+    },
+    {
+      "id": "BEHAVIOR-01",
+      "status": "decision_or_acceptance_needed",
+      "item": "RGB common anode is DATA_VBUS powered",
+      "evidence": "RGB is unavailable on PD-only power; 3.3 V power LED remains available."
+    }
+  ],
+  "schematic_placement_check": {
+    "command": "tsci check schematic-placement artifacts/v2/source.circuit.json",
+    "exit_code": 0,
+    "result": "No diagnostics emitted; visual readability remains a separate review."
+  },
+  "reviewed_at_utc": "2026-11-03T16:50:48.854798+00:00",
+  "placement_source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
+  "all_requirements_closed": false,
+  "fabrication_ready": false,
+  "open_requirement_ids": [
+    "ART-01",
+    "ART-02",
+    "BEHAVIOR-01",
+    "MECH-01",
+    "BUY-01",
+    "ASSY-01",
+    "ELEC-01",
+    "FW-01",
+    "BENCH-01",
+    "DOC-01",
+    "SCH-01",
+    "RELEASE-01"
+  ]
+}

@@ -1,3 +1,38 @@
+# Current V2 firmware interface — 2.0.0-dev.2
+
+This table describes the active V2 source. The older V1 contract is retained below.
+No application firmware is implemented in this repository. See the
+[requirements and acceptance checklist](v2-requirements-checklist.md).
+
+| Function | RP2040 connection |
+| --- | --- |
+| Coil A current | GPIO26 / ADC0 / physical pin 38 |
+| Coil B current | GPIO27 / ADC1 / physical pin 39 |
+| PD_VBUS voltage | GPIO28 / ADC2 / physical pin 40; 100 kΩ / 10 kΩ divider, nominal ×11 |
+| DATA USB voltage/presence | GPIO29 / ADC3 / physical pin 41; 100 kΩ / 100 kΩ divider, nominal ×2 |
+| TMP102 / optional AS5600 I²C0 | GPIO4 SDA / pin 6; GPIO5 SCL / pin 7 |
+| POWER_GOOD | GPIO10 / physical pin 13, retained active-low contract and 3.3 V pull-up; verify actual levels on bench |
+| STEP / DIR | GPIO6 / pin 8; GPIO7 / pin 9 |
+| ENABLE_N / SLEEP | GPIO8 / pin 11; GPIO9 / pin 12 |
+| RGB R / G / B gates | GPIO25 / pin 37; GPIO2 / pin 4; GPIO3 / pin 5 |
+| Buzzer PWM | GPIO16 / physical pin 27 |
+| SWCLK / SWDIO / RUN | Physical pins 24 / 25 / 26 |
+
+Nominal current conversion is `I_A = (V_ADC - V_ZERO) / (20 × 0.05 Ω)` for each
+channel, with approximately 1.65 V zero-current output and 1 V/A gain. Calibrate
+zero and gain and choose sampling/filtering for the switching bridges; the ADC
+channels are multiplexed. The fixed motor-current limit is about 0.351 A nominal.
+
+Initialize the driver disabled. Verify PD_GOOD and the measured supply before
+motor enable, and validate supply-loss shutdown, boot and USB-presence behavior.
+RGB uses the DATA USB 5 V rail and is unavailable with PD power alone.
+
+TP_3V3, TP_GND, TP_SWCLK, TP_SWDIO and TP_RUN are bare bottom probe pads.
+TP_BOOT and TP_BOOT_GND remain top recovery pads. The optional bottom AS5600 is
+DNP; its two supply capacitors are fitted on top.
+
+## Historical V1 contract
+
 > Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
 
 # RP2040 firmware contract

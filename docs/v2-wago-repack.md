@@ -1,3 +1,8 @@
+> Historical placement/procurement snapshot from 2 November 2026. Current routing
+> and remaining acceptance items are in the [requirements checklist](v2-requirements-checklist.md)
+> and [routing verification](v2-routing.md). Statements about an unrouted seed or
+> unpublished package below describe that earlier snapshot.
+
 # WAGO 250-204 V2 placement — 2 November 2026
 
 V2 now has a **34.5 × 34.5 mm placement seed using one WAGO 250-204 /

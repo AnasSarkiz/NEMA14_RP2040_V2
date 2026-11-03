@@ -14,6 +14,8 @@ Tested with tscircuit **0.0.3062**, core **0.0.2259** and CLI **0.1.2429**.
 [Root cause and reimport evidence](references/v2/usb-reimport-2026-11-03/README.md) ·
 [Minimal oval-rotation repro](repros/usb-slot-rotation/README.md).
 
+[Old + new requirements checklist and open findings](docs/v2-requirements-checklist.md).
+
 **All 70 physical net groups are connected. Zero shorts, zero native DRC errors
 or warnings, and zero floating copper islands.** The independent audit checks the
 actual supplier pads, traces, plated barrels and pours on all four copper layers.

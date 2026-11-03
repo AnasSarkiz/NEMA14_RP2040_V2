@@ -64,5 +64,85 @@
       "v2_escape_0_QSPI_SD2_0"
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "reviewed_local_vm_bridge_same_side_repair_20_VM_SENSE_0_fragment_0_fragment_1",
+      "same_side_repair_0_A_PLUS_0_rerouted_fragment_0",
+      "same_side_repair_0_A_PLUS_0_rerouted_run_1_fragment_0",
+      "same_side_repair_0_LED_G_0_fragment_7_fragment_1_fragment_0",
+      "same_side_repair_0_VM_SENSE_0_fragment_1",
+      "same_side_repair_0_VM_SENSE_0_fragment_4",
+      "same_side_repair_11_BUZZER_GATE_1_fragment_1_fragment_1",
+      "same_side_repair_19_V3V3_12_fragment_0",
+      "same_side_repair_1_QSPI_SD3_0_fragment_0",
+      "same_side_repair_2_STEP_0_fragment_1",
+      "same_side_repair_36_DATA_VBUS_1_fragment_0",
+      "same_side_repair_4_STATUS_R_C_0_fragment_0",
+      "same_side_repair_5_SLEEP_0_fragment_4",
+      "same_side_repair_5_SLEEP_0_fragment_6_fragment_1",
+      "v2_escape_0_PD_GOOD_0",
+      "v2_escape_same_side_repair_33_TEMP_SCL_1"
+    ],
+    "retained_live_traces": [
+      "reviewed_local_vm_bridge_same_side_repair_20_VM_SENSE_0_fragment_0_fragment_0",
+      "same_side_repair_0_STEP_0_fragment_0_fragment_0",
+      "same_side_repair_10_BUZZER_GATE_0_fragment_0",
+      "same_side_repair_10_BUZZER_GATE_0_fragment_3",
+      "same_side_repair_12_STATUS_B_C_0_fragment_0",
+      "same_side_repair_14_LED_G_1_fragment_0_fragment_0_fragment_0_fragment_0_fragment_0",
+      "same_side_repair_1_ENABLE_N_0_fragment_1_fragment_0",
+      "same_side_repair_1_QSPI_SD3_0_run_1_fragment_0",
+      "same_side_repair_3_STATUS_G_C_0_fragment_3",
+      "same_side_repair_3_STATUS_G_C_0_fragment_4",
+      "same_side_repair_4_STATUS_R_C_0_fragment_1_fragment_0",
+      "same_side_repair_6_SLEEP_1_fragment_1",
+      "same_side_repair_8_DATA_PRESENT_0_fragment_2_fragment_0",
+      "same_side_repair_9_DATA_VBUS_0_fragment_0"
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "reviewed_local_vm_bridge_same_side_repair_10_VM_SENSE_0",
+      "same_side_repair_0_VM_SENSE_0_fragment_0",
+      "same_side_repair_0_VM_SENSE_0_fragment_5",
+      "same_side_repair_3_V3V3_1",
+      "same_side_repair_4_LED_G_0",
+      "same_side_repair_5_SLEEP_0_fragment_3"
+    ],
+    "retained_live_traces": [
+      "same_side_repair_0_A_PLUS_0_rerouted_run_2",
+      "same_side_repair_12_STATUS_B_C_0_fragment_0",
+      "same_side_repair_3_STATUS_G_C_0_fragment_3",
+      "same_side_repair_42_TEMP_SCL_1",
+      "same_side_repair_5_SLEEP_0_fragment_7_fragment_0",
+      "same_side_repair_8_DATA_PRESENT_0_fragment_2_fragment_0",
+      "usb_v2_pcb_trace_6_fragment_0_fragment_0"
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "same_side_repair_5_SLEEP_0_fragment_2"
+    ],
+    "retained_live_traces": [
+      "same_side_repair_0_LED_G_0_fragment_7_fragment_0",
+      "same_side_repair_12_STATUS_B_C_0_fragment_0",
+      "same_side_repair_3_STATUS_G_C_0_fragment_3",
+      "same_side_repair_8_DATA_PRESENT_0_fragment_2_fragment_0"
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "same_side_repair_5_SLEEP_0_fragment_1"
+    ],
+    "retained_live_traces": [
+      "same_side_repair_12_STATUS_B_C_0_fragment_0",
+      "same_side_repair_3_STATUS_G_C_0_fragment_3",
+      "same_side_repair_8_DATA_PRESENT_0_fragment_2_fragment_0"
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

@@ -102,7 +102,7 @@ export function prepareSchematic(json:any[]) {
  const start=(index:number,name:string,subtitle:string)=>{
   sheet=`schematic_sheet_${index-1}`;placed.clear();sections.clear();connected.clear();annotated.clear();netAnnotated.clear();localComplete.clear()
   out.push({type:'schematic_sheet',schematic_sheet_id:sheet,name:`${String(index).padStart(2,'0')} ${name}`,display_name:name,sheet_index:index,sheet_size:'a4',sheet_width:297,sheet_height:210,center:point(16,11)})
-  text('NEMA14 / '+project+' V2',1.2,21.1,.44);text(name,12.3,21.1,.40);text(subtitle,1.2,20.35,.24);line(point(.8,19.8),point(31.2,19.8));line(point(.8,1.7),point(31.2,1.7));text('AnasSarkiz  /  '+project+' motor controller',1.2,1.05,.23);text(`Sheet ${index} / 7   •   A4   •   Rev V2-DRAFT`,21,1.05,.23);text('34 × 34 mm  |  4-layer PCB  |  Unrouted V2 draft — NOT FOR FABRICATION',1.2,.65,.20)
+  text('NEMA14 / '+project+' V2',1.2,21.1,.44);text(name,12.3,21.1,.40);text(subtitle,1.2,20.35,.24);line(point(.8,19.8),point(31.2,19.8));line(point(.8,1.7),point(31.2,1.7));text('AnasSarkiz  /  '+project+' motor controller',1.2,1.05,.23);text(`Sheet ${index} / 7   •   A4   •   Rev V2 prototype`,21,1.05,.23);text('34.5 × 34.5 mm  |  4-layer PCB  |  Prototype: use hash-bound V2 order package',1.2,.65,.20)
  }
  // Route local signal networks orthogonally; shared power and ground use rail symbols.
  const finish=()=>{

@@ -169,7 +169,7 @@ def together(a,b,limit,weight=2):
     model.add(dx+dy<=round(limit*scale)).only_enforce_if(require(a+'_'+b));objective.extend([dx*weight,dy*weight])
 
 together('TP_BOOT','TP_BOOT_GND',1.8)
-for a,b,l in [('U_BUCK','C_BOOTSTRAP',3.5),('U_BUCK','L_BUCK',7),('U_BUCK','C_BUCK_IN',7),('L_BUCK','C_BUCK_OUT1',6),('L_BUCK','C_BUCK_OUT2',6),('U_TEMP','C_TEMP',3),('U_TEMP','U_DRV',12),('U_FLASH','U_MCU',10),('Q_BUZZER','BZ1',10),('BZ1','D_BUZZER',6)]:
+for a,b,l in [('U_BUCK','C_BOOTSTRAP',3.5),('U_BUCK','L_BUCK',7),('U_BUCK','C_BUCK_IN',7),('L_BUCK','C_BUCK_OUT1',6),('L_BUCK','C_BUCK_OUT2',6),('U_TEMP','U_DRV',12),('U_FLASH','U_MCU',10),('Q_BUZZER','BZ1',10),('BZ1','D_BUZZER',7)]:
     together(a,b,l)
 def local_port_offset(name,pin):
     # Read the active supplier footprint, not an older ordered-board package.
@@ -219,6 +219,11 @@ near_pin('R_XOUT','U_MCU',21,3.5)
 near_pin('C_FLASH','U_FLASH',8,2.5,child_pin=1)
 near_pin('C_PD','U_PD',1,6.5)
 near_pin('C_BUZZER','BZ1',1,3.5)
+# Audit the real supply terminals rather than the small-package centre.
+near_pin('C_TEMP','U_TEMP',5,3.5,child_pin=1)
+# Local bulk is required at both independent driver bridge supply pads.
+near_pin('C_BULK','U_DRV',22,8,child_pin=1)
+near_pin('C_BULK','U_DRV',28,8,child_pin=1)
 near_pin('R_DM','U_MCU',46,4.5)
 near_pin('R_DP','U_MCU',47,4.5)
 together('R_DM','R_DP',2.5)

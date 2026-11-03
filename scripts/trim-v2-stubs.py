@@ -34,7 +34,10 @@ for err in errors:
   elif other['type']=='pcb_trace':
    for a,b in zip(other['route'],other['route'][1:]):
     if a['route_type']==b['route_type']=='wire' and a['layer']==b['layer']==layer:geoms.append(g.LineString([(a['x'],a['y']),(b['x'],b['y'])]))
- path=g.LineString([(p['x'],p['y']) for p in ordered]);hit=path.intersection(unary_union(geoms));
+ # Projected route targets may differ from the original segment by floating
+ # point roundoff. A sub-micron intersection tolerance finds those real joins;
+ # the physical pad-partition comparison below still guards every trim.
+ path=g.LineString([(p['x'],p['y']) for p in ordered]);hit=path.intersection(unary_union(geoms).buffer(1e-7));
  if hit.is_empty:continue
  pieces=list(hit.geoms) if hasattr(hit,'geoms') else [hit]
  offsets=[path.project(g.Point(*p.coords[0])) for p in pieces if hasattr(p,'coords') and len(p.coords)]

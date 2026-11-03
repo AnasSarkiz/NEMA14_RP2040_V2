@@ -1,0 +1,4 @@
+Via,X mm,Y mm,Drill mm,Required process
+v2_thermal_U_MCU,0.4800031,4.0698761,0.3,"Fill, copper cap and planarize exposed-pad via; supplier approval required"
+v2_thermal_U_PD,-7.0499966999999994,13.190129100000002,0.3,"Fill, copper cap and planarize exposed-pad via; supplier approval required"
+v2_thermal_U_DRV,12.5998762,-6.3498698000000005,0.3,"Fill, copper cap and planarize exposed-pad via; supplier approval required"

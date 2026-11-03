@@ -1,38 +1,263 @@
 {
-  "before_sha256": "ba3a989c2d977702ae5d2e18cbaade2748908079b53e64a5d641439f5b2e32d2",
-  "after_sha256": "676d1b4d832cf2f2c232fcf511ef9953d7648f5da48f91aacd14fc44e5d480f0",
-  "physical_wire_segments_unchanged": 14675,
+  "before_sha256": "d1a8e044c45a04599612e43d7cf2e760607f4148b9fc3f8159262ac2e2109ef4",
+  "after_sha256": "d84db97b8ca11411f4d93570530346389065de56599024b1e3886a8f06ffb602",
+  "physical_wire_segments_unchanged": 15184,
   "pad_partitions_unchanged": true,
-  "real_barrels_unchanged": 361,
+  "real_barrels_unchanged": 364,
   "changes": [
     {
-      "old_trace": "v2_escape_0_STATUS_G_C_0",
+      "old_trace": "same_side_repair_0_PD_VBUS_0_rerouted",
       "same_layer_runs": [
-        "v2_escape_0_STATUS_G_C_0"
+        "same_side_repair_0_PD_VBUS_0_rerouted"
       ]
     },
     {
-      "old_trace": "v2_escape_0_LED_G_0_rerouted",
+      "old_trace": "same_side_repair_0_USB_DP_0",
       "same_layer_runs": [
-        "v2_escape_0_LED_G_0_rerouted"
+        "same_side_repair_0_USB_DP_0",
+        "same_side_repair_0_USB_DP_0_run_1"
       ]
     },
     {
-      "old_trace": "v2_escape_0_GND_0_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted",
+      "old_trace": "same_side_repair_16_BUZZER_SINK_0",
       "same_layer_runs": [
-        "v2_escape_0_GND_0_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted"
+        "same_side_repair_16_BUZZER_SINK_0",
+        "same_side_repair_16_BUZZER_SINK_0_run_1",
+        "same_side_repair_16_BUZZER_SINK_0_run_2"
       ]
     },
     {
-      "old_trace": "v2_escape_0_GND_0_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted",
+      "old_trace": "same_side_repair_18_LED_G_0",
       "same_layer_runs": [
-        "v2_escape_0_GND_0_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted"
+        "same_side_repair_18_LED_G_0",
+        "same_side_repair_18_LED_G_0_run_1",
+        "same_side_repair_18_LED_G_0_run_2",
+        "same_side_repair_18_LED_G_0_run_3",
+        "same_side_repair_18_LED_G_0_run_4"
       ]
     },
     {
-      "old_trace": "v2_escape_0_GND_0_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted",
+      "old_trace": "same_side_repair_0_A_PLUS_0_rerouted_rerouted",
       "same_layer_runs": [
-        "v2_escape_0_GND_0_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted"
+        "same_side_repair_0_A_PLUS_0_rerouted_rerouted",
+        "same_side_repair_0_A_PLUS_0_rerouted_rerouted_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_1_V3V3_1",
+      "same_layer_runs": [
+        "same_side_repair_1_V3V3_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_6_TEMP_SCL_0",
+      "same_layer_runs": [
+        "same_side_repair_6_TEMP_SCL_0",
+        "same_side_repair_6_TEMP_SCL_0_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_9_STATUS_G_K_0",
+      "same_layer_runs": [
+        "same_side_repair_9_STATUS_G_K_0",
+        "same_side_repair_9_STATUS_G_K_0_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_0_LOGIC_IN_0_rerouted",
+      "same_layer_runs": []
+    },
+    {
+      "old_trace": "same_side_repair_1_DATA_VBUS_0",
+      "same_layer_runs": [
+        "same_side_repair_1_DATA_VBUS_0"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_7_DATA_PRESENT_0",
+      "same_layer_runs": [
+        "same_side_repair_7_DATA_PRESENT_0",
+        "same_side_repair_7_DATA_PRESENT_0_run_1",
+        "same_side_repair_7_DATA_PRESENT_0_run_2",
+        "same_side_repair_7_DATA_PRESENT_0_run_3"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_10_PWR_LED_A_0",
+      "same_layer_runs": [
+        "same_side_repair_10_PWR_LED_A_0",
+        "same_side_repair_10_PWR_LED_A_0_run_1",
+        "same_side_repair_10_PWR_LED_A_0_run_2"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_11_TEMP_SDA_0",
+      "same_layer_runs": [
+        "same_side_repair_11_TEMP_SDA_0",
+        "same_side_repair_11_TEMP_SDA_0_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_6_TEMP_SDA_0",
+      "same_layer_runs": []
+    },
+    {
+      "old_trace": "same_side_repair_5_VM_SENSE_1",
+      "same_layer_runs": [
+        "same_side_repair_5_VM_SENSE_1",
+        "same_side_repair_5_VM_SENSE_1_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_7_PD_GOOD_0",
+      "same_layer_runs": [
+        "same_side_repair_7_PD_GOOD_0",
+        "same_side_repair_7_PD_GOOD_0_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_1_V3V3_0_rerouted_rerouted",
+      "same_layer_runs": [
+        "same_side_repair_1_V3V3_0_rerouted_rerouted",
+        "same_side_repair_1_V3V3_0_rerouted_rerouted_run_1",
+        "same_side_repair_1_V3V3_0_rerouted_rerouted_run_2"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_2_STATUS_G_C_0",
+      "same_layer_runs": [
+        "same_side_repair_2_STATUS_G_C_0",
+        "same_side_repair_2_STATUS_G_C_0_run_1",
+        "same_side_repair_2_STATUS_G_C_0_run_2"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_4_BUZZER_GATE_0",
+      "same_layer_runs": [
+        "same_side_repair_4_BUZZER_GATE_0",
+        "same_side_repair_4_BUZZER_GATE_0_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_0_DATA_CC1_0",
+      "same_layer_runs": [
+        "same_side_repair_0_DATA_CC1_0",
+        "same_side_repair_0_DATA_CC1_0_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_1_PD_GOOD_0",
+      "same_layer_runs": [
+        "same_side_repair_1_PD_GOOD_0",
+        "same_side_repair_1_PD_GOOD_0_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_3_SLEEP_1",
+      "same_layer_runs": [
+        "same_side_repair_3_SLEEP_1",
+        "same_side_repair_3_SLEEP_1_run_1",
+        "same_side_repair_3_SLEEP_1_run_2"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_4_BUZZER_GATE_0_rerouted",
+      "same_layer_runs": [
+        "same_side_repair_4_BUZZER_GATE_0_rerouted",
+        "same_side_repair_4_BUZZER_GATE_0_rerouted_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_0_SLEEP_0",
+      "same_layer_runs": [
+        "same_side_repair_0_SLEEP_0",
+        "same_side_repair_0_SLEEP_0_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_2_VM_SENSE_1",
+      "same_layer_runs": [
+        "same_side_repair_2_VM_SENSE_1",
+        "same_side_repair_2_VM_SENSE_1_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_0_STATUS_R_C_0",
+      "same_layer_runs": [
+        "same_side_repair_0_STATUS_R_C_0",
+        "same_side_repair_0_STATUS_R_C_0_run_1",
+        "same_side_repair_0_STATUS_R_C_0_run_2",
+        "same_side_repair_0_STATUS_R_C_0_run_3"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_1_ENABLE_N_0_rerouted_rerouted",
+      "same_layer_runs": [
+        "same_side_repair_1_ENABLE_N_0_rerouted_rerouted",
+        "same_side_repair_1_ENABLE_N_0_rerouted_rerouted_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_3_STATUS_G_C_0_rerouted",
+      "same_layer_runs": [
+        "same_side_repair_3_STATUS_G_C_0_rerouted",
+        "same_side_repair_3_STATUS_G_C_0_rerouted_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_4_STATUS_B_C_0",
+      "same_layer_runs": [
+        "same_side_repair_4_STATUS_B_C_0",
+        "same_side_repair_4_STATUS_B_C_0_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_0_ENABLE_N_0",
+      "same_layer_runs": [
+        "same_side_repair_0_ENABLE_N_0",
+        "same_side_repair_0_ENABLE_N_0_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_1_ENABLE_N_1",
+      "same_layer_runs": [
+        "same_side_repair_1_ENABLE_N_1",
+        "same_side_repair_1_ENABLE_N_1_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_2_STEP_0_rerouted",
+      "same_layer_runs": [
+        "same_side_repair_2_STEP_0_rerouted",
+        "same_side_repair_2_STEP_0_rerouted_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_0_GND_0_rerouted",
+      "same_layer_runs": [
+        "same_side_repair_0_GND_0_rerouted",
+        "same_side_repair_0_GND_0_rerouted_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_1_GND_1_rerouted",
+      "same_layer_runs": [
+        "same_side_repair_1_GND_1_rerouted",
+        "same_side_repair_1_GND_1_rerouted_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_2_GND_2_rerouted",
+      "same_layer_runs": [
+        "same_side_repair_2_GND_2_rerouted",
+        "same_side_repair_2_GND_2_rerouted_run_1"
+      ]
+    },
+    {
+      "old_trace": "same_side_repair_3_GND_4",
+      "same_layer_runs": [
+        "same_side_repair_3_GND_4",
+        "same_side_repair_3_GND_4_run_1"
       ]
     }
   ]

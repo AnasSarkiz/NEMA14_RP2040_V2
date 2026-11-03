@@ -75,8 +75,9 @@ for connector in ['J_PD','J_DATA']:
     holes=[e for e in data if e['type']=='pcb_hole' and pcs.get(e.get('pcb_component_id'))==connector]
     round_holes=[e for e in holes if e['hole_shape']=='circle']
     slots=[e for e in holes if e['hole_shape'] in ['pill','rotated_pill']]
-    # Derived from the original EasyEDA NPTH path, not the previous broken export.
-    check(connector+' has both supplier locating holes',len(round_holes)==1 and len(slots)==1 and math.isclose(round_holes[0]['hole_diameter'],.7099808,abs_tol=1e-6) and math.isclose(max(slots[0]['hole_width'],slots[0]['hole_height']),1.5099792,abs_tol=3e-5) and math.isclose(min(slots[0]['hole_width'],slots[0]['hole_height']),.7099808,abs_tol=1e-6) and math.isclose(math.hypot(slots[0]['x']-round_holes[0]['x'],slots[0]['y']-round_holes[0]['y']),8,abs_tol=5e-5))
+    # Retain the supplier centers and slot axis; widen only the board clearance
+    # capsule to the fabricator's 1.0 mm non-plated CNC-slot minimum.
+    check(connector+' retains both locating centers with a 1.0 mm fabrication slot',len(round_holes)==1 and len(slots)==1 and math.isclose(round_holes[0]['hole_diameter'],.7099808,abs_tol=1e-6) and math.isclose(max(slots[0]['hole_width'],slots[0]['hole_height']),1.7999984,abs_tol=3e-5) and math.isclose(min(slots[0]['hole_width'],slots[0]['hole_height']),1,abs_tol=1e-6) and math.isclose(math.hypot(slots[0]['x']-round_holes[0]['x'],slots[0]['y']-round_holes[0]['y']),8,abs_tol=5e-5))
     tabs=[e for e in data if e['type']=='pcb_plated_hole' and pcs.get(e.get('pcb_component_id'))==connector]
     check(connector+' retains all four soldered shell tabs',len(tabs)==4)
 check('RGB, buzzer, temperature, flash and crystal retained',all(n in byname for n in ['D_STATUS','BZ1','U_TEMP','U_FLASH','Y_MCU']))

@@ -1,0 +1,102 @@
+[
+  {
+    "net": "GND",
+    "start_port": "pcb_port_176",
+    "start_mm": [
+      -10.850472930030321,
+      -5.660066
+    ],
+    "end_mm": [
+      -10.911799143294353,
+      -5.032226780486114
+    ],
+    "vias_mm": [
+      [
+        -10.875,
+        -5.799999999999999
+      ]
+    ],
+    "expanded": 3908,
+    "trace_id": "same_side_repair_0_GND_0_rerouted",
+    "removed_foreign_trace_ids": [],
+    "removed_foreign_via_ids": [],
+    "retained_fragment_ids": []
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_303",
+    "start_mm": [
+      13.678016783165463,
+      2.908850139402772
+    ],
+    "end_mm": [
+      14.044485750007865,
+      1.8588967840965527
+    ],
+    "vias_mm": [
+      [
+        13.600000000000001,
+        3.025000000000002
+      ],
+      [
+        14.05,
+        1.8500000000000014
+      ]
+    ],
+    "expanded": 13761,
+    "trace_id": "same_side_repair_1_GND_1_rerouted",
+    "removed_foreign_trace_ids": [],
+    "removed_foreign_via_ids": [],
+    "retained_fragment_ids": []
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_305",
+    "start_mm": [
+      11.410049,
+      8.739695854936432
+    ],
+    "end_mm": [
+      11.478695893768396,
+      8.663027517307789
+    ],
+    "vias_mm": [
+      [
+        11.275000000000002,
+        8.725000000000001
+      ]
+    ],
+    "expanded": 989,
+    "trace_id": "same_side_repair_2_GND_2_rerouted",
+    "removed_foreign_trace_ids": [],
+    "removed_foreign_via_ids": [],
+    "retained_fragment_ids": []
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_348",
+    "start_mm": [
+      -8.318159343774628,
+      -10.807626907365108
+    ],
+    "end_mm": [
+      -4.618476254480745,
+      -11.083708087217223
+    ],
+    "vias_mm": [
+      [
+        -8.4,
+        -10.925
+      ],
+      [
+        -4.625,
+        -11.075
+      ]
+    ],
+    "expanded": 10423,
+    "trace_id": "same_side_repair_3_GND_4",
+    "removed_foreign_trace_ids": [],
+    "removed_foreign_via_ids": [],
+    "retained_fragment_ids": []
+  }
+]

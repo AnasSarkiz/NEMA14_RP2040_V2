@@ -10,6 +10,7 @@ import { classifySource } from "./classify-source"
 import { prepareSchematic } from "./prepare-schematic"
 import { normalizeMetadata } from "./normalize-metadata"
 import { prepareV2Silkscreen } from "./prepare-v2-silkscreen"
+import { prepareV2UsbDrills } from "./prepare-v2-usb-drills"
 
 // V2 is deliberately separate from the qualified V1 CAM and publication scripts.
 // A source preview has no routed copper and cannot be submitted for fabrication.
@@ -18,7 +19,7 @@ circuit.pcbRoutingDisabled = true
 circuit._featureMspSchematicTraceRouting = false
 circuit.add(<Board routingDisabled />)
 await circuit.renderUntilSettled()
-const raw = prepareV2Silkscreen(normalizeMetadata(classifySource(circuit.getCircuitJson())))
+const raw = prepareV2Silkscreen(prepareV2UsbDrills(normalizeMetadata(classifySource(circuit.getCircuitJson()))))
 mkdirSync("artifacts/v2", {recursive:true})
 writeFileSync("artifacts/v2/raw.circuit.json", JSON.stringify(raw,null,2)+"\n")
 const json = prepareSchematic(raw)

@@ -1,58 +1,58 @@
-# NEMA14 RP2040 V2 — independent V2 project
+# NEMA14 RP2040 V2
 
-V2 has its own repository and registry package:
+V2 has its own [GitHub repository](https://github.com/AnasSarkiz/NEMA14_RP2040_V2)
+and [tscircuit package](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d).
+This revision is **2.0.0-dev.7**. The working ordered V1 remains separate and unchanged.
 
-- GitHub: https://github.com/AnasSarkiz/NEMA14_RP2040_V2
-- tscircuit: https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2
-- V1 remains at `AnasSarkiz/NEMA14_RP2040`.
+[Prototype order files](artifacts/v2/order-review/) · [Order/process instructions](docs/v2-prototype-order.md) ·
+[Requirements checklist](docs/v2-requirements-checklist.md) · [Verification](artifacts/v2/routing/verification.json)
 
-The separate tscircuit preview is **2.0.0-dev.6**.
-[Publication details and verification](docs/v2-publication.md).
+The existing 47 µF / 35 V bulk capacitor is now beside the driver. Its positive
+land is 4.03/5.02 mm from the two VBB pins; the conservative complete copper-path
+bounds are 7.80/10.37 mm. Two nearby ground returns connect it to the driver
+and planes. The buzzer and nearby passives were repacked. All 97 fitted parts,
+values and the V2 physical pin/net assignments are retained, with every fitted
+component on top. Both encoder capacitors remain on top.
 
-Latest update: the four motor leads are about one-third shorter, using smooth 3 mm-radius bends close to the motor and terminal. The default native preview includes the motor and direct WAGO leads. The tscircuit wordmark and evaluation statement are repositioned clear of pads and read correctly from underneath. [Assembly and limits](docs/v2-motor-assembly.md) · [Full underside artwork](artifacts/v2/routing/full-bottom-silkscreen.svg).
+**70/70 physical nets connected; zero shorts, zero native PCB DRC errors or
+warnings, and zero floating copper.** Independent checks preserve all 342
+physical pin/net assignments, verify six ≥0.30 mm winding-current paths, all
+four shunt-only Kelvin pickups, and a top-only crystal circuit without vias.
+The current routing contains 664 trace records and 356 through vias.
+All 97 fitted supplier STEP bodies pass the component-clearance screen.
+Source/pin/schematic diagnostics are zero; 33 source checks and 67 placement
+proximity checks pass. These are CAD screens, not tested V2 hardware.
 
-The 22 prior analysis warnings are resolved; fresh source, pin and schematic checks report zero diagnostics. [Analysis evidence](docs/v2-analysis-warnings.md).
+34.5 × 34.5 × 1.6 mm, four layers, WAGO 250-204 / C2765063, separate upright
+USB-C data and 15 V PD power, RP2040, A4988, two winding-current ADC channels,
+RGB LED, buzzer, temperature sensor, flash and crystal. GPIO4/5 now carry I²C0;
+GPIO26/27 are current ADC inputs. [Firmware interface](docs/firmware-interface.md).
+RGB remains off with PD-only power because its supply is DATA_VBUS.
 
-USB-C locating capsules rotate correctly with their connectors.
-Tested with tscircuit **0.0.3062**, core **0.0.2259** and CLI **0.1.2429**.
-[Root cause and reimport evidence](references/v2/usb-reimport-2026-11-03/README.md) ·
-[Minimal oval-rotation repro](repros/usb-slot-rotation/README.md).
+Both USB locating capsules follow the connector rotations. A board-level
+clearance adaptation widens them from the nominal supplier 1.51 × 0.71 mm to
+1.80 × 1.00 mm for JLCPCB's CNC-slot capability, preserving the tool centerlines,
+round locators and every solder land. [Fabrication proof](artifacts/v2/usb-fabrication-adaptation.json).
+The latest reimport and original converter repro remain in
+[the USB investigation](references/v2/usb-reimport-2026-11-03/README.md).
+Toolchain: tscircuit 0.0.3062, core 0.0.2259, CLI 0.1.2429.
 
-[Old + new requirements checklist and open findings](docs/v2-requirements-checklist.md).
-
-**All 70 physical net groups are connected. Zero shorts, zero native DRC errors
-or warnings, and zero floating copper islands.** The independent audit checks the
-actual supplier pads, traces, plated barrels and pours on all four copper layers.
-All 342 physical pin/net assignments and source placement records are preserved.
-
-[Checks and engineering limits](docs/v2-routing.md) ·
 [Top PCB SVG](artifacts/v2/routing/top.svg) ·
-[Standalone tscircuit viewer](artifacts/v2/routing/NEMA14-V2-routing-viewer.html) ·
-[Verification manifest](artifacts/v2/routing/verification.json)
+[Portable PCB viewer](artifacts/v2/routing/NEMA14-V2-routing-viewer.html) ·
+[Portable motor/wire viewer](artifacts/v2/assembly/NEMA14-V2-assembly-viewer.html) ·
+[Readable underside artwork](artifacts/v2/routing/full-bottom-silkscreen.svg).
+The approved short, smoothly curved leads are retained. Rear mounting and actual
+factory-wire retention remain unverified; this is a dimensional assembly preview.
 
-34.5 × 34.5 × 1.6 mm, four layers, one outward-facing **WAGO 250-204 /
-C2765063** four-pole spring terminal. Data USB-C is left, PD USB-C is top,
-and motor wires exit at the bottom. Both coil-current ADC channels, RGB LED,
-buzzer, temperature sensor, flash and crystal are retained. Both encoder
-capacitors are on top; the optional encoder is bottom/DNP and five bare debug
-pads are underneath. Both USB sockets retain their supplier locating holes.
+Use only the V2-named Gerber/BOM/CPL files in the order folder. Supplier stock,
+quote, pickup orientation, through-hole/USB-shell soldering and exposed-pad
+filled/capped-via process acceptance remain pending. WAGO accepts bare stranded
+24–16 AWG; the current official motor page and drawing do not publish wire gauge.
+Firmware, current calibration and first-board electrical/thermal checks follow
+the prototype build. The tscircuit package contains eight preview/metadata files;
+manufacturing files, datasheets and history stay in GitHub.
 
-The saved routing has 639 trace records and 359 through vias. Source checks,
-65 placement-proximity checks, schema and typechecking pass. Functional routing
-checks confirm six full-width motor-current paths, four shunt-only Kelvin pickups
-and a top-only oscillator. `npm run route:v2` restores the checked copper only
-when the source and all required proof hashes match. The main JSON preview shows
-this checked routing. Download the standalone HTML and open it in Chrome for
-PCB, schematic and 3D views; all models and rendering assets are embedded.
-
-**Passing routing checks are not manufacturing release.** USB reference and
-thermal/power integrity, factory motor-wire fit, procurement and hardware
-current-sense calibration remain unqualified. Manufacturing export remains blocked. The separate tscircuit package is a
-read-only engineering preview, with no manufacturing downloads. See [V2 design details](docs/v2-design.md) and
-[WAGO changes](docs/v2-wago-repack.md).
-
-**The ordered V1 board and public tscircuit package are unchanged.**
-Sections and artifacts below describe historical V1 work.
+**Sections and artifacts below describe historical V1 work.**
 
 ## Bottom silkscreen and lean publication — 1.13.2 (V1 history)
 

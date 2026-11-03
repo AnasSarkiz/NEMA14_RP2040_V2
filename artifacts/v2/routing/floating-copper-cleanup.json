@@ -543,5 +543,119 @@
       "v2_escape_0_QSPI_SD2_0_via_9"
     ],
     "supplier_terminals_removed": 0
+  },
+  {
+    "removed_ids": [
+      "same_side_repair_0_BUZZER_PWM_0_run_2_fragment_0",
+      "same_side_repair_0_BUZZER_PWM_0_run_2_fragment_1",
+      "same_side_repair_0_LED_G_0_fragment_8_fragment_0",
+      "same_side_repair_0_STATUS_G_C_0_fragment_0",
+      "same_side_repair_14_BUZZER_SINK_0",
+      "same_side_repair_14_DATA_PRESENT_0_fragment_0",
+      "same_side_repair_14_DATA_PRESENT_0_fragment_1",
+      "same_side_repair_14_LED_G_1_fragment_1_fragment_0",
+      "same_side_repair_14_LED_G_1_via_30",
+      "same_side_repair_16_PWR_LED_A_0_fragment_1_fragment_0",
+      "same_side_repair_19_STATUS_G_C_0_fragment_0_fragment_1",
+      "same_side_repair_19_STATUS_G_C_0_via_12",
+      "same_side_repair_1_BUZZER_GATE_1_run_4_fragment_0",
+      "same_side_repair_22_V3V3_16_run_1_fragment_0",
+      "same_side_repair_5_STEP_0_fragment_0",
+      "same_side_repair_73_V3V3_29_fragment_0",
+      "same_side_repair_8_STEP_0_fragment_1_fragment_0",
+      "same_side_repair_94_BUZZER_SINK_0_fragment_0",
+      "same_side_repair_95_BUZZER_SINK_1_fragment_1_fragment_0",
+      "same_side_repair_95_BUZZER_SINK_1_fragment_2",
+      "same_side_repair_95_BUZZER_SINK_1_fragment_3",
+      "same_side_repair_95_BUZZER_SINK_1_via_30",
+      "same_side_repair_9_V3V3_9_fragment_0",
+      "v2_escape_0_GND_0_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted",
+      "v2_escape_0_GND_0_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_fragment_0",
+      "v2_escape_0_GND_0_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_via_2",
+      "v2_ground_escape_pcb_port_289_fragment_0",
+      "v2_ground_escape_pcb_port_289_fragment_1",
+      "v2_ground_escape_pcb_port_289_via",
+      "v2_ground_escape_pcb_port_356_fragment_0",
+      "v2_ground_escape_pcb_port_356_via"
+    ],
+    "supplier_terminals_removed": 0
+  },
+  {
+    "removed_ids": [
+      "same_side_repair_10_STEP_0_via_21"
+    ],
+    "supplier_terminals_removed": 0
+  },
+  {
+    "removed_ids": [
+      "same_side_repair_0_GND_0_rerouted_run_1_fragment_0_fragment_0",
+      "same_side_repair_16_ENABLE_N_1_fragment_0_fragment_0",
+      "same_side_repair_3_STEP_0_via_60",
+      "v2_escape_0_GND_0_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_rerouted_fragment_0",
+      "v2_escape_same_side_repair_28_DATA_PRESENT_2_fragment_0_fragment_0"
+    ],
+    "supplier_terminals_removed": 0
+  },
+  {
+    "removed_ids": [
+      "same_side_repair_0_STATUS_G_C_0_run_1_fragment_0",
+      "same_side_repair_14_STATUS_R_C_0_via_9",
+      "same_side_repair_2_SLEEP_0_rerouted_via_25",
+      "same_side_repair_5_SLEEP_0_via_1",
+      "same_side_repair_5_STATUS_R_C_0",
+      "same_side_repair_9_VM_SENSE_0_via_53",
+      "v2_escape_0_TEMP_SDA_0_rerouted_rerouted",
+      "v2_escape_0_TEMP_SDA_0_rerouted_rerouted_via_13"
+    ],
+    "supplier_terminals_removed": 0
+  },
+  {
+    "removed_ids": [
+      "same_side_repair_0_VM_SENSE_0_fragment_2",
+      "same_side_repair_0_VM_SENSE_0_fragment_3",
+      "same_side_repair_5_SLEEP_0_fragment_5"
+    ],
+    "supplier_terminals_removed": 0
+  },
+  {
+    "removed_ids": [
+      "same_side_repair_4_STATUS_R_C_0_fragment_1_fragment_1",
+      "same_side_repair_4_STATUS_R_C_0_fragment_1_fragment_2",
+      "same_side_repair_5_SLEEP_0_fragment_6_fragment_0",
+      "same_side_repair_6_SLEEP_1_fragment_2_fragment_0",
+      "same_side_repair_6_SLEEP_1_fragment_2_fragment_1",
+      "same_side_repair_6_SLEEP_1_fragment_3_fragment_0",
+      "same_side_repair_6_SLEEP_1_via_35"
+    ],
+    "supplier_terminals_removed": 0
+  },
+  {
+    "removed_ids": [
+      "same_side_repair_1_STATUS_R_C_0_via_21"
+    ],
+    "supplier_terminals_removed": 0
+  },
+  {
+    "removed_ids": [
+      "v2_escape_0_PD_GOOD_0_via_3"
+    ],
+    "supplier_terminals_removed": 0
+  },
+  {
+    "removed_ids": [
+      "same_side_repair_0_VM_SENSE_0_via_180",
+      "same_side_repair_0_VM_SENSE_0_via_5",
+      "same_side_repair_5_SLEEP_0_via_105",
+      "same_side_repair_5_SLEEP_0_via_48",
+      "v2_escape_same_side_repair_33_TEMP_SCL_1_via_3"
+    ],
+    "supplier_terminals_removed": 0
+  },
+  {
+    "removed_ids": [
+      "same_side_repair_5_SLEEP_0_via_11",
+      "same_side_repair_5_SLEEP_0_via_20"
+    ],
+    "supplier_terminals_removed": 0
   }
 ]

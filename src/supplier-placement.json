@@ -95,14 +95,14 @@
     "pcbRotation": 270
   },
   "R_USB_SENSE_H": {
-    "pcbX": -9.2,
-    "pcbY": -7.275,
-    "pcbRotation": 90
+    "pcbX": -10.8,
+    "pcbY": -3.39,
+    "pcbRotation": 0
   },
   "R_USB_SENSE_L": {
-    "pcbX": -11.425,
-    "pcbY": -2.925,
-    "pcbRotation": 270
+    "pcbX": -10.8,
+    "pcbY": -2.29,
+    "pcbRotation": 180
   },
   "R_VM_H": {
     "pcbX": 9.175,
@@ -135,14 +135,14 @@
     "pcbRotation": 180
   },
   "R_ENABLE": {
-    "pcbX": -9.2,
-    "pcbY": -9.225,
-    "pcbRotation": 270
+    "pcbX": 6.625,
+    "pcbY": 15.6,
+    "pcbRotation": 90
   },
   "R_SLEEP": {
-    "pcbX": -9.1,
-    "pcbY": -11.625,
-    "pcbRotation": 270
+    "pcbX": 7.700000000000001,
+    "pcbY": -0.8900000000000006,
+    "pcbRotation": 0
   },
   "C_PD": {
     "pcbX": -3.625,
@@ -290,8 +290,8 @@
     "pcbRotation": 90
   },
   "C_BULK": {
-    "pcbX": -13.48,
-    "pcbY": -6.8,
+    "pcbX": 13.400000000000002,
+    "pcbY": 0.03000000000000025,
     "pcbRotation": 0
   },
   "D_PD": {
@@ -350,12 +350,12 @@
     "pcbRotation": 180
   },
   "U_TEMP": {
-    "pcbX": 9.25,
-    "pcbY": 1.8,
+    "pcbX": 11.3,
+    "pcbY": 4.0,
     "pcbRotation": 0
   },
   "C_TEMP": {
-    "pcbX": 9.25,
+    "pcbX": 9.05,
     "pcbY": 3.5,
     "pcbRotation": 0
   },
@@ -370,19 +370,19 @@
     "pcbRotation": 180
   },
   "BZ1": {
-    "pcbX": 13.7,
-    "pcbY": 0.2,
-    "pcbRotation": 270
+    "pcbX": -13.7,
+    "pcbY": -6.8,
+    "pcbRotation": 180
   },
   "Q_BUZZER": {
-    "pcbX": 7.725,
-    "pcbY": -0.975,
-    "pcbRotation": 90
+    "pcbX": -9.199999999999998,
+    "pcbY": -11.64,
+    "pcbRotation": 0
   },
   "D_BUZZER": {
-    "pcbX": 9.9,
-    "pcbY": -1.35,
-    "pcbRotation": 90
+    "pcbX": -9.300000000000002,
+    "pcbY": -8.9,
+    "pcbRotation": 270
   },
   "R_BUZZER_GATE": {
     "pcbX": 8.675,
@@ -395,9 +395,9 @@
     "pcbRotation": 180
   },
   "C_BUZZER": {
-    "pcbX": 11.55,
-    "pcbY": 4.31,
-    "pcbRotation": 0
+    "pcbX": -9.3,
+    "pcbY": -5.56,
+    "pcbRotation": 90
   },
   "TP_3V3": {
     "pcbX": -5,

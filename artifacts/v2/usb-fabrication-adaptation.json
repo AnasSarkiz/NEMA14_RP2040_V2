@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "source_sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3",
+  "nominal_import_baseline": "241d252",
+  "fabricator_capability_url": "https://jlcpcb.com/capabilities/pcb-capabilities/",
+  "capability_checked_date": "2026-11-03",
+  "minimum_NPTH_CNC_slot_width_mm": 1,
+  "connectors": [
+    {
+      "connector": "J_PD",
+      "supplier_slot_mm": [
+        1.5099792,
+        0.7099808
+      ],
+      "board_clearance_slot_mm": [
+        1.7999984000000002,
+        1
+      ],
+      "additional_radial_clearance_mm": 0.14500960000000002,
+      "supplier_capsule_contained": true,
+      "unchanged_tool_centerline_and_rotation": true,
+      "minimum_clearance_to_fixed_solder_land_mm": 0.37976709999999875,
+      "all_solder_lands_and_placement_preserved": true
+    },
+    {
+      "connector": "J_DATA",
+      "supplier_slot_mm": [
+        1.5099792,
+        0.7099808
+      ],
+      "board_clearance_slot_mm": [
+        1.7999984000000002,
+        1
+      ],
+      "additional_radial_clearance_mm": 0.14500960000000002,
+      "supplier_capsule_contained": true,
+      "unchanged_tool_centerline_and_rotation": true,
+      "minimum_clearance_to_fixed_solder_land_mm": 0.3797671000000041,
+      "all_solder_lands_and_placement_preserved": true
+    }
+  ],
+  "scope": "Board clearance adaptation only; imported footprint, connector pose, 8 mm peg spacing, round locator and eight soldered shell stakes retained. Final CAM and supplier acceptance remain separate."
+}

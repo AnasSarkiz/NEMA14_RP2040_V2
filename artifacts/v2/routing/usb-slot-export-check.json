@@ -2,10 +2,10 @@
   "purpose": "Diagnostic NPTH conversion only; not order files",
   "usb_slot_count": 2,
   "source": "artifacts/v2/routing/freerouted.circuit.json",
-  "source_sha256": "e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76",
+  "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
   "slot_overall_mm": [
-    1.5099792,
-    0.7099808
+    1.7999984,
+    1
   ],
   "uses_excellon_routed_slots": true,
   "orientations": [

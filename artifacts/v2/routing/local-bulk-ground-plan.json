@@ -1,0 +1,22 @@
+{
+  "before_sha256": "9b2c176aedc6f63fbef6e32a7908e37179bb18ae2b4c561b5fdbb5d1be854a3a",
+  "after_sha256": "4d67b4439d5fdfa282e1fe1ebb34a3bb5a537d4b81fb274e4acaddde5c4bc821",
+  "sites_mm": [
+    [
+      15.500072,
+      0.88
+    ],
+    [
+      15.500072,
+      -0.82
+    ]
+  ],
+  "negative_pad_mm": [
+    15.500072000000003,
+    0.03000000000000025
+  ],
+  "minimum_foreign_copper_clearance_mm": 0.155,
+  "drill_mm": 0.3,
+  "pad_mm": 0.5,
+  "scope": "Deterministic placement screen; requires subsequent pours, full native DRC and physical connectivity checks"
+}

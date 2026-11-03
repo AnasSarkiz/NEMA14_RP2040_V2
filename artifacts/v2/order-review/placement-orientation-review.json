@@ -1,0 +1,3441 @@
+[
+  {
+    "reference": "J_PD",
+    "MPN": "USB4145-03-0070-C",
+    "part": "C5815189",
+    "center": {
+      "x": 0.7524951999999998,
+      "y": 14.849999999999998
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 17,
+        "name": "EH1",
+        "x_mm": -3.2474968,
+        "y_mm": 16.279893
+      },
+      {
+        "pin": 18,
+        "name": "EH2",
+        "x_mm": -3.2474968,
+        "y_mm": 13.420107
+      },
+      {
+        "pin": 19,
+        "name": "EH3",
+        "x_mm": 4.7524872,
+        "y_mm": 13.420107
+      },
+      {
+        "pin": 20,
+        "name": "EH4",
+        "x_mm": 4.7524872,
+        "y_mm": 16.279893
+      },
+      {
+        "pin": 1,
+        "name": "GND1",
+        "x_mm": -1.9975627999999999,
+        "y_mm": 16.329931
+      },
+      {
+        "pin": 2,
+        "name": "DP1",
+        "x_mm": 0.5025592,
+        "y_mm": 16.329931
+      },
+      {
+        "pin": 3,
+        "name": "VBUS1",
+        "x_mm": -0.49743879999999996,
+        "y_mm": 16.329931
+      },
+      {
+        "pin": 4,
+        "name": "CC1",
+        "x_mm": 0.0024332000000000242,
+        "y_mm": 16.329931
+      },
+      {
+        "pin": 5,
+        "name": "GND2",
+        "x_mm": 3.5025532,
+        "y_mm": 16.329931
+      },
+      {
+        "pin": 6,
+        "name": "DM1",
+        "x_mm": 1.0024312,
+        "y_mm": 16.329931
+      },
+      {
+        "pin": 7,
+        "name": "SBU1",
+        "x_mm": 1.5025572,
+        "y_mm": 16.329931
+      },
+      {
+        "pin": 8,
+        "name": "VBUS2",
+        "x_mm": 2.0024292,
+        "y_mm": 16.329931
+      },
+      {
+        "pin": 9,
+        "name": "GND3",
+        "x_mm": -1.9973087999999999,
+        "y_mm": 13.370068999999999
+      },
+      {
+        "pin": 10,
+        "name": "DM2",
+        "x_mm": 0.5025592,
+        "y_mm": 13.370068999999999
+      },
+      {
+        "pin": 11,
+        "name": "VBUS3",
+        "x_mm": -0.49743879999999996,
+        "y_mm": 13.370068999999999
+      },
+      {
+        "pin": 12,
+        "name": "SBU2",
+        "x_mm": 0.0024332000000000242,
+        "y_mm": 13.370068999999999
+      },
+      {
+        "pin": 13,
+        "name": "GND4",
+        "x_mm": 3.5025532,
+        "y_mm": 13.370068999999999
+      },
+      {
+        "pin": 14,
+        "name": "DP2",
+        "x_mm": 1.0024312,
+        "y_mm": 13.370068999999999
+      },
+      {
+        "pin": 15,
+        "name": "CC2",
+        "x_mm": 1.5025572,
+        "y_mm": 13.370068999999999
+      },
+      {
+        "pin": 16,
+        "name": "VBUS4",
+        "x_mm": 2.0024292,
+        "y_mm": 13.370068999999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "J_DATA",
+    "MPN": "USB4145-03-0070-C",
+    "part": "C5815189",
+    "center": {
+      "x": -14.849999999999998,
+      "y": 4.6524952
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 17,
+        "name": "EH1",
+        "x_mm": -16.279893,
+        "y_mm": 0.6525032
+      },
+      {
+        "pin": 18,
+        "name": "EH2",
+        "x_mm": -13.420107,
+        "y_mm": 0.6525032
+      },
+      {
+        "pin": 19,
+        "name": "EH3",
+        "x_mm": -13.420107,
+        "y_mm": 8.6524872
+      },
+      {
+        "pin": 20,
+        "name": "EH4",
+        "x_mm": -16.279893,
+        "y_mm": 8.6524872
+      },
+      {
+        "pin": 1,
+        "name": "GND1",
+        "x_mm": -16.329931,
+        "y_mm": 1.9024372
+      },
+      {
+        "pin": 2,
+        "name": "DP1",
+        "x_mm": -16.329931,
+        "y_mm": 4.4025592
+      },
+      {
+        "pin": 3,
+        "name": "VBUS1",
+        "x_mm": -16.329931,
+        "y_mm": 3.4025612
+      },
+      {
+        "pin": 4,
+        "name": "CC1",
+        "x_mm": -16.329931,
+        "y_mm": 3.9024332
+      },
+      {
+        "pin": 5,
+        "name": "GND2",
+        "x_mm": -16.329931,
+        "y_mm": 7.4025532
+      },
+      {
+        "pin": 6,
+        "name": "DM1",
+        "x_mm": -16.329931,
+        "y_mm": 4.9024312000000005
+      },
+      {
+        "pin": 7,
+        "name": "SBU1",
+        "x_mm": -16.329931,
+        "y_mm": 5.4025572
+      },
+      {
+        "pin": 8,
+        "name": "VBUS2",
+        "x_mm": -16.329931,
+        "y_mm": 5.9024292
+      },
+      {
+        "pin": 9,
+        "name": "GND3",
+        "x_mm": -13.370068999999999,
+        "y_mm": 1.9026912
+      },
+      {
+        "pin": 10,
+        "name": "DM2",
+        "x_mm": -13.370068999999999,
+        "y_mm": 4.4025592
+      },
+      {
+        "pin": 11,
+        "name": "VBUS3",
+        "x_mm": -13.370068999999999,
+        "y_mm": 3.4025612
+      },
+      {
+        "pin": 12,
+        "name": "SBU2",
+        "x_mm": -13.370068999999999,
+        "y_mm": 3.9024332
+      },
+      {
+        "pin": 13,
+        "name": "GND4",
+        "x_mm": -13.370068999999999,
+        "y_mm": 7.4025532
+      },
+      {
+        "pin": 14,
+        "name": "DP2",
+        "x_mm": -13.370068999999999,
+        "y_mm": 4.9024312
+      },
+      {
+        "pin": 15,
+        "name": "CC2",
+        "x_mm": -13.370068999999999,
+        "y_mm": 5.4025571999999995
+      },
+      {
+        "pin": 16,
+        "name": "VBUS4",
+        "x_mm": -13.370068999999999,
+        "y_mm": 5.9024292
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "U_PD",
+    "MPN": "CH224A",
+    "part": "C42459160",
+    "center": {
+      "x": -7.050000000000001,
+      "y": 13.189999999999998
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 10,
+        "name": "PG",
+        "x_mm": -9.049996,
+        "y_mm": 16.189867
+      },
+      {
+        "pin": 9,
+        "name": "CFG1",
+        "x_mm": -8.049998,
+        "y_mm": 16.190120999999998
+      },
+      {
+        "pin": 8,
+        "name": "VBUS",
+        "x_mm": -7.05,
+        "y_mm": 16.190120999999998
+      },
+      {
+        "pin": 7,
+        "name": "CC1",
+        "x_mm": -6.050002,
+        "y_mm": 16.190120999999998
+      },
+      {
+        "pin": 6,
+        "name": "CC2",
+        "x_mm": -5.0500039999999995,
+        "y_mm": 16.189867
+      },
+      {
+        "pin": 5,
+        "name": "DM",
+        "x_mm": -5.0500039999999995,
+        "y_mm": 10.189879
+      },
+      {
+        "pin": 4,
+        "name": "DP",
+        "x_mm": -6.050002,
+        "y_mm": 10.189879
+      },
+      {
+        "pin": 3,
+        "name": "CFG3",
+        "x_mm": -7.05,
+        "y_mm": 10.189879
+      },
+      {
+        "pin": 2,
+        "name": "CFG2",
+        "x_mm": -8.049998,
+        "y_mm": 10.189879
+      },
+      {
+        "pin": 1,
+        "name": "VHV",
+        "x_mm": -9.049996,
+        "y_mm": 10.189879
+      },
+      {
+        "pin": 11,
+        "name": "GND",
+        "x_mm": -7.05,
+        "y_mm": 13.190127
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_PD",
+    "MPN": "0603WAF0000T5E",
+    "part": "C21189",
+    "center": {
+      "x": -10.15,
+      "y": -16.55
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -10.903364,
+        "y_mm": -16.55
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -9.396636,
+        "y_mm": -16.55
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_PD",
+    "MPN": "CL10A105KB8NNNC",
+    "part": "C15849",
+    "center": {
+      "x": -3.625,
+      "y": 11.1
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -3.625,
+        "y_mm": 11.800024
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -3.625,
+        "y_mm": 10.399975999999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_PG",
+    "MPN": "0603WAF1002T5E",
+    "part": "C25804",
+    "center": {
+      "x": -9.1,
+      "y": -14.45
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -9.1,
+        "y_mm": -15.203363999999999
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -9.1,
+        "y_mm": -13.696636
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "U_MCU",
+    "MPN": "RP2040",
+    "part": "C2040",
+    "center": {
+      "x": 0.47999999999999976,
+      "y": 3.87
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 57,
+        "name": "GND",
+        "x_mm": 0.48,
+        "y_mm": 3.869873
+      },
+      {
+        "pin": 56,
+        "name": "QSPI_SS",
+        "x_mm": 3.0799439999999993,
+        "y_mm": 0.44493699999999947
+      },
+      {
+        "pin": 55,
+        "name": "QSPI_SD1",
+        "x_mm": 2.6801479999999995,
+        "y_mm": 0.44493699999999947
+      },
+      {
+        "pin": 54,
+        "name": "QSPI_SD2",
+        "x_mm": 2.2800979999999997,
+        "y_mm": 0.4449369999999999
+      },
+      {
+        "pin": 53,
+        "name": "QSPI_SD0",
+        "x_mm": 1.8800479999999995,
+        "y_mm": 0.4449369999999999
+      },
+      {
+        "pin": 52,
+        "name": "QSPI_SCLK",
+        "x_mm": 1.4799979999999997,
+        "y_mm": 0.4449369999999999
+      },
+      {
+        "pin": 51,
+        "name": "QSPI_SD3",
+        "x_mm": 1.0799479999999995,
+        "y_mm": 0.4449369999999999
+      },
+      {
+        "pin": 50,
+        "name": "DVDD50",
+        "x_mm": 0.6801519999999995,
+        "y_mm": 0.4449369999999999
+      },
+      {
+        "pin": 49,
+        "name": "IOVDD49",
+        "x_mm": 0.2801019999999996,
+        "y_mm": 0.4449369999999999
+      },
+      {
+        "pin": 48,
+        "name": "USB_VDD",
+        "x_mm": -0.1199480000000005,
+        "y_mm": 0.4449369999999999
+      },
+      {
+        "pin": 47,
+        "name": "USB_DP",
+        "x_mm": -0.5199980000000005,
+        "y_mm": 0.4449369999999999
+      },
+      {
+        "pin": 46,
+        "name": "USB_DM",
+        "x_mm": -0.9200480000000004,
+        "y_mm": 0.4449369999999999
+      },
+      {
+        "pin": 45,
+        "name": "VREG_OUT",
+        "x_mm": -1.3198440000000005,
+        "y_mm": 0.4449369999999999
+      },
+      {
+        "pin": 44,
+        "name": "VREG_IN",
+        "x_mm": -1.7198940000000005,
+        "y_mm": 0.44493700000000036
+      },
+      {
+        "pin": 43,
+        "name": "ADC_AVDD",
+        "x_mm": -2.1199440000000003,
+        "y_mm": 0.44493700000000036
+      },
+      {
+        "pin": 42,
+        "name": "IOVDD42",
+        "x_mm": -2.9449360000000007,
+        "y_mm": 1.2699290000000008
+      },
+      {
+        "pin": 41,
+        "name": "GPIO29",
+        "x_mm": -2.9449360000000007,
+        "y_mm": 1.6699790000000005
+      },
+      {
+        "pin": 40,
+        "name": "GPIO28",
+        "x_mm": -2.944936,
+        "y_mm": 2.070029000000001
+      },
+      {
+        "pin": 39,
+        "name": "GPIO27",
+        "x_mm": -2.944936,
+        "y_mm": 2.4700790000000006
+      },
+      {
+        "pin": 38,
+        "name": "GPIO26",
+        "x_mm": -2.944936,
+        "y_mm": 2.8698750000000004
+      },
+      {
+        "pin": 37,
+        "name": "GPIO25",
+        "x_mm": -2.944936,
+        "y_mm": 3.2699250000000006
+      },
+      {
+        "pin": 36,
+        "name": "GPIO24",
+        "x_mm": -2.944936,
+        "y_mm": 3.6699750000000004
+      },
+      {
+        "pin": 35,
+        "name": "GPIO23",
+        "x_mm": -2.944936,
+        "y_mm": 4.070025
+      },
+      {
+        "pin": 34,
+        "name": "GPIO22",
+        "x_mm": -2.944936,
+        "y_mm": 4.4700750000000005
+      },
+      {
+        "pin": 33,
+        "name": "IOVDD33",
+        "x_mm": -2.944936,
+        "y_mm": 4.869871000000001
+      },
+      {
+        "pin": 32,
+        "name": "GPIO21",
+        "x_mm": -2.944936,
+        "y_mm": 5.269921
+      },
+      {
+        "pin": 31,
+        "name": "GPIO20",
+        "x_mm": -2.944936,
+        "y_mm": 5.669971
+      },
+      {
+        "pin": 30,
+        "name": "GPIO19",
+        "x_mm": -2.9449359999999998,
+        "y_mm": 6.0700210000000006
+      },
+      {
+        "pin": 29,
+        "name": "GPIO18",
+        "x_mm": -2.9449359999999998,
+        "y_mm": 6.470071000000001
+      },
+      {
+        "pin": 28,
+        "name": "GPIO17",
+        "x_mm": -2.1199439999999994,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 27,
+        "name": "GPIO16",
+        "x_mm": -1.7198939999999996,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 26,
+        "name": "RUN",
+        "x_mm": -1.3198439999999996,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 25,
+        "name": "SWDIO",
+        "x_mm": -0.9200479999999995,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 24,
+        "name": "SWCLK",
+        "x_mm": -0.5199979999999996,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 23,
+        "name": "DVDD23",
+        "x_mm": -0.11994799999999961,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 22,
+        "name": "IOVDD22",
+        "x_mm": 0.2801020000000004,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 21,
+        "name": "XOUT",
+        "x_mm": 0.6801520000000004,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 20,
+        "name": "XIN",
+        "x_mm": 1.0799480000000004,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 19,
+        "name": "TESTEN",
+        "x_mm": 1.4799980000000006,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 18,
+        "name": "GPIO15",
+        "x_mm": 1.8800480000000004,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 17,
+        "name": "GPIO14",
+        "x_mm": 2.2800980000000006,
+        "y_mm": 7.295063000000001
+      },
+      {
+        "pin": 16,
+        "name": "GPIO13",
+        "x_mm": 2.6801480000000004,
+        "y_mm": 7.295063
+      },
+      {
+        "pin": 15,
+        "name": "GPIO12",
+        "x_mm": 3.0799440000000002,
+        "y_mm": 7.295063
+      },
+      {
+        "pin": 14,
+        "name": "GPIO11",
+        "x_mm": 3.9049360000000006,
+        "y_mm": 6.470070999999999
+      },
+      {
+        "pin": 13,
+        "name": "GPIO10",
+        "x_mm": 3.9049360000000006,
+        "y_mm": 6.070021
+      },
+      {
+        "pin": 12,
+        "name": "GPIO9",
+        "x_mm": 3.904936,
+        "y_mm": 5.669970999999999
+      },
+      {
+        "pin": 11,
+        "name": "GPIO8",
+        "x_mm": 3.904936,
+        "y_mm": 5.269921
+      },
+      {
+        "pin": 10,
+        "name": "IOVDD10",
+        "x_mm": 3.904936,
+        "y_mm": 4.869871
+      },
+      {
+        "pin": 9,
+        "name": "GPIO7",
+        "x_mm": 3.904936,
+        "y_mm": 4.470075
+      },
+      {
+        "pin": 8,
+        "name": "GPIO6",
+        "x_mm": 3.904936,
+        "y_mm": 4.070024999999999
+      },
+      {
+        "pin": 7,
+        "name": "GPIO5",
+        "x_mm": 3.904936,
+        "y_mm": 3.6699749999999995
+      },
+      {
+        "pin": 6,
+        "name": "GPIO4",
+        "x_mm": 3.904936,
+        "y_mm": 3.2699249999999997
+      },
+      {
+        "pin": 5,
+        "name": "GPIO3",
+        "x_mm": 3.904936,
+        "y_mm": 2.8698749999999995
+      },
+      {
+        "pin": 4,
+        "name": "GPIO2",
+        "x_mm": 3.904936,
+        "y_mm": 2.4700789999999997
+      },
+      {
+        "pin": 3,
+        "name": "GPIO1",
+        "x_mm": 3.904936,
+        "y_mm": 2.070029
+      },
+      {
+        "pin": 2,
+        "name": "GPIO0",
+        "x_mm": 3.9049359999999997,
+        "y_mm": 1.6699789999999997
+      },
+      {
+        "pin": 1,
+        "name": "IOVDD1",
+        "x_mm": 3.9049359999999997,
+        "y_mm": 1.2699289999999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_IO1",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 5.13,
+      "y": 2.35
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 5.13,
+        "y_mm": 2.7701160000000002
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 5.13,
+        "y_mm": 1.9298840000000002
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_IO10",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 5.13,
+      "y": 4.25
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 5.13,
+        "y_mm": 4.670116
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 5.13,
+        "y_mm": 3.829884
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_IO22",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 2.05,
+      "y": 9.975
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 2.05,
+        "y_mm": 10.395116
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 2.05,
+        "y_mm": 9.554884
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_IO33",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": -4.16,
+      "y": 5.6
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -4.16,
+        "y_mm": 6.020116
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -4.16,
+        "y_mm": 5.1798839999999995
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_IO42",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": -6.75,
+      "y": 1.925
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -6.329884,
+        "y_mm": 1.925
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -7.170116,
+        "y_mm": 1.925
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_IO49",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 0.9750000000000001,
+      "y": -2.9
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 0.5548839999999999,
+        "y_mm": -2.9
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 1.395116,
+        "y_mm": -2.9
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_DV23",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 2.5,
+      "y": 8.51
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 2.079884,
+        "y_mm": 8.51
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 2.920116,
+        "y_mm": 8.51
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_DV50",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 5.15,
+      "y": 0.42499999999999993
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 5.15,
+        "y_mm": 0.845116
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 5.15,
+        "y_mm": 0.0048839999999999995
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_USB",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": -4.15,
+      "y": 0.4
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -4.15,
+        "y_mm": 0.8201160000000001
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -4.15,
+        "y_mm": -0.020115999999999967
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_ADC",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": -4.9,
+      "y": 1.925
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -5.3201160000000005,
+        "y_mm": 1.925
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -4.479884,
+        "y_mm": 1.925
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_VREG_IN",
+    "MPN": "CL05A105KA5NQNC",
+    "part": "C52923",
+    "center": {
+      "x": -0.95,
+      "y": -0.8
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -0.529884,
+        "y_mm": -0.8
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -1.370116,
+        "y_mm": -0.8
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_VREG_OUT",
+    "MPN": "CL05A105KA5NQNC",
+    "part": "C52923",
+    "center": {
+      "x": -5.2,
+      "y": 0.275
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -5.2,
+        "y_mm": 0.6951160000000001
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -5.2,
+        "y_mm": -0.14511599999999997
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "U_FLASH",
+    "MPN": "GD25Q16EEIGR",
+    "part": "C2986331",
+    "center": {
+      "x": 3.3500000000000005,
+      "y": -2.3750000000000004
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "CS",
+        "x_mm": 4.1000302500000005,
+        "y_mm": -0.9017999999999999
+      },
+      {
+        "pin": 2,
+        "name": "IO1",
+        "x_mm": 3.5996502500000003,
+        "y_mm": -0.9017999999999999
+      },
+      {
+        "pin": 3,
+        "name": "IO2",
+        "x_mm": 3.0997782500000004,
+        "y_mm": -0.9017999999999999
+      },
+      {
+        "pin": 4,
+        "name": "GND",
+        "x_mm": 2.60016025,
+        "y_mm": -0.9017999999999999
+      },
+      {
+        "pin": 5,
+        "name": "IO0",
+        "x_mm": 2.60016025,
+        "y_mm": -3.8482000000000003
+      },
+      {
+        "pin": 6,
+        "name": "CLK",
+        "x_mm": 3.09977825,
+        "y_mm": -3.8482000000000003
+      },
+      {
+        "pin": 7,
+        "name": "IO3",
+        "x_mm": 3.59965025,
+        "y_mm": -3.8482000000000003
+      },
+      {
+        "pin": 8,
+        "name": "VCC",
+        "x_mm": 4.10003025,
+        "y_mm": -3.8482000000000003
+      },
+      {
+        "pin": 9,
+        "name": "EP",
+        "x_mm": 3.34996825,
+        "y_mm": -2.375
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_FLASH",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 5.575,
+      "y": -3.55
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 5.575,
+        "y_mm": -3.1298839999999997
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 5.575,
+        "y_mm": -3.970116
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_FLASH_CS",
+    "MPN": "0402WGF1002TCE",
+    "part": "C25744",
+    "center": {
+      "x": -13.174999999999999,
+      "y": -16.725
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -12.742183999999998,
+        "y_mm": -16.725
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -13.607816,
+        "y_mm": -16.725
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_BOOT",
+    "MPN": "0402WGF1001TCE",
+    "part": "C11702",
+    "center": {
+      "x": 13.674999999999999,
+      "y": -16.725
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 13.242183999999998,
+        "y_mm": -16.725
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 14.107816,
+        "y_mm": -16.725
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "Y_MCU",
+    "MPN": "ABM8-272-T3",
+    "part": "C20625731",
+    "center": {
+      "x": -0.85,
+      "y": 10.75
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 0.250074,
+        "y_mm": 11.600011
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -1.9500739999999999,
+        "y_mm": 11.600011
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "x_mm": -1.9500739999999999,
+        "y_mm": 9.899989
+      },
+      {
+        "pin": 4,
+        "name": "pin4",
+        "x_mm": 0.250074,
+        "y_mm": 9.899989
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_XOUT",
+    "MPN": "0402WGF1001TCE",
+    "part": "C11702",
+    "center": {
+      "x": 0.4,
+      "y": 8.51
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -0.032815999999999956,
+        "y_mm": 8.51
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 0.832816,
+        "y_mm": 8.51
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_XIN",
+    "MPN": "0402CG150J500NT",
+    "part": "C1548",
+    "center": {
+      "x": 2.15,
+      "y": 11.8
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 2.570116,
+        "y_mm": 11.8
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 1.729884,
+        "y_mm": 11.8
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_XOUT",
+    "MPN": "0402CG150J500NT",
+    "part": "C1548",
+    "center": {
+      "x": -2,
+      "y": 8.51
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -1.579884,
+        "y_mm": 8.51
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -2.420116,
+        "y_mm": 8.51
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_RUN",
+    "MPN": "0402WGF1002TCE",
+    "part": "C25744",
+    "center": {
+      "x": 15.625,
+      "y": -16.725
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 15.192184,
+        "y_mm": -16.725
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 16.057816,
+        "y_mm": -16.725
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_DM",
+    "MPN": "0402WGF270JTCE",
+    "part": "C25100",
+    "center": {
+      "x": -0.925,
+      "y": -2.9
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -1.3578160000000001,
+        "y_mm": -2.9
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -0.49218400000000007,
+        "y_mm": -2.9
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_DP",
+    "MPN": "0402WGF270JTCE",
+    "part": "C25100",
+    "center": {
+      "x": -0.25,
+      "y": -1.85
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 0.18281599999999998,
+        "y_mm": -1.85
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -0.682816,
+        "y_mm": -1.85
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_CC1",
+    "MPN": "0402WGF5101TCE",
+    "part": "C25905",
+    "center": {
+      "x": 16.725,
+      "y": -13.725
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 16.725,
+        "y_mm": -14.157816
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 16.725,
+        "y_mm": -13.292183999999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_CC2",
+    "MPN": "0402WGF5101TCE",
+    "part": "C25905",
+    "center": {
+      "x": -16.725,
+      "y": -14.95
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -16.725,
+        "y_mm": -15.382816
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -16.725,
+        "y_mm": -14.517183999999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_USB_SENSE_H",
+    "MPN": "0402WGF1003TCE",
+    "part": "C25741",
+    "center": {
+      "x": -10.8,
+      "y": -3.39
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -10.367184,
+        "y_mm": -3.39
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -11.232816000000001,
+        "y_mm": -3.39
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_USB_SENSE_L",
+    "MPN": "0402WGF1003TCE",
+    "part": "C25741",
+    "center": {
+      "x": -10.8,
+      "y": -2.29
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -11.232816000000001,
+        "y_mm": -2.29
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -10.367184,
+        "y_mm": -2.29
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_VM_H",
+    "MPN": "0402WGF1003TCE",
+    "part": "C25741",
+    "center": {
+      "x": 9.175,
+      "y": 10.325
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 9.607816000000001,
+        "y_mm": 10.325
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 8.742184,
+        "y_mm": 10.325
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_VM_L",
+    "MPN": "0402WGF1002TCE",
+    "part": "C25744",
+    "center": {
+      "x": 6.35,
+      "y": 12.975
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 6.35,
+        "y_mm": 13.407816
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 6.35,
+        "y_mm": 12.542183999999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_VM_SENSE",
+    "MPN": "CL05B103KB5NNNC",
+    "part": "C15195",
+    "center": {
+      "x": 8.625,
+      "y": -5.45
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 9.045116,
+        "y_mm": -5.45
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 8.204884,
+        "y_mm": -5.45
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "U_BUCK",
+    "MPN": "AP63203WU-7",
+    "part": "C780769",
+    "center": {
+      "x": 6.6,
+      "y": 7
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 6,
+        "name": "BST",
+        "x_mm": 7.799896,
+        "y_mm": 7.94996
+      },
+      {
+        "pin": 5,
+        "name": "SW",
+        "x_mm": 7.7998959999999995,
+        "y_mm": 7
+      },
+      {
+        "pin": 4,
+        "name": "GND",
+        "x_mm": 7.7998959999999995,
+        "y_mm": 6.05004
+      },
+      {
+        "pin": 3,
+        "name": "VIN",
+        "x_mm": 5.400103999999999,
+        "y_mm": 6.05004
+      },
+      {
+        "pin": 2,
+        "name": "EN",
+        "x_mm": 5.400104,
+        "y_mm": 7
+      },
+      {
+        "pin": 1,
+        "name": "FB",
+        "x_mm": 5.400104,
+        "y_mm": 7.94996
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "L_BUCK",
+    "MPN": "SRN4018-4R7M",
+    "part": "C780206",
+    "center": {
+      "x": 10.97,
+      "y": 7.45
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 9.569952,
+        "y_mm": 7.45
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 12.370048,
+        "y_mm": 7.45
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_BOOTSTRAP",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 7.3,
+      "y": 9.24
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 7.720116,
+        "y_mm": 9.24
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 6.879884,
+        "y_mm": 9.24
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_BUCK_IN",
+    "MPN": "CL31A106KBHNNNE",
+    "part": "C13585",
+    "center": {
+      "x": 6.8,
+      "y": 2.4
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 6.8,
+        "y_mm": 0.8074199999999998
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 6.8,
+        "y_mm": 3.9925800000000002
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_BUCK_OUT1",
+    "MPN": "CL21A226MAQNNNE",
+    "part": "C45783",
+    "center": {
+      "x": 15.290000000000001,
+      "y": 7.63
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 16.289998,
+        "y_mm": 7.63
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 14.290002,
+        "y_mm": 7.63
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_BUCK_OUT2",
+    "MPN": "CL21A226MAQNNNE",
+    "part": "C45783",
+    "center": {
+      "x": 15.290000000000001,
+      "y": 5.775
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 16.289998,
+        "y_mm": 5.775
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 14.290002,
+        "y_mm": 5.775
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "D_PD",
+    "MPN": "B5819W SL",
+    "part": "C8598",
+    "center": {
+      "x": 5.65,
+      "y": 10.89
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "anode",
+        "x_mm": 7.350022,
+        "y_mm": 10.89
+      },
+      {
+        "pin": 1,
+        "name": "cathode",
+        "x_mm": 3.9499780000000007,
+        "y_mm": 10.89
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "D_DATA",
+    "MPN": "B5819W SL",
+    "part": "C8598",
+    "center": {
+      "x": -10.82,
+      "y": 0.8999999999999999
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "anode",
+        "x_mm": -10.82,
+        "y_mm": 2.600022
+      },
+      {
+        "pin": 1,
+        "name": "cathode",
+        "x_mm": -10.82,
+        "y_mm": -0.8000219999999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "U_DRV",
+    "MPN": "A4988SETTR-T",
+    "part": "C38437",
+    "center": {
+      "x": 12.8,
+      "y": -6.5
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 29,
+        "name": "EP",
+        "x_mm": 12.799873,
+        "y_mm": -6.499873
+      },
+      {
+        "pin": 28,
+        "name": "VBB2",
+        "x_mm": 11.298733000000002,
+        "y_mm": -4.000005
+      },
+      {
+        "pin": 27,
+        "name": "SENSE2",
+        "x_mm": 11.799113000000002,
+        "y_mm": -4.000005
+      },
+      {
+        "pin": 26,
+        "name": "OUT2A",
+        "x_mm": 12.299493000000002,
+        "y_mm": -4.000005
+      },
+      {
+        "pin": 25,
+        "name": "NC25",
+        "x_mm": 12.799873000000002,
+        "y_mm": -4.000005
+      },
+      {
+        "pin": 24,
+        "name": "OUT1A",
+        "x_mm": 13.300253000000001,
+        "y_mm": -4.000005
+      },
+      {
+        "pin": 23,
+        "name": "SENSE1",
+        "x_mm": 13.800633000000001,
+        "y_mm": -4.000005
+      },
+      {
+        "pin": 22,
+        "name": "VBB1",
+        "x_mm": 14.301013000000001,
+        "y_mm": -4.000005
+      },
+      {
+        "pin": 21,
+        "name": "OUT1B",
+        "x_mm": 15.299995000000001,
+        "y_mm": -4.9987330000000005
+      },
+      {
+        "pin": 20,
+        "name": "NC20",
+        "x_mm": 15.299995000000001,
+        "y_mm": -5.499113
+      },
+      {
+        "pin": 19,
+        "name": "DIR",
+        "x_mm": 15.299995000000001,
+        "y_mm": -5.999493
+      },
+      {
+        "pin": 18,
+        "name": "GND18",
+        "x_mm": 15.299995000000001,
+        "y_mm": -6.499873000000001
+      },
+      {
+        "pin": 17,
+        "name": "REF",
+        "x_mm": 15.299995000000001,
+        "y_mm": -7.000253000000001
+      },
+      {
+        "pin": 16,
+        "name": "STEP",
+        "x_mm": 15.299995000000001,
+        "y_mm": -7.5006330000000005
+      },
+      {
+        "pin": 15,
+        "name": "VDD",
+        "x_mm": 15.299995000000001,
+        "y_mm": -8.001013
+      },
+      {
+        "pin": 14,
+        "name": "SLEEP",
+        "x_mm": 14.301013000000001,
+        "y_mm": -8.999995
+      },
+      {
+        "pin": 13,
+        "name": "ROSC",
+        "x_mm": 13.800633000000001,
+        "y_mm": -8.999995
+      },
+      {
+        "pin": 12,
+        "name": "RESET_N",
+        "x_mm": 13.300253,
+        "y_mm": -8.999995
+      },
+      {
+        "pin": 11,
+        "name": "MS3",
+        "x_mm": 12.799873,
+        "y_mm": -8.999995
+      },
+      {
+        "pin": 10,
+        "name": "MS2",
+        "x_mm": 12.299493,
+        "y_mm": -8.999995
+      },
+      {
+        "pin": 9,
+        "name": "MS1",
+        "x_mm": 11.799113,
+        "y_mm": -8.999995
+      },
+      {
+        "pin": 8,
+        "name": "VREG",
+        "x_mm": 11.298733,
+        "y_mm": -8.999995
+      },
+      {
+        "pin": 7,
+        "name": "NC7",
+        "x_mm": 10.300005,
+        "y_mm": -8.001013
+      },
+      {
+        "pin": 6,
+        "name": "VCP",
+        "x_mm": 10.300005,
+        "y_mm": -7.500633
+      },
+      {
+        "pin": 5,
+        "name": "CP2",
+        "x_mm": 10.300005,
+        "y_mm": -7.000253
+      },
+      {
+        "pin": 4,
+        "name": "CP1",
+        "x_mm": 10.300005,
+        "y_mm": -6.499872999999999
+      },
+      {
+        "pin": 3,
+        "name": "GND",
+        "x_mm": 10.300005,
+        "y_mm": -5.999492999999999
+      },
+      {
+        "pin": 2,
+        "name": "ENABLE_N",
+        "x_mm": 10.300005,
+        "y_mm": -5.4991129999999995
+      },
+      {
+        "pin": 1,
+        "name": "OUT2B",
+        "x_mm": 10.300005,
+        "y_mm": -4.998733
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_CP",
+    "MPN": "CL05B104KB5NNNC",
+    "part": "C960916",
+    "center": {
+      "x": 8.65,
+      "y": -6.5
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 8.229884,
+        "y_mm": -6.5
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 9.070116,
+        "y_mm": -6.5
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_VCP",
+    "MPN": "CL05B104KB5NNNC",
+    "part": "C960916",
+    "center": {
+      "x": 8.65,
+      "y": -7.6
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 8.229884,
+        "y_mm": -7.6
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 9.070116,
+        "y_mm": -7.6
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_VREG",
+    "MPN": "CL10B224KA8NNNC",
+    "part": "C21120",
+    "center": {
+      "x": 8.65,
+      "y": -9.55
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 8.65,
+        "y_mm": -8.849976000000002
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 8.65,
+        "y_mm": -10.250024
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_DRV_LOGIC",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 16.6,
+      "y": -8.6
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 16.6,
+        "y_mm": -9.020116
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 16.6,
+        "y_mm": -8.179884
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_VM",
+    "MPN": "CL05B104KB5NNNC",
+    "part": "C960916",
+    "center": {
+      "x": 16.6,
+      "y": -4.8
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 16.6,
+        "y_mm": -4.379884
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 16.6,
+        "y_mm": -5.220116
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_BULK",
+    "MPN": "EEEFT1V470AR",
+    "part": "C193627",
+    "center": {
+      "x": 13.400000000000002,
+      "y": 0.03000000000000025
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 11.299928000000001,
+        "y_mm": 0.03000000000000025
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 15.500072000000003,
+        "y_mm": 0.03000000000000025
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_SA",
+    "MPN": "SR731JTTDR240F",
+    "part": "C186557",
+    "center": {
+      "x": 8.25,
+      "y": -3
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 8.25,
+        "y_mm": -2.246636
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 8.25,
+        "y_mm": -3.753364
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_SB",
+    "MPN": "SR731JTTDR240F",
+    "part": "C186557",
+    "center": {
+      "x": 6.8,
+      "y": -3
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 6.8,
+        "y_mm": -2.246636
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 6.8,
+        "y_mm": -3.753364
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_SHUNT_A",
+    "MPN": "ERJL06KF50MV",
+    "part": "C713441",
+    "center": {
+      "x": -7.9,
+      "y": 0.30000000000000004
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -8.899998,
+        "y_mm": 0.3000000000000001
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -6.900002000000001,
+        "y_mm": 0.2999999999999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "U_IA",
+    "MPN": "INA240A1PWR",
+    "part": "C93965",
+    "center": {
+      "x": -5.8,
+      "y": -2.4
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "NC",
+        "x_mm": -8.727096,
+        "y_mm": -1.4248939999999992
+      },
+      {
+        "pin": 2,
+        "name": "IN_POS",
+        "x_mm": -8.727096,
+        "y_mm": -2.0751339999999994
+      },
+      {
+        "pin": 3,
+        "name": "IN_NEG",
+        "x_mm": -8.727096,
+        "y_mm": -2.7251199999999995
+      },
+      {
+        "pin": 4,
+        "name": "GND",
+        "x_mm": -8.727096,
+        "y_mm": -3.3751059999999993
+      },
+      {
+        "pin": 8,
+        "name": "OUT",
+        "x_mm": -2.8729039999999997,
+        "y_mm": -1.4248940000000005
+      },
+      {
+        "pin": 7,
+        "name": "REF1",
+        "x_mm": -2.8729039999999997,
+        "y_mm": -2.0751340000000003
+      },
+      {
+        "pin": 6,
+        "name": "REF2",
+        "x_mm": -2.8729039999999997,
+        "y_mm": -2.7251200000000004
+      },
+      {
+        "pin": 5,
+        "name": "VS",
+        "x_mm": -2.8729039999999997,
+        "y_mm": -3.3751060000000006
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_IA",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": -0.95,
+      "y": -3.95
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -1.370116,
+        "y_mm": -3.95
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -0.529884,
+        "y_mm": -3.95
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_IA",
+    "MPN": "0402WGF1000TCE",
+    "part": "C25076",
+    "center": {
+      "x": 1.3,
+      "y": -1.4
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 1.3,
+        "y_mm": -0.9671839999999999
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 1.3,
+        "y_mm": -1.8328159999999998
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_IADC_A",
+    "MPN": "CL05B103KB5NNNC",
+    "part": "C15195",
+    "center": {
+      "x": -5.6,
+      "y": 2.975
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -6.020116,
+        "y_mm": 2.975
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -5.1798839999999995,
+        "y_mm": 2.975
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_SHUNT_B",
+    "MPN": "ERJL06KF50MV",
+    "part": "C713441",
+    "center": {
+      "x": -5.8,
+      "y": 8.1
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -4.800002,
+        "y_mm": 8.1
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -6.7999979999999995,
+        "y_mm": 8.1
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "U_IB",
+    "MPN": "INA240A1PWR",
+    "part": "C93965",
+    "center": {
+      "x": -8.61,
+      "y": 5.27
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "NC",
+        "x_mm": -5.682903999999999,
+        "y_mm": 4.294893999999999
+      },
+      {
+        "pin": 2,
+        "name": "IN_POS",
+        "x_mm": -5.682903999999999,
+        "y_mm": 4.9451339999999995
+      },
+      {
+        "pin": 3,
+        "name": "IN_NEG",
+        "x_mm": -5.682903999999999,
+        "y_mm": 5.59512
+      },
+      {
+        "pin": 4,
+        "name": "GND",
+        "x_mm": -5.682903999999999,
+        "y_mm": 6.245106
+      },
+      {
+        "pin": 8,
+        "name": "OUT",
+        "x_mm": -11.537096,
+        "y_mm": 4.294893999999999
+      },
+      {
+        "pin": 7,
+        "name": "REF1",
+        "x_mm": -11.537096,
+        "y_mm": 4.9451339999999995
+      },
+      {
+        "pin": 6,
+        "name": "REF2",
+        "x_mm": -11.537096,
+        "y_mm": 5.59512
+      },
+      {
+        "pin": 5,
+        "name": "VS",
+        "x_mm": -11.537096,
+        "y_mm": 6.245106
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_IB",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": -12,
+      "y": 7.959999999999999
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -12,
+        "y_mm": 8.380116
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -12,
+        "y_mm": 7.539884
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_IB",
+    "MPN": "0402WGF1000TCE",
+    "part": "C25076",
+    "center": {
+      "x": -8.75,
+      "y": 2.6
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -9.182816,
+        "y_mm": 2.6
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -8.317184,
+        "y_mm": 2.6
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_IADC_B",
+    "MPN": "CL05B103KB5NNNC",
+    "part": "C15195",
+    "center": {
+      "x": -4.15,
+      "y": 3.375
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -4.15,
+        "y_mm": 2.954884
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -4.15,
+        "y_mm": 3.795116
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_REF_H",
+    "MPN": "0603WAF3902T5E",
+    "part": "C23153",
+    "center": {
+      "x": 9.125,
+      "y": -16.55
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 8.371636,
+        "y_mm": -16.55
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 9.878364,
+        "y_mm": -16.55
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_REF_L",
+    "MPN": "0402WGF1002TCE",
+    "part": "C25744",
+    "center": {
+      "x": 11.525,
+      "y": -16.725
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 11.092184,
+        "y_mm": -16.725
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 11.957816000000001,
+        "y_mm": -16.725
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_REF",
+    "MPN": "CL05B103KB5NNNC",
+    "part": "C15195",
+    "center": {
+      "x": 16.700000000000003,
+      "y": -6.7
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 16.700000000000003,
+        "y_mm": -6.279884
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 16.700000000000003,
+        "y_mm": -7.120116
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_ENABLE",
+    "MPN": "0402WGF1003TCE",
+    "part": "C25741",
+    "center": {
+      "x": 6.625,
+      "y": 15.6
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 6.625,
+        "y_mm": 16.032816
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 6.625,
+        "y_mm": 15.167183999999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_SLEEP",
+    "MPN": "0603WAF1003T5E",
+    "part": "C25803",
+    "center": {
+      "x": 7.700000000000001,
+      "y": -0.8900000000000006
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 8.453364,
+        "y_mm": -0.8900000000000006
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 6.946636000000001,
+        "y_mm": -0.8900000000000006
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "J_MOTOR",
+    "MPN": "250-204",
+    "part": "C2765063",
+    "center": {
+      "x": 0.4500000000000002,
+      "y": -9.55
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 4,
+        "name": "B_MINUS",
+        "x_mm": 5.7000530000000005,
+        "y_mm": -12.049995000000001
+      },
+      {
+        "pin": 3,
+        "name": "B_PLUS",
+        "x_mm": 2.199933,
+        "y_mm": -7.0500050000000005
+      },
+      {
+        "pin": 2,
+        "name": "A_MINUS",
+        "x_mm": -1.299933,
+        "y_mm": -12.049995000000001
+      },
+      {
+        "pin": 1,
+        "name": "A_PLUS",
+        "x_mm": -4.800053,
+        "y_mm": -7.0500050000000005
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "U_ESD",
+    "MPN": "USBLC6-2SC6",
+    "part": "C2687116",
+    "center": {
+      "x": -13.9,
+      "y": -2.1500000000000004
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "DP1",
+        "x_mm": -12.750904,
+        "y_mm": -3.0999600000000003
+      },
+      {
+        "pin": 2,
+        "name": "GND",
+        "x_mm": -12.750904,
+        "y_mm": -2.15
+      },
+      {
+        "pin": 3,
+        "name": "DM1",
+        "x_mm": -12.750904,
+        "y_mm": -1.20004
+      },
+      {
+        "pin": 4,
+        "name": "DM2",
+        "x_mm": -15.049096,
+        "y_mm": -1.2000399999999998
+      },
+      {
+        "pin": 5,
+        "name": "VBUS",
+        "x_mm": -15.049096,
+        "y_mm": -2.15
+      },
+      {
+        "pin": 6,
+        "name": "DP2",
+        "x_mm": -15.049096,
+        "y_mm": -3.09996
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "D_TVS",
+    "MPN": "SMF18A",
+    "part": "C19077512",
+    "center": {
+      "x": 8.6,
+      "y": 14.6
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 8.6,
+        "y_mm": 12.950016
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 8.6,
+        "y_mm": 16.249983999999998
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "U_TEMP",
+    "MPN": "TMP102AIDRLR",
+    "part": "C99269",
+    "center": {
+      "x": 11.3,
+      "y": 4
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 5,
+        "name": "V_POS",
+        "x_mm": 10.550014200000001,
+        "y_mm": 3.999873
+      },
+      {
+        "pin": 2,
+        "name": "GND",
+        "x_mm": 12.0499858,
+        "y_mm": 3.999873
+      },
+      {
+        "pin": 3,
+        "name": "ALERT",
+        "x_mm": 12.0499858,
+        "y_mm": 4.499999
+      },
+      {
+        "pin": 1,
+        "name": "SCL",
+        "x_mm": 12.0499858,
+        "y_mm": 3.500001
+      },
+      {
+        "pin": 4,
+        "name": "ADD0",
+        "x_mm": 10.550014200000001,
+        "y_mm": 4.499999
+      },
+      {
+        "pin": 6,
+        "name": "SDA",
+        "x_mm": 10.550014200000001,
+        "y_mm": 3.500001
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_TEMP",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 9.05,
+      "y": 3.5
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 9.470116,
+        "y_mm": 3.5
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 8.629884,
+        "y_mm": 3.5
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_TEMP_SDA",
+    "MPN": "0402WGF4701TCE",
+    "part": "C25900",
+    "center": {
+      "x": 16.25,
+      "y": 9.275
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 16.682816,
+        "y_mm": 9.275
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 15.817184,
+        "y_mm": 9.275
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_TEMP_SCL",
+    "MPN": "0402WGF4701TCE",
+    "part": "C25900",
+    "center": {
+      "x": 14.3,
+      "y": 9.275
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 13.867184,
+        "y_mm": 9.275
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 14.732816000000001,
+        "y_mm": 9.275
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "D_PWR",
+    "MPN": "XL-1608SURC-06",
+    "part": "C965799",
+    "center": {
+      "x": -15.850000000000001,
+      "y": -16.575
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "cathode",
+        "x_mm": -16.5989952,
+        "y_mm": -16.578429
+      },
+      {
+        "pin": 2,
+        "name": "anode",
+        "x_mm": -15.1010048,
+        "y_mm": -16.571571
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_PWR_LED",
+    "MPN": "0402WGF3300TCE",
+    "part": "C25104",
+    "center": {
+      "x": 13.875,
+      "y": 4.125
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 13.442184,
+        "y_mm": 4.125
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 14.307816,
+        "y_mm": 4.125
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "D_STATUS",
+    "MPN": "LTST-C19HE1WT",
+    "part": "C458749",
+    "center": {
+      "x": -9.9,
+      "y": 8.1
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 4,
+        "name": "_POS",
+        "x_mm": -9.066499,
+        "y_mm": 7.649912
+      },
+      {
+        "pin": 3,
+        "name": "B_NEG",
+        "x_mm": -9.066499,
+        "y_mm": 8.550087999999999
+      },
+      {
+        "pin": 2,
+        "name": "G_NEG",
+        "x_mm": -10.733501,
+        "y_mm": 8.550087999999999
+      },
+      {
+        "pin": 1,
+        "name": "R_NEG",
+        "x_mm": -10.733501,
+        "y_mm": 7.649912
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_STATUS_R",
+    "MPN": "0402WGF1001TCE",
+    "part": "C11702",
+    "center": {
+      "x": 4.4,
+      "y": 9.25
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 4.832816,
+        "y_mm": 9.25
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 3.9671840000000005,
+        "y_mm": 9.25
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "Q_STATUS_R",
+    "MPN": "DMN2300UFB4-7B",
+    "part": "C154728",
+    "center": {
+      "x": 16.625,
+      "y": -11.125
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 16.8500186,
+        "y_mm": -10.774988
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 16.6249746,
+        "y_mm": -11.475012
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "x_mm": 16.4001846,
+        "y_mm": -10.774988
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_STATUS_PD_R",
+    "MPN": "0402WGF1002TCE",
+    "part": "C25744",
+    "center": {
+      "x": 16.725,
+      "y": 12.725
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 16.725,
+        "y_mm": 12.292183999999999
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 16.725,
+        "y_mm": 13.157816
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_STATUS_G",
+    "MPN": "0402WGF1001TCE",
+    "part": "C11702",
+    "center": {
+      "x": 8.9,
+      "y": 4.55
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 8.467184,
+        "y_mm": 4.55
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 9.332816000000001,
+        "y_mm": 4.55
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "Q_STATUS_G",
+    "MPN": "DMN2300UFB4-7B",
+    "part": "C154728",
+    "center": {
+      "x": -16.625,
+      "y": -10.975
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -16.8500186,
+        "y_mm": -11.325012
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -16.6249746,
+        "y_mm": -10.624988
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "x_mm": -16.4001846,
+        "y_mm": -11.325012
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_STATUS_PD_G",
+    "MPN": "0402WGF1002TCE",
+    "part": "C25744",
+    "center": {
+      "x": -16.725,
+      "y": -12.86
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -16.725,
+        "y_mm": -13.292816
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -16.725,
+        "y_mm": -12.427183999999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_STATUS_B",
+    "MPN": "0402WGF1001TCE",
+    "part": "C11702",
+    "center": {
+      "x": 15.825,
+      "y": 4.125
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 15.392183999999999,
+        "y_mm": 4.125
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 16.257816,
+        "y_mm": 4.125
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "Q_STATUS_B",
+    "MPN": "DMN2300UFB4-7B",
+    "part": "C154728",
+    "center": {
+      "x": 8.525,
+      "y": -11.575
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 8.875012,
+        "y_mm": -11.8000186
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 8.174988,
+        "y_mm": -11.5749746
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "x_mm": 8.875012,
+        "y_mm": -11.350184599999999
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_STATUS_PD_B",
+    "MPN": "0402WGF1002TCE",
+    "part": "C25744",
+    "center": {
+      "x": -16.725,
+      "y": -2.925
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -16.725,
+        "y_mm": -2.492184
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -16.725,
+        "y_mm": -3.3578159999999997
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "BZ1",
+    "MPN": "MLT-5020",
+    "part": "C94598",
+    "center": {
+      "x": -13.7,
+      "y": -6.799999999999999
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -15.99997,
+        "y_mm": -5.050066999999999
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -11.40003,
+        "y_mm": -5.050067
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "x_mm": -11.40003,
+        "y_mm": -8.549933
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "Q_BUZZER",
+    "MPN": "DMN2300UFB4-7B",
+    "part": "C154728",
+    "center": {
+      "x": -9.199999999999998,
+      "y": -11.64
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -9.425018599999998,
+        "y_mm": -11.990012
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -9.199974599999997,
+        "y_mm": -11.289988000000001
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "x_mm": -8.975184599999997,
+        "y_mm": -11.990012
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "D_BUZZER",
+    "MPN": "B5819WS",
+    "part": "C64886",
+    "center": {
+      "x": -9.300000000000002,
+      "y": -8.9
+    },
+    "rotation_deg": 270,
+    "physical_pads": [
+      {
+        "pin": 1,
+        "name": "cathode",
+        "x_mm": -9.300000000000002,
+        "y_mm": -7.727536000000001
+      },
+      {
+        "pin": 2,
+        "name": "anode",
+        "x_mm": -9.300000000000002,
+        "y_mm": -10.072464
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_BUZZER_GATE",
+    "MPN": "0402WGF1000TCE",
+    "part": "C25076",
+    "center": {
+      "x": 8.675,
+      "y": -12.725
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 9.107816000000001,
+        "y_mm": -12.725
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 8.242184,
+        "y_mm": -12.725
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_BUZZER_PD",
+    "MPN": "0402WGF1003TCE",
+    "part": "C25741",
+    "center": {
+      "x": -16.275,
+      "y": 10.25
+    },
+    "rotation_deg": 180,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -16.707815999999998,
+        "y_mm": 10.25
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -15.842183999999998,
+        "y_mm": 10.25
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_BUZZER",
+    "MPN": "CL10A106KP8NNNC",
+    "part": "C19702",
+    "center": {
+      "x": -9.3,
+      "y": -5.56
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -9.3,
+        "y_mm": -4.859976
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -9.3,
+        "y_mm": -6.260024
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_ENCODER",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": 1.15,
+      "y": -3.95
+    },
+    "rotation_deg": 0,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 1.5701159999999998,
+        "y_mm": -3.95
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 0.729884,
+        "y_mm": -3.95
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_ENCODER_BULK",
+    "MPN": "CL05A105KA5NQNC",
+    "part": "C52923",
+    "center": {
+      "x": 5.15,
+      "y": -1.7
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 5.15,
+        "y_mm": -1.279884
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 5.15,
+        "y_mm": -2.120116
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "R_PD_CFG",
+    "MPN": "0402WGF5602TCE",
+    "part": "C25796",
+    "center": {
+      "x": 16.475,
+      "y": 10.775
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": 16.475,
+        "y_mm": 11.207816000000001
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": 16.475,
+        "y_mm": 10.342184
+      }
+    ],
+    "supplier_pickup_approved": false
+  }
+]

@@ -1,0 +1,13 @@
+Designator,Pin,X mm,Y mm,Process
+J_PD,17,-3.2474968,16.279893,Top secondary soldering of USB shell tab
+J_PD,18,-3.2474968,13.420107,Top secondary soldering of USB shell tab
+J_PD,19,4.7524872,13.420107,Top secondary soldering of USB shell tab
+J_PD,20,4.7524872,16.279893,Top secondary soldering of USB shell tab
+J_DATA,17,-16.279893,0.6525032,Top secondary soldering of USB shell tab
+J_DATA,18,-13.420107,0.6525032,Top secondary soldering of USB shell tab
+J_DATA,19,-13.420107,8.6524872,Top secondary soldering of USB shell tab
+J_DATA,20,-16.279893,8.6524872,Top secondary soldering of USB shell tab
+J_MOTOR,4,5.7000530000000005,-12.049995000000001,WAGO through-hole soldering; quote separately
+J_MOTOR,3,2.199933,-7.0500050000000005,WAGO through-hole soldering; quote separately
+J_MOTOR,2,-1.299933,-12.049995000000001,WAGO through-hole soldering; quote separately
+J_MOTOR,1,-4.800053,-7.0500050000000005,WAGO through-hole soldering; quote separately

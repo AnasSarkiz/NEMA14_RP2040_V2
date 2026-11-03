@@ -1,6 +1,6 @@
 {
-  "source_sha256": "e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76",
-  "scope": "Read-only requirements/artwork screen; no manufacturing release",
+  "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "scope": "Current V2 CAD, actual CAM and native preview; supplier, firmware and physical acceptance remain separate",
   "bottom_artwork": [
     {
       "name": "For evaluation only;",
@@ -72,6 +72,198 @@
       "ccw_rotation": 90,
       "pcb_component_id": "pcb_component_6",
       "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_motor-title",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": 0.45,
+        "y": -5.3
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "MOTOR",
+      "ccw_rotation": 0,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_motor-1",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": -4.8,
+        "y": -16.15
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "A+",
+      "ccw_rotation": 0,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_motor-2",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": -1.3,
+        "y": -16.15
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "A-",
+      "ccw_rotation": 0,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_motor-3",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": 2.2,
+        "y": -16.15
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "B+",
+      "ccw_rotation": 0,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_motor-4",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": 5.7,
+        "y": -16.15
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "B-",
+      "ccw_rotation": 0,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_debug-3v3",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": -5,
+        "y": -12.5
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "3V3",
+      "ccw_rotation": 90,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_debug-gnd",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": -3,
+        "y": -12.8
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "GND",
+      "ccw_rotation": 90,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_debug-run",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": -1,
+        "y": -7.65
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "RUN",
+      "ccw_rotation": 0,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_debug-clk",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": 1,
+        "y": -12.5
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "CLK",
+      "ccw_rotation": 90,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_debug-dio",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": 3,
+        "y": -12.5
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "DIO",
+      "ccw_rotation": 90,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_boot",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": 8.7,
+        "y": -11.7
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "BOOT TOP",
+      "ccw_rotation": 90,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
+    },
+    {
+      "type": "pcb_silkscreen_text",
+      "pcb_silkscreen_text_id": "v2_critical_revision",
+      "anchor_alignment": "center",
+      "anchor_position": {
+        "x": 5.4,
+        "y": 9.8
+      },
+      "font": "tscircuit2024",
+      "font_size": 1.7,
+      "layer": "bottom",
+      "text": "N14 V2",
+      "ccw_rotation": 0,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
     }
   ],
   "rgb_supply_net": "DATA_VBUS",
@@ -101,12 +293,12 @@
     }
   ],
   "schematic_placement_check": {
-    "command": "tsci check schematic-placement artifacts/v2/source.circuit.json",
+    "command": "bun scripts/check-v2-analysis.ts",
     "exit_code": 0,
-    "result": "No diagnostics emitted; visual readability remains a separate review."
+    "result": "Fresh pin and schematic checks report zero diagnostics; negative-control warnings remain enabled."
   },
-  "reviewed_at_utc": "2026-11-03T18:54:24.218199+00:00",
-  "placement_source_sha256": "21ed216717760fcd3a87e5f0b4bcb27725e158925c3a5bf207597934cd40923b",
+  "reviewed_at_utc": "2026-11-03T23:43:24.325393+00:00",
+  "placement_source_sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3",
   "all_requirements_closed": false,
   "fabrication_ready": false,
   "open_requirement_ids": [
@@ -121,8 +313,12 @@
     "RELEASE-01"
   ],
   "analysis_warning_resolution": "routing/analysis-verification.json",
-  "artwork_geometry_preservation_evidence": "routing/branding-preservation.json",
+  "artwork_geometry_preservation_evidence": "routing/branding-verification.json",
   "critical_silkscreen_review": "routing/critical-silkscreen-verification.json",
   "motor_wire_assembly_preview": "assembly/assembly-verification.json",
-  "rear_retention_and_factory_wire_fit_qualified": false
+  "rear_retention_and_factory_wire_fit_qualified": false,
+  "CAD_source_routing_CAM_checks_passed": true,
+  "prototype_order_files": "order-review/verification.json",
+  "USB_fabrication_clearance_adaptation": "usb-fabrication-adaptation.json",
+  "local_driver_bulk_check": "routing/local-power-verification.json"
 }

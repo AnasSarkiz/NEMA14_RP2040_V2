@@ -1,0 +1,40 @@
+{
+  "reason": "Replace long VBB2 feeder with a direct local bulk-capacitor branch",
+  "removed": [
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "v2_escape_0_PD_VBUS_0",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 11.175,
+          "y": -4.2250000000000005,
+          "layer": "top",
+          "width": 0.3,
+          "start_pcb_port_id": "pcb_port_230"
+        },
+        {
+          "route_type": "wire",
+          "x": 11.150000000000002,
+          "y": -4.225,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.900000000000002,
+          "y": -4.475,
+          "layer": "top",
+          "width": 0.3
+        }
+      ],
+      "source_net_id": "source_net_7",
+      "source_trace_id": "source_trace_181",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "pcb_port_ids": [
+        "pcb_port_230"
+      ]
+    }
+  ]
+}

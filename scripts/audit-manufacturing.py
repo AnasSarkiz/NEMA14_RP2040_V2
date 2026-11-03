@@ -272,8 +272,9 @@ def main():
   for primitive_edge in o.to_primitives(unit=MM):
    if type(primitive_edge).__name__!='Line':raise ValueError('Unexpected outline primitive')
    segments.append(LineString([(primitive_edge.x1,primitive_edge.y1),(primitive_edge.x2,primitive_edge.y2)]))
- outlines=list(polygonize(segments));valid_outline=len(outlines)==1 and abs(outlines[0].area-1225)<1e-6 and outlines[0].bounds==(-17.5,-17.5,17.5,17.5)
- report['board_outline']={'bounds_including_stroke':list(geo['Edge_Cuts'].bounds),'centerline_bounds_mm':list(outlines[0].bounds) if outlines else None,'closed_contour_count':len(outlines),'centerline_length_mm':sum(s.length for s in segments),'centerline_area_mm2':outlines[0].area if outlines else None,'valid_35mm_square':valid_outline}
+ board=next(e for e in j if e['type']=='pcb_board');bw,bh=board['width'],board['height'];expected_bounds=(-bw/2,-bh/2,bw/2,bh/2)
+ outlines=list(polygonize(segments));valid_outline=len(outlines)==1 and abs(outlines[0].area-bw*bh)<1e-6 and all(abs(a-b)<1e-6 for a,b in zip(outlines[0].bounds,expected_bounds))
+ report['board_outline']={'bounds_including_stroke':list(geo['Edge_Cuts'].bounds),'centerline_bounds_mm':list(outlines[0].bounds) if outlines else None,'closed_contour_count':len(outlines),'centerline_length_mm':sum(s.length for s in segments),'centerline_area_mm2':outlines[0].area if outlines else None,'expected_dimensions_mm':[bw,bh],'valid_source_rectangle':valid_outline}
  if not valid_outline:report['issues'].append({'kind':'outline-failure'})
  measured_webs={}
  for name in ['F_Mask','B_Mask']:
@@ -290,7 +291,9 @@ def main():
  for l,g in actual.items():
   # Mounting-hole clearance is measured to the physical drill boundary.
   mounts=unary_union([Point(e['x'],e['y']).buffer(e['hole_diameter']/2,quad_segs=64) for e in j if e['type']=='pcb_hole' and e.get('hole_diameter')==3.2])
-  clearances[l]={'mount_hole_edge_clearance_mm':g.distance(mounts),'board_edge_clearance_mm':g.distance(box(-18,-18,18,18).difference(box(-17.5,-17.5,17.5,17.5)))}
+  outside=box(-bw/2-1,-bh/2-1,bw/2+1,bh/2+1).difference(box(-bw/2,-bh/2,bw/2,bh/2))
+  clearances[l]={'mount_hole_edge_clearance_mm':g.distance(mounts),'board_edge_clearance_mm':g.distance(outside)}
+  if min(clearances[l].values())<.25-1e-5:report['issues'].append({'kind':'actual-copper-edge-clearance','layer':l,**clearances[l]})
  report['copper_clearances']=clearances
  keepout_checks=[]
  for e in j:
@@ -307,7 +310,7 @@ def main():
  report['actual_keepout_checks']=keepout_checks
  silk={}
  for n,m in [('F_SilkScreen','F_Mask'),('B_SilkScreen','B_Mask')]:
-  silk[n]={'overlap_mask_openings_mm2':geo[n].intersection(geo[m]).area,'inside_0_15mm_mask_guard_mm2':geo[n].intersection(geo[m].buffer(.1499)).area,'outside_board_0_10mm_inset_mm2':geo[n].difference(box(-17.4,-17.4,17.4,17.4)).area}
+  silk[n]={'overlap_mask_openings_mm2':geo[n].intersection(geo[m]).area,'inside_0_15mm_mask_guard_mm2':geo[n].intersection(geo[m].buffer(.1499)).area,'outside_board_0_10mm_inset_mm2':geo[n].difference(box(-bw/2+.1,-bh/2+.1,bw/2-.1,bh/2-.1)).area}
   if not args.baseline and (silk[n]['inside_0_15mm_mask_guard_mm2']>1e-5 or silk[n]['outside_board_0_10mm_inset_mm2']>1e-5):report['issues'].append({'kind':'silkscreen-clearance','layer':n,**silk[n]})
  report['silkscreen_clearances']=silk
  if not args.baseline:

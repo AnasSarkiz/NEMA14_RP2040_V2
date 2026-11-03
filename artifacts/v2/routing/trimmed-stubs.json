@@ -238,5 +238,185 @@
       10.450000000000003
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_1_QSPI_SD3_0_run_1_fragment_0",
+    "endpoint": "start",
+    "removed_length_mm": 3.538838581959777,
+    "new_endpoint_mm": [
+      4.652777777777778,
+      -3.7722222222222213
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_14_LED_G_1_fragment_0_fragment_0_fragment_0_fragment_0_fragment_0",
+    "endpoint": "end",
+    "removed_length_mm": 6.297137023882025,
+    "new_endpoint_mm": [
+      -14.476923076923077,
+      -9.576923076923077
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_9_DATA_VBUS_0_fragment_0",
+    "endpoint": "start",
+    "removed_length_mm": 0.5242640687119291,
+    "new_endpoint_mm": [
+      -10.95,
+      -3.9749999999999996
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_10_BUZZER_GATE_0_fragment_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.5285533905932732,
+    "new_endpoint_mm": [
+      -9.325,
+      -12.35
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_10_BUZZER_GATE_0_fragment_3",
+    "endpoint": "start",
+    "removed_length_mm": 0.970231572087499,
+    "new_endpoint_mm": [
+      8.121875000000003,
+      -12.899999999999999
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_3_STATUS_G_C_0_fragment_4",
+    "endpoint": "start",
+    "removed_length_mm": 1.9873378413094864,
+    "new_endpoint_mm": [
+      -11.05,
+      -9.575
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_6_SLEEP_1_fragment_1",
+    "endpoint": "end",
+    "removed_length_mm": 0.2133643582254905,
+    "new_endpoint_mm": [
+      10.693750000000001,
+      -8.424999999999999
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_4_STATUS_R_C_0_fragment_1_fragment_0",
+    "endpoint": "end",
+    "removed_length_mm": 1.5096949134723645,
+    "new_endpoint_mm": [
+      9.625000000000002,
+      4.500000000000002
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "reviewed_local_vm_bridge_same_side_repair_20_VM_SENSE_0_fragment_0_fragment_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.25415854350985256,
+    "new_endpoint_mm": [
+      5.229158543509854,
+      -5.0
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_0_STEP_0_fragment_0_fragment_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.8519944084644531,
+    "new_endpoint_mm": [
+      8.311111111111114,
+      -0.4611111111111106
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_1_ENABLE_N_0_fragment_1_fragment_0",
+    "endpoint": "end",
+    "removed_length_mm": 2.4466902045354137,
+    "new_endpoint_mm": [
+      7.479166666666668,
+      2.283333333333335
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_42_TEMP_SCL_1",
+    "endpoint": "start",
+    "removed_length_mm": 3.587005768508877,
+    "new_endpoint_mm": [
+      12.175,
+      3.775000000000002
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "usb_v2_pcb_trace_6_fragment_0_fragment_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.26021246704952566,
+    "new_endpoint_mm": [
+      -11.5,
+      -1.5999999999999996
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_5_SLEEP_0_fragment_7_fragment_0",
+    "endpoint": "start",
+    "removed_length_mm": 2.433147545195114,
+    "new_endpoint_mm": [
+      1.5250000000000021,
+      -5.424999999999999
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_0_LED_G_0_fragment_7_fragment_0",
+    "endpoint": "end",
+    "removed_length_mm": 3.8855446214839726,
+    "new_endpoint_mm": [
+      -5.2875,
+      -8.0875
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_12_STATUS_B_C_0_fragment_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.6062351871619246,
+    "new_endpoint_mm": [
+      12.091666596000474,
+      -1.5083334039995266
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_8_DATA_PRESENT_0_fragment_2_fragment_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.6483052382408631,
+    "new_endpoint_mm": [
+      -8.190322656468771,
+      -6.040322656468771
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_3_STATUS_G_C_0_fragment_3",
+    "endpoint": "end",
+    "removed_length_mm": 1.1996031097446445,
+    "new_endpoint_mm": [
+      -7.871000070784524,
+      -8.496000070784524
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

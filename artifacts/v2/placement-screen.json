@@ -51,10 +51,12 @@
       "limit_mm": 6
     },
     {
-      "type": "pair",
-      "child": "U_TEMP",
-      "parent": "C_TEMP",
-      "limit_mm": 3
+      "type": "pin",
+      "child": "C_TEMP",
+      "child_pin": 1,
+      "parent": "U_TEMP",
+      "pin": 5,
+      "limit_mm": 3.5
     },
     {
       "type": "pair",
@@ -78,7 +80,7 @@
       "type": "pair",
       "child": "BZ1",
       "parent": "D_BUZZER",
-      "limit_mm": 6
+      "limit_mm": 7
     },
     {
       "type": "pin",
@@ -523,6 +525,22 @@
       "x": 0.635,
       "y": -2.7051,
       "limit_mm": 6
+    },
+    {
+      "type": "pin",
+      "child": "C_BULK",
+      "child_pin": 1,
+      "parent": "U_DRV",
+      "pin": 22,
+      "limit_mm": 8
+    },
+    {
+      "type": "pin",
+      "child": "C_BULK",
+      "child_pin": 1,
+      "parent": "U_DRV",
+      "pin": 28,
+      "limit_mm": 8
     }
   ],
   "bottom_components": [

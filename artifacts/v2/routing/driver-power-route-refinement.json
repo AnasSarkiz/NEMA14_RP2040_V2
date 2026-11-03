@@ -1,0 +1,1402 @@
+{
+  "reason": "Keep the existing DIR transition; use the original driver VBB2 escape for the new local bulk feed",
+  "removed": [
+    {
+      "type": "pcb_via",
+      "pcb_via_id": "same_side_repair_0_PD_VBUS_0_rerouted_rerouted_via_28",
+      "x": 8.8,
+      "y": -4.75,
+      "outer_diameter": 0.5,
+      "hole_diameter": 0.3,
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "bottom"
+      ],
+      "from_layer": "top",
+      "to_layer": "bottom",
+      "source_net_id": "source_net_7",
+      "source_trace_id": "source_trace_181",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "tented_on_top": true,
+      "tented_on_bottom": true
+    },
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "same_side_repair_0_PD_VBUS_0_rerouted_rerouted",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 11.175,
+          "y": -4.325,
+          "layer": "top",
+          "width": 0.3,
+          "start_pcb_port_id": "pcb_port_230"
+        },
+        {
+          "route_type": "wire",
+          "x": 11.100000000000001,
+          "y": -4.324999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 11.025000000000002,
+          "y": -4.399999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.975000000000001,
+          "y": -4.399999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.900000000000002,
+          "y": -4.475,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "via",
+          "x": 10.900000000000002,
+          "y": -4.475,
+          "from_layer": "top",
+          "to_layer": "bottom",
+          "via_diameter": 0.5,
+          "via_hole_diameter": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.900000000000002,
+          "y": -4.475,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.900000000000002,
+          "y": -4.625,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.5,
+          "y": -5.024999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.475000000000001,
+          "y": -5.024999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.450000000000003,
+          "y": -5.049999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.425,
+          "y": -5.049999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.400000000000002,
+          "y": -5.074999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.375,
+          "y": -5.074999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.350000000000001,
+          "y": -5.1,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.3,
+          "y": -5.1,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.275000000000002,
+          "y": -5.125,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.950000000000003,
+          "y": -5.125,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.625,
+          "y": -5.449999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.325000000000003,
+          "y": -5.449999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.0,
+          "y": -5.125,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.0,
+          "y": -5.1,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.975000000000001,
+          "y": -5.074999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.975000000000001,
+          "y": -5.049999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.925,
+          "y": -5.0,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.925,
+          "y": -4.949999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.900000000000002,
+          "y": -4.924999999999999,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.900000000000002,
+          "y": -4.85,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.8,
+          "y": -4.75,
+          "layer": "bottom",
+          "width": 0.3
+        },
+        {
+          "route_type": "via",
+          "x": 8.8,
+          "y": -4.75,
+          "from_layer": "bottom",
+          "to_layer": "top",
+          "via_diameter": 0.5,
+          "via_hole_diameter": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.8,
+          "y": -4.75,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.900000000000002,
+          "y": -4.649999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.900000000000002,
+          "y": -4.625,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.925,
+          "y": -4.6,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.925,
+          "y": -4.549999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.975000000000001,
+          "y": -4.5,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 8.975000000000001,
+          "y": -4.475,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.0,
+          "y": -4.449999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.0,
+          "y": -4.424999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.450000000000003,
+          "y": -3.9749999999999996,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.450000000000003,
+          "y": -3.8249999999999993,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.5,
+          "y": -3.7749999999999986,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.55,
+          "y": -3.7749999999999986,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.575000000000003,
+          "y": -3.75,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.600000000000001,
+          "y": -3.75,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.625,
+          "y": -3.7249999999999996,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.650000000000002,
+          "y": -3.7249999999999996,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.675,
+          "y": -3.6999999999999993,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.700000000000003,
+          "y": -3.6999999999999993,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.725000000000001,
+          "y": -3.674999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.725000000000001,
+          "y": -3.6499999999999986,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.75,
+          "y": -3.625,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.775000000000002,
+          "y": -3.625,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.8,
+          "y": -3.5999999999999996,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.8,
+          "y": -3.5749999999999993,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.825000000000003,
+          "y": -3.549999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.825000000000003,
+          "y": -3.5249999999999986,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.850000000000001,
+          "y": -3.5,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.850000000000001,
+          "y": -3.4749999999999996,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.875,
+          "y": -3.4499999999999993,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.875,
+          "y": -3.3999999999999986,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.900000000000002,
+          "y": -3.375,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.900000000000002,
+          "y": -3.299999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.925,
+          "y": -3.2749999999999986,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.925,
+          "y": -3.25,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.975000000000001,
+          "y": -3.1999999999999993,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 9.975000000000001,
+          "y": -3.1499999999999986,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.0,
+          "y": -3.125,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.0,
+          "y": -1.7249999999999996,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.05,
+          "y": -1.674999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.05,
+          "y": -1.6499999999999986,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.075000000000003,
+          "y": -1.625,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.075000000000003,
+          "y": -1.5999999999999996,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.125,
+          "y": -1.549999999999999,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.125,
+          "y": -1.5,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.150000000000002,
+          "y": -1.4749999999999979,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.150000000000002,
+          "y": -0.5999999999999979,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.125,
+          "y": -0.5749999999999993,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.125,
+          "y": -0.5,
+          "layer": "top",
+          "width": 0.3,
+          "end_pcb_port_id": "pcb_port_243"
+        }
+      ],
+      "source_net_id": "source_net_7",
+      "source_trace_id": "source_trace_181",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "pcb_port_ids": [
+        "pcb_port_230",
+        "pcb_port_243"
+      ]
+    }
+  ],
+  "restored": [
+    {
+      "type": "pcb_via",
+      "pcb_via_id": "same_side_repair_9_DIR_0_via_117",
+      "x": 8.75,
+      "y": -4.75,
+      "outer_diameter": 0.45,
+      "hole_diameter": 0.3,
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "bottom"
+      ],
+      "from_layer": "top",
+      "to_layer": "bottom",
+      "source_net_id": "source_net_19",
+      "source_trace_id": "source_trace_60",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "tented_on_top": true,
+      "tented_on_bottom": true
+    },
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "v2_escape_0_PD_VBUS_0",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 11.175,
+          "y": -4.2250000000000005,
+          "layer": "top",
+          "width": 0.3,
+          "start_pcb_port_id": "pcb_port_230"
+        },
+        {
+          "route_type": "wire",
+          "x": 11.150000000000002,
+          "y": -4.225,
+          "layer": "top",
+          "width": 0.3
+        },
+        {
+          "route_type": "wire",
+          "x": 10.900000000000002,
+          "y": -4.475,
+          "layer": "top",
+          "width": 0.3
+        }
+      ],
+      "source_net_id": "source_net_7",
+      "source_trace_id": "source_trace_181",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "pcb_port_ids": [
+        "pcb_port_230"
+      ]
+    },
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "same_side_repair_9_DIR_0_run_1",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 6.225000000000001,
+          "y": 9.525000000000002,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 6.550000000000001,
+          "y": 9.200000000000003,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 6.600000000000001,
+          "y": 9.200000000000003,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 6.625,
+          "y": 9.175,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 6.650000000000002,
+          "y": 9.175,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 6.700000000000003,
+          "y": 9.125,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 6.725000000000001,
+          "y": 9.125,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.150000000000002,
+          "y": 5.700000000000003,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.825000000000003,
+          "y": 5.700000000000003,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.850000000000001,
+          "y": 5.675000000000001,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.900000000000002,
+          "y": 5.675000000000001,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.925,
+          "y": 5.650000000000002,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.950000000000003,
+          "y": 5.650000000000002,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.0,
+          "y": 5.600000000000001,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.025000000000002,
+          "y": 5.600000000000001,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.075000000000003,
+          "y": 5.550000000000001,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.075000000000003,
+          "y": 5.525000000000002,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.125,
+          "y": 5.475000000000001,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.125,
+          "y": 5.450000000000003,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.150000000000002,
+          "y": 5.425000000000001,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.150000000000002,
+          "y": 5.375,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.175,
+          "y": 5.350000000000001,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.175,
+          "y": 4.5,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.75,
+          "y": 3.9250000000000007,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.75,
+          "y": 3.900000000000002,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.8,
+          "y": 3.8500000000000014,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.8,
+          "y": 3.825000000000003,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.825000000000003,
+          "y": 3.8000000000000007,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.825000000000003,
+          "y": 3.75,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.850000000000001,
+          "y": 3.7250000000000014,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.850000000000001,
+          "y": 3.150000000000002,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.075000000000003,
+          "y": 1.9250000000000007,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.075000000000003,
+          "y": 1.9000000000000021,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.125,
+          "y": 1.8500000000000014,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.125,
+          "y": 1.8250000000000028,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.150000000000002,
+          "y": 1.8000000000000007,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.150000000000002,
+          "y": 1.75,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.175,
+          "y": 1.7250000000000014,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.175,
+          "y": 1.6750000000000007,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.8,
+          "y": 1.0500000000000007,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.8,
+          "y": 1.0250000000000021,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.825000000000003,
+          "y": 1.0,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.825000000000003,
+          "y": 0.9750000000000014,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.850000000000001,
+          "y": 0.9499999999999993,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.850000000000001,
+          "y": 0.9250000000000007,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.875,
+          "y": 0.9000000000000021,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.875,
+          "y": 0.8500000000000014,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.900000000000002,
+          "y": 0.8249999999999993,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.900000000000002,
+          "y": 0.75,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.925,
+          "y": 0.7250000000000014,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.925,
+          "y": -0.5500000000000007,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.975000000000001,
+          "y": -0.5999999999999979,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.975000000000001,
+          "y": -0.625,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 14.0,
+          "y": -0.6499999999999986,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 14.0,
+          "y": -0.6750000000000007,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 14.025000000000002,
+          "y": -0.6999999999999993,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 14.025000000000002,
+          "y": -0.7249999999999979,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 14.05,
+          "y": -0.75,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 14.05,
+          "y": -1.125,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 13.175,
+          "y": -2.0,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.575000000000003,
+          "y": -2.0,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.55,
+          "y": -2.0249999999999986,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.5,
+          "y": -2.0249999999999986,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.475000000000001,
+          "y": -2.049999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.450000000000003,
+          "y": -2.049999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.400000000000002,
+          "y": -2.0999999999999996,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.375,
+          "y": -2.0999999999999996,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.3,
+          "y": -2.174999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.3,
+          "y": -2.1999999999999993,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.25,
+          "y": -2.25,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.25,
+          "y": -2.2749999999999986,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.225000000000001,
+          "y": -2.299999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.225000000000001,
+          "y": -2.3499999999999996,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.200000000000003,
+          "y": -2.375,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 12.200000000000003,
+          "y": -3.924999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.25,
+          "y": -4.875,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.225000000000001,
+          "y": -4.875,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.175,
+          "y": -4.924999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.150000000000002,
+          "y": -4.924999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.125,
+          "y": -4.949999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.075000000000003,
+          "y": -4.949999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 11.05,
+          "y": -4.975,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.425,
+          "y": -4.975,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.400000000000002,
+          "y": -5.0,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.375,
+          "y": -5.0,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.350000000000001,
+          "y": -5.024999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.3,
+          "y": -5.024999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 10.275000000000002,
+          "y": -5.049999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.875,
+          "y": -5.049999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.75,
+          "y": -5.174999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.725000000000001,
+          "y": -5.174999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.700000000000003,
+          "y": -5.199999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.675,
+          "y": -5.199999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.650000000000002,
+          "y": -5.225,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.625,
+          "y": -5.225,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.600000000000001,
+          "y": -5.25,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.225000000000001,
+          "y": -5.25,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.05,
+          "y": -5.074999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 9.05,
+          "y": -5.049999999999999,
+          "layer": "inner1",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 8.75,
+          "y": -4.75,
+          "layer": "inner1",
+          "width": 0.16
+        }
+      ],
+      "source_net_id": "source_net_19",
+      "source_trace_id": "source_trace_60",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "same_side_repair_9_DIR_0_run_2",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 8.75,
+          "y": -4.75,
+          "layer": "inner2",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 8.75,
+          "y": -5.949999999999999,
+          "layer": "inner2",
+          "width": 0.16
+        },
+        {
+          "route_type": "wire",
+          "x": 7.100000000000001,
+          "y": -7.6,
+          "layer": "inner2",
+          "width": 0.16
+        }
+      ],
+      "source_net_id": "source_net_19",
+      "source_trace_id": "source_trace_60",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "pcb_port_ids": []
+    }
+  ]
+}

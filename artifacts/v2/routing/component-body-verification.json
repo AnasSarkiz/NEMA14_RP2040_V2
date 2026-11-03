@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "fitted_STEP_parts_checked": 97,
+  "minimum_screened_clearance_mm": 0.1,
+  "close_pairs": [],
+  "scope": "Nominal supplier STEP component-to-component clearance; does not qualify assembly tolerances, plug/tool access or rear fastening"
+}

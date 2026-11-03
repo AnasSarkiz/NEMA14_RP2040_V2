@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "assembly_sha256": "3429dea72d96a91d18ea95db60dd7df8732e06f667c7c702b05e2d523c791619",
+  "assembly_sha256": "7ebe1f8c54f575a62e3c31a42f594012c853ea67aebd0c56fe6657fa838af934",
   "all_native_JSCAD_wire_centerlines_match_fit_checked_paths": true,
   "insulated_cylinders_checked": 192,
   "four_partial_conductor_tips_coaxial": true,

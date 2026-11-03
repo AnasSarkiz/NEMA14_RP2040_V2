@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "ready_for_supplier_DFM_quote_review": true,
+  "board_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "order_source_sha256": "04af9b0ec55febab9064dc76be03d57f72a2f9e5105682108b0ad1470f69c28f",
+  "actual_CAM_audit_sha256": "c38083a927b2fdfb2e4b5caf579ff31f86c013a41f515f5ac4e9d1399434a660",
+  "manifest_sha256": "1d57a0b464f2dc925c58afdda8ed10bfaf330c976345bf9fe4cceebf8cad6aeb",
+  "upload_file_hashes": {
+    "Thermal-Via-Process.csv": "44da851404730af559c224c94c8d21f2b98dec7ab54f67f22e9cba58410e5702",
+    "NEMA14_RP2040_V2-Gerbers.zip": "d87e62be52dbdf6cc54d2a7341cc8936d42d325072273af1435453484ec3ad03",
+    "Through-Hole-Joints.csv": "42a24b486fa7ca91900bb576876b7fd540850a2de00b3d37c0c3e88050bb870e",
+    "NEMA14_RP2040_V2-BOM.csv": "dbb4323135dfa175bae20a1372d051b360d0c09c48e793992774c72ebece9436",
+    "NEMA14_RP2040_V2-CPL.csv": "247214306fdde5ac7c1c9026a6104b92302b1e3159aac17e0c743cceec854e05"
+  },
+  "fitted_parts": 97,
+  "BOM_lines": 45,
+  "CPL_placements": 97,
+  "physical_net_groups": 70,
+  "shorts": 0,
+  "native_DRC_errors": 0,
+  "native_DRC_warnings": 0,
+  "unchanged_native_copper_mask_outline_drills": true,
+  "intentional_no_connect_islands": 36,
+  "supplier_process_stock_pickup_approval": false,
+  "factory_wire_fit_verified": false,
+  "production_release_approved": false,
+  "pending_supplier_and_physical_acceptance": [
+    "JLCPCB live stock/quote and exact pickup rotation approval",
+    "WAGO wire gauge/retention and process acceptance",
+    "Exposed-pad filled/capped-via and 100 um stencil process acceptance",
+    "Physical rear mounting and first-board firmware/bench validation"
+  ],
+  "scope": "Exact prototype upload files and actual CAM geometry, not procurement, tested hardware, or production approval"
+}

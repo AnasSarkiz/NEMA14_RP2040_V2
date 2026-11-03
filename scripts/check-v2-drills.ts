@@ -8,7 +8,8 @@ const json=JSON.parse(readFileSync(source,"utf8"))
 const commands=convertCircuitJsonToExcellonDrillCommands({circuitJson:json,is_plated:false})
 const slots=commands.filter(c=>c.command_code==="G85")
 if(slots.length!==2)throw Error(`Expected one NPTH slot per USB connector, got ${slots.length}`)
-const diameter=0.7099808,length=1.5099792
+// Board-level clearance adaptation; supplier import remains 1.5099792 × .7099808.
+const diameter=1,length=1.7999984
 for(const slot of slots){
   if(Math.abs(slot.width-diameter)>1e-6)throw Error("USB slot cutter diameter changed")
   const index=commands.indexOf(slot),start=commands[index-1] as any

@@ -1,0 +1,132 @@
+[
+  {
+    "reference": "C_BULK",
+    "before": {
+      "pcbX": -13.48,
+      "pcbY": -6.8,
+      "pcbRotation": 0
+    },
+    "new_center": [
+      13.400000000000002,
+      0.03000000000000025
+    ],
+    "new_rotation": 0
+  },
+  {
+    "reference": "BZ1",
+    "before": {
+      "pcbX": 13.7,
+      "pcbY": 0.2,
+      "pcbRotation": 270
+    },
+    "new_center": [
+      -13.7,
+      -6.8
+    ],
+    "new_rotation": 180
+  },
+  {
+    "reference": "D_BUZZER",
+    "before": {
+      "pcbX": 9.9,
+      "pcbY": -1.35,
+      "pcbRotation": 90
+    },
+    "new_center": [
+      -9.300000000000002,
+      -8.9
+    ],
+    "new_rotation": 270
+  },
+  {
+    "reference": "C_BUZZER",
+    "before": {
+      "pcbX": 11.55,
+      "pcbY": 4.31,
+      "pcbRotation": 0
+    },
+    "new_center": [
+      -9.3,
+      -5.56
+    ],
+    "new_rotation": 90
+  },
+  {
+    "reference": "R_USB_SENSE_H",
+    "before": {
+      "pcbX": -9.2,
+      "pcbY": -7.275,
+      "pcbRotation": 90
+    },
+    "new_center": [
+      -10.8,
+      -3.39
+    ],
+    "new_rotation": 0
+  },
+  {
+    "reference": "R_ENABLE",
+    "before": {
+      "pcbX": -9.2,
+      "pcbY": -9.225,
+      "pcbRotation": 270
+    },
+    "new_center": [
+      6.625,
+      15.6
+    ],
+    "new_rotation": 90
+  },
+  {
+    "reference": "R_SLEEP",
+    "before": {
+      "pcbX": -9.1,
+      "pcbY": -11.625,
+      "pcbRotation": 270
+    },
+    "new_center": [
+      7.700000000000001,
+      -0.8900000000000006
+    ],
+    "new_rotation": 0
+  },
+  {
+    "reference": "U_TEMP",
+    "before": {
+      "pcbX": 9.25,
+      "pcbY": 1.8,
+      "pcbRotation": 0
+    },
+    "new_center": [
+      11.3,
+      4.0
+    ],
+    "new_rotation": 0
+  },
+  {
+    "reference": "C_TEMP",
+    "before": {
+      "pcbX": 9.25,
+      "pcbY": 3.5,
+      "pcbRotation": 0
+    },
+    "new_center": [
+      9.05,
+      3.5
+    ],
+    "new_rotation": 0
+  },
+  {
+    "reference": "Q_BUZZER",
+    "before": {
+      "pcbX": 7.725,
+      "pcbY": -0.975,
+      "pcbRotation": 90
+    },
+    "new_center": [
+      -9.199999999999998,
+      -11.64
+    ],
+    "new_rotation": 0
+  }
+]

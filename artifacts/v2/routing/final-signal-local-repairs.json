@@ -1,0 +1,177 @@
+[
+  {
+    "net": "STATUS_R_C",
+    "start_port": "pcb_port_323",
+    "start_mm": [
+      9.625000000000002,
+      4.500000000000003
+    ],
+    "end_mm": [
+      11.79002245272873,
+      -2.409977547271271
+    ],
+    "vias_mm": [
+      [
+        8.275000000000002,
+        2.4250000000000007
+      ],
+      [
+        9.5,
+        -0.05000000000000071
+      ],
+      [
+        11.25,
+        -1.3499999999999979
+      ]
+    ],
+    "expanded": 31623,
+    "trace_id": "same_side_repair_0_STATUS_R_C_0",
+    "removed_foreign_trace_ids": [
+      "same_side_repair_0_STEP_0",
+      "same_side_repair_1_ENABLE_N_0"
+    ],
+    "removed_foreign_via_ids": [
+      "same_side_repair_1_ENABLE_N_0_via_91",
+      "same_side_repair_3_STATUS_G_C_0_via_15"
+    ],
+    "retained_fragment_ids": [
+      "same_side_repair_0_STEP_0_fragment_0",
+      "same_side_repair_0_STEP_0_fragment_1",
+      "same_side_repair_0_STEP_0_fragment_2",
+      "same_side_repair_1_ENABLE_N_0_fragment_0",
+      "same_side_repair_1_ENABLE_N_0_fragment_1",
+      "same_side_repair_1_ENABLE_N_0_fragment_2"
+    ]
+  },
+  {
+    "net": "ENABLE_N",
+    "start_port": "pcb_port_204",
+    "start_mm": [
+      9.25,
+      -0.5874999999999995
+    ],
+    "end_mm": [
+      9.25,
+      -0.4499999999999993
+    ],
+    "vias_mm": [
+      [
+        9.25,
+        -0.625
+      ]
+    ],
+    "expanded": 1345,
+    "trace_id": "same_side_repair_1_ENABLE_N_0_rerouted_rerouted",
+    "removed_foreign_trace_ids": [
+      "same_side_repair_0_STEP_0_fragment_0"
+    ],
+    "removed_foreign_via_ids": [],
+    "retained_fragment_ids": [
+      "same_side_repair_0_STEP_0_fragment_0_fragment_0",
+      "same_side_repair_0_STEP_0_fragment_0_fragment_1"
+    ]
+  },
+  {
+    "net": "STEP",
+    "start_port": "pcb_port_64",
+    "start_mm": [
+      8.311111111111114,
+      -0.4611111111111106
+    ],
+    "end_mm": [
+      11.336538004988014,
+      -1.9115380049880129
+    ],
+    "vias_mm": [
+      [
+        8.850000000000001,
+        0.0
+      ],
+      [
+        11.200000000000003,
+        -1.9749999999999996
+      ]
+    ],
+    "expanded": 92240,
+    "trace_id": "same_side_repair_2_STEP_0",
+    "removed_foreign_trace_ids": [
+      "same_side_repair_12_STATUS_B_C_0",
+      "same_side_repair_1_ENABLE_N_0_fragment_1"
+    ],
+    "removed_foreign_via_ids": [
+      "same_side_repair_12_STATUS_B_C_0_via_13"
+    ],
+    "retained_fragment_ids": [
+      "same_side_repair_12_STATUS_B_C_0_fragment_0",
+      "same_side_repair_12_STATUS_B_C_0_fragment_1",
+      "same_side_repair_12_STATUS_B_C_0_fragment_2",
+      "same_side_repair_12_STATUS_B_C_0_fragment_3",
+      "same_side_repair_12_STATUS_B_C_0_fragment_4",
+      "same_side_repair_12_STATUS_B_C_0_fragment_5",
+      "same_side_repair_1_ENABLE_N_0_fragment_1_fragment_0",
+      "same_side_repair_1_ENABLE_N_0_fragment_1_fragment_1"
+    ]
+  },
+  {
+    "net": "STATUS_G_C",
+    "start_port": "pcb_port_330",
+    "start_mm": [
+      7.862500000000001,
+      2.9250000000000007
+    ],
+    "end_mm": [
+      7.737500000000001,
+      2.875
+    ],
+    "vias_mm": [
+      [
+        7.775000000000002,
+        2.875
+      ]
+    ],
+    "expanded": 355,
+    "trace_id": "same_side_repair_3_STATUS_G_C_0_rerouted",
+    "removed_foreign_trace_ids": [
+      "same_side_repair_2_ENABLE_N_1_fragment_2"
+    ],
+    "removed_foreign_via_ids": [
+      "same_side_repair_2_ENABLE_N_1_via_264"
+    ],
+    "retained_fragment_ids": [
+      "same_side_repair_2_ENABLE_N_1_fragment_2_fragment_0",
+      "same_side_repair_2_ENABLE_N_1_fragment_2_fragment_1"
+    ]
+  },
+  {
+    "net": "STATUS_B_C",
+    "start_port": "pcb_port_337",
+    "start_mm": [
+      12.091666666666667,
+      -1.5083333333333329
+    ],
+    "end_mm": [
+      10.528846153846155,
+      -1.924999999999999
+    ],
+    "vias_mm": [
+      [
+        10.650000000000002,
+        -1.9499999999999993
+      ]
+    ],
+    "expanded": 2745,
+    "trace_id": "same_side_repair_4_STATUS_B_C_0",
+    "removed_foreign_trace_ids": [
+      "same_side_repair_2_STEP_0"
+    ],
+    "removed_foreign_via_ids": [
+      "same_side_repair_2_STEP_0_via_31"
+    ],
+    "retained_fragment_ids": [
+      "same_side_repair_2_STEP_0_fragment_0",
+      "same_side_repair_2_STEP_0_fragment_1",
+      "same_side_repair_2_STEP_0_fragment_2",
+      "same_side_repair_2_STEP_0_fragment_3"
+    ]
+  }
+]

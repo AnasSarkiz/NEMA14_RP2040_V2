@@ -1,0 +1,2223 @@
+{
+  "board_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "version": "2.0.0-dev.7",
+  "stage": "V2 prototype supplier DFM/quote handoff",
+  "fabrication_ready": false,
+  "supplier_process_stock_pickup_approval": false,
+  "checks": {
+    "physical-routing-audit.json": "62b3a83c352e5139e4d70236df78f32c0b215f0df900117e53125330daedc0b8",
+    "native-drc.json": "ae9b19f4df32a58f7d5ec73a17b7c32b5046f12b596463d0c7671dd9deb196bd",
+    "functional-routing-audit.json": "288486312b411e571dbf7f30775e78bf3407b4cd76436d057e50e84bd2915126",
+    "phase-current-screen.json": "46196f9d440f1340c500b63e381854f4aee84247e43259a56a74a6226bd74849",
+    "analysis-verification.json": "736c27953e2252c1ad560e7e6047bdcd773006c88f21d5750c88c43ab498cdbe",
+    "local-power-verification.json": "343f991ae0585ebdfff1f9252c320382ae7182b15cea0947bae6ffcb8ceaa742",
+    "component-body-verification.json": "ed39b56bcfb630ed3386ef51fb1c2fda47caeb1d17691ba4333c7f4272fb8be9",
+    "critical-silkscreen-verification.json": "399c0cb94c95411dc095f3f0f074f9d670f72b988ad3ab5fad62c78843fb3ac1",
+    "branding-verification.json": "19d077a48355e623bc7e339a01edfb8b68dc4a4ac772f71b65ffc87ee6cdd001"
+  },
+  "fitted_components": 97,
+  "unique_BOM_lines": 45,
+  "bare_probe_pads_excluded": 7,
+  "optional_encoder_excluded": true,
+  "order_source_sha256": "04af9b0ec55febab9064dc76be03d57f72a2f9e5105682108b0ad1470f69c28f",
+  "stencil_thickness_mm": 0.1,
+  "minimum_aperture_area_ratio": 0.6678577078001382,
+  "aperture_checks": [
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_0",
+      "area_ratio": 0.8327588578905886,
+      "area_mm2": 0.1690511906969428
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_1",
+      "area_ratio": 0.8327588578905885,
+      "area_mm2": 0.16905119069694277
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_2",
+      "area_ratio": 0.8327588578905886,
+      "area_mm2": 0.1690511906969428
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_3",
+      "area_ratio": 0.8327588578905885,
+      "area_mm2": 0.16905119069694277
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_4",
+      "area_ratio": 0.8327588578905879,
+      "area_mm2": 0.16905119069694263
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_5",
+      "area_ratio": 0.8327588578905886,
+      "area_mm2": 0.1690511906969428
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_6",
+      "area_ratio": 0.8327588578905879,
+      "area_mm2": 0.16905119069694263
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_7",
+      "area_ratio": 0.8327588578905886,
+      "area_mm2": 0.1690511906969428
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_8",
+      "area_ratio": 0.8327588578905875,
+      "area_mm2": 0.16905119069694224
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_9",
+      "area_ratio": 0.8327588578905879,
+      "area_mm2": 0.16905119069694238
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_10",
+      "area_ratio": 0.8327588578905882,
+      "area_mm2": 0.16905119069694244
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_11",
+      "area_ratio": 0.8327588578905879,
+      "area_mm2": 0.16905119069694238
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_12",
+      "area_ratio": 0.8327588578905875,
+      "area_mm2": 0.16905119069694224
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_13",
+      "area_ratio": 0.8327588578905882,
+      "area_mm2": 0.16905119069694244
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_14",
+      "area_ratio": 0.8327588578905875,
+      "area_mm2": 0.16905119069694224
+    },
+    {
+      "reference": "J_PD",
+      "pad": "pcb_smtpad_15",
+      "area_ratio": 0.8327588578905882,
+      "area_mm2": 0.16905119069694244
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_16",
+      "area_ratio": 0.8327588578905886,
+      "area_mm2": 0.1690511906969428
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_17",
+      "area_ratio": 0.8327588578905875,
+      "area_mm2": 0.16905119069694224
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_18",
+      "area_ratio": 0.8327588578905893,
+      "area_mm2": 0.169051190696943
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_19",
+      "area_ratio": 0.8327588578905879,
+      "area_mm2": 0.16905119069694263
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_20",
+      "area_ratio": 0.8327588578905903,
+      "area_mm2": 0.16905119069694297
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_21",
+      "area_ratio": 0.8327588578905931,
+      "area_mm2": 0.1690511906969437
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_22",
+      "area_ratio": 0.8327588578905903,
+      "area_mm2": 0.16905119069694297
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_23",
+      "area_ratio": 0.8327588578905903,
+      "area_mm2": 0.16905119069694297
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_24",
+      "area_ratio": 0.8327588578905875,
+      "area_mm2": 0.16905119069694224
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_25",
+      "area_ratio": 0.8327588578905875,
+      "area_mm2": 0.16905119069694224
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_26",
+      "area_ratio": 0.8327588578905889,
+      "area_mm2": 0.1690511906969426
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_27",
+      "area_ratio": 0.8327588578905875,
+      "area_mm2": 0.16905119069694224
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_28",
+      "area_ratio": 0.8327588578905903,
+      "area_mm2": 0.16905119069694297
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_29",
+      "area_ratio": 0.8327588578905875,
+      "area_mm2": 0.16905119069694224
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_30",
+      "area_ratio": 0.8327588578905875,
+      "area_mm2": 0.16905119069694224
+    },
+    {
+      "reference": "J_DATA",
+      "pad": "pcb_smtpad_31",
+      "area_ratio": 0.8327588578905903,
+      "area_mm2": 0.16905119069694297
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_32",
+      "area_ratio": 1.499997000000004,
+      "area_mm2": 0.44099823600176596
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_33",
+      "area_ratio": 1.499996999999999,
+      "area_mm2": 0.44099823600176336
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_34",
+      "area_ratio": 1.499996999999999,
+      "area_mm2": 0.44099823600176336
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_35",
+      "area_ratio": 1.499996999999999,
+      "area_mm2": 0.44099823600176336
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_36",
+      "area_ratio": 1.4999969999999996,
+      "area_mm2": 0.44099823600176413
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_37",
+      "area_ratio": 1.499996999999999,
+      "area_mm2": 0.44099823600176336
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_38",
+      "area_ratio": 1.499996999999999,
+      "area_mm2": 0.44099823600176336
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_39",
+      "area_ratio": 1.499996999999999,
+      "area_mm2": 0.44099823600176336
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_40",
+      "area_ratio": 1.499996999999999,
+      "area_mm2": 0.44099823600176336
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_41",
+      "area_ratio": 1.4999970000000034,
+      "area_mm2": 0.44099823600176524
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_42",
+      "area_ratio": 2.485159343487796,
+      "area_mm2": 1.0394958420041565
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_42",
+      "area_ratio": 2.485159343487796,
+      "area_mm2": 1.0394958420041565
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_42",
+      "area_ratio": 2.485159343487796,
+      "area_mm2": 1.0394958420041565
+    },
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_42",
+      "area_ratio": 2.485159343487796,
+      "area_mm2": 1.0394958420041565
+    },
+    {
+      "reference": "R_PD",
+      "pad": "pcb_smtpad_43",
+      "area_ratio": 1.459937890163763,
+      "area_mm2": 0.34143195445085583
+    },
+    {
+      "reference": "R_PD",
+      "pad": "pcb_smtpad_44",
+      "area_ratio": 1.459937890163763,
+      "area_mm2": 0.34143195445085583
+    },
+    {
+      "reference": "C_PD",
+      "pad": "pcb_smtpad_45",
+      "area_ratio": 1.4823499764705885,
+      "area_mm2": 0.35279858880141135
+    },
+    {
+      "reference": "C_PD",
+      "pad": "pcb_smtpad_46",
+      "area_ratio": 1.4823499764705885,
+      "area_mm2": 0.35279858880141135
+    },
+    {
+      "reference": "R_PG",
+      "pad": "pcb_smtpad_47",
+      "area_ratio": 1.459937890163763,
+      "area_mm2": 0.34143195445085583
+    },
+    {
+      "reference": "R_PG",
+      "pad": "pcb_smtpad_48",
+      "area_ratio": 1.459937890163763,
+      "area_mm2": 0.34143195445085583
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_49",
+      "area_ratio": 3.001556090186561,
+      "area_mm2": 1.441494234005766
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_49",
+      "area_ratio": 3.001556090186561,
+      "area_mm2": 1.441494234005766
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_49",
+      "area_ratio": 3.0015560901865608,
+      "area_mm2": 1.4414942340057657
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_49",
+      "area_ratio": 3.0015560901865608,
+      "area_mm2": 1.4414942340057657
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_50",
+      "area_ratio": 0.6678577078001411,
+      "area_mm2": 0.11570751595950543
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_51",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950511
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_52",
+      "area_ratio": 0.6678577078001412,
+      "area_mm2": 0.11570751595950544
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_53",
+      "area_ratio": 0.6678577078001398,
+      "area_mm2": 0.11570751595950514
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_54",
+      "area_ratio": 0.6678577078001404,
+      "area_mm2": 0.11570751595950529
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_55",
+      "area_ratio": 0.6678577078001408,
+      "area_mm2": 0.11570751595950537
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_56",
+      "area_ratio": 0.6678577078001404,
+      "area_mm2": 0.11570751595950529
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_57",
+      "area_ratio": 0.6678577078001403,
+      "area_mm2": 0.11570751595950528
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_58",
+      "area_ratio": 0.6678577078001404,
+      "area_mm2": 0.11570751595950529
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_59",
+      "area_ratio": 0.6678577078001404,
+      "area_mm2": 0.11570751595950529
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_60",
+      "area_ratio": 0.6678577078001404,
+      "area_mm2": 0.11570751595950529
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_61",
+      "area_ratio": 0.6678577078001404,
+      "area_mm2": 0.11570751595950529
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_62",
+      "area_ratio": 0.6678577078001404,
+      "area_mm2": 0.11570751595950528
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_63",
+      "area_ratio": 0.6678577078001411,
+      "area_mm2": 0.11570751595950543
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_64",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950517
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_65",
+      "area_ratio": 0.6678577078001405,
+      "area_mm2": 0.11570751595950533
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_66",
+      "area_ratio": 0.6678577078001405,
+      "area_mm2": 0.11570751595950533
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_67",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950517
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_68",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950517
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_69",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950517
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_70",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950517
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_71",
+      "area_ratio": 0.6678577078001382,
+      "area_mm2": 0.11570751595950486
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_72",
+      "area_ratio": 0.6678577078001382,
+      "area_mm2": 0.11570751595950486
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_73",
+      "area_ratio": 0.6678577078001412,
+      "area_mm2": 0.11570751595950549
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_74",
+      "area_ratio": 0.6678577078001382,
+      "area_mm2": 0.11570751595950486
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_75",
+      "area_ratio": 0.6678577078001412,
+      "area_mm2": 0.11570751595950549
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_76",
+      "area_ratio": 0.6678577078001382,
+      "area_mm2": 0.11570751595950486
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_77",
+      "area_ratio": 0.6678577078001412,
+      "area_mm2": 0.11570751595950549
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_78",
+      "area_ratio": 0.6678577078001412,
+      "area_mm2": 0.11570751595950549
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_79",
+      "area_ratio": 0.6678577078001405,
+      "area_mm2": 0.11570751595950533
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_80",
+      "area_ratio": 0.6678577078001405,
+      "area_mm2": 0.11570751595950533
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_81",
+      "area_ratio": 0.6678577078001402,
+      "area_mm2": 0.11570751595950525
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_82",
+      "area_ratio": 0.6678577078001402,
+      "area_mm2": 0.11570751595950525
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_83",
+      "area_ratio": 0.6678577078001403,
+      "area_mm2": 0.11570751595950529
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_84",
+      "area_ratio": 0.6678577078001404,
+      "area_mm2": 0.1157075159595053
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_85",
+      "area_ratio": 0.6678577078001402,
+      "area_mm2": 0.11570751595950525
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_86",
+      "area_ratio": 0.6678577078001402,
+      "area_mm2": 0.11570751595950525
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_87",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950517
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_88",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950517
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_89",
+      "area_ratio": 0.6678577078001412,
+      "area_mm2": 0.11570751595950549
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_90",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950517
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_91",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950517
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_92",
+      "area_ratio": 0.6678577078001412,
+      "area_mm2": 0.11570751595950549
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_93",
+      "area_ratio": 0.6678577078001382,
+      "area_mm2": 0.11570751595950486
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_94",
+      "area_ratio": 0.6678577078001413,
+      "area_mm2": 0.11570751595950556
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_95",
+      "area_ratio": 0.6678577078001383,
+      "area_mm2": 0.11570751595950493
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_96",
+      "area_ratio": 0.6678577078001413,
+      "area_mm2": 0.11570751595950556
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_97",
+      "area_ratio": 0.6678577078001413,
+      "area_mm2": 0.11570751595950556
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_98",
+      "area_ratio": 0.6678577078001413,
+      "area_mm2": 0.11570751595950556
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_99",
+      "area_ratio": 0.6678577078001413,
+      "area_mm2": 0.11570751595950556
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_100",
+      "area_ratio": 0.6678577078001413,
+      "area_mm2": 0.11570751595950556
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_101",
+      "area_ratio": 0.6678577078001399,
+      "area_mm2": 0.11570751595950525
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_102",
+      "area_ratio": 0.6678577078001413,
+      "area_mm2": 0.11570751595950556
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_103",
+      "area_ratio": 0.6678577078001413,
+      "area_mm2": 0.11570751595950556
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_104",
+      "area_ratio": 0.6678577078001396,
+      "area_mm2": 0.11570751595950503
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_105",
+      "area_ratio": 0.6678577078001403,
+      "area_mm2": 0.11570751595950518
+    },
+    {
+      "reference": "C_IO1",
+      "pad": "pcb_smtpad_106",
+      "area_ratio": 0.9086561384784454,
+      "area_mm2": 0.13230071539803964
+    },
+    {
+      "reference": "C_IO1",
+      "pad": "pcb_smtpad_107",
+      "area_ratio": 0.9086561384784458,
+      "area_mm2": 0.13230071539803973
+    },
+    {
+      "reference": "C_IO10",
+      "pad": "pcb_smtpad_108",
+      "area_ratio": 0.9086561384784461,
+      "area_mm2": 0.1323007153980398
+    },
+    {
+      "reference": "C_IO10",
+      "pad": "pcb_smtpad_109",
+      "area_ratio": 0.908656138478445,
+      "area_mm2": 0.13230071539803948
+    },
+    {
+      "reference": "C_IO22",
+      "pad": "pcb_smtpad_110",
+      "area_ratio": 0.9086561384784442,
+      "area_mm2": 0.13230071539803928
+    },
+    {
+      "reference": "C_IO22",
+      "pad": "pcb_smtpad_111",
+      "area_ratio": 0.9086561384784442,
+      "area_mm2": 0.13230071539803928
+    },
+    {
+      "reference": "C_IO33",
+      "pad": "pcb_smtpad_112",
+      "area_ratio": 0.9086561384784477,
+      "area_mm2": 0.13230071539804028
+    },
+    {
+      "reference": "C_IO33",
+      "pad": "pcb_smtpad_113",
+      "area_ratio": 0.9086561384784477,
+      "area_mm2": 0.13230071539804028
+    },
+    {
+      "reference": "C_IO42",
+      "pad": "pcb_smtpad_114",
+      "area_ratio": 0.9086561384784473,
+      "area_mm2": 0.1323007153980402
+    },
+    {
+      "reference": "C_IO42",
+      "pad": "pcb_smtpad_115",
+      "area_ratio": 0.9086561384784473,
+      "area_mm2": 0.1323007153980402
+    },
+    {
+      "reference": "C_IO49",
+      "pad": "pcb_smtpad_116",
+      "area_ratio": 0.9086561384784468,
+      "area_mm2": 0.13230071539804
+    },
+    {
+      "reference": "C_IO49",
+      "pad": "pcb_smtpad_117",
+      "area_ratio": 0.9086561384784465,
+      "area_mm2": 0.13230071539803995
+    },
+    {
+      "reference": "C_DV23",
+      "pad": "pcb_smtpad_118",
+      "area_ratio": 0.9086561384784477,
+      "area_mm2": 0.13230071539804034
+    },
+    {
+      "reference": "C_DV23",
+      "pad": "pcb_smtpad_119",
+      "area_ratio": 0.908656138478448,
+      "area_mm2": 0.13230071539804042
+    },
+    {
+      "reference": "C_DV50",
+      "pad": "pcb_smtpad_120",
+      "area_ratio": 0.9086561384784465,
+      "area_mm2": 0.13230071539803995
+    },
+    {
+      "reference": "C_DV50",
+      "pad": "pcb_smtpad_121",
+      "area_ratio": 0.9086561384784466,
+      "area_mm2": 0.13230071539804
+    },
+    {
+      "reference": "C_USB",
+      "pad": "pcb_smtpad_122",
+      "area_ratio": 0.9086561384784461,
+      "area_mm2": 0.1323007153980398
+    },
+    {
+      "reference": "C_USB",
+      "pad": "pcb_smtpad_123",
+      "area_ratio": 0.9086561384784461,
+      "area_mm2": 0.13230071539803984
+    },
+    {
+      "reference": "C_ADC",
+      "pad": "pcb_smtpad_124",
+      "area_ratio": 0.9086561384784473,
+      "area_mm2": 0.1323007153980402
+    },
+    {
+      "reference": "C_ADC",
+      "pad": "pcb_smtpad_125",
+      "area_ratio": 0.9086561384784473,
+      "area_mm2": 0.1323007153980402
+    },
+    {
+      "reference": "C_VREG_IN",
+      "pad": "pcb_smtpad_126",
+      "area_ratio": 0.9086561384784468,
+      "area_mm2": 0.13230071539804006
+    },
+    {
+      "reference": "C_VREG_IN",
+      "pad": "pcb_smtpad_127",
+      "area_ratio": 0.9086561384784464,
+      "area_mm2": 0.13230071539803992
+    },
+    {
+      "reference": "C_VREG_OUT",
+      "pad": "pcb_smtpad_128",
+      "area_ratio": 0.9086561384784454,
+      "area_mm2": 0.13230071539803964
+    },
+    {
+      "reference": "C_VREG_OUT",
+      "pad": "pcb_smtpad_129",
+      "area_ratio": 0.9086561384784456,
+      "area_mm2": 0.13230071539803967
+    },
+    {
+      "reference": "U_FLASH",
+      "pad": "pcb_smtpad_130",
+      "area_ratio": 0.7349985299999996,
+      "area_mm2": 0.10289958840041157
+    },
+    {
+      "reference": "U_FLASH",
+      "pad": "pcb_smtpad_131",
+      "area_ratio": 0.7349985300000008,
+      "area_mm2": 0.10289958840041179
+    },
+    {
+      "reference": "U_FLASH",
+      "pad": "pcb_smtpad_132",
+      "area_ratio": 0.7349985299999996,
+      "area_mm2": 0.10289958840041157
+    },
+    {
+      "reference": "U_FLASH",
+      "pad": "pcb_smtpad_133",
+      "area_ratio": 0.7349985299999996,
+      "area_mm2": 0.10289958840041157
+    },
+    {
+      "reference": "U_FLASH",
+      "pad": "pcb_smtpad_134",
+      "area_ratio": 0.7349985299999998,
+      "area_mm2": 0.1028995884004116
+    },
+    {
+      "reference": "U_FLASH",
+      "pad": "pcb_smtpad_135",
+      "area_ratio": 0.7349985300000009,
+      "area_mm2": 0.10289958840041183
+    },
+    {
+      "reference": "U_FLASH",
+      "pad": "pcb_smtpad_136",
+      "area_ratio": 0.7349985299999998,
+      "area_mm2": 0.1028995884004116
+    },
+    {
+      "reference": "U_FLASH",
+      "pad": "pcb_smtpad_137",
+      "area_ratio": 0.7349985299999998,
+      "area_mm2": 0.1028995884004116
+    },
+    {
+      "reference": "U_FLASH",
+      "pad": "pcb_smtpad_138",
+      "area_ratio": 1.1454522545454533,
+      "area_mm2": 0.3527985888014105
+    },
+    {
+      "reference": "C_FLASH",
+      "pad": "pcb_smtpad_139",
+      "area_ratio": 0.9086561384784454,
+      "area_mm2": 0.13230071539803964
+    },
+    {
+      "reference": "C_FLASH",
+      "pad": "pcb_smtpad_140",
+      "area_ratio": 0.9086561384784454,
+      "area_mm2": 0.13230071539803964
+    },
+    {
+      "reference": "R_FLASH_CS",
+      "pad": "pcb_smtpad_141",
+      "area_ratio": 0.9669334201700018,
+      "area_mm2": 0.14967421548968124
+    },
+    {
+      "reference": "R_FLASH_CS",
+      "pad": "pcb_smtpad_142",
+      "area_ratio": 0.9669334201700038,
+      "area_mm2": 0.1496742154896819
+    },
+    {
+      "reference": "R_BOOT",
+      "pad": "pcb_smtpad_143",
+      "area_ratio": 0.9669334201700018,
+      "area_mm2": 0.14967421548968124
+    },
+    {
+      "reference": "R_BOOT",
+      "pad": "pcb_smtpad_144",
+      "area_ratio": 0.9669334201700038,
+      "area_mm2": 0.1496742154896819
+    },
+    {
+      "reference": "Y_MCU",
+      "pad": "pcb_smtpad_145",
+      "area_ratio": 2.26153393846154,
+      "area_mm2": 0.823196707203294
+    },
+    {
+      "reference": "Y_MCU",
+      "pad": "pcb_smtpad_146",
+      "area_ratio": 2.2615339384615374,
+      "area_mm2": 0.8231967072032922
+    },
+    {
+      "reference": "Y_MCU",
+      "pad": "pcb_smtpad_147",
+      "area_ratio": 2.2615339384615374,
+      "area_mm2": 0.8231967072032922
+    },
+    {
+      "reference": "Y_MCU",
+      "pad": "pcb_smtpad_148",
+      "area_ratio": 2.2615339384615374,
+      "area_mm2": 0.8231967072032922
+    },
+    {
+      "reference": "R_XOUT",
+      "pad": "pcb_smtpad_149",
+      "area_ratio": 0.9669334201699988,
+      "area_mm2": 0.14967421548968035
+    },
+    {
+      "reference": "R_XOUT",
+      "pad": "pcb_smtpad_150",
+      "area_ratio": 0.9669334201699988,
+      "area_mm2": 0.14967421548968035
+    },
+    {
+      "reference": "C_XIN",
+      "pad": "pcb_smtpad_151",
+      "area_ratio": 0.9086561384784468,
+      "area_mm2": 0.1323007153980401
+    },
+    {
+      "reference": "C_XIN",
+      "pad": "pcb_smtpad_152",
+      "area_ratio": 0.9086561384784475,
+      "area_mm2": 0.13230071539804025
+    },
+    {
+      "reference": "C_XOUT",
+      "pad": "pcb_smtpad_153",
+      "area_ratio": 0.9086561384784475,
+      "area_mm2": 0.13230071539804025
+    },
+    {
+      "reference": "C_XOUT",
+      "pad": "pcb_smtpad_154",
+      "area_ratio": 0.908656138478448,
+      "area_mm2": 0.13230071539804042
+    },
+    {
+      "reference": "R_RUN",
+      "pad": "pcb_smtpad_155",
+      "area_ratio": 0.9669334201700038,
+      "area_mm2": 0.1496742154896819
+    },
+    {
+      "reference": "R_RUN",
+      "pad": "pcb_smtpad_156",
+      "area_ratio": 0.9669334201700038,
+      "area_mm2": 0.1496742154896819
+    },
+    {
+      "reference": "R_DM",
+      "pad": "pcb_smtpad_157",
+      "area_ratio": 0.9669334201699974,
+      "area_mm2": 0.1496742154896799
+    },
+    {
+      "reference": "R_DM",
+      "pad": "pcb_smtpad_158",
+      "area_ratio": 0.9669334201699972,
+      "area_mm2": 0.14967421548967993
+    },
+    {
+      "reference": "R_DP",
+      "pad": "pcb_smtpad_159",
+      "area_ratio": 0.9669334201699975,
+      "area_mm2": 0.14967421548968
+    },
+    {
+      "reference": "R_DP",
+      "pad": "pcb_smtpad_160",
+      "area_ratio": 0.9669334201699972,
+      "area_mm2": 0.14967421548967993
+    },
+    {
+      "reference": "R_CC1",
+      "pad": "pcb_smtpad_161",
+      "area_ratio": 0.9669334201700018,
+      "area_mm2": 0.14967421548968124
+    },
+    {
+      "reference": "R_CC1",
+      "pad": "pcb_smtpad_162",
+      "area_ratio": 0.9669334201700018,
+      "area_mm2": 0.14967421548968124
+    },
+    {
+      "reference": "R_CC2",
+      "pad": "pcb_smtpad_163",
+      "area_ratio": 0.9669334201700018,
+      "area_mm2": 0.14967421548968124
+    },
+    {
+      "reference": "R_CC2",
+      "pad": "pcb_smtpad_164",
+      "area_ratio": 0.9669334201700018,
+      "area_mm2": 0.14967421548968124
+    },
+    {
+      "reference": "R_USB_SENSE_H",
+      "pad": "pcb_smtpad_165",
+      "area_ratio": 0.9669334201699953,
+      "area_mm2": 0.1496742154896793
+    },
+    {
+      "reference": "R_USB_SENSE_H",
+      "pad": "pcb_smtpad_166",
+      "area_ratio": 0.9669334201699953,
+      "area_mm2": 0.1496742154896793
+    },
+    {
+      "reference": "R_USB_SENSE_L",
+      "pad": "pcb_smtpad_167",
+      "area_ratio": 0.9669334201699953,
+      "area_mm2": 0.1496742154896793
+    },
+    {
+      "reference": "R_USB_SENSE_L",
+      "pad": "pcb_smtpad_168",
+      "area_ratio": 0.9669334201699953,
+      "area_mm2": 0.1496742154896793
+    },
+    {
+      "reference": "R_VM_H",
+      "pad": "pcb_smtpad_169",
+      "area_ratio": 0.9669334201699947,
+      "area_mm2": 0.14967421548967913
+    },
+    {
+      "reference": "R_VM_H",
+      "pad": "pcb_smtpad_170",
+      "area_ratio": 0.9669334201699947,
+      "area_mm2": 0.14967421548967913
+    },
+    {
+      "reference": "R_VM_L",
+      "pad": "pcb_smtpad_171",
+      "area_ratio": 0.9669334201699947,
+      "area_mm2": 0.14967421548967913
+    },
+    {
+      "reference": "R_VM_L",
+      "pad": "pcb_smtpad_172",
+      "area_ratio": 0.966933420169997,
+      "area_mm2": 0.1496742154896798
+    },
+    {
+      "reference": "C_VM_SENSE",
+      "pad": "pcb_smtpad_173",
+      "area_ratio": 0.9086561384784461,
+      "area_mm2": 0.1323007153980398
+    },
+    {
+      "reference": "C_VM_SENSE",
+      "pad": "pcb_smtpad_174",
+      "area_ratio": 0.9086561384784461,
+      "area_mm2": 0.1323007153980398
+    },
+    {
+      "reference": "U_BUCK",
+      "pad": "pcb_smtpad_175",
+      "area_ratio": 1.2833505220701615,
+      "area_mm2": 0.29645565948749397
+    },
+    {
+      "reference": "U_BUCK",
+      "pad": "pcb_smtpad_176",
+      "area_ratio": 1.2833505220701629,
+      "area_mm2": 0.2964556594874943
+    },
+    {
+      "reference": "U_BUCK",
+      "pad": "pcb_smtpad_177",
+      "area_ratio": 1.283350522070165,
+      "area_mm2": 0.296455659487495
+    },
+    {
+      "reference": "U_BUCK",
+      "pad": "pcb_smtpad_178",
+      "area_ratio": 1.2833505220701655,
+      "area_mm2": 0.29645565948749536
+    },
+    {
+      "reference": "U_BUCK",
+      "pad": "pcb_smtpad_179",
+      "area_ratio": 1.283350522070164,
+      "area_mm2": 0.296455659487495
+    },
+    {
+      "reference": "U_BUCK",
+      "pad": "pcb_smtpad_180",
+      "area_ratio": 1.283350522070162,
+      "area_mm2": 0.2964556594874943
+    },
+    {
+      "reference": "L_BUCK",
+      "pad": "pcb_smtpad_181",
+      "area_ratio": 3.674992649999999,
+      "area_mm2": 2.881188475211524
+    },
+    {
+      "reference": "L_BUCK",
+      "pad": "pcb_smtpad_182",
+      "area_ratio": 3.674992649999999,
+      "area_mm2": 2.881188475211524
+    },
+    {
+      "reference": "C_BOOTSTRAP",
+      "pad": "pcb_smtpad_183",
+      "area_ratio": 0.908656138478448,
+      "area_mm2": 0.13230071539804042
+    },
+    {
+      "reference": "C_BOOTSTRAP",
+      "pad": "pcb_smtpad_184",
+      "area_ratio": 0.908656138478448,
+      "area_mm2": 0.13230071539804042
+    },
+    {
+      "reference": "C_BUCK_IN",
+      "pad": "pcb_smtpad_185",
+      "area_ratio": 2.795295833018436,
+      "area_mm2": 1.2573793454620865
+    },
+    {
+      "reference": "C_BUCK_IN",
+      "pad": "pcb_smtpad_186",
+      "area_ratio": 2.795295833018436,
+      "area_mm2": 1.2573793454620865
+    },
+    {
+      "reference": "C_BUCK_OUT1",
+      "pad": "pcb_smtpad_187",
+      "area_ratio": 2.413871849588633,
+      "area_mm2": 0.9327250842235204
+    },
+    {
+      "reference": "C_BUCK_OUT1",
+      "pad": "pcb_smtpad_188",
+      "area_ratio": 2.413871849588632,
+      "area_mm2": 0.9327250842235196
+    },
+    {
+      "reference": "C_BUCK_OUT2",
+      "pad": "pcb_smtpad_189",
+      "area_ratio": 2.413871849588633,
+      "area_mm2": 0.9327250842235204
+    },
+    {
+      "reference": "C_BUCK_OUT2",
+      "pad": "pcb_smtpad_190",
+      "area_ratio": 2.413871849588631,
+      "area_mm2": 0.9327250842235187
+    },
+    {
+      "reference": "D_PD",
+      "pad": "pcb_smtpad_191",
+      "area_ratio": 1.8558240888311313,
+      "area_mm2": 0.5586052331872989
+    },
+    {
+      "reference": "D_PD",
+      "pad": "pcb_smtpad_192",
+      "area_ratio": 1.8558240888311308,
+      "area_mm2": 0.5586052331872986
+    },
+    {
+      "reference": "D_DATA",
+      "pad": "pcb_smtpad_193",
+      "area_ratio": 1.8558240888311304,
+      "area_mm2": 0.5586052331872983
+    },
+    {
+      "reference": "D_DATA",
+      "pad": "pcb_smtpad_194",
+      "area_ratio": 1.8558240888311313,
+      "area_mm2": 0.5586052331872987
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_195",
+      "area_ratio": 3.0983804801925796,
+      "area_mm2": 1.5359938560061441
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_195",
+      "area_ratio": 3.0983804801925796,
+      "area_mm2": 1.5359938560061441
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_195",
+      "area_ratio": 3.0983804801925796,
+      "area_mm2": 1.5359938560061441
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_195",
+      "area_ratio": 3.0983804801925796,
+      "area_mm2": 1.5359938560061441
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_196",
+      "area_ratio": 0.7766596820975142,
+      "area_mm2": 0.11523624781934257
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_197",
+      "area_ratio": 0.7766596820975146,
+      "area_mm2": 0.11523624781934264
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_198",
+      "area_ratio": 0.7766596820975146,
+      "area_mm2": 0.11523624781934266
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_199",
+      "area_ratio": 0.7766596820975149,
+      "area_mm2": 0.11523624781934273
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_200",
+      "area_ratio": 0.7766596820975143,
+      "area_mm2": 0.11523624781934266
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_201",
+      "area_ratio": 0.7766596820975143,
+      "area_mm2": 0.11523624781934266
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_202",
+      "area_ratio": 0.7766596820975146,
+      "area_mm2": 0.1152362478193427
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_203",
+      "area_ratio": 0.7766596820975123,
+      "area_mm2": 0.11523624781934226
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_204",
+      "area_ratio": 0.7766596820975146,
+      "area_mm2": 0.11523624781934264
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_205",
+      "area_ratio": 0.776659682097512,
+      "area_mm2": 0.11523624781934219
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_206",
+      "area_ratio": 0.776659682097515,
+      "area_mm2": 0.1152362478193427
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_207",
+      "area_ratio": 0.7766596820975156,
+      "area_mm2": 0.11523624781934273
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_208",
+      "area_ratio": 0.7766596820975156,
+      "area_mm2": 0.11523624781934273
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_209",
+      "area_ratio": 0.7766596820975118,
+      "area_mm2": 0.11523624781934232
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_210",
+      "area_ratio": 0.7766596820975142,
+      "area_mm2": 0.11523624781934266
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_211",
+      "area_ratio": 0.7766596820975141,
+      "area_mm2": 0.11523624781934265
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_212",
+      "area_ratio": 0.7766596820975145,
+      "area_mm2": 0.11523624781934262
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_213",
+      "area_ratio": 0.7766596820975148,
+      "area_mm2": 0.11523624781934266
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_214",
+      "area_ratio": 0.7766596820975149,
+      "area_mm2": 0.11523624781934269
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_215",
+      "area_ratio": 0.7766596820975149,
+      "area_mm2": 0.11523624781934268
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_216",
+      "area_ratio": 0.7766596820975152,
+      "area_mm2": 0.1152362478193427
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_217",
+      "area_ratio": 0.776659682097512,
+      "area_mm2": 0.11523624781934223
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_218",
+      "area_ratio": 0.7766596820975146,
+      "area_mm2": 0.11523624781934264
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_219",
+      "area_ratio": 0.7766596820975146,
+      "area_mm2": 0.11523624781934264
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_220",
+      "area_ratio": 0.7766596820975156,
+      "area_mm2": 0.11523624781934277
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_221",
+      "area_ratio": 0.7766596820975127,
+      "area_mm2": 0.11523624781934233
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_222",
+      "area_ratio": 0.7766596820975151,
+      "area_mm2": 0.11523624781934272
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_223",
+      "area_ratio": 0.776659682097515,
+      "area_mm2": 0.1152362478193427
+    },
+    {
+      "reference": "C_CP",
+      "pad": "pcb_smtpad_224",
+      "area_ratio": 0.9086561384784447,
+      "area_mm2": 0.13230071539803945
+    },
+    {
+      "reference": "C_CP",
+      "pad": "pcb_smtpad_225",
+      "area_ratio": 0.9086561384784447,
+      "area_mm2": 0.13230071539803945
+    },
+    {
+      "reference": "C_VCP",
+      "pad": "pcb_smtpad_226",
+      "area_ratio": 0.9086561384784437,
+      "area_mm2": 0.13230071539803914
+    },
+    {
+      "reference": "C_VCP",
+      "pad": "pcb_smtpad_227",
+      "area_ratio": 0.9086561384784437,
+      "area_mm2": 0.13230071539803914
+    },
+    {
+      "reference": "C_VREG",
+      "pad": "pcb_smtpad_228",
+      "area_ratio": 1.4823499764705899,
+      "area_mm2": 0.35279858880141207
+    },
+    {
+      "reference": "C_VREG",
+      "pad": "pcb_smtpad_229",
+      "area_ratio": 1.4823499764705899,
+      "area_mm2": 0.35279858880141207
+    },
+    {
+      "reference": "C_DRV_LOGIC",
+      "pad": "pcb_smtpad_230",
+      "area_ratio": 0.9086561384784474,
+      "area_mm2": 0.13230071539804034
+    },
+    {
+      "reference": "C_DRV_LOGIC",
+      "pad": "pcb_smtpad_231",
+      "area_ratio": 0.9086561384784498,
+      "area_mm2": 0.132300715398041
+    },
+    {
+      "reference": "C_VM",
+      "pad": "pcb_smtpad_232",
+      "area_ratio": 0.9086561384784522,
+      "area_mm2": 0.13230071539804167
+    },
+    {
+      "reference": "C_VM",
+      "pad": "pcb_smtpad_233",
+      "area_ratio": 0.9086561384784522,
+      "area_mm2": 0.13230071539804167
+    },
+    {
+      "reference": "C_BULK",
+      "pad": "pcb_smtpad_234",
+      "area_ratio": 2.7640970358974353,
+      "area_mm2": 1.5091939632060363
+    },
+    {
+      "reference": "C_BULK",
+      "pad": "pcb_smtpad_235",
+      "area_ratio": 2.7640970358974353,
+      "area_mm2": 1.5091939632060363
+    },
+    {
+      "reference": "R_SA",
+      "pad": "pcb_smtpad_236",
+      "area_ratio": 1.4599378901637587,
+      "area_mm2": 0.3414319544508539
+    },
+    {
+      "reference": "R_SA",
+      "pad": "pcb_smtpad_237",
+      "area_ratio": 1.4599378901637583,
+      "area_mm2": 0.34143195445085356
+    },
+    {
+      "reference": "R_SB",
+      "pad": "pcb_smtpad_238",
+      "area_ratio": 1.4599378901637587,
+      "area_mm2": 0.3414319544508539
+    },
+    {
+      "reference": "R_SB",
+      "pad": "pcb_smtpad_239",
+      "area_ratio": 1.4599378901637592,
+      "area_mm2": 0.34143195445085406
+    },
+    {
+      "reference": "R_SHUNT_A",
+      "pad": "pcb_smtpad_240",
+      "area_ratio": 2.175012983589234,
+      "area_mm2": 0.7641611359069288
+    },
+    {
+      "reference": "R_SHUNT_A",
+      "pad": "pcb_smtpad_241",
+      "area_ratio": 2.175012983589235,
+      "area_mm2": 0.7641611359069297
+    },
+    {
+      "reference": "U_IA",
+      "pad": "pcb_smtpad_242",
+      "area_ratio": 1.0286001189996883,
+      "area_mm2": 0.23839577480899796
+    },
+    {
+      "reference": "U_IA",
+      "pad": "pcb_smtpad_243",
+      "area_ratio": 1.0286001189996898,
+      "area_mm2": 0.2383957748089983
+    },
+    {
+      "reference": "U_IA",
+      "pad": "pcb_smtpad_244",
+      "area_ratio": 1.0286001189996892,
+      "area_mm2": 0.23839577480899815
+    },
+    {
+      "reference": "U_IA",
+      "pad": "pcb_smtpad_245",
+      "area_ratio": 1.0286001189996885,
+      "area_mm2": 0.23839577480899807
+    },
+    {
+      "reference": "U_IA",
+      "pad": "pcb_smtpad_246",
+      "area_ratio": 1.0286001189996907,
+      "area_mm2": 0.23839577480899868
+    },
+    {
+      "reference": "U_IA",
+      "pad": "pcb_smtpad_247",
+      "area_ratio": 1.0286001189996885,
+      "area_mm2": 0.23839577480899837
+    },
+    {
+      "reference": "U_IA",
+      "pad": "pcb_smtpad_248",
+      "area_ratio": 1.02860011899969,
+      "area_mm2": 0.23839577480899882
+    },
+    {
+      "reference": "U_IA",
+      "pad": "pcb_smtpad_249",
+      "area_ratio": 1.028600118999689,
+      "area_mm2": 0.23839577480899857
+    },
+    {
+      "reference": "C_IA",
+      "pad": "pcb_smtpad_250",
+      "area_ratio": 0.9086561384784458,
+      "area_mm2": 0.13230071539803973
+    },
+    {
+      "reference": "C_IA",
+      "pad": "pcb_smtpad_251",
+      "area_ratio": 0.9086561384784463,
+      "area_mm2": 0.13230071539803986
+    },
+    {
+      "reference": "R_IA",
+      "pad": "pcb_smtpad_252",
+      "area_ratio": 0.9669334201699975,
+      "area_mm2": 0.14967421548968
+    },
+    {
+      "reference": "R_IA",
+      "pad": "pcb_smtpad_253",
+      "area_ratio": 0.9669334201699974,
+      "area_mm2": 0.1496742154896799
+    },
+    {
+      "reference": "C_IADC_A",
+      "pad": "pcb_smtpad_254",
+      "area_ratio": 0.9086561384784471,
+      "area_mm2": 0.13230071539804011
+    },
+    {
+      "reference": "C_IADC_A",
+      "pad": "pcb_smtpad_255",
+      "area_ratio": 0.9086561384784471,
+      "area_mm2": 0.13230071539804011
+    },
+    {
+      "reference": "R_SHUNT_B",
+      "pad": "pcb_smtpad_256",
+      "area_ratio": 2.175012983589234,
+      "area_mm2": 0.7641611359069288
+    },
+    {
+      "reference": "R_SHUNT_B",
+      "pad": "pcb_smtpad_257",
+      "area_ratio": 2.175012983589234,
+      "area_mm2": 0.7641611359069288
+    },
+    {
+      "reference": "U_IB",
+      "pad": "pcb_smtpad_258",
+      "area_ratio": 1.02860011899969,
+      "area_mm2": 0.2383957748089985
+    },
+    {
+      "reference": "U_IB",
+      "pad": "pcb_smtpad_259",
+      "area_ratio": 1.0286001189996934,
+      "area_mm2": 0.2383957748089992
+    },
+    {
+      "reference": "U_IB",
+      "pad": "pcb_smtpad_260",
+      "area_ratio": 1.0286001189996934,
+      "area_mm2": 0.23839577480899926
+    },
+    {
+      "reference": "U_IB",
+      "pad": "pcb_smtpad_261",
+      "area_ratio": 1.0286001189996936,
+      "area_mm2": 0.2383957748089993
+    },
+    {
+      "reference": "U_IB",
+      "pad": "pcb_smtpad_262",
+      "area_ratio": 1.02860011899969,
+      "area_mm2": 0.23839577480899854
+    },
+    {
+      "reference": "U_IB",
+      "pad": "pcb_smtpad_263",
+      "area_ratio": 1.0286001189996903,
+      "area_mm2": 0.23839577480899857
+    },
+    {
+      "reference": "U_IB",
+      "pad": "pcb_smtpad_264",
+      "area_ratio": 1.0286001189996892,
+      "area_mm2": 0.23839577480899854
+    },
+    {
+      "reference": "U_IB",
+      "pad": "pcb_smtpad_265",
+      "area_ratio": 1.0286001189996874,
+      "area_mm2": 0.2383957748089979
+    },
+    {
+      "reference": "C_IB",
+      "pad": "pcb_smtpad_266",
+      "area_ratio": 0.9086561384784414,
+      "area_mm2": 0.13230071539803848
+    },
+    {
+      "reference": "C_IB",
+      "pad": "pcb_smtpad_267",
+      "area_ratio": 0.9086561384784461,
+      "area_mm2": 0.1323007153980398
+    },
+    {
+      "reference": "R_IB",
+      "pad": "pcb_smtpad_268",
+      "area_ratio": 0.9669334201699961,
+      "area_mm2": 0.1496742154896795
+    },
+    {
+      "reference": "R_IB",
+      "pad": "pcb_smtpad_269",
+      "area_ratio": 0.9669334201699961,
+      "area_mm2": 0.1496742154896795
+    },
+    {
+      "reference": "C_IADC_B",
+      "pad": "pcb_smtpad_270",
+      "area_ratio": 0.9086561384784461,
+      "area_mm2": 0.1323007153980398
+    },
+    {
+      "reference": "C_IADC_B",
+      "pad": "pcb_smtpad_271",
+      "area_ratio": 0.9086561384784466,
+      "area_mm2": 0.13230071539803998
+    },
+    {
+      "reference": "R_REF_H",
+      "pad": "pcb_smtpad_272",
+      "area_ratio": 1.459937890163763,
+      "area_mm2": 0.34143195445085583
+    },
+    {
+      "reference": "R_REF_H",
+      "pad": "pcb_smtpad_273",
+      "area_ratio": 1.4599378901637605,
+      "area_mm2": 0.3414319544508547
+    },
+    {
+      "reference": "R_REF_L",
+      "pad": "pcb_smtpad_274",
+      "area_ratio": 0.9669334201700038,
+      "area_mm2": 0.1496742154896819
+    },
+    {
+      "reference": "R_REF_L",
+      "pad": "pcb_smtpad_275",
+      "area_ratio": 0.9669334201700018,
+      "area_mm2": 0.14967421548968124
+    },
+    {
+      "reference": "C_REF",
+      "pad": "pcb_smtpad_276",
+      "area_ratio": 0.908656138478448,
+      "area_mm2": 0.13230071539804042
+    },
+    {
+      "reference": "C_REF",
+      "pad": "pcb_smtpad_277",
+      "area_ratio": 0.9086561384784494,
+      "area_mm2": 0.13230071539804078
+    },
+    {
+      "reference": "R_ENABLE",
+      "pad": "pcb_smtpad_278",
+      "area_ratio": 0.9669334201699981,
+      "area_mm2": 0.14967421548968016
+    },
+    {
+      "reference": "R_ENABLE",
+      "pad": "pcb_smtpad_279",
+      "area_ratio": 0.9669334201699961,
+      "area_mm2": 0.1496742154896795
+    },
+    {
+      "reference": "R_SLEEP",
+      "pad": "pcb_smtpad_280",
+      "area_ratio": 1.4599378901637603,
+      "area_mm2": 0.34143195445085467
+    },
+    {
+      "reference": "R_SLEEP",
+      "pad": "pcb_smtpad_281",
+      "area_ratio": 1.4599378901637603,
+      "area_mm2": 0.34143195445085467
+    },
+    {
+      "reference": "U_ESD",
+      "pad": "pcb_smtpad_282",
+      "area_ratio": 1.2444363127870137,
+      "area_mm2": 0.27945236061028944
+    },
+    {
+      "reference": "U_ESD",
+      "pad": "pcb_smtpad_283",
+      "area_ratio": 1.244436312787015,
+      "area_mm2": 0.27945236061028994
+    },
+    {
+      "reference": "U_ESD",
+      "pad": "pcb_smtpad_284",
+      "area_ratio": 1.244436312787015,
+      "area_mm2": 0.27945236061028994
+    },
+    {
+      "reference": "U_ESD",
+      "pad": "pcb_smtpad_285",
+      "area_ratio": 1.2444363127870146,
+      "area_mm2": 0.2794523606102898
+    },
+    {
+      "reference": "U_ESD",
+      "pad": "pcb_smtpad_286",
+      "area_ratio": 1.244436312787015,
+      "area_mm2": 0.27945236061028994
+    },
+    {
+      "reference": "U_ESD",
+      "pad": "pcb_smtpad_287",
+      "area_ratio": 1.2444363127870146,
+      "area_mm2": 0.2794523606102898
+    },
+    {
+      "reference": "D_TVS",
+      "pad": "pcb_smtpad_288",
+      "area_ratio": 2.1839956319999976,
+      "area_mm2": 0.764396942403056
+    },
+    {
+      "reference": "D_TVS",
+      "pad": "pcb_smtpad_289",
+      "area_ratio": 2.183995632,
+      "area_mm2": 0.7643969424030576
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_290",
+      "area_ratio": 0.6999985999999995,
+      "area_mm2": 0.08819964720035267
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_291",
+      "area_ratio": 0.6999986000000005,
+      "area_mm2": 0.08819964720035305
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_292",
+      "area_ratio": 0.6999986000000005,
+      "area_mm2": 0.08819964720035305
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_293",
+      "area_ratio": 0.6999986000000005,
+      "area_mm2": 0.08819964720035305
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_294",
+      "area_ratio": 0.6999985999999995,
+      "area_mm2": 0.08819964720035267
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_295",
+      "area_ratio": 0.6999985999999995,
+      "area_mm2": 0.08819964720035267
+    },
+    {
+      "reference": "C_TEMP",
+      "pad": "pcb_smtpad_296",
+      "area_ratio": 0.9086561384784471,
+      "area_mm2": 0.13230071539804011
+    },
+    {
+      "reference": "C_TEMP",
+      "pad": "pcb_smtpad_297",
+      "area_ratio": 0.9086561384784471,
+      "area_mm2": 0.13230071539804011
+    },
+    {
+      "reference": "R_TEMP_SDA",
+      "pad": "pcb_smtpad_298",
+      "area_ratio": 0.9669334201700014,
+      "area_mm2": 0.14967421548968118
+    },
+    {
+      "reference": "R_TEMP_SDA",
+      "pad": "pcb_smtpad_299",
+      "area_ratio": 0.9669334201700014,
+      "area_mm2": 0.14967421548968118
+    },
+    {
+      "reference": "R_TEMP_SCL",
+      "pad": "pcb_smtpad_300",
+      "area_ratio": 0.9669334201699972,
+      "area_mm2": 0.14967421548967982
+    },
+    {
+      "reference": "R_TEMP_SCL",
+      "pad": "pcb_smtpad_301",
+      "area_ratio": 0.9669334201699994,
+      "area_mm2": 0.14967421548968052
+    },
+    {
+      "reference": "D_PWR",
+      "pad": "pcb_smtpad_302",
+      "area_ratio": 1.3999972000000003,
+      "area_mm2": 0.3135987456012546
+    },
+    {
+      "reference": "D_PWR",
+      "pad": "pcb_smtpad_303",
+      "area_ratio": 1.3999971999999958,
+      "area_mm2": 0.3135987456012526
+    },
+    {
+      "reference": "R_PWR_LED",
+      "pad": "pcb_smtpad_304",
+      "area_ratio": 0.9669334201699966,
+      "area_mm2": 0.14967421548967966
+    },
+    {
+      "reference": "R_PWR_LED",
+      "pad": "pcb_smtpad_305",
+      "area_ratio": 0.9669334201699966,
+      "area_mm2": 0.14967421548967966
+    },
+    {
+      "reference": "D_STATUS",
+      "pad": "pcb_smtpad_306",
+      "area_ratio": 1.2494309993729833,
+      "area_mm2": 0.21531184562190087
+    },
+    {
+      "reference": "D_STATUS",
+      "pad": "pcb_smtpad_307",
+      "area_ratio": 1.2494309993729815,
+      "area_mm2": 0.21531184562190087
+    },
+    {
+      "reference": "D_STATUS",
+      "pad": "pcb_smtpad_308",
+      "area_ratio": 1.249430999372981,
+      "area_mm2": 0.2153118456219008
+    },
+    {
+      "reference": "D_STATUS",
+      "pad": "pcb_smtpad_309",
+      "area_ratio": 1.2494309993729822,
+      "area_mm2": 0.21531184562190073
+    },
+    {
+      "reference": "R_STATUS_R",
+      "pad": "pcb_smtpad_310",
+      "area_ratio": 0.9669334201699946,
+      "area_mm2": 0.1496742154896791
+    },
+    {
+      "reference": "R_STATUS_R",
+      "pad": "pcb_smtpad_311",
+      "area_ratio": 0.9669334201699946,
+      "area_mm2": 0.1496742154896791
+    },
+    {
+      "reference": "Q_STATUS_R",
+      "pad": "pcb_smtpad_312",
+      "area_ratio": 0.6730966179320831,
+      "area_mm2": 0.07656608311752709
+    },
+    {
+      "reference": "Q_STATUS_R",
+      "pad": "pcb_smtpad_313",
+      "area_ratio": 0.8909073090909104,
+      "area_mm2": 0.13719945120054902
+    },
+    {
+      "reference": "Q_STATUS_R",
+      "pad": "pcb_smtpad_314",
+      "area_ratio": 0.6730966179320899,
+      "area_mm2": 0.07656608311752834
+    },
+    {
+      "reference": "R_STATUS_PD_R",
+      "pad": "pcb_smtpad_315",
+      "area_ratio": 0.9669334201700018,
+      "area_mm2": 0.14967421548968124
+    },
+    {
+      "reference": "R_STATUS_PD_R",
+      "pad": "pcb_smtpad_316",
+      "area_ratio": 0.9669334201700038,
+      "area_mm2": 0.1496742154896819
+    },
+    {
+      "reference": "R_STATUS_G",
+      "pad": "pcb_smtpad_317",
+      "area_ratio": 0.966933420169997,
+      "area_mm2": 0.1496742154896798
+    },
+    {
+      "reference": "R_STATUS_G",
+      "pad": "pcb_smtpad_318",
+      "area_ratio": 0.9669334201699947,
+      "area_mm2": 0.14967421548967913
+    },
+    {
+      "reference": "Q_STATUS_G",
+      "pad": "pcb_smtpad_319",
+      "area_ratio": 0.6730966179320831,
+      "area_mm2": 0.07656608311752709
+    },
+    {
+      "reference": "Q_STATUS_G",
+      "pad": "pcb_smtpad_320",
+      "area_ratio": 0.8909073090909069,
+      "area_mm2": 0.13719945120054816
+    },
+    {
+      "reference": "Q_STATUS_G",
+      "pad": "pcb_smtpad_321",
+      "area_ratio": 0.6730966179320899,
+      "area_mm2": 0.07656608311752834
+    },
+    {
+      "reference": "R_STATUS_PD_G",
+      "pad": "pcb_smtpad_322",
+      "area_ratio": 0.9669334201700038,
+      "area_mm2": 0.1496742154896819
+    },
+    {
+      "reference": "R_STATUS_PD_G",
+      "pad": "pcb_smtpad_323",
+      "area_ratio": 0.9669334201700018,
+      "area_mm2": 0.14967421548968124
+    },
+    {
+      "reference": "R_STATUS_B",
+      "pad": "pcb_smtpad_324",
+      "area_ratio": 0.9669334201699966,
+      "area_mm2": 0.14967421548967966
+    },
+    {
+      "reference": "R_STATUS_B",
+      "pad": "pcb_smtpad_325",
+      "area_ratio": 0.9669334201699966,
+      "area_mm2": 0.14967421548967966
+    },
+    {
+      "reference": "Q_STATUS_B",
+      "pad": "pcb_smtpad_326",
+      "area_ratio": 0.6730966179320864,
+      "area_mm2": 0.07656608311752772
+    },
+    {
+      "reference": "Q_STATUS_B",
+      "pad": "pcb_smtpad_327",
+      "area_ratio": 0.8909073090909115,
+      "area_mm2": 0.13719945120054952
+    },
+    {
+      "reference": "Q_STATUS_B",
+      "pad": "pcb_smtpad_328",
+      "area_ratio": 0.6730966179320864,
+      "area_mm2": 0.07656608311752772
+    },
+    {
+      "reference": "R_STATUS_PD_B",
+      "pad": "pcb_smtpad_329",
+      "area_ratio": 0.9669334201700033,
+      "area_mm2": 0.14967421548968174
+    },
+    {
+      "reference": "R_STATUS_PD_B",
+      "pad": "pcb_smtpad_330",
+      "area_ratio": 0.9669334201700033,
+      "area_mm2": 0.14967421548968174
+    },
+    {
+      "reference": "BZ1",
+      "pad": "pcb_smtpad_331",
+      "area_ratio": 1.7354131958333328,
+      "area_mm2": 0.5830976676023322
+    },
+    {
+      "reference": "BZ1",
+      "pad": "pcb_smtpad_332",
+      "area_ratio": 1.7354131958333328,
+      "area_mm2": 0.5830976676023322
+    },
+    {
+      "reference": "BZ1",
+      "pad": "pcb_smtpad_333",
+      "area_ratio": 1.735413195833331,
+      "area_mm2": 0.5830976676023312
+    },
+    {
+      "reference": "Q_BUZZER",
+      "pad": "pcb_smtpad_334",
+      "area_ratio": 0.6730966179320864,
+      "area_mm2": 0.07656608311752772
+    },
+    {
+      "reference": "Q_BUZZER",
+      "pad": "pcb_smtpad_335",
+      "area_ratio": 0.8909073090909069,
+      "area_mm2": 0.13719945120054816
+    },
+    {
+      "reference": "Q_BUZZER",
+      "pad": "pcb_smtpad_336",
+      "area_ratio": 0.6730966179320864,
+      "area_mm2": 0.07656608311752772
+    },
+    {
+      "reference": "D_BUZZER",
+      "pad": "pcb_smtpad_337",
+      "area_ratio": 1.4411735882352985,
+      "area_mm2": 0.34299862800137376
+    },
+    {
+      "reference": "D_BUZZER",
+      "pad": "pcb_smtpad_338",
+      "area_ratio": 1.441173588235299,
+      "area_mm2": 0.34299862800137415
+    },
+    {
+      "reference": "R_BUZZER_GATE",
+      "pad": "pcb_smtpad_339",
+      "area_ratio": 0.9669334201699972,
+      "area_mm2": 0.14967421548967982
+    },
+    {
+      "reference": "R_BUZZER_GATE",
+      "pad": "pcb_smtpad_340",
+      "area_ratio": 0.9669334201699972,
+      "area_mm2": 0.14967421548967982
+    },
+    {
+      "reference": "R_BUZZER_PD",
+      "pad": "pcb_smtpad_341",
+      "area_ratio": 0.9669334201699991,
+      "area_mm2": 0.14967421548968046
+    },
+    {
+      "reference": "R_BUZZER_PD",
+      "pad": "pcb_smtpad_342",
+      "area_ratio": 0.966933420169997,
+      "area_mm2": 0.1496742154896798
+    },
+    {
+      "reference": "C_BUZZER",
+      "pad": "pcb_smtpad_343",
+      "area_ratio": 1.4823499764705848,
+      "area_mm2": 0.3527985888014095
+    },
+    {
+      "reference": "C_BUZZER",
+      "pad": "pcb_smtpad_344",
+      "area_ratio": 1.4823499764705848,
+      "area_mm2": 0.3527985888014095
+    },
+    {
+      "reference": "C_ENCODER",
+      "pad": "pcb_smtpad_360",
+      "area_ratio": 0.9086561384784461,
+      "area_mm2": 0.1323007153980398
+    },
+    {
+      "reference": "C_ENCODER",
+      "pad": "pcb_smtpad_361",
+      "area_ratio": 0.9086561384784462,
+      "area_mm2": 0.13230071539803984
+    },
+    {
+      "reference": "C_ENCODER_BULK",
+      "pad": "pcb_smtpad_362",
+      "area_ratio": 0.9086561384784465,
+      "area_mm2": 0.13230071539803995
+    },
+    {
+      "reference": "C_ENCODER_BULK",
+      "pad": "pcb_smtpad_363",
+      "area_ratio": 0.9086561384784463,
+      "area_mm2": 0.13230071539803986
+    },
+    {
+      "reference": "R_PD_CFG",
+      "pad": "pcb_smtpad_364",
+      "area_ratio": 0.9669334201700038,
+      "area_mm2": 0.1496742154896819
+    },
+    {
+      "reference": "R_PD_CFG",
+      "pad": "pcb_smtpad_365",
+      "area_ratio": 0.9669334201700038,
+      "area_mm2": 0.1496742154896819
+    }
+  ],
+  "silkscreen": [
+    {
+      "layer": "F",
+      "original_area_mm2": 77.42279283805031,
+      "clipped_area_mm2": 71.76928838763452
+    },
+    {
+      "layer": "B",
+      "original_area_mm2": 33.22173534782214,
+      "clipped_area_mm2": 33.22173534782212
+    }
+  ],
+  "unchanged_native_copper_mask_outline_drill": {
+    "F_Cu.gbr": "7092749e1fe55ad075b5c3304af668df04395cf29900c43f9304f02fcf4d3eea",
+    "F_Mask.gbr": "6072ba5a05c31eed978691022cebb44dd85a8a7bb744671444a42d2d06a184fe",
+    "B_Cu.gbr": "8b5c7fb3562582a7edb78d36e5809005b8ad4becde5bf8d2730e27dfe824dd56",
+    "B_Mask.gbr": "862d8562a9d57c31139a3a354dcba7c12f595ad9f5d992393add012590e0287f",
+    "Edge_Cuts.gbr": "a8fa53605f128a017af5dc91b64eb6cb4e077156f284ab93cce1f517d6b3d0e1",
+    "In1_Cu.gbr": "d4f3f6c6090025856aa80e6c1e40ecc85bd6b8b699ad6e059cd7ab9435e100f8",
+    "In2_Cu.gbr": "a0681d660b9721ade4d236c36b6394bf5ef72f94a1d7b61f42c2b480fa6f2f54",
+    "drill-L1-L4.drl": "608857e62c841de2487361b5285593b7d52513b6e20ca1e383f64357cf75475b",
+    "drill_npth.drl": "56cdfe83acca33774b18b3ea916eda69c86ae097450b7f04e36945de84732fc5"
+  },
+  "files": {
+    "Thermal-Via-Process.csv": "44da851404730af559c224c94c8d21f2b98dec7ab54f67f22e9cba58410e5702",
+    "NEMA14_RP2040_V2-Gerbers.zip": "d87e62be52dbdf6cc54d2a7341cc8936d42d325072273af1435453484ec3ad03",
+    "Through-Hole-Joints.csv": "42a24b486fa7ca91900bb576876b7fd540850a2de00b3d37c0c3e88050bb870e",
+    "NEMA14_RP2040_V2-BOM.csv": "dbb4323135dfa175bae20a1372d051b360d0c09c48e793992774c72ebece9436",
+    "NEMA14_RP2040_V2-CPL.csv": "247214306fdde5ac7c1c9026a6104b92302b1e3159aac17e0c743cceec854e05"
+  },
+  "open_acceptance": [
+    "JLCPCB live stock/quote and exact pickup rotation approval",
+    "WAGO wire gauge/retention and process acceptance",
+    "Exposed-pad filled/capped-via and 100 um stencil process acceptance",
+    "Physical rear mounting and first-board firmware/bench validation"
+  ]
+}

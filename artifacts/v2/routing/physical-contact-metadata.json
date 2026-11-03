@@ -1,5 +1,13 @@
 {
-  "board_sha256": "cf21d32b0ce5a24de83c9f3a6cb3095608f9f235d56dc901644f766ffe343bdd",
+  "board_sha256": "cb069a25ac58b54fd7a1a4c5875e322e28c24b6be30678eba6e7ac76b08cdc91",
   "geometry_and_net_assignments_unchanged": true,
-  "changes": []
+  "changes": [
+    {
+      "trace": "same_side_repair_12_STATUS_B_C_0_fragment_0",
+      "old": [],
+      "new": [
+        "pcb_port_337"
+      ]
+    }
+  ]
 }

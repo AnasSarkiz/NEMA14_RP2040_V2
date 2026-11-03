@@ -1,7 +1,7 @@
 # V2 requirements and review checklist
 
-Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.5**, with routed-board SHA-256
-`e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76`.
+Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.7**, with routed-board SHA-256
+`7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178`.
 The requirements below combine the original NEMA14 requests, the initial V2
 request and later accepted changes. The separate NEMA11 discussion is outside
 this board's scope.
@@ -81,6 +81,8 @@ passes; the complete board is **not yet signed off for a V2 order**.
   connector are retained; no signal lands or connector poses moved.
 - [x] **USB slot rotation fixed:** J_DATA's capsule is at 90°, J_PD's at 0°.
   Both native geometry and exported G85 tool paths pass the orientation check.
+  Board clearance capsules are widened to 1.80 × 1.00 mm for CNC capability;
+  centers, axes, round locators and solder lands remain unchanged.
   A minimal repro documents the remaining core `oval` rotation bug.
 - [x] **Routing completed:** all 70 physical net groups connected, zero shorts,
   zero PCB DRC errors/warnings, zero floating islands, zero foreign-copper,
@@ -91,7 +93,7 @@ passes; the complete board is **not yet signed off for a V2 order**.
   the defined mounting clearances are included in the checks.
 - [x] **Separate GitHub repository and tscircuit package:** both use
   AnasSarkiz/NEMA14_RP2040_V2. Source and evidence were pushed; the registry
-  contains only six preview/metadata files. V1's package remains unchanged.
+  contains only eight preview/metadata files. V1's package remains unchanged.
 - [x] **Keep datasheets/history in GitHub:** the public V2 package excludes V1
   assembly, datasheets, supplier model files and manufacturing downloads. Model
   URLs point to verified immutable assets in the new V2 GitHub repository.
@@ -106,12 +108,12 @@ passes; the complete board is **not yet signed off for a V2 order**.
 | MECH-01 | Open | Confirm factory wire gauge/CSA, clamp retention, button/tool/wire access and actual motor/PCB/fastener assembly. |
 | BUY-01 | Open | Verify live JLCPCB stock/quote for the complete fitted BOM, especially WAGO C2765063, inline shunts C713441, regulation shunts C186557 and bulk capacitor C193627. |
 | ASSY-01 | Open | Confirm Economic assembly eligibility and cost, WAGO through-hole soldering and USB shell-joint process, plus supplier pickup/rotation approval for V2. |
-| ELEC-01 | Open | Complete USB return/reference and thermal/power-integrity review on the actual routing and chosen stackup. A current-sizing estimate and clean DRC do not establish operation. |
+| ELEC-01 | Local bulk geometry corrected; bench/stackup acceptance open | Bulk is now beside the driver, with short feeds and nearby ground returns. Full motor-current and Kelvin checks pass. USB behavior, transients and temperature remain prototype bench checks. |
 | FW-01 | Open | Implement/adapt firmware for the V2 pin map, PD-good/voltage interlocks, boot/USB behavior, ADC sampling/zero-gain calibration and motor switching. No application firmware is present in this repository. |
 | BENCH-01 | Open | Verify PD negotiation, 3.3 V regulation, USB boot/enumeration, crystal startup, signed coil-current accuracy, temperatures, motor load behavior, RGB/buzzer and I²C/encoder operation as fitted. |
 | DOC-01 | Resolved | The 22 source-library advisories are corrected at their definitions. Fresh source, pin and schematic diagnostics are zero; a negative-control IC still triggers genuine warnings. See [analysis evidence](v2-analysis-warnings.md). |
 | SCH-01 | Open visual approval | Native placement passes. Review the seven schematic pages for readability and the original box/port-gap concern before final signoff. |
-| RELEASE-01 | Open | Produce a V2-specific BOM/CPL/Gerber/drill/mask/paste/silkscreen package and obtain DFM/process acceptance after closing the relevant items above. Historical V1 manufacturing artifacts are not V2 order files. |
+| RELEASE-01 | V2 files prepared; supplier acceptance pending | Use only the V2 order-review folder and its independent CAM audit. Obtain stock/quote, pickup, stencil, filled/capped-via and solder-process acceptance. Historical V1 manufacturing artifacts are not V2 files. |
 
 ## Evidence
 
@@ -125,5 +127,15 @@ passes; the complete board is **not yet signed off for a V2 order**.
   [terminal/assembly constraints](v2-wago-repack.md),
   [USB reimport and repro](../references/v2/usb-reimport-2026-11-03/README.md).
 
-The dev.5 artwork and separate mechanical assembly preserve all physical copper and fitted electronic component placement.
+The 2.0.0-dev.7 update intentionally repacks the bulk capacitor, buzzer and nearby passives. All fitted identities/values and V2 physical pin/net assignments remain checked; the short wire shapes and motor/terminal poses are retained.
 Unchecked items stay open until their stated evidence is available.
+
+- [x] **Driver bulk capacitor placement corrected:** 47 µF / 35 V retained,
+  supply-land distances 4.03/5.02 mm, conservative copper-path bounds
+  7.80/10.37 mm, two nearby GND returns; local ceramic remains fitted.
+- [x] **Fabricator-compatible locating-slot width:** native and exported
+  capsules are 1.00 mm wide while preserving the imported tool centerlines.
+- [x] **No component-body collisions in the nominal CAD screen:** all 97
+  fitted supplier STEP bodies checked at 0.10 mm separation.
+
+[Prototype order handoff and remaining process/physical acceptance](v2-prototype-order.md).

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "command": [
+    "tsci",
+    "check",
+    "shorts",
+    "/workspace/NEMA14_RP2040_V2_Standalone/artifacts/v2/routing/freerouted.circuit.json",
+    "--mode",
+    "gerber",
+    "--layer",
+    "all",
+    "--pixels-per-mm",
+    "100"
+  ],
+  "exit_code": 0,
+  "checked_at": "2026-11-03T23:32:08.638214+00:00",
+  "layers": [
+    "top",
+    "inner1",
+    "inner2",
+    "bottom"
+  ],
+  "pixels_per_mm": 100,
+  "output": "No shorts detected in freerouted.circuit.json\n",
+  "scope": "Actual native Gerber-mode shorts check; no supplier approval implied"
+}

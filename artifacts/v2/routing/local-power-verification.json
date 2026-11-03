@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "bulk_capacitor": "47 uF / 35 V EEEFT1V470AR",
+  "driver_supply_paths": [
+    {
+      "driver_pin": 22,
+      "pad_center_distance_mm": 5.02468421666974,
+      "whole_segment_path_bound_mm": 10.370410289500175,
+      "path_copper_ids": [
+        "pcb_smtpad_234",
+        "same_side_repair_0_PD_VBUS_0_rerouted",
+        "same_side_repair_0_PD_VBUS_0_rerouted_via_3",
+        "same_side_repair_2_PD_VBUS_2_run_1",
+        "same_side_repair_2_PD_VBUS_2_run_1",
+        "same_side_repair_2_PD_VBUS_2_run_1",
+        "same_side_repair_2_PD_VBUS_2_run_1",
+        "same_side_repair_2_PD_VBUS_2_run_1",
+        "same_side_repair_2_PD_VBUS_2_run_1",
+        "same_side_repair_2_PD_VBUS_2_run_1",
+        "same_side_repair_2_PD_VBUS_2_via_271",
+        "same_side_repair_2_PD_VBUS_2_run_2",
+        "same_side_repair_2_PD_VBUS_2_run_2",
+        "same_side_repair_2_PD_VBUS_2_run_2",
+        "same_side_repair_2_PD_VBUS_2_run_2",
+        "same_side_repair_2_PD_VBUS_2_run_2",
+        "pcb_smtpad_202"
+      ],
+      "passed": true
+    },
+    {
+      "driver_pin": 28,
+      "pad_center_distance_mm": 4.030005177174094,
+      "whole_segment_path_bound_mm": 7.799540658898645,
+      "path_copper_ids": [
+        "pcb_smtpad_234",
+        "reviewed_local_bulk_top_feed",
+        "reviewed_local_bulk_top_feed",
+        "reviewed_local_bulk_top_feed",
+        "reviewed_local_bulk_top_feed",
+        "reviewed_local_bulk_top_feed",
+        "pcb_smtpad_196"
+      ],
+      "passed": true
+    }
+  ],
+  "bulk_negative_and_all_driver_ground_pads_connected": true,
+  "scope": "Geometric local bulk and copper-path screen; transient, thermal and bench operation remain separate"
+}

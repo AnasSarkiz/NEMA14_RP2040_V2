@@ -1,0 +1,32 @@
+{
+  "checked_date": "2026-11-03",
+  "motor": "14HM11-0404S",
+  "official_product_url": "https://www.omc-stepperonline.com/nema-14-bipolar-0-9deg-11ncm-15-58oz-in-0-4a-10v-35x35x28mm-4-wires-14hm11-0404s",
+  "official_datasheet_url": "https://files.omc-stepperonline.com/14HM11-0404S_Full_Datasheet.pdf",
+  "motor_drawing_revision": "A0217, 2025-07-31",
+  "wire_colors": [
+    "A+ black",
+    "A- green",
+    "B+ red",
+    "B- blue"
+  ],
+  "cable_length_mm": 300,
+  "phase_current_A": 0.4,
+  "factory_wire_gauge_published": false,
+  "factory_wire_fit_verified": false,
+  "terminal": "WAGO 250-204",
+  "terminal_datasheet_url": "https://static6.arrow.com/aropdfconversion/ca8af85a90d1f7035795d874dbf1b714a9b88cc2/wago250204en.pdf",
+  "bare_fine_stranded_range_mm2": [
+    0.2,
+    1.5
+  ],
+  "bare_fine_stranded_range_AWG": [
+    24,
+    16
+  ],
+  "strip_length_mm": [
+    8.5,
+    9.5
+  ],
+  "acceptance": "Obtain factory gauge specification or measure actual conductor and verify insertion/retention. Never infer conductor gauge from 3D insulation diameter."
+}

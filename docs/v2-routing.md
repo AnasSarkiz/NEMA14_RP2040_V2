@@ -13,7 +13,7 @@ unchanged.
 [Standalone tscircuit viewer](../artifacts/v2/routing/NEMA14-V2-routing-viewer.html) ·
 [Verification manifest](../artifacts/v2/routing/verification.json)
 
-The saved four-layer board contains 639 trace records and 359 through vias.
+The saved four-layer board contains 664 trace records and 356 through vias.
 Every report in the manifest is bound to the exact routed JSON SHA-256. The
 independent physical audit uses the actual supplier pad, wire, plated-barrel and
 pour geometry. It finds zero foreign-net clearance, board-edge, mounting-hole,
@@ -29,7 +29,7 @@ port labels. Floating fragments and endpoint stubs were removed while preserving
 the physical pad partitions. Copper normalization preserves real wire geometry
 and every real layer-changing barrel.
 
-The dev.2 update uses tscircuit 0.0.3062 / core 0.0.2259 / CLI 0.1.2429.
+The 2.0.0-dev.7 update uses tscircuit 0.0.3062 / core 0.0.2259 / CLI 0.1.2429.
 Both USB locating holes are capsules from the latest import; J_DATA rotates 90°
 and J_PD stays at 0°. Export checks verify the actual drill direction.
 [Investigation and repro](../references/v2/usb-reimport-2026-11-03/README.md).
@@ -56,8 +56,9 @@ and 8.824 mm long, at least 0.30 mm wide. The 17.5 µm internal-copper / 20 °C
 IPC-2221 estimate is 0.410 A. This sizing estimate does not qualify operating
 temperature or authorize raising the current limit. USB ground reference,
 thermal/power integrity, wire/tool access, procurement and hardware calibration
-remain engineering release work. `fabrication_ready` stays false and order-file
-export remains blocked; the separate lean engineering-preview publication is allowed.
+remain engineering release work. `fabrication_ready` remains false until supplier/process and physical acceptance.
+A separately identified [V2 prototype CAM handoff](v2-prototype-order.md) is
+available for supplier DFM/quote review; historical V1 CAM is excluded.
 
 ## Reproduce and preview
 
@@ -91,3 +92,20 @@ use an isolated copy because they can replace saved copper. Repair scripts use
 `artifacts/v2/routing/freerouted.circuit.json` by default. Ground fill is rebuilt
 after geometry edits, then all checks must be rerun before a new manifest is
 accepted. No native errors or warnings are hidden in the viewer.
+
+## Local bulk and fabrication refinement
+
+The 47 µF capacitor now has 4.03/5.02 mm supply-land distances to VBB2/VBB1,
+with 7.80/10.37 mm conservative complete copper-path bounds. The 0.30 mm direct
+top feed and two local ground returns pass the full routing checks. The buzzer,
+its diode/bypass/driver and nearby passives were repacked; current shunts,
+amplifiers, crystal, driver and MCU retain their baseline positions.
+
+The negative A Kelvin pickup was restored to its separate shunt connection.
+All four pickups pass the independent branch-cut check. Obsolete stubs were
+removed only while preserving the actual physical-pad connectivity partitions.
+
+The board's USB clearance slots are now 1.80 × 1.00 mm for the fabricator's CNC
+capability. Their centers, axes, round locators and all solder lands are retained;
+the nominal imported footprint is unchanged. See the hash-bound
+[adaptation proof](../artifacts/v2/usb-fabrication-adaptation.json).

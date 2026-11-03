@@ -1,4 +1,4 @@
-# NEMA14 RP2040 V2 engineering draft
+# NEMA14 RP2040 V2 prototype design
 
 V2 starts from ordered V1 source commit `b6e2de5`. It is not a manufacturing
 release. The ordered board, its public tscircuit package and its JLCPCB order
@@ -68,7 +68,8 @@ The optional encoder's **100 nF C_ENCODER** and **1 µF C_ENCODER_BULK** are
 fitted on the top assembly side, across V3V3 and GND. Their top courtyards are
 reserved in the placement search. U_ENCODER remains bottom/DNP; five bare probe pads also use bottom copper without a placement operation. Final
 routing must keep the supply and ground paths short through vias to the bottom
-sensor; the current draft has no routed copper.
+sensor. The saved board now has fully checked copper; actual encoder operation
+requires a fitted sensor, magnet and bench checks.
 
 ## USB footprint evidence
 
@@ -83,3 +84,19 @@ See [reimport evidence and root cause](../references/v2/usb-reimport-2026-11-03/
 and the [minimal core oval-rotation repro](../repros/usb-slot-rotation/README.md).
 The source/drill regression now checks direction as well as hole count and size.
 No existing physical V1 board should be drilled to add these holes.
+
+## Prototype order handoff update
+
+The existing bulk capacitor is now beside both driver supply pins, with short
+feeds and two local ground returns. All 97 fitted part identities/values and V2
+pin assignments are preserved. The final copper is fully connected with zero
+shorts and native DRC errors/warnings. Manufacturing exports and independent
+actual-CAM checks are separate from the source checks.
+
+Nominal supplier USB capsules remain in the import. This board widens their
+clearance envelope to 1.80 × 1.00 mm for JLCPCB's minimum 1.0 mm NPTH CNC slot,
+without changing centers, tool centerlines, rotation or solder lands.
+
+See [the V2 order instructions](v2-prototype-order.md) for the exact files,
+stencil, filled/capped exposed-pad vias, through-hole processes, firmware and
+remaining factory-wire/supplier acceptance.

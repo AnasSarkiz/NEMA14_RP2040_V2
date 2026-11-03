@@ -1,7 +1,7 @@
 {
   "stage": "source and placement engineering checks; routing reviewed separately",
   "fabrication_ready": false,
-  "sha256": "21ed216717760fcd3a87e5f0b4bcb27725e158925c3a5bf207597934cd40923b",
+  "sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3",
   "checks": [
     {
       "check": "34.5 x 34.5 mm, four-layer, 1.6 mm board",
@@ -112,7 +112,7 @@
       "pass": true
     },
     {
-      "check": "J_PD has both supplier locating holes",
+      "check": "J_PD retains both locating centers with a 1.0 mm fabrication slot",
       "pass": true
     },
     {
@@ -120,7 +120,7 @@
       "pass": true
     },
     {
-      "check": "J_DATA has both supplier locating holes",
+      "check": "J_DATA retains both locating centers with a 1.0 mm fabrication slot",
       "pass": true
     },
     {

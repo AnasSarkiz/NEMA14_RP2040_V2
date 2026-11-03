@@ -1,0 +1,221 @@
+{
+  "passed": true,
+  "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07",
+  "scope": "High-priority text only, native Gerber ink; 0.20 mm exposed-pad/hole and label clearance, 0.25 mm board edge; fitted-body and screw-head visibility; not a full CAM release",
+  "critical_label_count": 14,
+  "motor_pin_net_and_column_checks_passed": true,
+  "bottom_gerber_text_mirroring": "Native default bottom mirroring; review SVG is the underside view",
+  "labels": [
+    {
+      "id": "v2_critical_power-port",
+      "text": "PWR",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        -0.5896324491170177,
+        10.5892257,
+        2.5072697699999997,
+        11.549013912434075
+      ],
+      "pad_clearance_mm": 2.227679489503628,
+      "edge_clearance_mm": 5.700986087565925
+    },
+    {
+      "id": "v2_critical_data-port",
+      "text": "DATA",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        -11.14901476,
+        2.552078337098461,
+        -10.189225700000001,
+        6.852771808709072
+      ],
+      "pad_clearance_mm": 2.2482160203460535,
+      "edge_clearance_mm": 6.10098524
+    },
+    {
+      "id": "v2_critical_motor-title",
+      "text": "MOTOR",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        -2.0661208491170173,
+        -5.925342730598376,
+        3.41716861,
+        -4.935322035109117
+      ],
+      "pad_clearance_mm": 0.26922841148020377,
+      "edge_clearance_mm": 11.324657269401625
+    },
+    {
+      "id": "v2_critical_motor-1",
+      "text": "A+",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        -5.54180877,
+        -16.760769654623378,
+        -3.568515975376621,
+        -15.800989885376618
+      ],
+      "pad_clearance_mm": 3.6898431512887373,
+      "edge_clearance_mm": 0.4892303453766225
+    },
+    {
+      "id": "v2_critical_motor-2",
+      "text": "A-",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        -1.88608656,
+        -16.760769654623378,
+        -0.06851597537662105,
+        -15.800989885376618
+      ],
+      "pad_clearance_mm": 2.9404099118875777,
+      "edge_clearance_mm": 0.4892303453766225
+    },
+    {
+      "id": "v2_critical_motor-3",
+      "text": "B+",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        1.45819123,
+        -16.760774299999998,
+        3.37687005,
+        -15.801004385830824
+      ],
+      "pad_clearance_mm": 3.5495781630511387,
+      "edge_clearance_mm": 0.48922570000000226
+    },
+    {
+      "id": "v2_critical_motor-4",
+      "text": "B-",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        5.11391344,
+        -16.760774299999998,
+        6.876870050000001,
+        -15.801004385830824
+      ],
+      "pad_clearance_mm": 2.9547784071084435,
+      "edge_clearance_mm": 0.48922570000000226
+    },
+    {
+      "id": "v2_critical_debug-3v3",
+      "text": "3V3",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        -5.36464937244447,
+        -13.796636588413538,
+        -4.374671947671208,
+        -10.743312834780852
+      ],
+      "pad_clearance_mm": 0.6697404118224043,
+      "edge_clearance_mm": 3.453363411586462
+    },
+    {
+      "id": "v2_critical_debug-gnd",
+      "text": "GND",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        -3.364693604326982,
+        -14.104460267177625,
+        -2.374659034996616,
+        -11.025880070028643
+      ],
+      "pad_clearance_mm": 0.21446273244421482,
+      "edge_clearance_mm": 3.1455397328223746
+    },
+    {
+      "id": "v2_critical_debug-run",
+      "text": "RUN",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        -2.300412678924769,
+        -8.276430310664276,
+        0.7996873200000001,
+        -7.300985240000001
+      ],
+      "pad_clearance_mm": 0.5417914822527321,
+      "edge_clearance_mm": 8.973569689335724
+    },
+    {
+      "id": "v2_critical_debug-clk",
+      "text": "CLK",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        0.6353116338887865,
+        -13.839059550380668,
+        1.6253019034527985,
+        -10.745651143494158
+      ],
+      "pad_clearance_mm": 0.651220687848889,
+      "edge_clearance_mm": 3.4109404496193316
+    },
+    {
+      "id": "v2_critical_debug-dio",
+      "text": "DIO",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        2.6353220351091173,
+        -13.813186298230168,
+        3.6253427305983768,
+        -10.735472391290928
+      ],
+      "pad_clearance_mm": 0.6413656136873458,
+      "edge_clearance_mm": 3.436813701769832
+    },
+    {
+      "id": "v2_critical_boot",
+      "text": "BOOT TOP",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        8.335322035109117,
+        -15.938417259087052,
+        9.325342730598376,
+        -6.99366475
+      ],
+      "pad_clearance_mm": 1.8765862053217148,
+      "edge_clearance_mm": 1.3115827409129481
+    },
+    {
+      "id": "v2_critical_revision",
+      "text": "N14 V2",
+      "layer": "bottom",
+      "font_size_mm": 1.7,
+      "minimum_stroke_mm": 0.153,
+      "bounds_mm": [
+        2.3487934199999994,
+        9.189225700000001,
+        8.92519871,
+        10.164678380778405
+      ],
+      "pad_clearance_mm": 2.735635743563888,
+      "edge_clearance_mm": 7.085321619221596
+    }
+  ],
+  "errors": []
+}

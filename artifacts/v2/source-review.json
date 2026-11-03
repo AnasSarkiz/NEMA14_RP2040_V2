@@ -1,7 +1,7 @@
 {
   "stage": "source and placement engineering checks; routing reviewed separately",
   "fabrication_ready": false,
-  "sha256": "579696ca2fc4629332cde301eb22aed3dc6a438308e05be6c29348cdf42d97fa",
+  "sha256": "8990429e281db00f5a0b07d645e87a13e32c65c4ace5c5e0ee0af5c972ba95c6",
   "checks": [
     {
       "check": "34.5 x 34.5 mm, four-layer, 1.6 mm board",

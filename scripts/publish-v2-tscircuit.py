@@ -111,6 +111,7 @@ def stage(source_repository, revision):
         f'directions are verified. Built with tscircuit {meta["dependencies"]["tscircuit"]} / CLI {meta["dependencies"]["@tscircuit/cli"]}.\n\n'
         '**70/70 nets connected; 0 shorts; 0 native PCB DRC errors or warnings.**\n\n'
         'Fresh source, pin and schematic checks report zero diagnostics.\n\n'
+        'Essential wiring/debug legends are enlarged on the underside and checked against exported Gerber ink.\n\n'
         'This is an engineering preview. Thermal/power, USB reference, wire fit, sourcing\n'
         'and bench calibration remain unqualified. No manufacturing downloads included.\n\n'
         f'Verified full source and models: {source_url}\n\n'

@@ -1,10 +1,10 @@
 {
   "passed": true,
-  "version": "2.0.0-dev.3",
-  "stage": "V2 source and schematic analysis corrected; physical routing unchanged; engineering release remains open",
-  "verified_at": "2026-11-03T18:11:04.504249+00:00",
-  "placement_source_sha256": "579696ca2fc4629332cde301eb22aed3dc6a438308e05be6c29348cdf42d97fa",
-  "routed_source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6",
+  "version": "2.0.0-dev.4",
+  "stage": "V2 essential silkscreen verified against Gerber ink; physical routing unchanged; engineering release remains open",
+  "verified_at": "2026-11-03T18:33:46.606266+00:00",
+  "placement_source_sha256": "8990429e281db00f5a0b07d645e87a13e32c65c4ace5c5e0ee0af5c972ba95c6",
+  "routed_source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07",
   "nets_checked": 70,
   "connected_net_groups": 70,
   "shorts": 0,
@@ -24,64 +24,69 @@
   "checks": {
     "physical-routing-audit.json": {
       "passed": true,
-      "sha256": "a7ee3063372268954c145ced98e3a2cfcc4d5de5555d836471d364c335274a04",
-      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
+      "sha256": "5a9e1282148ecd0dd56b1761268f49029c3608cbc0edf2ee18acdfb2610ef493",
+      "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07"
     },
     "native-drc.json": {
       "passed": true,
-      "sha256": "c6867eb20537b121719568c865b68069240fa3deddc20510f843f17839dac05f",
-      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
+      "sha256": "e80cae2d11a6df344584fe98ca4857389da04492d0a6264cb94edce7d501f239",
+      "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07"
     },
     "functional-routing-audit.json": {
       "passed": true,
-      "sha256": "fdb069d22aea8cc5a496fe46401f4017aa0ca25ee4aecb2daa638cca06e5374d",
-      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
+      "sha256": "a153ec4603f9eb3fd2ad79810054459b4602b4175436f0c5e2990afc0ba398a5",
+      "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07"
     },
     "phase-current-screen.json": {
       "passed": true,
-      "sha256": "d90139eab199ce05aff6138a6f239d5c947ae3806e42ad47b41706ec88007695",
-      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
+      "sha256": "9a3942d589bbac5e4be977fd65469d6f8780c288d51ad2e60dc7db0e033448dc",
+      "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07"
     },
     "schema-verification.json": {
       "passed": true,
-      "sha256": "a746f705dc2aa63b60a12b2c4ecf2934ba32b8111ce75074f8de262a1cc6d3f2",
-      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
+      "sha256": "fcc8504f0d0e30c5068a1d9bad1fd8c138fafd1d8404f4b1d897d207a3e88bd5",
+      "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07"
     },
     "usb-slot-export-check.json": {
       "passed": true,
-      "sha256": "5d2eecbaa29375fcc47086d7d63d6b7f5f8ed9cfa901858dec4ecec5007f201d",
-      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
+      "sha256": "f51577d30660ecbaac763a2ed39e174c0e1e1e3769299194b4216721f60de7b9",
+      "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07"
     },
     "viewer-verification.json": {
       "passed": true,
-      "sha256": "c40e6e459e48824f7cda29000214ed8661c4709bb7932cc4fc8f586868b837c0",
-      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
+      "sha256": "7ff57a14c13d526806b2ededabaa0b81fa36e30819b22127984924307df1eff1",
+      "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07"
     },
     "source-review.json": {
       "passed": true,
-      "source_sha256": "579696ca2fc4629332cde301eb22aed3dc6a438308e05be6c29348cdf42d97fa",
-      "sha256": "708a7c1e8d7f59f25d8fcda7087a45d7de0e5122993f515714994b915ea506ff"
+      "source_sha256": "8990429e281db00f5a0b07d645e87a13e32c65c4ace5c5e0ee0af5c972ba95c6",
+      "sha256": "65d54ae39f4b3b722150e5d4984f830e6b4748d20553cef422ec952be15232b6"
     },
     "placement-verification.json": {
       "passed": true,
-      "source_sha256": "579696ca2fc4629332cde301eb22aed3dc6a438308e05be6c29348cdf42d97fa",
-      "sha256": "584245d897b41e8a76887c425f0e0fdcd8c1da3dbe189848f8e7a176faad0e1f"
+      "source_sha256": "8990429e281db00f5a0b07d645e87a13e32c65c4ace5c5e0ee0af5c972ba95c6",
+      "sha256": "1a82ef5d0860473010870a40ba75be5c1b42ca534fc95d54fa502660e5fa2081"
     },
     "analysis-verification.json": {
       "passed": true,
-      "sha256": "a5a1af64807b51b0780819cbebcf3e59beba9c58820163328412e5f75cab42b3",
-      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
+      "sha256": "41d1d15d189704e1c41960bd39ca3bc2cc8f624d93b7b36d22d1252e0b1dd2e1",
+      "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07"
     },
-    "analysis-cleanup-preservation.json": {
+    "critical-silkscreen-verification.json": {
       "passed": true,
-      "sha256": "e60d097b5f4de1383e627cef6bf315a61acaf123b8d47260bce8fc15088334b4",
-      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
+      "sha256": "d2764652ea065fac34cfe806927902fcc814ca6b9c822d90f5314db36d1da33d",
+      "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07"
+    },
+    "silkscreen-preservation.json": {
+      "passed": true,
+      "sha256": "568f14885c43c7ddc0175e7288d0d733f751a3c0337d83fd0667b7e023be08e7",
+      "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07"
     }
   },
   "gerber_shorts": {
     "passed": true,
-    "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6",
-    "checked_at": "2026-11-03T18:11:04.504249+00:00",
+    "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07",
+    "checked_at": "2026-11-03T18:33:46.606266+00:00",
     "command": "XDG_CONFIG_HOME=/workspace/.config tsci check shorts artifacts/v2/routing/freerouted.circuit.json --mode gerber --layer all --pixels-per-mm 100",
     "exit_code": 0,
     "cli_version": "0.1.2429",
@@ -105,12 +110,13 @@
   "usb_slot_axes_and_exported_drills_passed": true,
   "fabrication_ready": false,
   "remaining": [
-    "Bottom evaluation-only artwork pad clearance and DATA legend correction",
+    "Bottom evaluation-only artwork pad clearance correction",
     "USB reference and thermal/power integrity engineering review",
     "Exact motor lead gauge, wire/tool access and terminal procurement confirmation",
     "Current calibration, ADC sampling and motor-switching bench checks"
   ],
   "source_analysis_warnings": 0,
   "fresh_schematic_diagnostics": 0,
-  "fresh_pin_diagnostics": 0
+  "fresh_pin_diagnostics": 0,
+  "critical_silkscreen_labels_checked": 14
 }

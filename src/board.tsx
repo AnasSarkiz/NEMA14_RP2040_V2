@@ -18,11 +18,6 @@ const resistor = (name:string,value:string,a:string,b:string) => <SupplierPart k
 const cap = (name:string,value:string,a:string,b="GND") => <SupplierPart key={name} name={name}  capacitance={value} maxVoltageRating={['PD_VBUS','LOGIC_IN','BUCK_BST','CP1'].includes(a)||b==='PD_VBUS'?35:10} {...place(name)} connections={{pin1:n(a),pin2:n(b)}} />
 
 export default function Nema14Controller({ routingDisabled = false, assemblyPreview = false }: { routingDisabled?: boolean, assemblyPreview?: boolean } = {}) {
- const motor=place("J_MOTOR")
- const motorMark=(x:number,y:number)=>{
-   const angle=motor.pcbRotation*Math.PI/180
-   return {pcbX:motor.pcbX+x*Math.cos(angle)-y*Math.sin(angle),pcbY:motor.pcbY+x*Math.sin(angle)+y*Math.cos(angle)}
- }
  return <board {...(assemblyPreview?{name:"CONTROLLER_PCB",mountedTo:"MOTOR_REFERENCE_CONCEPT.backface",mountGap:"6mm",mountRotationAnchor:"topedge" as const,mountRotation:"MOTOR_REFERENCE_CONCEPT.wireside"}:{})} width={mechanical.width} height={mechanical.height} layers={4} thickness={1.6}
   routingDisabled={routingDisabled} minTraceWidth={0.16} minTraceToPadEdgeClearance={0.15} minPadEdgeToPadEdgeClearance={0.15}
   minViaHoleDiameter={0.3} minViaPadDiameter={0.45} minViaHoleEdgeToViaHoleEdgeClearance={0.2} minPlatedHoleDrillEdgeToDrillEdgeClearance={0.45} minBoardEdgeClearance={0.25}
@@ -108,13 +103,7 @@ export default function Nema14Controller({ routingDisabled = false, assemblyPrev
     connections={{A_PLUS:n('A_PLUS'),A_MINUS:n('A_MINUS'),B_PLUS:n('B_PLUS'),B_MINUS:n('B_MINUS')}} />
   <SupplierPart name="U_ESD" {...pinProps("U_ESD")}  pinLabels={{pin1:"DP1",pin2:"GND",pin3:"DM1",pin4:"DM2",pin5:"VBUS",pin6:"DP2"}} {...place("U_ESD")} connections={{DP1:n("USB_DP"),DP2:n("USB_DP"),DM1:n("USB_DM"),DM2:n("USB_DM"),VBUS:n("DATA_VBUS"),GND:n("GND")}} />
   <SupplierPart name="D_TVS" {...pinProps("D_TVS")} {...place("D_TVS")} connections={{pin1:n("GND"),pin2:n("PD_VBUS")}} />
-  <silkscreentext text="NEMA14 RP2040 V2" layer="bottom" pcbX={0} pcbY={-14.8} fontSize={.65} />
-  <silkscreentext text="MOTOR" layer="bottom" {...motorMark(0,-3.9)} fontSize={.8} />
-  {/* Pole order is marked on the bottom beside the terminal's wire-entry rows.
-      The top housing occupies this area; avoid labels hidden under its body. */}
-  {['1 A+','2 A-','3 B+','4 B-'].map((text,i)=><React.Fragment key={text}><silkscreentext text={text}
-    layer="bottom" {...motorMark(-5.25+i*3.5,-6.6)} fontSize={.6} /></React.Fragment>)}
-
+  {/* Essential wiring/debug legends are defined in critical-markings.json. */}
   {/* Reference feedback: TMP102 I2C address 0x48; alerts handled by application firmware. */}
   <SupplierPart name="U_TEMP" {...pinProps("U_TEMP")} {...place("U_TEMP")} noConnect={['ALERT']} connections={{SCL:n('TEMP_SCL'),GND:n('GND'),ADD0:n('GND'),V_POS:n('V3V3'),SDA:n('TEMP_SDA')}} />
   {cap('C_TEMP','100nF','V3V3')}
@@ -142,8 +131,6 @@ export default function Nema14Controller({ routingDisabled = false, assemblyPrev
   <testpoint doNotPlace name="TP_RUN" layer="top" footprintVariant="pad" padDiameter="1.1mm" footprint={<footprint><smtpad portHints={["pin1"]} shape="circle" radius={.55} /><courtyardoutline outline={[{x:-.7,y:-.7},{x:.7,y:-.7},{x:.7,y:.7},{x:-.7,y:.7},{x:-.7,y:-.7}]} /></footprint>} {...place("TP_RUN")} connections={{pin1:n("RUN")}} />
   <testpoint doNotPlace name="TP_BOOT" layer="top" footprintVariant="pad" padDiameter="0.8mm" footprint={<footprint><smtpad portHints={["pin1"]} shape="circle" radius={.4} /><courtyardoutline outline={[{x:-.5,y:-.5},{x:.5,y:-.5},{x:.5,y:.5},{x:-.5,y:.5},{x:-.5,y:-.5}]} /></footprint>} {...place("TP_BOOT")} connections={{pin1:n("BOOT_PAD")}} />
   <testpoint doNotPlace name="TP_BOOT_GND" layer="top" footprintVariant="pad" padDiameter="0.8mm" footprint={<footprint><smtpad portHints={["pin1"]} shape="circle" radius={.4} /><courtyardoutline outline={[{x:-.5,y:-.5},{x:.5,y:-.5},{x:.5,y:.5},{x:-.5,y:.5},{x:-.5,y:-.5}]} /></footprint>} {...place("TP_BOOT_GND")} connections={{pin1:n("GND")}} />
-  <silkscreentext text="PWR" pcbX={-5.2} pcbY={14.6} pcbRotation={90} fontSize={0.8} isKnockout={true} knockoutPadding={0.25} />
-  <silkscreentext text="DATA" layer="bottom" pcbX={-5} pcbY={-15.9} fontSize={0.8} isKnockout={true} knockoutPadding={0.25} />
   {/* Optional bottom AS5600; its two supply capacitors are fitted on top. Motor/magnet fit remains unverified. */}
   <SupplierPart name="U_ENCODER" layer="bottom" doNotPlace {...place("U_ENCODER")} noConnect={['OUT','PGO']} connections={{VDD5V:n('V3V3'),VDD3V3:n('V3V3'),GND:n('GND'),DIR:n('GND'),SDA:n('TEMP_SDA'),SCL:n('TEMP_SCL')}} />
   <SupplierPart name="C_ENCODER" layer="top" capacitance="100nF" maxVoltageRating={16} {...place("C_ENCODER")} connections={{pin1:n('V3V3'),pin2:n('GND')}} />

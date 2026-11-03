@@ -16,6 +16,6 @@ The original generic-chip warnings were created before the later source-classifi
 
 Fresh source and pin checks report zero diagnostics. The exported seven schematic sheets also pass fresh schematic checks with zero diagnostics. Provisional sheet-boundary warnings from core's initial single-sheet layout are superseded by the regenerated seven-sheet layout and checked again; they are not accepted as evidence of correct final placement.
 
-[Analysis receipt](../artifacts/v2/routing/analysis-verification.json) and [physical preservation receipt](../artifacts/v2/routing/analysis-cleanup-preservation.json) bind these results to the saved candidate. All 1,058 copper records and all 97 fitted CAD models and transforms match dev.2. The seven bare-pad placeholder boxes are removed from the assembly view.
+[Analysis receipt](../artifacts/v2/routing/analysis-verification.json) and [physical preservation receipt](../artifacts/v2/routing/analysis-cleanup-preservation.json) record the dev.3 analysis correction. Later text-only changes carry their own [preservation receipt](../artifacts/v2/routing/silkscreen-preservation.json). All 1,058 copper records and all 97 fitted CAD models and transforms match dev.2. The seven bare-pad placeholder boxes are removed from the assembly view.
 
 This closes the analysis-warning finding only. The [requirements checklist](v2-requirements-checklist.md) still records artwork corrections, wire fit, procurement, electrical review and bench acceptance. V2 is an engineering preview, not a fabrication release.

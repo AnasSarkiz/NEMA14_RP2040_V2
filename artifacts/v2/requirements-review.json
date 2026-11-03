@@ -1,5 +1,5 @@
 {
-  "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6",
+  "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07",
   "scope": "Read-only requirements/artwork screen; no manufacturing release",
   "bottom_artwork": [
     {
@@ -51,49 +51,35 @@
   "port_labels": [
     {
       "type": "pcb_silkscreen_text",
-      "pcb_silkscreen_text_id": "pcb_silkscreen_text_102",
+      "pcb_silkscreen_text_id": "v2_critical_power-port",
       "anchor_alignment": "center",
       "anchor_position": {
-        "x": -5.2,
-        "y": 14.6
+        "x": 0.75,
+        "y": 11.2
       },
       "font": "tscircuit2024",
-      "font_size": 0.8,
-      "layer": "top",
+      "font_size": 1.7,
+      "layer": "bottom",
       "text": "PWR",
-      "ccw_rotation": 90,
-      "subcircuit_id": "subcircuit_source_group_0",
-      "is_knockout": true,
-      "knockout_padding": {
-        "left": 0.25,
-        "right": 0.25,
-        "top": 0.25,
-        "bottom": 0.25
-      },
-      "pcb_component_id": "pcb_component_6"
+      "ccw_rotation": 0,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
     },
     {
       "type": "pcb_silkscreen_text",
-      "pcb_silkscreen_text_id": "pcb_silkscreen_text_103",
+      "pcb_silkscreen_text_id": "v2_critical_data-port",
       "anchor_alignment": "center",
       "anchor_position": {
-        "x": -5,
-        "y": -15.9
+        "x": -10.8,
+        "y": 4.5
       },
       "font": "tscircuit2024",
-      "font_size": 0.8,
+      "font_size": 1.7,
       "layer": "bottom",
       "text": "DATA",
-      "ccw_rotation": 0,
-      "subcircuit_id": "subcircuit_source_group_0",
-      "is_knockout": true,
-      "knockout_padding": {
-        "left": 0.25,
-        "right": 0.25,
-        "top": 0.25,
-        "bottom": 0.25
-      },
-      "pcb_component_id": "pcb_component_6"
+      "ccw_rotation": 90,
+      "pcb_component_id": "pcb_component_6",
+      "subcircuit_id": "subcircuit_source_group_0"
     }
   ],
   "rgb_supply_net": "DATA_VBUS",
@@ -111,9 +97,9 @@
     },
     {
       "id": "ART-02",
-      "status": "needs_correction",
-      "item": "DATA port legend remains at the former bottom-edge position",
-      "evidence": "DATA text at (-5,-15.9) mm; J_DATA origin at (-14.85,4.5) mm on left edge."
+      "status": "resolved",
+      "item": "DATA port legend follows the actual left-edge data connector",
+      "evidence": "Native Gerber ink and actual label position checked in routing/critical-silkscreen-verification.json"
     },
     {
       "id": "BEHAVIOR-01",
@@ -127,13 +113,12 @@
     "exit_code": 0,
     "result": "No diagnostics emitted; visual readability remains a separate review."
   },
-  "reviewed_at_utc": "2026-11-03T18:08:32.745216+00:00",
-  "placement_source_sha256": "579696ca2fc4629332cde301eb22aed3dc6a438308e05be6c29348cdf42d97fa",
+  "reviewed_at_utc": "2026-11-03T18:30:43.472889+00:00",
+  "placement_source_sha256": "8990429e281db00f5a0b07d645e87a13e32c65c4ace5c5e0ee0af5c972ba95c6",
   "all_requirements_closed": false,
   "fabrication_ready": false,
   "open_requirement_ids": [
     "ART-01",
-    "ART-02",
     "BEHAVIOR-01",
     "MECH-01",
     "BUY-01",
@@ -146,5 +131,6 @@
   ],
   "analysis_warning_resolution": "routing/analysis-verification.json",
   "artwork_evidence_inherited_from": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
-  "artwork_geometry_preservation_evidence": "routing/analysis-cleanup-preservation.json"
+  "artwork_geometry_preservation_evidence": "routing/silkscreen-preservation.json",
+  "critical_silkscreen_review": "routing/critical-silkscreen-verification.json"
 }

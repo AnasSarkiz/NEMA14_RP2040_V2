@@ -1,7 +1,7 @@
 # V2 requirements and review checklist
 
-Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.3**, with routed-board SHA-256
-`02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6`.
+Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.4**, with routed-board SHA-256
+`516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07`.
 The requirements below combine the original NEMA14 requests, the initial V2
 request and later accepted changes. The separate NEMA11 discussion is outside
 this board's scope.
@@ -107,7 +107,7 @@ passes; the complete board is **not yet signed off for a V2 order**.
 | ID | Status | Acceptance required |
 | --- | --- | --- |
 | ART-01 | Needs correction | Move the bottom “For evaluation only;” line away from J_DATA shell pads. The native CAD ink overlaps pads pcb_plated_hole_4 and pcb_plated_hole_7 by approximately 0.453 and 0.489 mm². Recheck artwork against V2 mask/drills. |
-| ART-02 | Needs correction | Move the DATA port legend from its historical bottom-edge position (−5, −15.9) mm to the current left-edge J_DATA location. |
+| ART-02 | Resolved | DATA follows the left-edge data connector. Essential legends pass the [actual Gerber ink review](v2-critical-silkscreen.md). |
 | BEHAVIOR-01 | Needs acceptance or a design change | RGB's common anode is DATA_VBUS powered. It does not light with PD power alone; the 3.3 V power LED remains available. Confirm whether standalone PD operation requires RGB status. |
 | MECH-01 | Open | Confirm factory wire gauge/CSA, clamp retention, button/tool/wire access and actual motor/PCB/fastener assembly. |
 | BUY-01 | Open | Verify live JLCPCB stock/quote for the complete fitted BOM, especially WAGO C2765063, inline shunts C713441, regulation shunts C186557 and bulk capacitor C193627. |
@@ -131,5 +131,5 @@ passes; the complete board is **not yet signed off for a V2 order**.
   [terminal/assembly constraints](v2-wago-repack.md),
   [USB reimport and repro](../references/v2/usb-reimport-2026-11-03/README.md).
 
-The dev.3 analysis-definition correction preserves physical copper and component placement.
+The dev.4 essential-label update preserves all physical copper and component placement.
 Unchecked items stay open until their stated evidence is available.

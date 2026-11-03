@@ -6,10 +6,12 @@ V2 has its own repository and registry package:
 - tscircuit: https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2
 - V1 remains at `AnasSarkiz/NEMA14_RP2040`.
 
-The separate tscircuit preview is **2.0.0-dev.3**.
+The separate tscircuit preview is **2.0.0-dev.4**.
 [Publication details and verification](docs/v2-publication.md).
 
-Latest update: corrected 22 source-analysis warnings at their definitions; fresh source, pin and schematic checks report zero diagnostics. [Details and evidence](docs/v2-analysis-warnings.md).
+Latest update: essential port, motor-coil, debug and revision legends enlarged and checked against actual exported Gerber ink. [Readable underside and checks](docs/v2-critical-silkscreen.md).
+
+The 22 prior analysis warnings are resolved; fresh source, pin and schematic checks report zero diagnostics. [Analysis evidence](docs/v2-analysis-warnings.md).
 
 USB-C locating capsules rotate correctly with their connectors.
 Tested with tscircuit **0.0.3062**, core **0.0.2259** and CLI **0.1.2429**.

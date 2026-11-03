@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 dist/
 .tscircuit/
+artifacts/v2/publication/stage/

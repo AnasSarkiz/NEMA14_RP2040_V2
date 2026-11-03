@@ -82,7 +82,9 @@ def stage(source_repository, revision):
             e[field] = f'https://raw.githubusercontent.com/{source_repository}/{revision}/{relative}'
             assets[relative] = {'sha256': sha(data), 'git_blob_sha': blob(data), 'url': e[field]}
     assert without_model_urls(published) == without_model_urls(records), 'PCB or schematic records changed'
-    assert not any(e['type'].endswith(('_error', '_warning')) for e in published)
+    assert not any(e['type'].endswith('_error') for e in published)
+    # Retain imported source-library advisories; native PCB DRC is checked separately.
+    source_warnings = [e for e in published if e['type'].endswith('_warning')]
     native = encode(published)
     qualification = json.loads((ROOT / 'artifacts/v2/routing/verification.json').read_text())
     proof = {
@@ -94,6 +96,7 @@ def stage(source_repository, revision):
         'only_CAD_model_URL_metadata_changed': True, 'routing_and_schematic_preserved': True,
         'connected_net_groups': qualification['connected_net_groups'],
         'shorts': 0, 'native_errors': 0, 'native_warnings': 0,
+        'native_warning_scope': 'PCB DRC', 'source_library_warning_count': len(source_warnings),
         'fabrication_ready': False, 'manufacturing_downloads_included': False,
         'supplier_assets': assets,
     }
@@ -103,7 +106,8 @@ def stage(source_repository, revision):
         '34.5 × 34.5 mm, four-layer RP2040 motor controller with two coil-current ADC\n'
         'channels and a WAGO 250-204 spring terminal. RGB, buzzer, temperature sensor,\n'
         'flash, crystal and top-side encoder capacitors are retained.\n\n'
-        '**70/70 nets connected; 0 shorts; 0 native DRC errors or warnings.**\n\n'
+        '**70/70 nets connected; 0 shorts; 0 native PCB DRC errors or warnings.**\n\n'
+        'Source-library advisories are preserved in the native JSON.\n\n'
         'This is an engineering preview. Thermal/power, USB reference, wire fit, sourcing\n'
         'and bench calibration remain unqualified. No manufacturing downloads included.\n\n'
         f'Verified full source and models: {source_url}\n\n'

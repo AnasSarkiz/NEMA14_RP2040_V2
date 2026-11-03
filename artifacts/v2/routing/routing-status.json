@@ -1,8 +1,8 @@
 {
-  "stage": "V2 routing verified; engineering release remains open",
-  "generated_at": "2026-11-03T00:20:52.440217+00:00",
-  "source_sha256": "39ce54a193d226ff105ef2d72e7b330d7edbffc8c4ab9a453b11bdb7eb66b1de",
-  "candidate_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d",
+  "stage": "V2 routing and USB capsule rotation verified; engineering release remains open",
+  "generated_at": "2026-11-03T15:50:24.165648+00:00",
+  "source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
+  "candidate_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
   "nets_checked": 70,
   "connected_net_groups": 70,
   "disconnected_net_groups": 0,
@@ -13,6 +13,7 @@
   "native_errors": 0,
   "native_warnings": 0,
   "floating_copper_islands": 0,
+  "usb_slot_rotation_correct": true,
   "passed": true,
   "fabrication_ready": false
 }

@@ -1,0 +1,55 @@
+{
+  "trace_id": "same_side_repair_10_PD_VBUS_0",
+  "net": "PD_VBUS",
+  "reason": "Latest native style check flags a 5.32 mm staircase chord; replace it with explicit horizontal and 45-degree segments",
+  "width_mm": 0.3,
+  "minimum_foreign_copper_gap_mm": 0.1750000000000007,
+  "hausdorff_distance_from_original_mm": 0.29999999999999893,
+  "old_route_points": 60,
+  "new_route_points": 6,
+  "same_physical_pad_partitions": true,
+  "route": [
+    {
+      "route_type": "wire",
+      "x": -7.674999999999999,
+      "y": -10.225,
+      "layer": "top",
+      "width": 0.3
+    },
+    {
+      "route_type": "wire",
+      "x": -5.274999999999999,
+      "y": -10.225,
+      "layer": "top",
+      "width": 0.3
+    },
+    {
+      "route_type": "wire",
+      "x": -4.5749999999999975,
+      "y": -9.524999999999999,
+      "layer": "top",
+      "width": 0.3
+    },
+    {
+      "route_type": "wire",
+      "x": -2.3999999999999986,
+      "y": -9.524999999999999,
+      "layer": "top",
+      "width": 0.3
+    },
+    {
+      "route_type": "wire",
+      "x": -1.75,
+      "y": -8.875,
+      "layer": "top",
+      "width": 0.3
+    },
+    {
+      "route_type": "wire",
+      "x": -1.75,
+      "y": -8.799999999999999,
+      "layer": "top",
+      "width": 0.3
+    }
+  ]
+}

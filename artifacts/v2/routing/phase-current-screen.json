@@ -1,5 +1,5 @@
 {
-  "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d",
+  "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
   "scope": "Fixed-current and copper sizing estimate; not thermal or electrical release",
   "supply_assumption_V": [
     3.3,

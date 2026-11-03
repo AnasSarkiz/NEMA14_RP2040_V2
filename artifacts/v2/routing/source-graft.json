@@ -1,44 +1,8 @@
 {
-  "placement_source_sha256": "39ce54a193d226ff105ef2d72e7b330d7edbffc8c4ab9a453b11bdb7eb66b1de",
-  "moved_ports": [
-    "pcb_port_331",
-    "pcb_port_332",
-    "pcb_port_333",
-    "pcb_port_334",
-    "pcb_port_335"
-  ],
-  "removed_stale_copper": [
-    "same_side_repair_0_LED_G_0_rerouted",
-    "same_side_repair_1_LED_G_1",
-    "same_side_repair_2_STATUS_G_C_0",
-    "v2_escape_0_LED_G_0_rerouted",
-    "v2_escape_0_LED_G_0_rerouted_via_9",
-    "v2_escape_0_STATUS_G_C_0",
-    "v2_escape_0_STATUS_G_C_0_via_2"
-  ],
-  "retained_copper_fragments": [
-    "v2_escape_0_STATUS_G_C_0_fragment_0",
-    "v2_escape_0_LED_G_0_rerouted_fragment_0",
-    "same_side_repair_0_LED_G_0_rerouted_fragment_0",
-    "same_side_repair_1_LED_G_1_fragment_0",
-    "same_side_repair_2_STATUS_G_C_0_fragment_0"
-  ],
-  "geometrically_verified_contact_reassignments": [
-    {
-      "trace": "v2_escape_0_STATUS_G_C_0",
-      "before": "pcb_port_332",
-      "after": null
-    },
-    {
-      "trace": "v2_escape_0_LED_G_0_rerouted",
-      "before": "pcb_port_331",
-      "after": null
-    },
-    {
-      "trace": "same_side_repair_1_LED_G_1",
-      "before": "pcb_port_334",
-      "after": "pcb_port_334"
-    }
-  ],
-  "routed_source_sha256": "318c3a08163a6272f583bbb86b02553e820526a4eab7b5eabf7d797c83ceff66"
+  "placement_source_sha256": "a33d9b3d06baa4fdbbf31958baf7416b0222d6e7ea68361ee29c5791c1bbd926",
+  "moved_ports": [],
+  "removed_stale_copper": [],
+  "retained_copper_fragments": [],
+  "geometrically_verified_contact_reassignments": [],
+  "routed_source_sha256": "c34298506ad80425334d367f0d0f4c5113965d964d0055182c76567407fdc631"
 }

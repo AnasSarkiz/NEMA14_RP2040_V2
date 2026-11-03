@@ -1,4 +1,4 @@
-"""Correct checks 0.0.242 circular trace keepouts, without changing any rule.
+"""Correct native circular trace keepouts, without changing any rule.
 
 The bundled CLI contains the same checker. Preserve package versions and exact
 before/after hashes in a receipt; refuse to patch an unfamiliar implementation.
@@ -23,7 +23,7 @@ for path in paths:
   assert count==1,(str(path),'Unrecognized native checker',count)
   path.write_text(s)
  prior=next((r for r in previous if r['package_path']==str(path.relative_to(root))),{})
- rows.append(dict(package_path=str(path.relative_to(root)),before_sha256=prior.get('before_sha256',before),after_sha256=hashlib.sha256(s.encode()).hexdigest(),exact_circle_distance_enabled=True))
+ rows.append(dict(package_path=str(path.relative_to(root)),before_sha256=prior.get('before_sha256',before) if prior.get('after_sha256')==before else before,package_version=json.loads((root.joinpath(*path.relative_to(root).parts[:3])/'package.json').read_text())['version'],after_sha256=hashlib.sha256(s.encode()).hexdigest(),exact_circle_distance_enabled=True))
 out=root/'artifacts/upright-revision/native-circle-checker.json'
 out.write_text(json.dumps(dict(rule_clearance_unchanged=True,errors_suppressed=False,implementation='Analytic clamped point-to-segment distance minus circle radius and half trace width',packages=rows),indent=2)+'\n')
 print('Exact circular keepout checks enabled in native checks and CLI')

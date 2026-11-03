@@ -34,9 +34,9 @@ export const USB4145_03_0070_C = (props: ChipProps<typeof pinLabels>) => {
 }}
       manufacturerPartNumber="USB4145-03-0070-C"
       footprint={<footprint>
-        {/* Restore supplier SOLIDREGION npth gge931 omitted by CLI 0.1.2261.
-            Exact source path and conversion are recorded in references/v2/usb-easyeda.json. */}
-        <hole name="LOCATING_SLOT" pcbX="4.1524872mm" pcbY="0.000127mm" shape="oval" width="1.5099792mm" height="0.7099808mm" />
+        {/* Latest CLI 0.1.2429 reimport emits a capsule (pill), not an oval.
+            Retain the reviewed origin, lands and CAD; pill inherits connector rotation. */}
+        <hole name="LOCATING_SLOT" pcbX="4.1524872mm" pcbY="0.000127mm" shape="pill" width="1.5099792mm" height="0.7099808mm" />
         <hole pcbX="-3.8474968mm" pcbY="0.000127mm" diameter="0.7099808mm" />
 <platedhole  portHints={["pin17"]} pcbX="-3.8474968mm" pcbY="1.429893mm" holeWidth="0.5999988mm" holeHeight="1.0999978mm" outerWidth="1.0999978mm" outerHeight="1.5999968mm" pcbRotation="90deg" shape="pill" />
 <platedhole  portHints={["pin17"]} pcbX="-3.8474968mm" pcbY="-1.429893mm" holeWidth="0.5999988mm" holeHeight="1.0999978mm" outerWidth="1.0999978mm" outerHeight="1.5999968mm" pcbRotation="90deg" shape="pill" />

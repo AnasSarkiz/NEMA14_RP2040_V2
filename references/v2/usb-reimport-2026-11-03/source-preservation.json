@@ -1,0 +1,763 @@
+{
+  "before_source_sha256": "39ce54a193d226ff105ef2d72e7b330d7edbffc8c4ab9a453b11bdb7eb66b1de",
+  "latest_source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
+  "all_pads_ports_component_poses_and_keepouts_unchanged": true,
+  "new_component_fields_are_origin_and_pin1_metadata_only": true,
+  "changes": [
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_0",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_1",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_10",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_100",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_101",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_102",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_103",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_104",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_11",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_12",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_13",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_14",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_15",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_16",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_17",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_18",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_19",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_2",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_20",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_21",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_22",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_23",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_24",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_25",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_26",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_27",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_28",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_29",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_3",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_30",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_31",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_32",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_33",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_34",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_35",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_36",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_37",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_38",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_39",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_4",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_40",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_41",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_42",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_43",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_44",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_45",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_46",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_47",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_48",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_49",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_5",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_50",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_51",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_52",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_53",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_54",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_55",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_56",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_57",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_58",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_59",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_6",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_60",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_61",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_62",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_63",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_64",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_65",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_66",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_67",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_68",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_69",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_7",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_70",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_71",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_72",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_73",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_74",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_75",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_76",
+      "fields": [
+        "footprint_origin",
+        "pin1_location"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_77",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_78",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_79",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_8",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_80",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_81",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_82",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_83",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_84",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_85",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_86",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_87",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_88",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_89",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_9",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_90",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_91",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_92",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_93",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_94",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_95",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_96",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_97",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_98",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_99",
+      "fields": [
+        "footprint_origin"
+      ]
+    },
+    {
+      "type": "pcb_hole",
+      "id": "pcb_hole_4",
+      "fields": [
+        "hole_shape"
+      ]
+    },
+    {
+      "type": "pcb_hole",
+      "id": "pcb_hole_6",
+      "fields": [
+        "ccw_rotation",
+        "hole_shape"
+      ]
+    }
+  ],
+  "cli_version": "0.1.2429",
+  "tscircuit_version": "0.0.3062",
+  "core_version": "0.0.2259",
+  "root_cause": "Previous manual oval NPTH does not inherit parent rotation; latest importer emits a capsule/pill, which does."
+}

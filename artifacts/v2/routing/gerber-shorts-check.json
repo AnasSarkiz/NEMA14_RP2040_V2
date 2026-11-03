@@ -1,9 +1,10 @@
 {
   "passed": true,
-  "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d",
-  "checked_at": "2026-11-03T00:20:52.440217+00:00",
+  "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
+  "checked_at": "2026-11-03T15:50:24.165648+00:00",
   "command": "XDG_CONFIG_HOME=/workspace/.config tsci check shorts artifacts/v2/routing/freerouted.circuit.json --mode gerber --layer all --pixels-per-mm 100",
   "exit_code": 0,
+  "cli_version": "0.1.2429",
   "layers": [
     "top",
     "inner1",

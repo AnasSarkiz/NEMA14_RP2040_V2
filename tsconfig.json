@@ -21,6 +21,8 @@
   "include": [
     "index.circuit.tsx",
     "src",
-    "scripts"
+    "scripts/*v2*.ts",
+    "scripts/*v2*.tsx",
+    "scripts/check-circle-regression.ts"
   ]
 }

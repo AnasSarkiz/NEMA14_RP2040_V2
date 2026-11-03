@@ -72,128 +72,14 @@ sensor; the current draft has no routed copper.
 
 ## USB footprint evidence
 
-The fresh exact-footprint import still omitted EasyEDA `SOLIDREGION` NPTH
-`gge931`. The raw supplier data is retained in
-`references/v2/usb-easyeda.json`, and the unmodified reimport text in
-`references/v2/usb-reimport.tsx.txt`.
+**Updated 3 November 2026:** the fresh exact-footprint reimport with latest
+CLI 0.1.2429 and tscircuit 0.0.3062 now includes the capsule NPTH correctly.
+The previous manual restoration used `oval`, which does not inherit a connector's
+rotation; `pill` does. J_DATA now has a vertical rotated capsule at 90°, while
+J_PD retains a horizontal capsule at 0°. All supplier pad positions, the reviewed
+footprint origin and CAD alignment are preserved.
 
-The slot is restored from that source path, not guessed from the factory photo:
-width **1.5099792 mm**, height **0.7099808 mm**, local centre
-**(4.1524872, 0.000127) mm**. The existing round locating hole is Ø0.7099808 mm
-at **(-3.8474968, 0.000127) mm**. Pad geometry and the reviewed CAD transform
-are preserved. The source audit checks both holes on both connectors and all
-eight shell tabs. No existing physical board should be drilled to add the slots.
-
-The installed importer is the fallback used for this restoration. Installing
-latest CLI 0.1.2425 failed because its npm tarball returned HTTP 404. This work
-does not establish whether an upstream converter fix is available elsewhere.
-
-## Terminal selection and wire qualification
-
-The selected layout uses **one WAGO 250-204 / C2765063**, with the
-manufacturer's **15.5 × 12 mm body, 13.1 mm installed height**, 3.5 mm pole pitch,
-and four staggered solder pins. The full imported courtyard is approximately
-16 × 12.5 mm. Physical poles are **1 A+, 2 A−, 3 B+, 4 B−**. Both bottom-side
-pole labels and the schematic identify this order. Detailed supplier OBJ/STEP
-models replace the former Phoenix envelope models for the active motor terminal.
-
-The terminal accepts bare stranded **0.2–1.5 mm² / 24–16 AWG**, stripped
-**8.5–9.5 mm**, with 45° wire entry and push-button release. Its IEC 8 A rating
-exceeds the 0.4 A/phase target. The actual factory motor wire gauge and insulation
-fit are still unconfirmed. Catalog availability is not live stock assurance.
-See [WAGO implementation, component changes and sourcing](v2-wago-repack.md).
-The older [terminal selection research](../references/v2/terminal-selection.md)
-remains historical evidence, not the current BOM.
-
-The MLT-5020 buzzer has nonzero mirror stock. It operates from 2–4 V at up to
-100 mA, preserving the 3.3 V supply and flyback diode. Its
-nominal resonance is 4 kHz and catalog sound level is 75 dB; firmware and bench
-checks must validate the desired tone/loudness. It saves space while retaining
-the buzzer feature. This is a deliberate part change, not a volume-equivalent
-substitution. Catalog snapshots are in `references/v2/compact-parts-snapshot.json`.
-
-The buzzer MOSFET changes from AO3400A to DMN2300UFB4-7B / C154728
-(X2-DFN1006-3, 1.0 × 0.6 mm body). The exact supplier land pattern has a
-1.2 × 1.6 mm courtyard. Its 20 V drain rating and 240 mΩ maximum RDS(on)
-at 2.5 V gate drive support the 3.3 V, 100 mA buzzer load: about 2.4 mW
-conduction loss using that resistance. The flyback diode remains fitted.
-The new physical pin order is **1=G, 2=D, 3=S**, different from the old MOSFET;
-source connections and schematic symbol mapping follow the new order.
-The mirror snapshot shows 11,980 pieces; this is not live stock assurance.
-See [Diodes manufacturer datasheet](https://www.diodes.com/datasheet/download/DMN2300UFB4.pdf).
-
-The RGB channels now use the same DMN2300UFB4-7B device, with source to ground,
-gate to the existing active-high GPIO, drain to the existing LED current-limiter
-net, and a new 10 kΩ gate pull-down. The 1 kΩ LED resistors and fixed 5 V
-common-anode supply remain. The maximum possible current is below 5 mA per
-channel, far below the MOSFET rating. Gate drive and firmware polarity are
-unchanged; the new physical map is 1 G, 2 D, 3 S. Reusing the buzzer MOSFET
-saves footprint area and avoids another unique assembly part.
-
-D_BUZZER changes to B5819WS / C64886, SOD-323, 1 A / 40 V, for the 100 mA
-buzzer load. Its cathode remains on 3.3 V and anode on the switched sink.
-The exact imported courtyard is 3.845 × 1.8 mm; the snapshot shows 393,595 pieces.
-
-Five **bare copper** probe pads (3V3, GND, SWCLK, SWDIO, RUN) are on the bottom,
-beside the optional encoder courtyard and clear of through-board terminals.
-They add no bottom-side part placement. They require underside access, normally
-with the controller unmounted from the motor. The top BOOT/GND recovery pair
-uses 0.8 mm pads, about 1.25 mm centre separation, for fine tweezers/probes.
-
-## Validation and remaining work
-
-Run `npm run build:v2`, then `npm run check:v2:source` for source-generation
-and electrical/drill checks. `artifacts/v2/source-review.json` reports the actual
-generated source hash, native errors and routed-trace count. Passing its source
-checks does not mean that placement or routing passes. `npm run check:v2` and
-publication remain blocked. The placement seed is unrouted; the separate
-[initial routing candidate](v2-routing.md) still has opens and native DRC errors.
-
-`src/v2-placement-anchors.json` records the complete placement seed.
-`scripts/place-v2.py --anchor-plan --feasibility-only` checks full catalog
-courtyards, retained mounting positions, and local clock/power/current-sense
-proximity budgets. It preserves the Ø6.4 mm head envelopes. Fixed anchors use
-exact circle-to-rectangle distance; optional movable parts use 32 conservative
-supporting-line directions with outward quantization. The 0.025 mm anchor grid
-and 0.001 mm coordinate quantum preserve usable edge positions. Complete
-courtyards stay within the outline, and the independent audit separately
-enforces 0.25 mm copper-to-edge clearance. No courtyard is shrunk.
-A timed-out search is UNKNOWN, never proof of fit or impossibility.
-
-The generated source has **zero native errors**. The independent Shapely audit
-checks 99 top and six bottom courtyards, board bounds, head clearance, bottom
-probe-pad/through-hole separation and terminal pad/drill dimensions; it reports
-zero errors. Its receipt records the actual source SHA-256. The minimum gap
-between top courtyards is about **0.005 mm**: this is a dense fit between full
-courtyard margins, not a copper-clearance measurement.
-
-The independent audit also checks 65 placement-proximity budgets using generated
-physical ports, including the flash capacitor’s connected pad. Output isolation
-resistors are near their INA240 output pins, with the ADC filter capacitors near
-the RP2040. These are placement budgets, not measured trace lengths.
-
-All 33 electrical/source checks pass, including physical MOSFET pin maps,
-RGB reset pull-downs, both current channels, encoder capacitors and USB drills.
-The native schema and seven-sheet schematic placement checks pass. Use
-`npm run check:v2:schematic` for V2; `check:schematic` and its frozen CH224A/V1
-preservation checks apply to historical V1 work. These
-checks establish a collision-free **placement seed**, not a routed electrical
-layout. In particular, USB series resistors, divider/filter networks, QSPI,
-Kelvin branches, driver current paths and power/ground loops still need review
-against the actual routing; distances in the placer are not measured trace
-lengths. Detailed wire/tool/magnet access and supplier 3D assembly review remain.
-The WAGO model is the exact supplier CAD import; this does not establish wire/tool access or assembled-motor clearance.
-
-`npm run check:v2:placement` reruns the independent geometry audit.
-`npm run render:v2:placement` regenerates the readable SVG from native JSON.
-The native PCB SVG and Circuit JSON are also saved. There are **zero routed
-traces**, so manufacturing export/publication remain blocked by `check:v2`.
-
-Before a new order: finalize the routed layout and mechanical access, route the new
-board with Kelvin branches and corrected drill keepouts, check every physical
-net, DRC/clearances, all-layer Gerber shorts, actual drills and assembly angles,
-then verify current accuracy and switching behavior on the new prototype.
-
-Primary component reference: [TI INA240 datasheet](https://www.ti.com/lit/ds/symlink/ina240.pdf).
-The earlier related design is retained in `references/v2/reference-ina240-design.md`;
-its qualification results apply to that board, not to V2.
+See [reimport evidence and root cause](../references/v2/usb-reimport-2026-11-03/README.md)
+and the [minimal core oval-rotation repro](../repros/usb-slot-rotation/README.md).
+The source/drill regression now checks direction as well as hole count and size.
+No existing physical V1 board should be drilled to add these holes.

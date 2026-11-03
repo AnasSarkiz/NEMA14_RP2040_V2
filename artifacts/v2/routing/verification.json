@@ -1,9 +1,10 @@
 {
   "passed": true,
-  "stage": "V2 routing verified; engineering release remains open",
-  "verified_at": "2026-11-03T00:20:52.440217+00:00",
-  "placement_source_sha256": "39ce54a193d226ff105ef2d72e7b330d7edbffc8c4ab9a453b11bdb7eb66b1de",
-  "routed_source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d",
+  "version": "2.0.0-dev.2",
+  "stage": "V2 routing and USB capsule rotation verified; engineering release remains open",
+  "verified_at": "2026-11-03T15:50:24.165648+00:00",
+  "placement_source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
+  "routed_source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
   "nets_checked": 70,
   "connected_net_groups": 70,
   "shorts": 0,
@@ -11,54 +12,69 @@
   "native_warnings": 0,
   "floating_copper_islands": 0,
   "physical_pin_nets_preserved": 342,
+  "toolchain_versions": {
+    "tscircuit": "0.0.3062",
+    "@tscircuit/core": "0.0.2259",
+    "@tscircuit/cli": "0.1.2429",
+    "@tscircuit/checks": "0.0.268",
+    "circuit-to-svg": "0.0.454",
+    "circuit-json-to-gerber": "0.0.122",
+    "@tscircuit/runframe": "0.0.3131"
+  },
   "checks": {
     "physical-routing-audit.json": {
       "passed": true,
-      "sha256": "c63ebd81522b6a7037cf4b20a71a0d4a6f4ba984738fde9db0dcd64486c9223b",
-      "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d"
+      "sha256": "75e05c01f6dfe15896f3d168dbd6507b5b58b83592aeb85aa2882e8ff3190653",
+      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
     },
     "native-drc.json": {
       "passed": true,
-      "sha256": "2ec2ee721ec62ff3db7f7d020a06c6370aaec3e5653490721f135629ca8f5091",
-      "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d"
+      "sha256": "b9041d4535d1fcab23d9bfc025cec6308028ff786b7cd469e2f70d05f8b4b8ad",
+      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
     },
     "functional-routing-audit.json": {
       "passed": true,
-      "sha256": "777c28873bb1566a2ea92542ec9a9958c46dc914ed50c8646671cba475c719e4",
-      "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d"
+      "sha256": "b07019a1fb7a3c17513299c0bad8dfbe6b50a745c32f02010aefa142f8a8be24",
+      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
     },
     "phase-current-screen.json": {
       "passed": true,
-      "sha256": "564498009a2ba7d1d26966d09126dec787c7fc5b8e02b076932223238691bf59",
-      "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d"
+      "sha256": "92b2d2b69ba7f145d83ecadd5d1cc61a2939886449a6b1d08e23b74dac40c393",
+      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
     },
     "schema-verification.json": {
       "passed": true,
-      "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d",
-      "sha256": "3eabf01b0bb22f0fddd06671f10a06cd4dabef3e488da36d266612bd7ad41c16"
+      "sha256": "ad1ff093d098f66baead53d23bb88ac42704d1b8e5c6ac38b4dc0ddbca382671",
+      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
+    },
+    "usb-slot-export-check.json": {
+      "passed": true,
+      "sha256": "264e415e45b3ed1073e119216561ef199b206121a46eba793aad8585097d9a3f",
+      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
     },
     "viewer-verification.json": {
       "passed": true,
-      "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d",
-      "sha256": "e71b8719b4233126756130801d68b853949f7c0072915479c24ee4eb42e2508e"
+      "sha256": "07927e7b4050cc27f4e682aaf380ef8bd994040e041117c45891a6965d17ab00",
+      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
     },
     "source-review.json": {
       "passed": true,
-      "source_sha256": "39ce54a193d226ff105ef2d72e7b330d7edbffc8c4ab9a453b11bdb7eb66b1de",
-      "sha256": "dbc827de1573fdc2bf4a97035a1c440ac6aa1cd816644e25b6ef2bb9d8ed0889"
+      "source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
+      "sha256": "49bdb1027f8ffe89690aa828570d53b526f61edbdbba9e9cbd62b9b46a6cb111"
     },
     "placement-verification.json": {
       "passed": true,
-      "source_sha256": "39ce54a193d226ff105ef2d72e7b330d7edbffc8c4ab9a453b11bdb7eb66b1de",
-      "sha256": "13ca1e7483fcaf68078e57dbb49e0d47a9ff7af73d17d3cb68fd2105cd41fd75"
+      "source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
+      "sha256": "8819d3dd94f03ab0ad8d6da0433471a210114fa9787ce197f82da87ba441acd5"
     }
   },
   "gerber_shorts": {
     "passed": true,
-    "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d",
-    "checked_at": "2026-11-03T00:20:52.440217+00:00",
+    "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
+    "checked_at": "2026-11-03T15:50:24.165648+00:00",
     "command": "XDG_CONFIG_HOME=/workspace/.config tsci check shorts artifacts/v2/routing/freerouted.circuit.json --mode gerber --layer all --pixels-per-mm 100",
     "exit_code": 0,
+    "cli_version": "0.1.2429",
     "layers": [
       "top",
       "inner1",
@@ -76,6 +92,7 @@
   "placement_proximity_checks": 65,
   "typecheck_exit_code": 0,
   "circular_keepout_regression_passed": true,
+  "usb_slot_axes_and_exported_drills_passed": true,
   "fabrication_ready": false,
   "remaining": [
     "USB reference and thermal/power integrity engineering review",

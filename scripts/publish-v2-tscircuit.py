@@ -106,6 +106,8 @@ def stage(source_repository, revision):
         '34.5 × 34.5 mm, four-layer RP2040 motor controller with two coil-current ADC\n'
         'channels and a WAGO 250-204 spring terminal. RGB, buzzer, temperature sensor,\n'
         'flash, crystal and top-side encoder capacitors are retained.\n\n'
+        'USB-C capsule locating holes follow each connector rotation; exported drill\n'
+        f'directions are verified. Built with tscircuit {meta["dependencies"]["tscircuit"]} / CLI {meta["dependencies"]["@tscircuit/cli"]}.\n\n'
         '**70/70 nets connected; 0 shorts; 0 native PCB DRC errors or warnings.**\n\n'
         'Source-library advisories are preserved in the native JSON.\n\n'
         'This is an engineering preview. Thermal/power, USB reference, wire fit, sourcing\n'

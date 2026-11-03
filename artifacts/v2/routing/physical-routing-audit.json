@@ -1,7 +1,7 @@
 {
   "stage": "routing engineering screen, not fabrication approval",
-  "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d",
-  "placement_source_sha256": "39ce54a193d226ff105ef2d72e7b330d7edbffc8c4ab9a453b11bdb7eb66b1de",
+  "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
+  "placement_source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
   "physical_pin_nets_checked": 342,
   "changed_pin_nets": [],
   "changed_placement_records": [],
@@ -17,7 +17,7 @@
   "copper_edge_violations": [],
   "mount_hole_copper_clearance_violations": [],
   "minimum_mount_hole_copper_clearance_mm": 0.25557829114382813,
-  "minimum_supplier_locating_hole_copper_gap_mm": 0.12477750000000398,
+  "minimum_supplier_locating_hole_copper_gap_mm": 0.25916748597965805,
   "forbidden_copper": [],
   "construction_errors": [],
   "minimum_foreign_net_gap_within_0_15_mm": null,

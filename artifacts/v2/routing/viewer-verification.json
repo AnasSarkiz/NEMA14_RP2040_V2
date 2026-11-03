@@ -1,27 +1,33 @@
 {
   "passed": true,
-  "pcb_rendered": true,
-  "tested_at": "2026-11-03T00:21:59.008Z",
-  "source_sha256": "84184bc67437c1131abbd9ce69e031ac8dedf56923b18821666bc1ff7ce42b3d",
-  "html_sha256": "7d4b4ad270ea4d9821b4861125c4ce3b7d0237143112e048570b3fb31d0b4782",
-  "html_bytes": 25802167,
-  "runframe": "0.0.2929",
-  "embedded_distinct_obj_models": 44,
+  "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
+  "html_sha256": "47e0639dee2daf9e85c27c71ba87bcdabadfc6e684d0fb4fc03b7989bdc2c0c5",
+  "tested_at": "2026-11-03T15:49:21.357Z",
+  "html_bytes": 40597855,
+  "runframe": "0.0.3131",
   "views_tested": [
     "PCB",
     "3D",
     "Schematic"
   ],
   "browser_page_errors": [],
-  "external_requests": 0,
-  "browser": "Chromium headless, software WebGL, temporary loopback test server",
-  "test_note": "The same standalone HTML was served locally for testing because this cloud browser blocks file navigation. External HTTP/HTTPS requests were blocked. Open the downloaded HTML in Chrome on the user device.",
+  "external_requests": [],
   "circuit": {
     "traces": 639,
-    "displayed_native_errors": 0,
     "cad": 104,
-    "wago": true,
-    "oldTerminals": 0
+    "errors": 0,
+    "slots": [
+      {
+        "id": "pcb_hole_4",
+        "shape": "pill",
+        "rotation": 0
+      },
+      {
+        "id": "pcb_hole_6",
+        "shape": "rotated_pill",
+        "rotation": 90
+      }
+    ]
   },
-  "scope": "Viewer smoke check; not routing, mechanical or manufacturing qualification."
+  "scope": "Native viewer smoke check; exact slot axis and drilling are checked separately."
 }

@@ -29,6 +29,11 @@ port labels. Floating fragments and endpoint stubs were removed while preserving
 the physical pad partitions. Copper normalization preserves real wire geometry
 and every real layer-changing barrel.
 
+The dev.2 update uses tscircuit 0.0.3062 / core 0.0.2259 / CLI 0.1.2429.
+Both USB locating holes are capsules from the latest import; J_DATA rotates 90°
+and J_PD stays at 0°. Export checks verify the actual drill direction.
+[Investigation and repro](../references/v2/usb-reimport-2026-11-03/README.md).
+
 ## Construction rules
 
 Foreign-net copper clearance is at least 0.15 mm; board-edge copper clearance is
@@ -42,7 +47,7 @@ may pass under the insulated FR4 surface, with at least 0.25 mm copper clearance
 from each actual Ø3.2 mm mounting hole on every layer. Through vias stay outside
 the head envelopes. The minimum mounting-hole copper gap is 0.2556 mm. Supplier
 USB locating holes and plated lands retain their imported geometry; the separate
-0.1248 mm supplier land-to-locating-hole gap is reported, not confused with a
+0.2592 mm supplier land-to-locating-hole gap is reported, not confused with a
 mounting-hole waiver. NPTH copper overlaps are rejected.
 
 The current screen uses the actual fixed VREF network: nominal current limit

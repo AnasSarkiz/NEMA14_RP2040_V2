@@ -7,7 +7,11 @@ V2 is published separately from the ordered V1:
 | V1 | [NEMA14_RP2040](https://github.com/AnasSarkiz/NEMA14_RP2040) | [NEMA14_RP2040](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040) |
 | V2 | [NEMA14_RP2040_V2](https://github.com/AnasSarkiz/NEMA14_RP2040_V2) | [NEMA14_RP2040_V2](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d) |
 
-The first separate V2 registry release is **2.0.0-dev.1**. Its full source and
+The current registry release is **2.0.0-dev.2**, correcting USB locating-slot
+rotation with the latest tscircuit toolchain. Its exact source revision is in
+the linked publication receipt.
+
+The first separate V2 registry release was **2.0.0-dev.1**. Its full source and
 all 88 OBJ/STEP assets are pinned to immutable commit
 `4172993aa0839ba5e95ba84d5c212aae240e8a7f` in the new repository. Only CAD URL
 metadata changes between the reviewed board and registry preview. All source,
@@ -41,12 +45,17 @@ npm run publish:v2:stage
 npm run publish:tscircuit
 ```
 
-To verify this exact first release without writing to the registry:
+To verify the current release without writing to the registry, use its immutable
+`github_source_revision` from the publication receipt:
 
 ```sh
-python3 scripts/publish-v2-tscircuit.py --verify-only --source-revision 4172993aa0839ba5e95ba84d5c212aae240e8a7f
+python3 scripts/publish-v2-tscircuit.py --verify-only --source-revision PUBLISHED_SOURCE_COMMIT
 ```
 
 The V2 publisher cannot write to the original V1 package. It verifies the saved
 routing manifest and the public source/model Git blobs, uploads only the allowlist,
 and reads back every file and native preview before reporting success.
+
+The separate V2 TypeScript project includes the complete board source, V2 tools
+and their imported shared helpers. Historical V1 assembly/export tools are kept
+in GitHub for reference and use the V1 toolchain; they are outside the V2 build.

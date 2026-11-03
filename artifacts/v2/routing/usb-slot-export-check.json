@@ -1,0 +1,41 @@
+{
+  "purpose": "Diagnostic NPTH conversion only; not order files",
+  "usb_slot_count": 2,
+  "source": "artifacts/v2/routing/freerouted.circuit.json",
+  "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
+  "slot_overall_mm": [
+    1.5099792,
+    0.7099808
+  ],
+  "uses_excellon_routed_slots": true,
+  "orientations": [
+    {
+      "reference": "J_PD",
+      "shape": "pill",
+      "ccw_rotation_deg": 0,
+      "exported_tool_start_mm": [
+        4.352488,
+        14.850127
+      ],
+      "exported_tool_end_mm": [
+        5.1524864,
+        14.850127
+      ],
+      "slot_axis_matches_connector": true
+    },
+    {
+      "reference": "J_DATA",
+      "shape": "rotated_pill",
+      "ccw_rotation_deg": 90,
+      "exported_tool_start_mm": [
+        -14.850126999999999,
+        8.252488
+      ],
+      "exported_tool_end_mm": [
+        -14.850126999999999,
+        9.0524864
+      ],
+      "slot_axis_matches_connector": true
+    }
+  ]
+}

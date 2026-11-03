@@ -1,12 +1,12 @@
 {
   "name": "NEMA14_RP2040_V2",
-  "version": "2.0.0-dev.4",
+  "version": "2.0.0-dev.5",
   "description": "NEMA14 RP2040 V2: checked four-layer routing, winding telemetry and WAGO spring terminal",
   "main": "index.circuit.json",
   "scripts": {
     "build": "npm run build:v2 && npm run check:v2",
     "check": "npm run check:v2",
-    "dev": "XDG_CONFIG_HOME=/workspace/.config tsci dev index.circuit.json",
+    "dev": "XDG_CONFIG_HOME=/workspace/.config tsci dev assembly.circuit.json",
     "test": "npm run check",
     "render": "bun scripts/render.ts",
     "autoroute": "bun scripts/build.tsx",
@@ -23,11 +23,11 @@
     "check:schema": "node scripts/check-native-schema.mjs",
     "precheck": "python3 scripts/patch-native-circular-keepouts.py",
     "check:circle": "bun scripts/check-circle-regression.ts",
-    "assembly:build": "npm run check:v2 && bun scripts/build-assembly-preview.tsx",
-    "assembly:check": "npm run check:v2 && /workspace/.routing-venv/bin/python scripts/check-harness-connection.py && /workspace/.routing-venv/bin/python scripts/check-assembly-fit.py",
-    "assembly:export": "npm run check:v2 && bun scripts/export-assembly-3d.ts && /workspace/.routing-venv/bin/python scripts/check-exported-harness.py",
-    "assembly:viewer": "bun build scripts/assembly-viewer.mjs --target browser --minify --outfile artifacts/top-assembly/assembly-viewer.js",
-    "publish:assembly": "npm run check:v2 && python3 scripts/prepare-assembly-release.py",
+    "assembly:build": "python3 scripts/restore-v2-reviewed-routing.py && bun scripts/build-v2-assembly.ts",
+    "assembly:check": "node scripts/check-v2-assembly-schema.mjs && python3 scripts/check-v2-assembly-models.py && /workspace/.routing-venv/bin/python scripts/check-v2-assembly-fit.py",
+    "assembly:export": "npm run assembly:check && bun scripts/export-assembly-3d.ts --v2",
+    "assembly:viewer": "python3 scripts/make-v2-portable-viewer.py --source assembly.circuit.json --output artifacts/v2/assembly/NEMA14-V2-assembly-viewer.html --default-tab cad --notice 'V2 motor and WAGO leads \u00b7 Rear mounting and factory wire fit unverified'",
+    "publish:assembly": "python3 scripts/publish-v2-tscircuit.py --publish",
     "check:pd": "python3 scripts/check-ch224a.py",
     "build:v2": "bun scripts/build-v2.tsx",
     "route:v2": "python3 scripts/restore-v2-reviewed-routing.py",
@@ -46,7 +46,8 @@
     "check:v2:phase-current": "/workspace/.routing-venv/bin/python scripts/screen-v2-phase-current.py",
     "publish:v2:stage": "python3 scripts/publish-v2-tscircuit.py",
     "check:v2:analysis": "bun scripts/check-v2-analysis.ts",
-    "check:v2:silkscreen": "bun scripts/export-v2-critical-silk.ts && /workspace/.routing-venv/bin/python scripts/check-v2-critical-silk.py"
+    "check:v2:silkscreen": "bun scripts/export-v2-critical-silk.ts && /workspace/.routing-venv/bin/python scripts/check-v2-critical-silk.py",
+    "check:v2:branding": "/workspace/.routing-venv/bin/python scripts/check-v2-branding.py"
   },
   "repository": {
     "type": "git",

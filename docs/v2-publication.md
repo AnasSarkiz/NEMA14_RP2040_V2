@@ -7,7 +7,7 @@ V2 is published separately from the ordered V1:
 | V1 | [NEMA14_RP2040](https://github.com/AnasSarkiz/NEMA14_RP2040) | [NEMA14_RP2040](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040) |
 | V2 | [NEMA14_RP2040_V2](https://github.com/AnasSarkiz/NEMA14_RP2040_V2) | [NEMA14_RP2040_V2](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d) |
 
-The current registry release is **2.0.0-dev.4**, making essential silkscreen legends readable while retaining the verified source-analysis definitions and USB locating-slot
+The current registry release is **2.0.0-dev.5**, adding the motor/direct-WAGO-lead assembly and restoring the full readable logo/evaluation artwork while retaining the verified source-analysis definitions and USB locating-slot
 rotation with the latest tscircuit toolchain. Its exact source revision is in
 the linked publication receipt.
 
@@ -17,10 +17,7 @@ all 88 OBJ/STEP assets are pinned to immutable commit
 metadata changes between the reviewed board and registry preview. All source,
 schematic, PCB, pin/net, trace, via, hole and pour records are preserved.
 
-The registry contains exactly six files: native PCB JSON, its compiled preview
-copy, package metadata, viewer configuration, README and verification receipt.
-No V1 assembly, datasheets, supplier model files or manufacturing downloads are
-included. The public native-preview API matches the uploaded board. The package
+The registry contains exactly eight files: native PCB and V2 assembly JSON, their compiled preview copies, package metadata, viewer configuration, README and verification receipt. The default preview is assembly.circuit.json; index.circuit.json remains the PCB. No V1 assembly, datasheets, supplier model files or manufacturing downloads are included. The public native-preview API matches the uploaded V2 assembly. The 88 supplier OBJ/STEP assets and one motor GLB remain in GitHub at the pinned source revision. The package
 page and a public WAGO model URL return HTTP 200; that model matches its recorded
 SHA-256. Full source, models, history and engineering evidence remain in GitHub.
 

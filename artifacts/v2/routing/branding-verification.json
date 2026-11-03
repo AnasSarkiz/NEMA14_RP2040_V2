@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "source_sha256": "e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76",
+  "exact_disclaimer": "For evaluation only; not FCC approved for resale.",
+  "official_logo_paths_retained": true,
+  "mirrored_for_underside_reading": true,
+  "groups": [
+    {
+      "name": "For evaluation only;",
+      "bounds_mm": [
+        -6.012503000000001,
+        5.943894,
+        11.012502999999999,
+        7.256106
+      ],
+      "stroke_width_mm": 0.15,
+      "pad_clearance_mm": 2.51653975046232,
+      "edge_clearance_mm": 6.237497000000001
+    },
+    {
+      "name": "not FCC approved for resale.",
+      "bounds_mm": [
+        -9.544305,
+        4.144476,
+        14.544305,
+        5.4555240000000005
+      ],
+      "stroke_width_mm": 0.15,
+      "pad_clearance_mm": 0.6919369999999994,
+      "edge_clearance_mm": 2.7056950000000004
+    },
+    {
+      "name": "tscircuit official wordmark",
+      "bounds_mm": [
+        -7.667318160421518,
+        7.537155380173336,
+        1.0673251150705987,
+        9.262831087032204
+      ],
+      "stroke_width_mm": 0.15,
+      "pad_clearance_mm": 3.6324146587301724,
+      "edge_clearance_mm": 7.987168912967796
+    }
+  ],
+  "errors": [],
+  "scope": "Artwork ink and pad/hole/body/edge screen; not manufacturing release"
+}

@@ -1,8 +1,8 @@
 {
-  "stage": "V2 essential silkscreen verified against Gerber ink; physical routing unchanged; engineering release remains open",
-  "generated_at": "2026-11-03T18:33:46.606266+00:00",
-  "source_sha256": "8990429e281db00f5a0b07d645e87a13e32c65c4ace5c5e0ee0af5c972ba95c6",
-  "candidate_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07",
+  "stage": "V2 logo/evaluation artwork and native motor/WAGO assembly preview checked; physical routing unchanged; engineering release remains open",
+  "generated_at": "2026-11-03T19:02:54.585866+00:00",
+  "source_sha256": "21ed216717760fcd3a87e5f0b4bcb27725e158925c3a5bf207597934cd40923b",
+  "candidate_sha256": "e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76",
   "nets_checked": 70,
   "connected_net_groups": 70,
   "disconnected_net_groups": 0,
@@ -19,5 +19,7 @@
   "source_analysis_warnings": 0,
   "fresh_schematic_diagnostics": 0,
   "fresh_pin_diagnostics": 0,
-  "critical_silkscreen_labels_checked": 14
+  "critical_silkscreen_labels_checked": 14,
+  "logo_and_evaluation_artwork_checked": true,
+  "motor_and_direct_WAGO_lead_preview": true
 }

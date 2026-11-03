@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "board_sha256": "e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76",
+  "assembly_sha256": "05ee2ce3678d6b9db3975b66926427f479534ebd022870c0e00d3d922e54e505",
+  "board_records_preserved": true,
+  "mechanical_parts": 9,
+  "fitted_supplier_STEP_parts": 97,
+  "mounting_hardware_included": false,
+  "four_reference_rear_fastener_envelopes_checked": true,
+  "four_physical_motor_pin_nets_verified": true,
+  "four_wire_entry_axes_verified_against_actual_WAGO_STEP": true,
+  "motor_outlet_and_terminal_on_same_board_side": "-Y",
+  "no_JST_or_pigtail_splices": true,
+  "wire_segments_checked": 141,
+  "minimum_insulated_wire_clearance_mm": 1.0132745950421544,
+  "collisions": [],
+  "PCB_surface_to_motor_rear_gap_mm": 6,
+  "motor_rear_attachment_verified": false,
+  "factory_wire_gauge_and_retention_verified": false,
+  "physical_assembly_tested": false,
+  "limitations": [
+    "Motor rear threads, rear shaft/magnet and actual retention are unverified; mounting hardware is omitted.",
+    "Wire outside diameter is a 1 mm visual envelope; confirm actual factory gauge and WAGO retention with samples.",
+    "Only a partial hidden conductor tip is drawn; follow the manufacturer 8.5\u20139.5 mm strip requirement.",
+    "USB plug and button/tool operating access require physical verification."
+  ]
+}

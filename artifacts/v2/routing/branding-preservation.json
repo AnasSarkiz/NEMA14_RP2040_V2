@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "before_routed_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07",
+  "after_routed_sha256": "e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76",
+  "placement_source_sha256": "21ed216717760fcd3a87e5f0b4bcb27725e158925c3a5bf207597934cd40923b",
+  "only_silkscreen_paths_changed": true,
+  "all_non_path_source_records_identical": true,
+  "all_non_path_routed_records_identical": true,
+  "all_1058_copper_records_preserved": true,
+  "all_97_fitted_CAD_poses_preserved": true
+}

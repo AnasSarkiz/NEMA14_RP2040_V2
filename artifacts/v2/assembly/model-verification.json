@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "assembly_sha256": "05ee2ce3678d6b9db3975b66926427f479534ebd022870c0e00d3d922e54e505",
+  "all_native_JSCAD_wire_centerlines_match_fit_checked_paths": true,
+  "insulated_cylinders_checked": 141,
+  "four_partial_conductor_tips_coaxial": true,
+  "motor_GLB_provenance_sha256": "ca178224b858dff7f5f297ebedfcfc445e048313cd843ccac854ecb489f8fe18",
+  "motor_reference_local_bounds_mm": [
+    [
+      -17.600000381469727,
+      -17.600000381469727,
+      -31.200000762939453
+    ],
+    [
+      17.600000381469727,
+      17.600000381469727,
+      24
+    ]
+  ],
+  "modeled_motor_body_rear_Z_mm": -6.799999237060547,
+  "modeled_rear_fastener_max_Z_mm": -3.799999237060547,
+  "PCB_bottom_to_motor_body_rear_gap_mm": 5.999999237060547,
+  "PCB_bottom_to_rear_fastener_gap_mm": 2.999999237060547,
+  "factory_lead_gauge_and_rear_retention_qualified": false
+}

@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "assembly_sha256": "05ee2ce3678d6b9db3975b66926427f479534ebd022870c0e00d3d922e54e505",
+  "html_sha256": "5592af30f971ba85d4af58e6ee16e6dfa99a9fa795a8e99d121a78ae0a3a1e8d",
+  "tested_at": "2026-11-03T19:02:25.139Z",
+  "views_tested": [
+    "3D",
+    "PCB"
+  ],
+  "browser_page_errors": [],
+  "console_errors": [],
+  "external_requests": [],
+  "circuit": {
+    "traces": 639,
+    "cad": 106,
+    "errors": 0,
+    "motor": {
+      "type": "cad_component",
+      "cad_component_id": "v2_assembly_cad_MOTOR_REFERENCE_CONCEPT",
+      "model_glb_url": "blob:http://127.0.0.1:36401/7ec5c815-be13-44ae-9fb4-c6128f71f5d5",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -35
+      },
+      "rotation": {
+        "x": 180,
+        "y": 0,
+        "z": 180
+      },
+      "layer": "bottom",
+      "source_component_id": "v2_assembly_source_MOTOR_REFERENCE_CONCEPT",
+      "model_origin_position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "model_unit_to_mm_scale_factor": 1,
+      "model_object_fit": "contain_within_bounds",
+      "anchor_alignment": "center",
+      "show_as_translucent_model": false
+    },
+    "leads": [
+      "MOTOR_LEAD_PIN_1",
+      "MOTOR_LEAD_PIN_2",
+      "MOTOR_LEAD_PIN_3",
+      "MOTOR_LEAD_PIN_4"
+    ],
+    "legacyJstPlug": false
+  },
+  "scope": "Native viewer smoke and visual capture; rear retention and actual wire fit not qualified"
+}

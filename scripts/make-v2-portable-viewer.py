@@ -9,6 +9,7 @@ parser.add_argument('--source',type=Path,default=ROOT/'artifacts/v2/source.circu
 parser.add_argument('--output',type=Path,default=ROOT/'artifacts/v2/NEMA14-V2-viewer.html')
 parser.add_argument('--notice',default='Placement draft · Unrouted · Not for ordering')
 parser.add_argument('--native-drc',type=Path,help='Append hash-matched native errors to the display only')
+parser.add_argument('--default-tab',choices=['pcb','cad'],default='pcb')
 args=parser.parse_args()
 source=args.source
 circuit=json.loads(source.read_text())
@@ -21,12 +22,14 @@ if args.native_drc:
 assets={}
 for element in circuit:
     if element['type']!='cad_component':continue
-    obj=element.get('model_obj_url')
-    if obj:
-        if '/imports/supplier/' in unquote(urlparse(obj).path):
-            # Resolve verified supplier assets from this checkout, including
-            # saved snapshots made before the repository was separated.
-            path=ROOT/('imports/supplier/'+unquote(urlparse(obj).path).split('/imports/supplier/',1)[1])
+    for field in ['model_obj_url','model_glb_url']:
+        obj=element.get(field)
+        if not obj:continue
+        decoded=unquote(urlparse(obj).path)
+        if '/imports/supplier/' in decoded:
+            path=ROOT/('imports/supplier/'+decoded.split('/imports/supplier/',1)[1])
+        elif '/imports/assembly/' in decoded:
+            path=ROOT/('imports/assembly/'+decoded.split('/imports/assembly/',1)[1])
         else:
             path=Path(obj)
             if not path.is_absolute():path=ROOT/path
@@ -34,8 +37,7 @@ for element in circuit:
         if not path.is_relative_to(ROOT) or not path.is_file():raise ValueError('Missing local CAD: '+str(path))
         asset_key=str(path.relative_to(ROOT))
         assets[asset_key]=base64.b64encode(path.read_bytes()).decode()
-        element['model_obj_url']='embedded:'+asset_key
-        # Display uses the exact OBJ; STEP exchange files are unnecessary here.
+        element[field]='embedded:'+asset_key
         element.pop('model_step_url',None)
 
 bundle=ROOT/'node_modules/@tscircuit/runframe/dist/standalone-preview.min.js'
@@ -90,16 +92,17 @@ html='''<!doctype html><html lang="en"><head><meta charset="utf-8">
 <div id="root"><div class="loading">Loading tscircuit viewer…</div></div>
 <script>
 const embeddedAssets=ASSETS;
-const assetUrls=Object.fromEntries(Object.entries(embeddedAssets).map(([key,data])=>[key,URL.createObjectURL(new Blob([Uint8Array.from(atob(data),c=>c.charCodeAt(0))],{type:'text/plain'}))]));
+const assetUrls=Object.fromEntries(Object.entries(embeddedAssets).map(([key,data])=>[key,URL.createObjectURL(new Blob([Uint8Array.from(atob(data),c=>c.charCodeAt(0))],{type:key.endsWith('.glb')?'model/gltf-binary':'text/plain'}))]));
 window.CIRCUIT_JSON=CIRCUIT;
-for(const item of window.CIRCUIT_JSON){if(item.type==='cad_component'&&item.model_obj_url?.startsWith('embedded:'))item.model_obj_url=assetUrls[item.model_obj_url.slice(9)];}
+for(const item of window.CIRCUIT_JSON){if(item.type==='cad_component')for(const field of ['model_obj_url','model_glb_url'])if(item[field]?.startsWith('embedded:'))item[field]=assetUrls[item[field].slice(9)];}
 window.CIRCUIT_JSON_PREVIEW_PROPS={defaultActiveTab:'pcb',showRightHeaderContent:true,readOnly:true,showFileMenu:false,showImportAndFormatButtons:false,allowSelectingVersion:false,availableTabs:['pcb','schematic','cad']};
 window.addEventListener('error',e=>{console.error('Viewer error:',e.message)});
 </script><script type="module">BUNDLE</script></body></html>'''
 html=html.replace('ASSETS;',script_json(assets)+';',1).replace('CIRCUIT;',script_json(circuit)+';',1).replace('BUNDLE</script>',preload+js+'</script>',1)
 html=html.replace('Placement draft · Unrouted · Not for ordering',html_escape.escape(args.notice),1)
 html=html.replace('<title>',f'<!-- Source SHA256: {sha}; runframe {version}; models embedded, no manufacturing export. -->\n<title>',1)
+if args.default_tab=='cad':html=html.replace("defaultActiveTab:'pcb'","defaultActiveTab:'cad'").replace('— board preview','— assembly preview')
 output=args.output
 output.parent.mkdir(parents=True,exist_ok=True)
 output.write_text(html)
-print(json.dumps({'path':str(output),'bytes':output.stat().st_size,'source_sha256':sha,'runframe_version':version,'embedded_obj_models':len(assets),'pcb_renderer':'native Canvas'}))
+print(json.dumps({'path':str(output),'bytes':output.stat().st_size,'source_sha256':sha,'runframe_version':version,'embedded_models':len(assets),'pcb_renderer':'native Canvas'}))

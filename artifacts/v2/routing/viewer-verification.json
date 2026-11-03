@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07",
-  "html_sha256": "64d66b065a6cfb4afcafe04b9658081f4d7544fc4ad7f4b7e3e1d7d7bec18ae8",
-  "tested_at": "2026-11-03T18:33:00.445Z",
-  "html_bytes": 40554108,
+  "source_sha256": "e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76",
+  "html_sha256": "b4bdc59d7a5345cc5634f6e24b698288b5da47f8b126cd7bab8f8e2248b6e4e3",
+  "tested_at": "2026-11-03T18:55:21.517Z",
+  "html_bytes": 40495482,
   "runframe": "0.0.3131",
   "views_tested": [
     "PCB",

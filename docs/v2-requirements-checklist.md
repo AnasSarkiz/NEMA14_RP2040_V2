@@ -1,7 +1,7 @@
 # V2 requirements and review checklist
 
-Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.4**, with routed-board SHA-256
-`516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07`.
+Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.5**, with routed-board SHA-256
+`e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76`.
 The requirements below combine the original NEMA14 requests, the initial V2
 request and later accepted changes. The separate NEMA11 discussion is outside
 this board's scope.
@@ -41,14 +41,8 @@ passes; the complete board is **not yet signed off for a V2 order**.
   clarity, labels and port presentation remains separate.
 - [x] **Native tscircuit PCB/schematic/3D views:** the exact checked board is
   published, and the standalone native viewer passed its PCB/3D/schematic smoke check.
-- [ ] **Complete motor-and-cable assembly:** update/qualify the V2 assembly with
-  the WAGO terminal, outlet facing the terminal, actual lead routing, rear motor
-  attachment, fastener lengths and cable/tool clearance. The current V2 public
-  3D preview is the PCB; the old JST assembly is historical V1 evidence.
-- [ ] **Bottom logo and exact evaluation disclaimer:** all 532 source artwork
-  paths are present and inside the board. The first warning line overlaps two
-  J_DATA shell pads and needs repositioning. Current V2 mask/drill/readability
-  acceptance is still open; the old V1 CAM receipt does not qualify V2 artwork.
+- [x] **V2 native motor-and-wire CAD preview:** the default preview now includes the motor reference, four direct WAGO leads; mounting hardware is omitted pending rear-interface confirmation. Physical rear retention, factory wire fit and tool/USB operating access remain open under MECH-01.
+- [x] **Bottom logo and exact evaluation disclaimer, CAD scope:** all 532 vector paths read correctly from below, remain inside the board and pass ink-to-pad/hole/edge/head and label checks. Final manufacturing CAM remains part of RELEASE-01.
 - [ ] **All components available and affordable at JLCPCB:** a complete current
   live-stock, Economic/Standard eligibility and assembly-price confirmation is
   still needed. Dated catalog/mirror snapshots are not purchasing acceptance.
@@ -106,7 +100,7 @@ passes; the complete board is **not yet signed off for a V2 order**.
 
 | ID | Status | Acceptance required |
 | --- | --- | --- |
-| ART-01 | Needs correction | Move the bottom “For evaluation only;” line away from J_DATA shell pads. The native CAD ink overlaps pads pcb_plated_hole_4 and pcb_plated_hole_7 by approximately 0.453 and 0.489 mm². Recheck artwork against V2 mask/drills. |
+| ART-01 | Resolved in CAD | Official wordmark and both evaluation lines read correctly from below and pass actual vector-ink pad/hole/edge checks. See [full artwork and assembly](v2-motor-assembly.md). |
 | ART-02 | Resolved | DATA follows the left-edge data connector. Essential legends pass the [actual Gerber ink review](v2-critical-silkscreen.md). |
 | BEHAVIOR-01 | Needs acceptance or a design change | RGB's common anode is DATA_VBUS powered. It does not light with PD power alone; the 3.3 V power LED remains available. Confirm whether standalone PD operation requires RGB status. |
 | MECH-01 | Open | Confirm factory wire gauge/CSA, clamp retention, button/tool/wire access and actual motor/PCB/fastener assembly. |
@@ -131,5 +125,5 @@ passes; the complete board is **not yet signed off for a V2 order**.
   [terminal/assembly constraints](v2-wago-repack.md),
   [USB reimport and repro](../references/v2/usb-reimport-2026-11-03/README.md).
 
-The dev.4 essential-label update preserves all physical copper and component placement.
+The dev.5 artwork and separate mechanical assembly preserve all physical copper and fitted electronic component placement.
 Unchecked items stay open until their stated evidence is available.

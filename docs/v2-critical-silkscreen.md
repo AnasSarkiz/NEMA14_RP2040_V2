@@ -14,4 +14,4 @@ Every essential legend uses the native font setting 1.7 mm, which exports a **0.
 
 [Readable underside SVG](../artifacts/v2/routing/critical-silkscreen-bottom.svg) shows the actual Gerber ink, pads and body/head envelopes, mirrored as viewed from underneath. It intentionally shows the essential legends only. [Verification](../artifacts/v2/routing/critical-silkscreen-verification.json) and [preservation evidence](../artifacts/v2/routing/silkscreen-preservation.json) record the exact saved candidate.
 
-The earlier DATA-location finding is closed. The separate evaluation-statement overlap with J_DATA shell pads remains open in the [requirements checklist](v2-requirements-checklist.md); it is outside this essential-label change.
+The earlier DATA-location finding is closed. The later dev.5 [full artwork check](v2-motor-assembly.md) also clears the retained wordmark and evaluation statement from pads.

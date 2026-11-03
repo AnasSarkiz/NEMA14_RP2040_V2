@@ -6,10 +6,10 @@ V2 has its own repository and registry package:
 - tscircuit: https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2
 - V1 remains at `AnasSarkiz/NEMA14_RP2040`.
 
-The separate tscircuit preview is **2.0.0-dev.4**.
+The separate tscircuit preview is **2.0.0-dev.5**.
 [Publication details and verification](docs/v2-publication.md).
 
-Latest update: essential port, motor-coil, debug and revision legends enlarged and checked against actual exported Gerber ink. [Readable underside and checks](docs/v2-critical-silkscreen.md).
+Latest update: the default native preview includes the motor and four direct WAGO leads. The tscircuit wordmark and evaluation statement are repositioned clear of pads and read correctly from underneath. [Assembly and limits](docs/v2-motor-assembly.md) · [Full underside artwork](artifacts/v2/routing/full-bottom-silkscreen.svg).
 
 The 22 prior analysis warnings are resolved; fresh source, pin and schematic checks report zero diagnostics. [Analysis evidence](docs/v2-analysis-warnings.md).
 

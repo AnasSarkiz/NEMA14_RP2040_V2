@@ -46,7 +46,7 @@ def get(endpoint, **query):
 
 def without_model_urls(records):
     return [{k: v for k, v in e.items()
-             if not (e['type'] == 'cad_component' and k in ['model_obj_url', 'model_step_url'])}
+             if not (e['type'] == 'cad_component' and k in ['model_obj_url', 'model_step_url', 'model_glb_url'])}
             for e in records]
 
 
@@ -65,22 +65,35 @@ def stage(source_repository, revision):
     records = json.loads(original)
     published = json.loads(original)
     assets = {}
-    for e in published:
-        if e['type'] != 'cad_component':
-            continue
-        for field in ['model_obj_url', 'model_step_url']:
-            value = e.get(field)
-            if not value:
-                continue
-            path = urllib.parse.unquote(urllib.parse.urlparse(value).path)
-            assert '/imports/supplier/' in path, 'Unexpected model path'
-            relative = 'imports/supplier/' + path.split('/imports/supplier/', 1)[1]
-            local = (ROOT / relative).resolve()
-            assert local.is_relative_to((ROOT / 'imports/supplier').resolve())
-            data = local.read_bytes()
-            assert blobs[relative] == blob(data), 'Public model differs: ' + relative
-            e[field] = f'https://raw.githubusercontent.com/{source_repository}/{revision}/{relative}'
-            assets[relative] = {'sha256': sha(data), 'git_blob_sha': blob(data), 'url': e[field]}
+    def pin_models(rows):
+        for e in rows:
+            if e['type'] != 'cad_component': continue
+            for field in ['model_obj_url','model_step_url','model_glb_url']:
+                value=e.get(field)
+                if not value: continue
+                path=urllib.parse.unquote(urllib.parse.urlparse(value).path)
+                relative=next((prefix+path.split('/'+prefix,1)[1] for prefix in ['imports/supplier/','imports/assembly/'] if '/'+prefix in path),None)
+                assert relative, 'Unexpected model path: '+path
+                local=(ROOT/relative).resolve()
+                assert local.is_relative_to((ROOT/'imports').resolve())
+                data=local.read_bytes();assert blobs[relative]==blob(data),'Public model differs: '+relative
+                e[field]=f'https://raw.githubusercontent.com/{source_repository}/{revision}/{relative}'
+                assets[relative]={'sha256':sha(data),'git_blob_sha':blob(data),'url':e[field]}
+        return rows
+    published=pin_models(published)
+    assembly_bytes=(ROOT/'assembly.circuit.json').read_bytes()
+    assert blobs['assembly.circuit.json']==blob(assembly_bytes),'Public assembly source differs'
+    assembly=json.loads(assembly_bytes);assert assembly[:len(records)]==records,'Assembly altered the PCB'
+    assembly_check=json.loads((ROOT/'artifacts/v2/assembly/assembly-verification.json').read_text())
+    assert assembly_check['passed'] and assembly_check['assembly_sha256']==sha(assembly_bytes) and assembly_check['board_sha256']==sha(original)
+    for name in ['schema-verification.json','model-verification.json','viewer-verification.json']:
+        receipt=json.loads((ROOT/'artifacts/v2/assembly'/name).read_text())
+        assert receipt['passed'] and receipt['assembly_sha256']==sha(assembly_bytes),'Stale assembly receipt: '+name
+    artwork=json.loads((ROOT/'artifacts/v2/routing/branding-verification.json').read_text())
+    assert artwork['passed'] and artwork['source_sha256']==sha(original),'Logo/disclaimer check is stale'
+    published_assembly=pin_models(json.loads(assembly_bytes))
+    assert without_model_urls(published_assembly)==without_model_urls(assembly)
+    assert published_assembly[:len(published)]==published
     assert without_model_urls(published) == without_model_urls(records), 'PCB or schematic records changed'
     assert not any(e['type'].endswith('_error') for e in published)
     # Definitions must pass analysis before publication; never filter diagnostics.
@@ -94,7 +107,7 @@ def stage(source_repository, revision):
         'github_source_repository': source_repository, 'github_source_revision': revision,
         'separate_github_repository_pending': source_repository != REPO,
         'reviewed_board_sha256': sha(original), 'published_board_sha256': sha(native),
-        'only_CAD_model_URL_metadata_changed': True, 'routing_and_schematic_preserved': True,
+        'only_CAD_model_URL_metadata_changed': True, 'assembly_sha256': sha(assembly_bytes), 'published_assembly_sha256':sha(encode(published_assembly)), 'assembly_mechanical_parts':9, 'motor_rear_attachment_verified':False, 'factory_wire_fit_verified':False, 'routing_and_schematic_preserved': True,
         'connected_net_groups': qualification['connected_net_groups'],
         'shorts': 0, 'native_errors': 0, 'native_warnings': 0,
         'native_warning_scope': 'PCB DRC', 'source_library_warning_count': len(source_warnings),
@@ -111,7 +124,8 @@ def stage(source_repository, revision):
         f'directions are verified. Built with tscircuit {meta["dependencies"]["tscircuit"]} / CLI {meta["dependencies"]["@tscircuit/cli"]}.\n\n'
         '**70/70 nets connected; 0 shorts; 0 native PCB DRC errors or warnings.**\n\n'
         'Fresh source, pin and schematic checks report zero diagnostics.\n\n'
-        'Essential wiring/debug legends are enlarged on the underside and checked against exported Gerber ink.\n\n'
+        'Essential legends, the tscircuit wordmark and evaluation disclaimer are checked on the underside.\n\n'
+        'The default 3D preview includes the reference motor and four direct WAGO leads. Rear mounting and factory wire fit remain unverified.\n\n'
         'This is an engineering preview. Thermal/power, USB reference, wire fit, sourcing\n'
         'and bench calibration remain unqualified. No manufacturing downloads included.\n\n'
         f'Verified full source and models: {source_url}\n\n'
@@ -120,16 +134,18 @@ def stage(source_repository, revision):
     ).encode()
     files = {
         'index.circuit.json': native,
+        'assembly.circuit.json': encode(published_assembly),
+        'dist/assembly/circuit.json': encode(published_assembly),
         'dist/index/circuit.json': native,
         'package.json': encode({'name': meta['name'], 'version': meta['version'],
             'description': meta['description'], 'main': 'index.circuit.json',
             'repository': 'https://github.com/' + REPO, 'license': 'ISC'}),
         'tscircuit.config.json': encode({'mainEntrypoint': 'index.circuit.json',
-            'includeBoardFiles': ['index.circuit.json'], 'previewComponentPath': 'index.circuit.json'}),
+            'includeBoardFiles': ['index.circuit.json','assembly.circuit.json'], 'previewComponentPath': 'assembly.circuit.json'}),
         'README.md': readme,
         'verification.json': encode(proof),
     }
-    assert len(files) == 6
+    assert len(files) == 8
     directory = OUT / 'stage'
     for path, data in files.items():
         target = directory / path
@@ -200,8 +216,8 @@ def publish(meta, files, proof, verify_only=False):
         verified.append({'path': path, 'sha256': sha(data)})
     preview = get('package_releases/get_preview_circuit_json', package_name=NAME,
         is_latest='true')['preview_circuit_json_response']
-    assert preview['circuit_json_found'] and preview['component_path'] == 'index.circuit.json'
-    assert preview['circuit_json'] == json.loads(files['index.circuit.json']), 'Native preview differs'
+    assert preview['circuit_json_found'] and preview['component_path'] == 'assembly.circuit.json'
+    assert preview['circuit_json'] == json.loads(files['assembly.circuit.json']), 'Native assembly preview differs'
     after = get('packages/get', name=V1)['package']
     protected = ['package_id', 'latest_package_release_id', 'latest_version', 'latest_package_release_fs_sha']
     assert all(before[k] == after[k] for k in protected), 'V1 changed during publication'

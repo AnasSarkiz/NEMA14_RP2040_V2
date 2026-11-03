@@ -1,50 +1,42 @@
 {
-  "source_sha256": "516b11f90f300a9fff3355ab39c90e2a9ddadedcf12be3ab0d99d9afa96bdd07",
+  "source_sha256": "e50ca5a645b87bd787460789487384f682805ad325101ab635da80c8c58a7a76",
   "scope": "Read-only requirements/artwork screen; no manufacturing release",
   "bottom_artwork": [
     {
       "name": "For evaluation only;",
       "bounds_mm": [
-        -16.808048514285712,
-        -7.5789602857142855,
-        -15.4958372,
-        9.446046
+        -6.012503000000001,
+        5.943894,
+        11.012502999999999,
+        7.256106
       ],
-      "inside_board": true,
-      "pad_overlaps": [
-        {
-          "reference": "J_DATA",
-          "pad_id": "pcb_plated_hole_4",
-          "overlap_mm2": 0.4530301479185248
-        },
-        {
-          "reference": "J_DATA",
-          "pad_id": "pcb_plated_hole_7",
-          "overlap_mm2": 0.48907139864992866
-        }
-      ]
+      "stroke_width_mm": 0.15,
+      "pad_clearance_mm": 2.51653975046232,
+      "edge_clearance_mm": 6.237497000000001
     },
     {
       "name": "not FCC approved for resale.",
       "bounds_mm": [
-        -15.641752342857144,
-        -14.573904628571428,
-        -14.3307048,
-        9.514704628571428
+        -9.544305,
+        4.144476,
+        14.544305,
+        5.4555240000000005
       ],
-      "inside_board": true,
-      "pad_overlaps": []
+      "stroke_width_mm": 0.15,
+      "pad_clearance_mm": 0.6919369999999994,
+      "edge_clearance_mm": 2.7056950000000004
     },
     {
       "name": "tscircuit official wordmark",
       "bounds_mm": [
-        -12.728974038330207,
-        7.186396984055592,
-        -3.9943302315341978,
-        8.912072717159136
+        -7.667318160421518,
+        7.537155380173336,
+        1.0673251150705987,
+        9.262831087032204
       ],
-      "inside_board": true,
-      "pad_overlaps": []
+      "stroke_width_mm": 0.15,
+      "pad_clearance_mm": 3.6324146587301724,
+      "edge_clearance_mm": 7.987168912967796
     }
   ],
   "source_warning_counts": {},
@@ -91,9 +83,9 @@
   "identified_items": [
     {
       "id": "ART-01",
-      "status": "needs_correction",
-      "item": "Bottom evaluation-only line overlaps two J_DATA plated shell pads",
-      "evidence": "Native CAD ink overlaps actual bottom plated-pad copper; current V2 CAM artwork clipping still requires review."
+      "status": "resolved_in_CAD",
+      "item": "Wordmark and evaluation statement repositioned clear of pads and holes",
+      "evidence": "routing/branding-verification.json; manufacturing release remains separate"
     },
     {
       "id": "ART-02",
@@ -113,12 +105,11 @@
     "exit_code": 0,
     "result": "No diagnostics emitted; visual readability remains a separate review."
   },
-  "reviewed_at_utc": "2026-11-03T18:30:43.472889+00:00",
-  "placement_source_sha256": "8990429e281db00f5a0b07d645e87a13e32c65c4ace5c5e0ee0af5c972ba95c6",
+  "reviewed_at_utc": "2026-11-03T18:54:24.218199+00:00",
+  "placement_source_sha256": "21ed216717760fcd3a87e5f0b4bcb27725e158925c3a5bf207597934cd40923b",
   "all_requirements_closed": false,
   "fabrication_ready": false,
   "open_requirement_ids": [
-    "ART-01",
     "BEHAVIOR-01",
     "MECH-01",
     "BUY-01",
@@ -130,7 +121,8 @@
     "RELEASE-01"
   ],
   "analysis_warning_resolution": "routing/analysis-verification.json",
-  "artwork_evidence_inherited_from": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
-  "artwork_geometry_preservation_evidence": "routing/silkscreen-preservation.json",
-  "critical_silkscreen_review": "routing/critical-silkscreen-verification.json"
+  "artwork_geometry_preservation_evidence": "routing/branding-preservation.json",
+  "critical_silkscreen_review": "routing/critical-silkscreen-verification.json",
+  "motor_wire_assembly_preview": "assembly/assembly-verification.json",
+  "rear_retention_and_factory_wire_fit_qualified": false
 }

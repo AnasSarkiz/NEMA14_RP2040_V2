@@ -18,8 +18,6 @@ Tested with tscircuit **0.0.3062**, core **0.0.2259** and CLI **0.1.2429**.
 [Root cause and reimport evidence](references/v2/usb-reimport-2026-11-03/README.md) ·
 [Minimal oval-rotation repro](repros/usb-slot-rotation/README.md).
 
-[Optional clear-cover enclosure concept](docs/v2-enclosure-concept.md) — separate file and preview; approved dev.6 PCB/assembly unchanged.
-
 [Old + new requirements checklist and open findings](docs/v2-requirements-checklist.md).
 
 **All 70 physical net groups are connected. Zero shorts, zero native DRC errors

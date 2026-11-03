@@ -47,11 +47,7 @@
     "publish:v2:stage": "python3 scripts/publish-v2-tscircuit.py",
     "check:v2:analysis": "bun scripts/check-v2-analysis.ts",
     "check:v2:silkscreen": "bun scripts/export-v2-critical-silk.ts && /workspace/.routing-venv/bin/python scripts/check-v2-critical-silk.py",
-    "check:v2:branding": "/workspace/.routing-venv/bin/python scripts/check-v2-branding.py",
-    "enclosure:build": "/workspace/.routing-venv/bin/python scripts/build-v2-enclosure.py",
-    "enclosure:check": "node scripts/check-v2-enclosure-schema.mjs && /workspace/.routing-venv/bin/python scripts/check-v2-enclosure.py",
-    "enclosure:viewer": "python3 scripts/make-v2-portable-viewer.py --source enclosure-concept.circuit.json --output artifacts/v2/enclosure/NEMA14-V2-enclosure-viewer.html --default-tab cad --notice 'Enclosure fit concept \u00b7 Approved PCB and wires unchanged \u00b7 Retention/material/thermal tests pending'",
-    "enclosure:publish": "python3 scripts/publish-v2-enclosure.py"
+    "check:v2:branding": "/workspace/.routing-venv/bin/python scripts/check-v2-branding.py"
   },
   "repository": {
     "type": "git",

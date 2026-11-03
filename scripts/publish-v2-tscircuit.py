@@ -83,8 +83,9 @@ def stage(source_repository, revision):
             assets[relative] = {'sha256': sha(data), 'git_blob_sha': blob(data), 'url': e[field]}
     assert without_model_urls(published) == without_model_urls(records), 'PCB or schematic records changed'
     assert not any(e['type'].endswith('_error') for e in published)
-    # Retain imported source-library advisories; native PCB DRC is checked separately.
+    # Definitions must pass analysis before publication; never filter diagnostics.
     source_warnings = [e for e in published if e['type'].endswith('_warning')]
+    assert not source_warnings, 'Resolve source/schematic warnings before publishing'
     native = encode(published)
     qualification = json.loads((ROOT / 'artifacts/v2/routing/verification.json').read_text())
     proof = {
@@ -109,7 +110,7 @@ def stage(source_repository, revision):
         'USB-C capsule locating holes follow each connector rotation; exported drill\n'
         f'directions are verified. Built with tscircuit {meta["dependencies"]["tscircuit"]} / CLI {meta["dependencies"]["@tscircuit/cli"]}.\n\n'
         '**70/70 nets connected; 0 shorts; 0 native PCB DRC errors or warnings.**\n\n'
-        'Source-library advisories are preserved in the native JSON.\n\n'
+        'Fresh source, pin and schematic checks report zero diagnostics.\n\n'
         'This is an engineering preview. Thermal/power, USB reference, wire fit, sourcing\n'
         'and bench calibration remain unqualified. No manufacturing downloads included.\n\n'
         f'Verified full source and models: {source_url}\n\n'

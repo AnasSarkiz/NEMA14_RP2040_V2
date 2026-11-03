@@ -6,10 +6,12 @@ V2 has its own repository and registry package:
 - tscircuit: https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2
 - V1 remains at `AnasSarkiz/NEMA14_RP2040`.
 
-The separate tscircuit preview is **2.0.0-dev.2**.
+The separate tscircuit preview is **2.0.0-dev.3**.
 [Publication details and verification](docs/v2-publication.md).
 
-Latest update: USB-C locating capsules now rotate correctly with their connectors.
+Latest update: corrected 22 source-analysis warnings at their definitions; fresh source, pin and schematic checks report zero diagnostics. [Details and evidence](docs/v2-analysis-warnings.md).
+
+USB-C locating capsules rotate correctly with their connectors.
 Tested with tscircuit **0.0.3062**, core **0.0.2259** and CLI **0.1.2429**.
 [Root cause and reimport evidence](references/v2/usb-reimport-2026-11-03/README.md) ·
 [Minimal oval-rotation repro](repros/usb-slot-rotation/README.md).

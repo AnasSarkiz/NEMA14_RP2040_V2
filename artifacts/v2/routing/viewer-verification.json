@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
-  "html_sha256": "47e0639dee2daf9e85c27c71ba87bcdabadfc6e684d0fb4fc03b7989bdc2c0c5",
-  "tested_at": "2026-11-03T15:49:21.357Z",
-  "html_bytes": 40597855,
+  "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6",
+  "html_sha256": "d98a445a8555060547471b9bee709463706481696116aa07a28c8bb6535f8133",
+  "tested_at": "2026-11-03T18:10:46.321Z",
+  "html_bytes": 40584949,
   "runframe": "0.0.3131",
   "views_tested": [
     "PCB",
@@ -14,7 +14,7 @@
   "external_requests": [],
   "circuit": {
     "traces": 639,
-    "cad": 104,
+    "cad": 97,
     "errors": 0,
     "slots": [
       {

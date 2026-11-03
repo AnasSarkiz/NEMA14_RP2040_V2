@@ -7,7 +7,7 @@ export function classifySource(json:any[]) {
   if(c.name==='Q_BUZZER') Object.assign(c,{ftype:'simple_mosfet',channel_type:'n',mosfet_mode:'enhancement'})
   if(c.name==='BZ1') c.ftype='simple_pinout' // Generic numbered pinout; buzzer function is identified by its MPN and schematic.
   if(c.name==='D_TVS') c.ftype='simple_diode'
-  if(c.name==='Y_MCU') Object.assign(c,{ftype:'simple_crystal',frequency:12_000_000,load_capacitance:10})
+  if(c.name==='Y_MCU') Object.assign(c,{ftype:'simple_crystal',frequency:12_000_000,load_capacitance:10e-12,pin_variant:'four_pin'})
  }
  return json
 }

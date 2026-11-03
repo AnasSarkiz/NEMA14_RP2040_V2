@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "before_routed_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
+  "after_routed_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6",
+  "placement_source_sha256": "579696ca2fc4629332cde301eb22aed3dc6a438308e05be6c29348cdf42d97fa",
+  "all_copper_records_identical": true,
+  "preserved_copper_records": 1058,
+  "all_pads_ports_holes_keepouts_and_silkscreen_identical": true,
+  "all_97_fitted_cad_models_and_transforms_identical": true,
+  "seven_bare_pad_placeholder_boxes_removed_from_cad": true,
+  "source_physical_pin_and_net_ids_unchanged": true,
+  "source_trace_and_net_connections_unchanged": true,
+  "bare_test_pad_components_marked_do_not_place": [
+    "pcb_component_94",
+    "pcb_component_95",
+    "pcb_component_96",
+    "pcb_component_97",
+    "pcb_component_98",
+    "pcb_component_99",
+    "pcb_component_100"
+  ],
+  "raw_source_errors": 0,
+  "raw_source_warnings": 0,
+  "prepared_errors": 0,
+  "prepared_warnings": 0,
+  "crystal_load_capacitance_metadata_F": 1e-11,
+  "rebuilt_source_semantically_identical_to_checked_probe": true
+}

@@ -6,6 +6,7 @@ export function pinProps(name:string):Pick<ChipProps,'pinAttributes'> {
   ...({
    D_STATUS:{...power(["_POS"]),R_NEG:{mustBeConnected:true},G_NEG:{mustBeConnected:true},B_NEG:{mustBeConnected:true}},
    BZ1:{...power(["_POS"]),_NEG:{mustBeConnected:true}},
+   D_TVS:{pin1:{requiresGround:true,mustBeConnected:true},pin2:{isPassive:true,mustBeConnected:true}},
    Q_BUZZER:{...ground(["S"]),G:{isInput:true,mustBeConnected:true},D:{mustBeConnected:true}},
    Q_STATUS_R:{...ground(["S"]),G:{isInput:true,mustBeConnected:true},D:{mustBeConnected:true}},
    Q_STATUS_G:{...ground(["S"]),G:{isInput:true,mustBeConnected:true},D:{mustBeConnected:true}},

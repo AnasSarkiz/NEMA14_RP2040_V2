@@ -133,5 +133,29 @@ export function SupplierPart({name,...props}:any) {
  const id=(catalog.components as Record<string,string>)[name]
  if(!id || !parts[id]) throw new Error("Missing supplier import for "+name)
  if(props.footprint || props.cadModel) throw new Error("Supplier geometry override is forbidden: "+name)
+ // Imported mechanical data stays exact. Select the electrical primitive before
+ // core source analysis, so a passive/custom part is not analyzed as an IC.
+ const primitive = name==='Y_MCU' ? 'crystal'
+  : name==='D_TVS' ? 'diode'
+  : name==='D_STATUS'||name==='BZ1' ? 'pinout'
+  : name==='Q_BUZZER'||name.startsWith('Q_STATUS_') ? 'mosfet' : null
+ if(primitive){
+  const imported=(parts[id] as (props:any)=>React.ReactElement<any>)({name,...props})
+  if(!React.isValidElement<any>(imported)||imported.type!=='chip')throw Error('Expected a direct supplier chip definition: '+name)
+  const electrical=primitive==='crystal'?{frequency:'12MHz',loadCapacitance:'10pF',pinVariant:'four_pin'}
+   :primitive==='mosfet'?{channelType:'n',mosfetMode:'enhancement'}:{}
+  const aliases:Record<number,string[]> = primitive==='crystal'
+   ?{1:['X1'],2:['gnd1'],3:['X2'],4:['gnd2']}
+   :primitive==='mosfet'?{1:['gate'],2:['drain'],3:['source']}:{}
+  const originalSymbol=imported.props.symbol as React.ReactElement<any>|undefined
+  const symbol=originalSymbol?React.cloneElement(originalSymbol,{},React.Children.map(originalSymbol.props.children,child=>{
+   if(!React.isValidElement<any>(child)||child.type!=='port')return child
+   return React.cloneElement(child,{aliases:[...(child.props.aliases??[]),...(aliases[child.props.pinNumber]??[])]})
+  })):undefined
+  const connections=primitive==='mosfet'?Object.fromEntries(Object.entries(imported.props.connections??{}).map(([pin,net])=>[
+   ({G:'pin1',D:'pin2',S:'pin3'} as Record<string,string>)[pin]??pin,net
+  ])):imported.props.connections
+  return React.createElement(primitive,{...imported.props,...electrical,connections,...(symbol?{symbol}:{})})
+ }
  return React.createElement(parts[id], {name,...props})
 }

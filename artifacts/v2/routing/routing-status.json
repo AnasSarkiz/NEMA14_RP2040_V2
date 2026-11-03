@@ -1,8 +1,8 @@
 {
-  "stage": "V2 routing and USB capsule rotation verified; engineering release remains open",
-  "generated_at": "2026-11-03T15:50:24.165648+00:00",
-  "source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
-  "candidate_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
+  "stage": "V2 source and schematic analysis corrected; physical routing unchanged; engineering release remains open",
+  "generated_at": "2026-11-03T18:11:04.504249+00:00",
+  "source_sha256": "579696ca2fc4629332cde301eb22aed3dc6a438308e05be6c29348cdf42d97fa",
+  "candidate_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6",
   "nets_checked": 70,
   "connected_net_groups": 70,
   "disconnected_net_groups": 0,
@@ -15,5 +15,8 @@
   "floating_copper_islands": 0,
   "usb_slot_rotation_correct": true,
   "passed": true,
-  "fabrication_ready": false
+  "fabrication_ready": false,
+  "source_analysis_warnings": 0,
+  "fresh_schematic_diagnostics": 0,
+  "fresh_pin_diagnostics": 0
 }

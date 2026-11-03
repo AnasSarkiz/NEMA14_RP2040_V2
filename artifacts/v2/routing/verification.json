@@ -1,10 +1,10 @@
 {
   "passed": true,
-  "version": "2.0.0-dev.2",
-  "stage": "V2 routing and USB capsule rotation verified; engineering release remains open",
-  "verified_at": "2026-11-03T15:50:24.165648+00:00",
-  "placement_source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
-  "routed_source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
+  "version": "2.0.0-dev.3",
+  "stage": "V2 source and schematic analysis corrected; physical routing unchanged; engineering release remains open",
+  "verified_at": "2026-11-03T18:11:04.504249+00:00",
+  "placement_source_sha256": "579696ca2fc4629332cde301eb22aed3dc6a438308e05be6c29348cdf42d97fa",
+  "routed_source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6",
   "nets_checked": 70,
   "connected_net_groups": 70,
   "shorts": 0,
@@ -24,54 +24,64 @@
   "checks": {
     "physical-routing-audit.json": {
       "passed": true,
-      "sha256": "75e05c01f6dfe15896f3d168dbd6507b5b58b83592aeb85aa2882e8ff3190653",
-      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
+      "sha256": "a7ee3063372268954c145ced98e3a2cfcc4d5de5555d836471d364c335274a04",
+      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
     },
     "native-drc.json": {
       "passed": true,
-      "sha256": "b9041d4535d1fcab23d9bfc025cec6308028ff786b7cd469e2f70d05f8b4b8ad",
-      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
+      "sha256": "c6867eb20537b121719568c865b68069240fa3deddc20510f843f17839dac05f",
+      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
     },
     "functional-routing-audit.json": {
       "passed": true,
-      "sha256": "b07019a1fb7a3c17513299c0bad8dfbe6b50a745c32f02010aefa142f8a8be24",
-      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
+      "sha256": "fdb069d22aea8cc5a496fe46401f4017aa0ca25ee4aecb2daa638cca06e5374d",
+      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
     },
     "phase-current-screen.json": {
       "passed": true,
-      "sha256": "92b2d2b69ba7f145d83ecadd5d1cc61a2939886449a6b1d08e23b74dac40c393",
-      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
+      "sha256": "d90139eab199ce05aff6138a6f239d5c947ae3806e42ad47b41706ec88007695",
+      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
     },
     "schema-verification.json": {
       "passed": true,
-      "sha256": "ad1ff093d098f66baead53d23bb88ac42704d1b8e5c6ac38b4dc0ddbca382671",
-      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
+      "sha256": "a746f705dc2aa63b60a12b2c4ecf2934ba32b8111ce75074f8de262a1cc6d3f2",
+      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
     },
     "usb-slot-export-check.json": {
       "passed": true,
-      "sha256": "264e415e45b3ed1073e119216561ef199b206121a46eba793aad8585097d9a3f",
-      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
+      "sha256": "5d2eecbaa29375fcc47086d7d63d6b7f5f8ed9cfa901858dec4ecec5007f201d",
+      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
     },
     "viewer-verification.json": {
       "passed": true,
-      "sha256": "07927e7b4050cc27f4e682aaf380ef8bd994040e041117c45891a6965d17ab00",
-      "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b"
+      "sha256": "c40e6e459e48824f7cda29000214ed8661c4709bb7932cc4fc8f586868b837c0",
+      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
     },
     "source-review.json": {
       "passed": true,
-      "source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
-      "sha256": "49bdb1027f8ffe89690aa828570d53b526f61edbdbba9e9cbd62b9b46a6cb111"
+      "source_sha256": "579696ca2fc4629332cde301eb22aed3dc6a438308e05be6c29348cdf42d97fa",
+      "sha256": "708a7c1e8d7f59f25d8fcda7087a45d7de0e5122993f515714994b915ea506ff"
     },
     "placement-verification.json": {
       "passed": true,
-      "source_sha256": "b3990379cea4ad6c8a1f082a80920bcba214b3236afe56bec0469db3be3eb0a9",
-      "sha256": "8819d3dd94f03ab0ad8d6da0433471a210114fa9787ce197f82da87ba441acd5"
+      "source_sha256": "579696ca2fc4629332cde301eb22aed3dc6a438308e05be6c29348cdf42d97fa",
+      "sha256": "584245d897b41e8a76887c425f0e0fdcd8c1da3dbe189848f8e7a176faad0e1f"
+    },
+    "analysis-verification.json": {
+      "passed": true,
+      "sha256": "a5a1af64807b51b0780819cbebcf3e59beba9c58820163328412e5f75cab42b3",
+      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
+    },
+    "analysis-cleanup-preservation.json": {
+      "passed": true,
+      "sha256": "e60d097b5f4de1383e627cef6bf315a61acaf123b8d47260bce8fc15088334b4",
+      "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6"
     }
   },
   "gerber_shorts": {
     "passed": true,
-    "source_sha256": "f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b",
-    "checked_at": "2026-11-03T15:50:24.165648+00:00",
+    "source_sha256": "02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6",
+    "checked_at": "2026-11-03T18:11:04.504249+00:00",
     "command": "XDG_CONFIG_HOME=/workspace/.config tsci check shorts artifacts/v2/routing/freerouted.circuit.json --mode gerber --layer all --pixels-per-mm 100",
     "exit_code": 0,
     "cli_version": "0.1.2429",
@@ -95,8 +105,12 @@
   "usb_slot_axes_and_exported_drills_passed": true,
   "fabrication_ready": false,
   "remaining": [
+    "Bottom evaluation-only artwork pad clearance and DATA legend correction",
     "USB reference and thermal/power integrity engineering review",
     "Exact motor lead gauge, wire/tool access and terminal procurement confirmation",
     "Current calibration, ADC sampling and motor-switching bench checks"
-  ]
+  ],
+  "source_analysis_warnings": 0,
+  "fresh_schematic_diagnostics": 0,
+  "fresh_pin_diagnostics": 0
 }

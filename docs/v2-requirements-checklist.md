@@ -1,7 +1,7 @@
 # V2 requirements and review checklist
 
-Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.2**, with routed-board SHA-256
-`f3aea5d70f2b1ca8cab39770cbe9b2d7c58f41a8d6afc425dca324abd0fd2b6b`.
+Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.3**, with routed-board SHA-256
+`02a48a5695f1ed5ad40298610d175573ee4d7f032c489a1c919780068e9595a6`.
 The requirements below combine the original NEMA14 requests, the initial V2
 request and later accepted changes. The separate NEMA11 discussion is outside
 this board's scope.
@@ -115,7 +115,7 @@ passes; the complete board is **not yet signed off for a V2 order**.
 | ELEC-01 | Open | Complete USB return/reference and thermal/power-integrity review on the actual routing and chosen stackup. A current-sizing estimate and clean DRC do not establish operation. |
 | FW-01 | Open | Implement/adapt firmware for the V2 pin map, PD-good/voltage interlocks, boot/USB behavior, ADC sampling/zero-gain calibration and motor switching. No application firmware is present in this repository. |
 | BENCH-01 | Open | Verify PD negotiation, 3.3 V regulation, USB boot/enumeration, crystal startup, signed coil-current accuracy, temperatures, motor load behavior, RGB/buzzer and I²C/encoder operation as fitted. |
-| DOC-01 | Advisory | The saved board contains 22 source-library advisories: reference designators, power/ground annotations and bare-pad MPN warnings. Preserve/classify them separately from the zero PCB DRC count. |
+| DOC-01 | Resolved | The 22 source-library advisories are corrected at their definitions. Fresh source, pin and schematic diagnostics are zero; a negative-control IC still triggers genuine warnings. See [analysis evidence](v2-analysis-warnings.md). |
 | SCH-01 | Open visual approval | Native placement passes. Review the seven schematic pages for readability and the original box/port-gap concern before final signoff. |
 | RELEASE-01 | Open | Produce a V2-specific BOM/CPL/Gerber/drill/mask/paste/silkscreen package and obtain DFM/process acceptance after closing the relevant items above. Historical V1 manufacturing artifacts are not V2 order files. |
 
@@ -131,5 +131,5 @@ passes; the complete board is **not yet signed off for a V2 order**.
   [terminal/assembly constraints](v2-wago-repack.md),
   [USB reimport and repro](../references/v2/usb-reimport-2026-11-03/README.md).
 
-This review changes no PCB source, copper, component placement or published preview.
+The dev.3 analysis-definition correction preserves physical copper and component placement.
 Unchecked items stay open until their stated evidence is available.

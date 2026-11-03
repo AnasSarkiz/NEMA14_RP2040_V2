@@ -7,7 +7,7 @@ V2 is published separately from the ordered V1:
 | V1 | [NEMA14_RP2040](https://github.com/AnasSarkiz/NEMA14_RP2040) | [NEMA14_RP2040](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040) |
 | V2 | [NEMA14_RP2040_V2](https://github.com/AnasSarkiz/NEMA14_RP2040_V2) | [NEMA14_RP2040_V2](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d) |
 
-The current registry release is **2.0.0-dev.2**, correcting USB locating-slot
+The current registry release is **2.0.0-dev.3**, correcting source-analysis definitions while retaining the verified USB locating-slot
 rotation with the latest tscircuit toolchain. Its exact source revision is in
 the linked publication receipt.
 
@@ -27,9 +27,7 @@ SHA-256. Full source, models, history and engineering evidence remain in GitHub.
 [Publication receipt](../artifacts/v2/publication/registry-verification.json)
 records every uploaded file's hash and confirms V1 remains at 1.13.2 with the same
 package/release/filesystem IDs. The saved routing remains 70/70 connected, zero
-shorts and zero native PCB DRC errors or warnings. The 22 pre-existing source
-library advisories are retained; they are not PCB DRC results. Manufacturing
-qualification remains separate.
+shorts and zero native PCB DRC errors or warnings. The 22 prior source-library advisories are resolved at their definitions; fresh source, pin and schematic checks report zero diagnostics. [Analysis evidence](v2-analysis-warnings.md). Manufacturing qualification remains separate.
 
 Publication uses bounded native registry uploads. Automatic GitHub synchronization
 is not enabled: the tscircuit GitHub integration reports that the new repository

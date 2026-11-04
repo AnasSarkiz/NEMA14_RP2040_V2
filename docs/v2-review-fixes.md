@@ -63,7 +63,8 @@ Evidence: [routing qualification](../artifacts/v2/routing/verification.json),
 [order-file consistency](../artifacts/v2/order-review/verification.json),
 [viewer readback](../artifacts/v2/assembly/viewer-verification.json).
 
-Use the [dev.8 order package](../artifacts/v2/order-review/) and its manifest;
+Use the [current order package](../artifacts/v2/order-review/) and its manifest;
+dev.9 supersedes dev.8 with a silkscreen-only update (see [port labels](v2-port-labels.md));
 previous downloads describe dev.7 and should be replaced.
 
 ## Remaining acceptance

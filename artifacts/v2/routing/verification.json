@@ -1,10 +1,10 @@
 {
   "passed": true,
-  "version": "2.0.0-dev.8",
-  "stage": "V2 startup-bias and USB ESD bypass fixes; completed routing, supplier acceptance remains separate",
-  "verified_at": "2026-11-04T11:53:55.941378+00:00",
-  "placement_source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8",
-  "routed_source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
+  "version": "2.0.0-dev.9",
+  "stage": "V2 large bottom knockout port legends; completed routing, supplier acceptance remains separate",
+  "verified_at": "2026-11-04T12:45:57.211439+00:00",
+  "placement_source_sha256": "5943833f701810796b3e79fdffc4b866298d292836aba66e60af35d91ddb3619",
+  "routed_source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2",
   "nets_checked": 70,
   "connected_net_groups": 70,
   "shorts": 0,
@@ -15,88 +15,88 @@
   "checks": {
     "physical-routing-audit.json": {
       "passed": true,
-      "sha256": "5545fd1bfa213c5b34d53f64489d7221cc2b32f4b76edfb827db18cac4920bf9",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "6a837c99b6f1672416fc38d5afa0934467410db1e4c7f9a73dbeb38a2978624d",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "native-drc.json": {
       "passed": true,
-      "sha256": "0fd95f8e928a8cfca9330f489696e2f44856210a58475d9929a42ae2807acda6",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "1c4b090e128300093e1d10f856e672a6e377b0407e158fa3cc27b08fd58b9abb",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "functional-routing-audit.json": {
       "passed": true,
-      "sha256": "024593471aa09e5f5b2bdd32d2ad3059b90ef61576fd69d681d5b0e6062512d6",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "675a5a47c4d55f6ddd53345e83dc455492e9679f04b7684e07ae1ba942446152",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "phase-current-screen.json": {
       "passed": true,
-      "sha256": "00eca4c3e1dcbd873577a27f943ce515d40100705c7cc9727448d263e90b0828",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "db14219d76df064472a795548924613f3823d454c06aa81893c9a97e73caaba3",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "startup-and-esd-verification.json": {
       "passed": true,
-      "sha256": "bfd445ae50a6f7d45c3cc29efa28d97c1309c701156cd101b2d10895903320c2",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "8f2df517a40acd249b2cd4a1ab3d4852bb94a4521ec8ba0f6ce47f33c96056c9",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "review-fixes-preservation.json": {
       "passed": true,
-      "sha256": "6a8c525233ae5ef46c2579973d144511b572016f430e348609da496c3e84b697",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "4ba685ec98f955af70b4f2544b60502b444bf02bbf9c4a4464cfb7f127acbf56",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "analysis-verification.json": {
       "passed": true,
-      "sha256": "912260a8e4e61b33418898fda152642ef901251b8463a982a3bd0915cc35e9e0",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "0b0f5e6b3365bc1451ce85d7077373e089a0a1091ab48f6b5f1a0884f5add7d3",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "local-power-verification.json": {
       "passed": true,
-      "sha256": "13ba571710ecddb02ed343ea699c33dd10800c100ddea0c276312417e1a73ca4",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "a61277fb5911692df3bc5b8c62dccb6ce6112883bcc2fac9eaa21bd36c9b0178",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "component-body-verification.json": {
       "passed": true,
-      "sha256": "4698fe248644de9efcffada9a8d7c1590051126155e832dc1061503ef3951257",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "9bb14f3f973dfe6ed7adacc7bdd451dacdbfdb7cc993bc49369e666ecbe4a258",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "critical-silkscreen-verification.json": {
       "passed": true,
-      "sha256": "5ecdc92cf53129d0c70da709f76672a19378e6030e63b55359ecd37af143828b",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "957e300c1f7b1175598f011a42b38c73aaa3b75efd4e685d044d655966f542c4",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "branding-verification.json": {
       "passed": true,
-      "sha256": "77007bee59fe70284a93a2a6ce760cf3958d8a2a1e5c0f194799bf761b29bb6c",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "4da806d787f829fbf20baea337c9f2b43730a149bd81b2a105eb445c7fca6b69",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "source-review.json": {
       "passed": true,
-      "sha256": "851996b6b22133b41d98910031bec9fa03efce4b2c702e34fce73aeb56d56915",
-      "source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8"
+      "sha256": "f5e9bcd74a633a1d9d94083d7772f257cedfba39bbce222bfaf34c464b4754b3",
+      "source_sha256": "5943833f701810796b3e79fdffc4b866298d292836aba66e60af35d91ddb3619"
     },
     "placement-verification.json": {
       "passed": true,
-      "sha256": "4e5c5392f9c438003b34b06c8e0fb073e3833adbe8474f933436020ab5f5b818",
-      "source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8"
+      "sha256": "9ba2d577ef588529b405c2578c627ee6afff08e7b6608279afe31b1bf6dd6c8a",
+      "source_sha256": "5943833f701810796b3e79fdffc4b866298d292836aba66e60af35d91ddb3619"
     },
     "usb-fabrication-adaptation.json": {
       "passed": true,
-      "sha256": "24f0c7efe4c6a0bcda662f78f639842cf77f27eeb16cef0260074ef14be7595e",
-      "source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8"
+      "sha256": "306021ebc7f017211e65e4005fad1d9821ce3d5bb2e435e59be251810f9f912a",
+      "source_sha256": "5943833f701810796b3e79fdffc4b866298d292836aba66e60af35d91ddb3619"
     },
     "schema-verification.json": {
       "passed": true,
-      "sha256": "d332680aefe28406bbfc7c6ebc6e46cd0fa6b8b70747d8d9986066b22bce9082",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "647d2287bc95cc134f1f081557774a339464cbf9faa1ec43e17de52f28960640",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     },
     "usb-slot-export-check.json": {
       "passed": true,
-      "sha256": "5c8dfb8ba18cb96bc000f9422a84df6feb11cddfccceee84f790276cc0b8282b",
-      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+      "sha256": "72dce355fad9b9eee738a02212069bc530f803ef8f49e61b7340801575ed3367",
+      "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2"
     }
   },
   "gerber_shorts": {
     "passed": true,
-    "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
+    "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2",
     "command": [
       "tsci",
       "check",
@@ -110,7 +110,7 @@
       "100"
     ],
     "exit_code": 0,
-    "checked_at": "2026-11-04T11:52:10.630434+00:00",
+    "checked_at": "2026-11-04T12:45:36.178513+00:00",
     "layers": [
       "top",
       "inner1",

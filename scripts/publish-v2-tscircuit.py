@@ -91,6 +91,8 @@ def stage(source_repository, revision):
         assert receipt['passed'] and receipt['assembly_sha256']==sha(assembly_bytes),'Stale assembly receipt: '+name
     artwork=json.loads((ROOT/'artifacts/v2/routing/branding-verification.json').read_text())
     assert artwork['passed'] and artwork['source_sha256']==sha(original),'Logo/disclaimer check is stale'
+    port_labels=json.loads((ROOT/'artifacts/v2/routing/port-label-update-verification.json').read_text())
+    assert port_labels['passed'] and port_labels['source_sha256']==sha(original),'Final knockout Gerber/preservation check is stale'
     published_assembly=pin_models(json.loads(assembly_bytes))
     assert without_model_urls(published_assembly)==without_model_urls(assembly)
     assert published_assembly[:len(published)]==published
@@ -124,7 +126,7 @@ def stage(source_repository, revision):
         f'directions are verified. Built with tscircuit {meta["dependencies"]["tscircuit"]} / CLI {meta["dependencies"]["@tscircuit/cli"]}.\n\n'
         '**70/70 nets connected; 0 shorts; 0 native PCB DRC errors or warnings.**\n\n'
         'Fresh source, pin and schematic checks report zero diagnostics.\n\n'
-        'Essential legends, the tscircuit wordmark and evaluation disclaimer are checked on the underside.\n\n'
+        'Large knockout PWR/DATA legends, the tscircuit wordmark and evaluation disclaimer are checked on the underside.\n\n'
         'The default 3D preview includes the reference motor and four shorter, smoothly curved WAGO leads. Rear mounting and factory wire fit remain unverified.\n\n'
         'Strong 10 kohm ENABLE/SLEEP defaults and local USB ESD VBUS bypass are fitted.\n'
         'The 47 uF bulk capacitor is beside the driver with short feeds and local ground returns.\n'

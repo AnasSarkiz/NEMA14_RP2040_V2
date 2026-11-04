@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "board_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
-  "assembly_sha256": "87410f3c2ff2f5385bcaa35c456e99caa43a2bec5732c53423eae88824a72372",
+  "board_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2",
+  "assembly_sha256": "925a2b51736e9453d5622fa3068d78daa922e1bc0d7f9f7f0fe322ad46adedb2",
   "board_records_preserved": true,
   "mechanical_parts": 9,
   "fitted_supplier_STEP_parts": 98,

@@ -7,7 +7,7 @@ V2 is published separately from the ordered V1:
 | V1 | [NEMA14_RP2040](https://github.com/AnasSarkiz/NEMA14_RP2040) | [NEMA14_RP2040](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040) |
 | V2 | [NEMA14_RP2040_V2](https://github.com/AnasSarkiz/NEMA14_RP2040_V2) | [NEMA14_RP2040_V2](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d) |
 
-The current revision is **2.0.0-dev.8**: corrected driver reset bias and local
+The current revision is **2.0.0-dev.9**: large bottom knockout PWR/DATA legends, corrected driver reset bias and local
 USB ESD bypass, retained local driver bulk and USB-slot adaptation, and
 V2-specific prototype order files in GitHub. The short smooth wire/motor preview,
 readable artwork, source-analysis definitions and separate V1 package are retained.

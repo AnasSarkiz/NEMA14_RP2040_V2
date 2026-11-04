@@ -1,6 +1,10 @@
 # V2 prototype order handoff
 
-**2.0.0-dev.8 closes the two electrical-review fixes:** strong 10 kΩ
+**Current order package: 2.0.0-dev.9.** It adds large bottom PWR/DATA knockout
+legends; the BOM, CPL and electrical layout are unchanged from dev.8.
+[Silkscreen update](v2-port-labels.md).
+
+**Dev.8 closed the two electrical-review fixes:** strong 10 kΩ
 ENABLE/SLEEP bias and local USB ESD bypass. Read the
 [implementation and remaining acceptance](v2-review-fixes.md).
 

@@ -2,9 +2,12 @@
 
 V2 has its own [GitHub repository](https://github.com/AnasSarkiz/NEMA14_RP2040_V2)
 and [tscircuit package](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d).
-This revision is **2.0.0-dev.8**. The working ordered V1 remains separate and unchanged.
+This revision is **2.0.0-dev.9**. The working ordered V1 remains separate and unchanged.
 
-**4 November review fixes:** ENABLE/SLEEP now use 10 kΩ defaults and C_ESD adds
+**Port labels:** large bottom PWR/DATA knockout blocks, checked in the final Gerbers.
+[Artwork and preservation evidence](docs/v2-port-labels.md).
+
+**4 November electrical review fixes:** ENABLE/SLEEP now use 10 kΩ defaults and C_ESD adds
 local 100 nF bypass at USBLC6 VBUS. Existing components, traces and vias retain
 their positions. [Implementation and acceptance](docs/v2-review-fixes.md).
 

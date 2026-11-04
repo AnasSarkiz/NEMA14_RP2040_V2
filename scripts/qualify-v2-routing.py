@@ -26,7 +26,7 @@ for name in ['schema-verification.json','usb-slot-export-check.json']:
     checks[name]={'passed':True,'sha256':sha(D/name),'source_sha256':digest}
 gerber=json.loads((D/'gerber-shorts-verification.json').read_text());assert gerber['passed'] and gerber['source_sha256']==digest
 version=json.loads((R/'package.json').read_text())['version']
-m={'passed':True,'version':version,'stage':'V2 startup-bias and USB ESD bypass fixes; completed routing, supplier acceptance remains separate',
+m={'passed':True,'version':version,'stage':'V2 large bottom knockout port legends; completed routing, supplier acceptance remains separate',
    'verified_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),
    'placement_source_sha256':source,'routed_source_sha256':digest,
    'nets_checked':70,'connected_net_groups':70,'shorts':0,'native_errors':0,'native_warnings':0,

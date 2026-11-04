@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2",
+  "baseline_revision": "2b77c423a5d36c3843d596bb297ddc42c1b2e953",
+  "changed_records_only": [
+    "v2_critical_data-port",
+    "v2_critical_power-port",
+    "v2_critical_revision"
+  ],
+  "all_other_records_preserved": true,
+  "unchanged_CAM_files": [
+    "B_Paste.gbr",
+    "F_Paste.gbr",
+    "F_SilkScreen.gbr"
+  ],
+  "geometrically_identical_CAM_files": [
+    "B_Cu.gbr",
+    "B_Mask.gbr",
+    "Edge_Cuts.gbr",
+    "F_Cu.gbr",
+    "F_Mask.gbr",
+    "In1_Cu.gbr",
+    "In2_Cu.gbr",
+    "drill-L1-L4.drl",
+    "drill_npth.drl"
+  ],
+  "BOM_CPL_and_process_tables_byte_identical": true,
+  "final_CAM_knockouts": [
+    {
+      "text": "PWR",
+      "printed_background_and_counters_retained": true,
+      "letter_voids_clear": true
+    },
+    {
+      "text": "DATA",
+      "printed_background_and_counters_retained": true,
+      "letter_voids_clear": true
+    }
+  ],
+  "drill_commands_identical_ignoring_generation_dates": true
+}

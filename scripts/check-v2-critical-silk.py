@@ -1,7 +1,7 @@
 """Check high-priority legend ink using native Gerber strokes, not text boxes."""
-import json,math,hashlib,sys,html
+import json,math,hashlib,sys,html,importlib.util
 from pathlib import Path
-from shapely.geometry import Point,LineString,Polygon,box
+from shapely.geometry import Point,LineString,Polygon,box,mapping
 from shapely.affinity import rotate
 from shapely.ops import unary_union
 ROOT=Path(__file__).resolve().parents[1]
@@ -14,6 +14,8 @@ assert ink['source_sha256']==hashlib.sha256((ROOT/'artifacts/v2/routing/freerout
 for l in labels:
  e=actual['v2_critical_'+l['id']]
  assert (e['text'],e['layer'],e['anchor_position'],e['ccw_rotation'],e['font_size'])==(l['text'],l['layer'],{'x':l['x'],'y':l['y']},l['rotation'],l['font_size']),l['id']
+ assert e.get('is_knockout',False)==l.get('is_knockout',False),l['id']
+ if l.get('is_knockout'):assert e['knockout_padding']==l['knockout_padding']
 
 board=box(-17.25,-17.25,17.25,17.25)
 sources={e['source_component_id']:e['name'] for e in j if e['type']=='source_component'}
@@ -53,22 +55,33 @@ for l in labels:
  assert l['net'] in [nets[n] for n in t['connected_source_net_ids']]
  pp=next(e for e in j if e['type']=='pcb_port' and e.get('source_port_id')==p['source_port_id'])
  assert abs(pp['x']-l['x'])<.001, 'Motor column label does not match its pin'
-polys={};errors=[];results=[]
+spec=importlib.util.spec_from_file_location('critical_ink_cam',ROOT/'scripts/audit-manufacturing.py')
+cam=importlib.util.module_from_spec(spec);spec.loader.exec_module(cam)
+polys={};guards={};errors=[];results=[]
 for label in ink['labels']:
- poly=unary_union([LineString([(s['a']['x'],s['a']['y']),(s['b']['x'],s['b']['y'])]).buffer(s['width']/2) for s in label['segments']]);polys[label['id']]=poly
- hit=[name for name,g in obstacles[label['layer']] if poly.distance(g)<.20-1e-6]
- covered=[name for name,g in bodies[label['layer']] if poly.intersection(g).area>1e-7]
- edge=poly.distance(board.boundary) if board.covers(poly) else -1
+ # Respect dark/clear Gerber polarity: knockout letters are absent ink, while
+ # the background and enclosed letter counters are positive printed regions.
+ poly=cam.gerber(Path(label['gerber_path']))[0];polys[label['id']]=poly
+ label['geometry']=mapping(poly)
+ guard=box(*poly.bounds) if label.get('is_knockout') else poly;guards[label['id']]=guard
+ hit=[name for name,g in obstacles[label['layer']] if guard.distance(g)<.20-1e-6]
+ covered=[name for name,g in bodies[label['layer']] if guard.intersection(g).area>1e-7]
+ edge=guard.distance(board.boundary) if board.covers(guard) else -1
  widths={s['width'] for s in label['segments']}
  if hit or covered or edge<.25-1e-6 or min(widths)<.15:errors.append({'label':label['text'],'id':label['id'],'pad_or_hole_hits':hit,'covered_by':covered,'edge_clearance_mm':edge})
- results.append({'id':label['id'],'text':label['text'],'layer':label['layer'],'font_size_mm':label['font_size'],'minimum_stroke_mm':min(widths),'bounds_mm':list(poly.bounds),'pad_clearance_mm':min(poly.distance(g) for _,g in obstacles[label['layer']]),'edge_clearance_mm':edge})
+ if label.get('is_knockout'):
+  if guard.difference(poly).area<1 or poly.area<1:errors.append({'invalid_knockout_geometry':label['text']})
+  pieces=[poly] if poly.geom_type=='Polygon' else list(poly.geoms)
+  if any(p.buffer(-.075).is_empty for p in pieces):errors.append({'knockout_white_feature_below_0_15_mm':label['text']})
+ results.append({'id':label['id'],'text':label['text'],'layer':label['layer'],'font_size_mm':label['font_size'],'is_knockout':label.get('is_knockout',False),'minimum_stroke_mm':min(widths),'bounds_mm':list(poly.bounds),'pad_clearance_mm':min(guard.distance(g) for _,g in obstacles[label['layer']]),'edge_clearance_mm':edge})
+Path('/tmp/nema14-critical-ink.json').write_text(json.dumps(ink,indent=2)+'\n')
 # Preserve existing logo/warning vectors, and require separation from this ink.
 legacy_ink=unary_union([LineString([(p['x'],p['y']) for p in e['route']]).buffer(e['stroke_width']/2) for e in j if e['type']=='pcb_silkscreen_path' and e['layer']=='bottom' and len(e['route'])>1])
 for l in ink['labels']:
- if l['layer']=='bottom' and polys[l['id']].distance(legacy_ink)<.20:errors.append({'label_touches_existing_artwork':l['text']})
+ if l['layer']=='bottom' and guards[l['id']].distance(legacy_ink)<.20:errors.append({'label_touches_existing_artwork':l['text']})
 for i,a in enumerate(ink['labels']):
  for b in ink['labels'][:i]:
-  if a['layer']==b['layer'] and polys[a['id']].distance(polys[b['id']])<.20:errors.append({'labels_touch':[a['text'],b['text']]})
+  if a['layer']==b['layer'] and guards[a['id']].distance(guards[b['id']])<.20:errors.append({'labels_touch':[a['text'],b['text']]})
 # Render actual native Gerber ink. Bottom view is mirrored for underside reading.
 for side in ['top','bottom']:
  flip=-1 if side=='bottom' else 1

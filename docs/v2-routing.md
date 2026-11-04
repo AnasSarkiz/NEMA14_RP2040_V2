@@ -116,3 +116,7 @@ The board's USB clearance slots are now 1.80 × 1.00 mm for the fabricator's CNC
 capability. Their centers, axes, round locators and all solder lands are retained;
 the nominal imported footprint is unchanged. See the hash-bound
 [adaptation proof](../artifacts/v2/usb-fabrication-adaptation.json).
+
+Dev.9 enlarges PWR/DATA as native bottom knockout legends and moves the revision
+caption clear. All other Circuit JSON records are preserved from dev.8;
+see [port-label verification](../artifacts/v2/routing/port-label-update-verification.json).

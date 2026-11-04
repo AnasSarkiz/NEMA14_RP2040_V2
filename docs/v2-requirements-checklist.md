@@ -1,7 +1,7 @@
 # V2 requirements and review checklist
 
-Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.8**, with routed-board SHA-256
-`b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1`.
+Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.9**, with routed-board SHA-256
+`d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2`.
 The requirements below combine the original NEMA14 requests, the initial V2
 request and later accepted changes. The separate NEMA11 discussion is outside
 this board's scope.
@@ -59,6 +59,9 @@ CAD scope:
 
 ## Initial V2 requirements and later accepted choices
 
+- [x] **Large bottom USB labels:** 3.2 mm PWR/DATA knockout blocks, checked
+  against pads, holes, artwork and the final exported Gerber. All records
+  outside these two labels and the revision caption are preserved from dev.8.
 - [x] **Measure both coil currents with the RP2040:** independent 50 mΩ inline
   shunts, INA240A1PWR amplifiers and 100 Ω/10 nF output filters reach GPIO26/ADC0
   and GPIO27/ADC1. They are separate from the A4988 regulation shunts.

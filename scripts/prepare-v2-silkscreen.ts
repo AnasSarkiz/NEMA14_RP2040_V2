@@ -10,6 +10,7 @@ export function prepareV2Silkscreen(records:any[]){
  const owner=records.find(e=>e.type==='pcb_component'&&e.source_component_id===records.find(e=>e.type==='source_component'&&e.name==='U_MCU')?.source_component_id)
  for(const m of markings)result.push({type:'pcb_silkscreen_text',pcb_silkscreen_text_id:'v2_critical_'+m.id,
   anchor_alignment:'center',anchor_position:{x:m.x,y:m.y},font:'tscircuit2024',font_size:m.font_size,
-  layer:m.layer,text:m.text,ccw_rotation:m.rotation,pcb_component_id:owner.pcb_component_id,subcircuit_id:owner.subcircuit_id})
+  layer:m.layer,text:m.text,ccw_rotation:m.rotation,pcb_component_id:owner.pcb_component_id,subcircuit_id:owner.subcircuit_id,
+  ...('is_knockout' in m&&m.is_knockout?{is_knockout:true,knockout_padding:m.knockout_padding}:{})})
  return result
 }

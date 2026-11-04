@@ -14,7 +14,7 @@ for g in groups:
  poly=unary_union([LineString(r).buffer(g['stroke_width_mm']/2) for r in g['routes']]);polys.append(poly)
  hits=[name for name,p in ns['obstacles']['bottom'] if poly.distance(p)<.20-1e-6]
  heads=[name for name,p in ns['bodies']['bottom'] if poly.intersection(p).area>1e-7]
- labels=[l['text'] for l in ns['ink']['labels'] if l['layer']=='bottom' and poly.distance(ns['polys'][l['id']])<.20]
+ labels=[l['text'] for l in ns['ink']['labels'] if l['layer']=='bottom' and poly.distance(ns['guards'][l['id']])<.20]
  edge=poly.distance(ns['board'].boundary) if ns['board'].covers(poly) else -1
  if hits or heads or labels or edge<.25:errors.append({'group':g['name'],'pad_or_hole_hits':hits,'covered_by':heads,'label_hits':labels,'edge_clearance':edge})
  results.append({'name':g['name'],'bounds_mm':list(poly.bounds),'stroke_width_mm':g['stroke_width_mm'],'pad_clearance_mm':min(poly.distance(p) for _,p in ns['obstacles']['bottom']),'edge_clearance_mm':edge})

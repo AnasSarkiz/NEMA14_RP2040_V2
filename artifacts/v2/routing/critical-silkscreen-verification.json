@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
+  "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2",
   "scope": "High-priority text only, native Gerber ink; 0.20 mm exposed-pad/hole and label clearance, 0.25 mm board edge; fitted-body and screw-head visibility; not a full CAM release",
   "critical_label_count": 14,
   "motor_pin_net_and_column_checks_passed": true,
@@ -10,211 +10,225 @@
       "id": "v2_critical_power-port",
       "text": "PWR",
       "layer": "bottom",
-      "font_size_mm": 1.7,
-      "minimum_stroke_mm": 0.153,
+      "font_size_mm": 3.2,
+      "is_knockout": true,
+      "minimum_stroke_mm": 0.288,
       "bounds_mm": [
-        -0.5896324491170177,
-        10.5892257,
-        2.5072697699999997,
-        11.549013912434075
+        -3.02185,
+        9.78,
+        4.52185,
+        12.62
       ],
-      "pad_clearance_mm": 2.227679489503628,
-      "edge_clearance_mm": 5.700986087565925
+      "pad_clearance_mm": 0.2501081000000002,
+      "edge_clearance_mm": 4.630000000000001
     },
     {
       "id": "v2_critical_data-port",
       "text": "DATA",
       "layer": "bottom",
-      "font_size_mm": 1.7,
-      "minimum_stroke_mm": 0.153,
+      "font_size_mm": 3.2,
+      "is_knockout": true,
+      "minimum_stroke_mm": 0.288,
       "bounds_mm": [
-        -11.14901476,
-        2.552078337098461,
-        -10.189225700000001,
-        6.852771808709072
+        -12.63,
+        -0.379133,
+        -9.79,
+        9.379133
       ],
-      "pad_clearance_mm": 2.2482160203460535,
-      "edge_clearance_mm": 6.10098524
+      "pad_clearance_mm": 0.24010809999999874,
+      "edge_clearance_mm": 4.619999999999999
     },
     {
       "id": "v2_critical_motor-title",
       "text": "MOTOR",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        -2.0661208491170173,
-        -5.925342730598376,
-        3.41716861,
-        -4.935322035109117
+        -2.066125350863924,
+        -5.925343070314176,
+        3.417169,
+        -4.935297024620091
       ],
-      "pad_clearance_mm": 0.26922841148020377,
-      "edge_clearance_mm": 11.324657269401625
+      "pad_clearance_mm": 0.26922427128272913,
+      "edge_clearance_mm": 11.324656929685824
     },
     {
       "id": "v2_critical_motor-1",
       "text": "A+",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        -5.54180877,
-        -16.760769654623378,
-        -3.568515975376621,
-        -15.800989885376618
+        -5.541809000000001,
+        -16.760771356979472,
+        -3.5685156447070008,
+        -15.800987643020528
       ],
-      "pad_clearance_mm": 3.6898431512887373,
-      "edge_clearance_mm": 0.4892303453766225
+      "pad_clearance_mm": 3.6898431799485505,
+      "edge_clearance_mm": 0.4892286430205281
     },
     {
       "id": "v2_critical_motor-2",
       "text": "A-",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        -1.88608656,
-        -16.760769654623378,
-        -0.06851597537662105,
-        -15.800989885376618
+        -1.886087,
+        -16.760771356979472,
+        -0.06851564470700103,
+        -15.800987643020528
       ],
-      "pad_clearance_mm": 2.9404099118875777,
-      "edge_clearance_mm": 0.4892303453766225
+      "pad_clearance_mm": 2.9403683057394985,
+      "edge_clearance_mm": 0.4892286430205281
     },
     {
       "id": "v2_critical_motor-3",
       "text": "B+",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        1.45819123,
-        -16.760774299999998,
-        3.37687005,
-        -15.801004385830824
+        1.458191,
+        -16.760773999999998,
+        3.37687,
+        -15.800985180509974
       ],
-      "pad_clearance_mm": 3.5495781630511387,
-      "edge_clearance_mm": 0.48922570000000226
+      "pad_clearance_mm": 3.54957812913985,
+      "edge_clearance_mm": 0.48922600000000216
     },
     {
       "id": "v2_critical_motor-4",
       "text": "B-",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        5.11391344,
-        -16.760774299999998,
-        6.876870050000001,
-        -15.801004385830824
+        5.113913,
+        -16.760773999999998,
+        6.87687,
+        -15.800985180509974
       ],
-      "pad_clearance_mm": 2.9547784071084435,
-      "edge_clearance_mm": 0.48922570000000226
+      "pad_clearance_mm": 2.954757827749131,
+      "edge_clearance_mm": 0.48922600000000216
     },
     {
       "id": "v2_critical_debug-3v3",
       "text": "3V3",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        -5.36464937244447,
-        -13.796636588413538,
-        -4.374671947671208,
-        -10.743312834780852
+        -5.364701241971148,
+        -13.796637777355787,
+        -4.374655524334808,
+        -10.743312691983334
       ],
-      "pad_clearance_mm": 0.6697404118224043,
-      "edge_clearance_mm": 3.453363411586462
+      "pad_clearance_mm": 0.669713551123129,
+      "edge_clearance_mm": 3.4533622226442127
     },
     {
       "id": "v2_critical_debug-gnd",
       "text": "GND",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        -3.364693604326982,
-        -14.104460267177625,
-        -2.374659034996616,
-        -11.025880070028643
+        -3.3647022244177176,
+        -14.104486878841413,
+        -2.374656232895216,
+        -11.02588023971109
       ],
-      "pad_clearance_mm": 0.21446273244421482,
-      "edge_clearance_mm": 3.1455397328223746
+      "pad_clearance_mm": 0.21440182848864553,
+      "edge_clearance_mm": 3.1455131211585865
     },
     {
       "id": "v2_critical_debug-run",
       "text": "RUN",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        -2.300412678924769,
-        -8.276430310664276,
-        0.7996873200000001,
-        -7.300985240000001
+        -2.3004153314876334,
+        -8.276444314213574,
+        0.799687,
+        -7.300985
       ],
-      "pad_clearance_mm": 0.5417914822527321,
-      "edge_clearance_mm": 8.973569689335724
+      "pad_clearance_mm": 0.5417243664113555,
+      "edge_clearance_mm": 8.973555685786426
     },
     {
       "id": "v2_critical_debug-clk",
       "text": "CLK",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        0.6353116338887865,
-        -13.839059550380668,
-        1.6253019034527985,
-        -10.745651143494158
+        0.6352980730327009,
+        -13.839059470360455,
+        1.6253419873492532,
+        -10.745635082072651
       ],
-      "pad_clearance_mm": 0.651220687848889,
-      "edge_clearance_mm": 3.4109404496193316
+      "pad_clearance_mm": 0.651184715879294,
+      "edge_clearance_mm": 3.4109405296395443
     },
     {
       "id": "v2_critical_debug-dio",
       "text": "DIO",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        2.6353220351091173,
-        -13.813186298230168,
-        3.6253427305983768,
-        -10.735472391290928
+        2.6352970246200913,
+        -13.813202997516084,
+        3.625343070314176,
+        -10.735469039972772
       ],
-      "pad_clearance_mm": 0.6413656136873458,
-      "edge_clearance_mm": 3.436813701769832
+      "pad_clearance_mm": 0.6413659805309743,
+      "edge_clearance_mm": 3.4367970024839156
     },
     {
       "id": "v2_critical_boot",
       "text": "BOOT TOP",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        8.335322035109117,
-        -15.938417259087052,
-        9.325342730598376,
-        -6.99366475
+        8.335297024620091,
+        -15.938444741246522,
+        9.325343070314176,
+        -6.993665
       ],
-      "pad_clearance_mm": 1.8765862053217148,
-      "edge_clearance_mm": 1.3115827409129481
+      "pad_clearance_mm": 1.8765860261908227,
+      "edge_clearance_mm": 1.3115552587534776
     },
     {
       "id": "v2_critical_revision",
       "text": "N14 V2",
       "layer": "bottom",
       "font_size_mm": 1.7,
+      "is_knockout": false,
       "minimum_stroke_mm": 0.153,
       "bounds_mm": [
-        2.3487934199999994,
-        9.189225700000001,
-        8.92519871,
-        10.164678380778405
+        -11.351206999999999,
+        -2.1107739999999997,
+        -4.774801,
+        -1.1352970127259336
       ],
-      "pad_clearance_mm": 2.735635743563888,
-      "edge_clearance_mm": 7.085321619221596
+      "pad_clearance_mm": 2.1635295495107147,
+      "edge_clearance_mm": 5.898793000000001
     }
   ],
   "errors": []

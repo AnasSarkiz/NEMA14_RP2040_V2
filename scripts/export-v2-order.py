@@ -7,7 +7,7 @@ prototype build. A clean CAD check is not a claim of tested hardware.
 import csv, hashlib, importlib.util, json, math, os, subprocess, zipfile
 from pathlib import Path
 from collections import defaultdict
-from shapely.geometry import Polygon, LineString, Point, box
+from shapely.geometry import Polygon, LineString, Point, box, shape as geometry_from_mapping
 from shapely.affinity import scale, rotate
 from shapely.ops import unary_union
 
@@ -21,10 +21,14 @@ def csv_file(path, fields, rows):
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader(); writer.writerows(rows)
 
-def gerber_regions(path, geometry):
+def gerber_regions(path, geometry, preserve_enclosed_islands=False):
     lines = ['G04 NEMA14 RP2040 V2 prototype DFM handoff; see manifest.json*',
              '%FSLAX46Y46*%', '%MOMM*%', '%ADD10C,0.010000*%', 'D10*']
     pieces = [geometry] if geometry.geom_type == 'Polygon' else list(geometry.geoms)
+    # Print containing regions before any islands inside their clear holes.
+    # This preserves the enclosed counters in knockout P/R/D/A lettering.
+    if preserve_enclosed_islands:
+        pieces = sorted(pieces,key=lambda p:Polygon(p.exterior).area,reverse=True)
     for polygon in pieces:
         if polygon.is_empty or polygon.area < 1e-10: continue
         assert polygon.geom_type == 'Polygon'
@@ -110,7 +114,7 @@ def main():
     ink=json.loads(Path('/tmp/nema14-critical-ink.json').read_text())
     assert ink['source_sha256']==digest
     for label in ink['labels']:
-        protected.append(unary_union([LineString([(s['a']['x'],s['a']['y']),(s['b']['x'],s['b']['y'])]).buffer(s['width']/2) for s in label['segments']]))
+        protected.append(geometry_from_mapping(label['geometry']))
     branding=json.loads((ROOT/'src/bottom-markings.json').read_text())
     protected.extend(unary_union([LineString(r).buffer(g['stroke_width_mm']/2) for r in g['routes']]) for g in branding['groups'])
     # Covered via barrels are intentionally tented and may carry underside ink.
@@ -125,7 +129,12 @@ def main():
         if prefix=='B':
             for p in protected:
                 assert p.difference(clipped.buffer(.003)).area<.001, 'Protected bottom legend would be clipped'
-        gerber_regions(cam/f'{prefix}_SilkScreen.gbr',clipped)
+            for label in ink['labels']:
+                if not label.get('is_knockout'):continue
+                wanted=geometry_from_mapping(label['geometry'])
+                clear_letters=box(*wanted.bounds).difference(wanted).buffer(-.01)
+                assert clear_letters.intersection(clipped).area<.002, 'Knockout lettering would be filled'
+        gerber_regions(cam/f'{prefix}_SilkScreen.gbr',clipped,preserve_enclosed_islands=prefix=='B')
         silk_checks.append({'layer':prefix,'original_area_mm2':original.area,'clipped_area_mm2':clipped.area})
     original_bom={q['Designator']:q for q in csv.DictReader(members['bom.csv'].decode().splitlines())}
     bom=[];cpl=[];orientations=[];joints=[]; detailed_bom=[]; numeric_cpl=[]

@@ -1,27 +1,27 @@
 {
-  "board_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
-  "version": "2.0.0-dev.8",
+  "board_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2",
+  "version": "2.0.0-dev.9",
   "stage": "V2 prototype supplier DFM/quote handoff",
   "fabrication_ready": false,
   "supplier_process_stock_pickup_approval": false,
   "checks": {
-    "physical-routing-audit.json": "5545fd1bfa213c5b34d53f64489d7221cc2b32f4b76edfb827db18cac4920bf9",
-    "native-drc.json": "0fd95f8e928a8cfca9330f489696e2f44856210a58475d9929a42ae2807acda6",
-    "functional-routing-audit.json": "024593471aa09e5f5b2bdd32d2ad3059b90ef61576fd69d681d5b0e6062512d6",
-    "phase-current-screen.json": "00eca4c3e1dcbd873577a27f943ce515d40100705c7cc9727448d263e90b0828",
-    "startup-and-esd-verification.json": "bfd445ae50a6f7d45c3cc29efa28d97c1309c701156cd101b2d10895903320c2",
-    "review-fixes-preservation.json": "6a8c525233ae5ef46c2579973d144511b572016f430e348609da496c3e84b697",
-    "analysis-verification.json": "912260a8e4e61b33418898fda152642ef901251b8463a982a3bd0915cc35e9e0",
-    "local-power-verification.json": "13ba571710ecddb02ed343ea699c33dd10800c100ddea0c276312417e1a73ca4",
-    "component-body-verification.json": "4698fe248644de9efcffada9a8d7c1590051126155e832dc1061503ef3951257",
-    "critical-silkscreen-verification.json": "5ecdc92cf53129d0c70da709f76672a19378e6030e63b55359ecd37af143828b",
-    "branding-verification.json": "77007bee59fe70284a93a2a6ce760cf3958d8a2a1e5c0f194799bf761b29bb6c"
+    "physical-routing-audit.json": "6a837c99b6f1672416fc38d5afa0934467410db1e4c7f9a73dbeb38a2978624d",
+    "native-drc.json": "1c4b090e128300093e1d10f856e672a6e377b0407e158fa3cc27b08fd58b9abb",
+    "functional-routing-audit.json": "675a5a47c4d55f6ddd53345e83dc455492e9679f04b7684e07ae1ba942446152",
+    "phase-current-screen.json": "db14219d76df064472a795548924613f3823d454c06aa81893c9a97e73caaba3",
+    "startup-and-esd-verification.json": "8f2df517a40acd249b2cd4a1ab3d4852bb94a4521ec8ba0f6ce47f33c96056c9",
+    "review-fixes-preservation.json": "4ba685ec98f955af70b4f2544b60502b444bf02bbf9c4a4464cfb7f127acbf56",
+    "analysis-verification.json": "0b0f5e6b3365bc1451ce85d7077373e089a0a1091ab48f6b5f1a0884f5add7d3",
+    "local-power-verification.json": "a61277fb5911692df3bc5b8c62dccb6ce6112883bcc2fac9eaa21bd36c9b0178",
+    "component-body-verification.json": "9bb14f3f973dfe6ed7adacc7bdd451dacdbfdb7cc993bc49369e666ecbe4a258",
+    "critical-silkscreen-verification.json": "957e300c1f7b1175598f011a42b38c73aaa3b75efd4e685d044d655966f542c4",
+    "branding-verification.json": "4da806d787f829fbf20baea337c9f2b43730a149bd81b2a105eb445c7fca6b69"
   },
   "fitted_components": 98,
   "unique_BOM_lines": 44,
   "bare_probe_pads_excluded": 7,
   "optional_encoder_excluded": true,
-  "order_source_sha256": "9498e6d9aebe18c15efda416d1258a323bc837fa308b3bd1649be19e9ac1b1f9",
+  "order_source_sha256": "30cec29e9f3a28590fdbd65cf6d73e8f45229f9e40dbe42ea85c35f8de820b5d",
   "stencil_thickness_mm": 0.1,
   "minimum_aperture_area_ratio": 0.6678577078001382,
   "aperture_checks": [
@@ -2206,24 +2206,24 @@
     },
     {
       "layer": "B",
-      "original_area_mm2": 33.22173534782214,
-      "clipped_area_mm2": 33.22173534782212
+      "original_area_mm2": 71.50260694929258,
+      "clipped_area_mm2": 71.50260694929256
     }
   ],
   "unchanged_native_copper_mask_outline_drill": {
-    "F_Cu.gbr": "3fad83660312b7116d76dfbd36dd3b75bfa14df6474ebacad2bf54e20b0416e5",
-    "F_Mask.gbr": "11d74b043351a95324e32d00cb131530e027a9828a2dccdb92458ab3efaa5e9d",
-    "B_Cu.gbr": "e8f76d8862d8aae6417939826b58f182b8800c8df71340be3d2d99b5a958932f",
-    "B_Mask.gbr": "86e9d289a376cd02b00c846b9df83120a8c2f52f567780da7ac2fd2ba4e653cb",
-    "Edge_Cuts.gbr": "4e85c24e9620f61d61ebd1ff674fd39dbfaa506dad49ebc14871d2d5d5173fa9",
-    "In1_Cu.gbr": "71227272c91c30d1cba6acea1f71b3e92dd1236e948b8efee51c67c9896c30b6",
-    "In2_Cu.gbr": "5dfd1455d5f9cc0a9fedddb9b4cc6c16aa96ded3c0b37d873c5fb0e7baaca2c9",
-    "drill-L1-L4.drl": "3eed720815063044f8717c2b06ba5907e698c1ccf1e72ca5865af25db6b1f9bb",
-    "drill_npth.drl": "249744262f6367a651592c903e1159fb4a48a5f7f589aa5dd6ca173bf879e82f"
+    "F_Cu.gbr": "7d876f97455776e9c012b79513a6fae2adbb91fed9a83e993ffa3a013f5d47d8",
+    "F_Mask.gbr": "50b0afd7f000f9696601375f5abf8f22b93a7f45a050947f1a2ae1b0c8b89028",
+    "B_Cu.gbr": "47c81e40bf5e4d20da04b2a1aad2da0a49a89e01146e425b5ed9a181de656972",
+    "B_Mask.gbr": "41531e78a79eb8d98d0c80d598c66ba6b57886aa78e50e39aefafaee93aa6fc3",
+    "Edge_Cuts.gbr": "76f9899ad3c10d6200d6bd76625a80f8626dec8b334a21e3a2f71ada5fe4d0fa",
+    "In1_Cu.gbr": "3835743417ce728c701f58016aa39e43920936487514170511734b6d77803253",
+    "In2_Cu.gbr": "8fbc3842738e4a97e7583b774acc280ea465156eb60acb842dc389665aec3da1",
+    "drill-L1-L4.drl": "07c9637af3c776af7051e4766fecf80c1e34b82df6b5c6208cdfb9abde7e22bb",
+    "drill_npth.drl": "4d053651da3103e982a68dd27a6c915ec78b4cb1786270f778b32fbbe58632ca"
   },
   "files": {
     "Thermal-Via-Process.csv": "44da851404730af559c224c94c8d21f2b98dec7ab54f67f22e9cba58410e5702",
-    "NEMA14_RP2040_V2-Gerbers.zip": "96778686688ef96713ad4a53af13d198cdbf9130ff1ca0b1bc9512d6b84306d0",
+    "NEMA14_RP2040_V2-Gerbers.zip": "c9a3ebc9f6baae11d1680065affc60c0bd171d07ac2f9b40341362f13be5ebeb",
     "Through-Hole-Joints.csv": "42a24b486fa7ca91900bb576876b7fd540850a2de00b3d37c0c3e88050bb870e",
     "NEMA14_RP2040_V2-BOM.csv": "2f0138d6cfa239d8d0fc009ea0f4f0c4ceb0ffc40ca89d2e7a8d62b01665de2b",
     "NEMA14_RP2040_V2-CPL.csv": "62665d4904f58ca3aaadff75e05e6fbf2b36a1b764acaa24eead153dfdf96ce4"

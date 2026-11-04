@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "saved_diagnostics": [],
+  "raw_source_diagnostics": [],
+  "schematic_diagnostics": [],
+  "pin_diagnostics": [],
+  "negative_control_detects_missing_pin_specifications": true,
+  "negative_control_warning_types": [
+    "source_component_pins_underspecified_warning",
+    "source_no_power_pin_defined_warning",
+    "source_no_ground_pin_defined_warning"
+  ],
+  "seven_bare_pads_retained_and_excluded_from_assembly": true,
+  "scope": "Fresh source/pin/schematic diagnostics; physical copper and manufacturing acceptance are checked separately."
+}

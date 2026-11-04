@@ -4,6 +4,10 @@ V2 has its own [GitHub repository](https://github.com/AnasSarkiz/NEMA14_RP2040_V
 and [tscircuit package](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d).
 This revision is **2.0.0-dev.7**. The working ordered V1 remains separate and unchanged.
 
+**4 November engineering review:** address the ENABLE/SLEEP bias and local USB
+ESD bypass recommendations before ordering. Hardware and order files have not
+yet been changed. [Findings and fresh checks](docs/v2-independent-final-review-2026-11-04.md).
+
 [Prototype order files](artifacts/v2/order-review/) · [Order/process instructions](docs/v2-prototype-order.md) ·
 [Requirements checklist](docs/v2-requirements-checklist.md) · [Verification](artifacts/v2/routing/verification.json)
 

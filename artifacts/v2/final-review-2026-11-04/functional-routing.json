@@ -1,0 +1,63 @@
+{
+  "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "checks": [
+    {
+      "check": "A motor return has a >=0.30 mm current path",
+      "passed": true
+    },
+    {
+      "check": "A driver_to_shunt has a >=0.30 mm current path",
+      "passed": true
+    },
+    {
+      "check": "A shunt_to_motor has a >=0.30 mm current path",
+      "passed": true
+    },
+    {
+      "check": "A positive Kelvin pickup joins only at shunt",
+      "passed": true,
+      "connected_to_shunt": true,
+      "joins_main_outside_shunt": false
+    },
+    {
+      "check": "A negative Kelvin pickup joins only at shunt",
+      "passed": true,
+      "connected_to_shunt": true,
+      "joins_main_outside_shunt": false
+    },
+    {
+      "check": "B motor return has a >=0.30 mm current path",
+      "passed": true
+    },
+    {
+      "check": "B driver_to_shunt has a >=0.30 mm current path",
+      "passed": true
+    },
+    {
+      "check": "B shunt_to_motor has a >=0.30 mm current path",
+      "passed": true
+    },
+    {
+      "check": "B positive Kelvin pickup joins only at shunt",
+      "passed": true,
+      "connected_to_shunt": true,
+      "joins_main_outside_shunt": false
+    },
+    {
+      "check": "B negative Kelvin pickup joins only at shunt",
+      "passed": true,
+      "connected_to_shunt": true,
+      "joins_main_outside_shunt": false
+    },
+    {
+      "check": "Oscillator uses top copper without vias",
+      "passed": true,
+      "vias": [],
+      "layers": [
+        "top"
+      ]
+    }
+  ],
+  "passed": true,
+  "fabrication_ready": false
+}

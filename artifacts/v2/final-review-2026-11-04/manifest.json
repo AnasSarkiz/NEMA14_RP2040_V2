@@ -1,0 +1,20 @@
+{
+  "board_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "reviewed_commit": "20619cc336c039c4801607d6561a9a67409ed701",
+  "hardware_or_order_files_changed": false,
+  "fresh_reports": {
+    "component-and-pin-inventory.json": "3a773a1d638b1cc3949eb863b0ce5c39db28b10d84e137abbfacd16033670f1e",
+    "functional-routing.json": "288486312b411e571dbf7f30775e78bf3407b4cd76436d057e50e84bd2915126",
+    "native-drc.json": "ae9b19f4df32a58f7d5ec73a17b7c32b5046f12b596463d0c7671dd9deb196bd",
+    "order-file-consistency.json": "0fb2ea8ae2b512642ab88c9e1b35e06ce859be390469cbbc0b32564f813c5808",
+    "physical-routing.json": "62b3a83c352e5139e4d70236df78f32c0b215f0df900117e53125330daedc0b8",
+    "review.json": "aa8ba069db637b2c0551a5b87a2d2e1925c23ad7eb42a11d53a2e86396b2876b",
+    "source-analysis.json": "736c27953e2252c1ad560e7e6047bdcd773006c88f21d5750c88c43ab498cdbe"
+  },
+  "previous_evidence_inspected_not_rerun": {
+    "artifacts/v2/order-review/cam/audit.json": "c38083a927b2fdfb2e4b5caf579ff31f86c013a41f515f5ac4e9d1399434a660",
+    "artifacts/v2/routing/component-body-verification.json": "ed39b56bcfb630ed3386ef51fb1c2fda47caeb1d17691ba4333c7f4272fb8be9",
+    "artifacts/v2/routing/local-power-verification.json": "343f991ae0585ebdfff1f9252c320382ae7182b15cea0947bae6ffcb8ceaa742",
+    "artifacts/ch224a-migration/vbus-rating-review.json": "c56d46ada2224ab0608707bfd20d3ad1a43d30d65d3d09c1437d42283e9de4be"
+  }
+}

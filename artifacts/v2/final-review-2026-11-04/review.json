@@ -1,0 +1,132 @@
+{
+  "review_date": "2026-11-04",
+  "reviewed_commit": "20619cc336c039c4801607d6561a9a67409ed701",
+  "version": "2.0.0-dev.7",
+  "board_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "source_sha256": "253d18b3155a0bfd86684d9d7ccd6f0bdfe5315c62595d6fb73af3577331a1e8",
+  "hardware_changed": false,
+  "prototype_order_recommendation": "Address startup-bias and ESD bypass recommendations, then refresh CAD/CAM and obtain supplier/mechanical acceptance. No unconditional release.",
+  "native_DRC": {
+    "passed": true,
+    "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+    "errors": [],
+    "warnings": [],
+    "fabrication_ready": false
+  },
+  "physical_routing": {
+    "physical_pin_nets_checked": 342,
+    "nets_checked": 70,
+    "disconnected_nets": [],
+    "floating_copper_islands": [],
+    "shorts": [],
+    "clearance_violations": [],
+    "passed": true
+  },
+  "functional_routing_passed": true,
+  "order_file_consistency_passed": true,
+  "reset_bias_calculation": {
+    "assumptions": "3.3 V +/-5%, external resistor 1%, RP2040 50-80 kohm reset pulldown, +/-20 uA driver plus +/-1 uA MCU input leakage. Static screen, not a power-ramp simulation.",
+    "cases": [
+      {
+        "pullup_ohms": 100000,
+        "reset_voltage_range_V": [
+          0.33576158940397344,
+          2.477765363128491
+        ],
+        "worst_high_margin_V": -1.9804668874172182,
+        "guaranteed_above_VIH_in_this_DC_screen": false
+      },
+      {
+        "pullup_ohms": 10000,
+        "reset_voltage_range_V": [
+          2.431697171381031,
+          3.268431590656285
+        ],
+        "worst_high_margin_V": 0.23719717138103125,
+        "guaranteed_above_VIH_in_this_DC_screen": true
+      }
+    ],
+    "nominal_existing_no_leakage_V": [
+      1.1,
+      1.4666666666666666
+    ],
+    "A4988_nominal_VIH_V": 2.3099999999999996,
+    "A4988_nominal_VIL_V": 0.9899999999999999,
+    "existing_SLEEP_reset_pulldown_retained": true,
+    "suggested_SLEEP_external_ohms": 10000,
+    "suggested_SLEEP_HiZ_leakage_upper_V": 0.21209999999999998
+  },
+  "current_measurement": {
+    "shunt_ohms": 0.05,
+    "INA240A1_gain": 20,
+    "nominal_zero_V": 1.65,
+    "sensitivity_V_per_A": 1.0,
+    "output_at_plus_minus_0_4_A_V": [
+      1.25,
+      2.05
+    ],
+    "filter_corner_Hz": 159154.94309189534,
+    "regulation_nominal_A": 0.350765306122449,
+    "supply_resistor_only_upper_A": 0.37798107849175394,
+    "including_REF_input_current_upper_model_A": 0.390616445972764,
+    "illustrative_plus_5_percent_trip_error_A": 0.41014726827140224,
+    "not_a_guaranteed_maximum": "A4988 trip-error specification cited at VREF=2 V, while this circuit uses about 0.673 V. Temperature and all dynamic errors are not bounded.",
+    "IPC2221_capacity_at_nominal_width_A": 0.40998790578413474,
+    "IPC2221_capacity_at_20_percent_reduced_width_A": 0.34874764710936323,
+    "thermal_qualification": false
+  },
+  "USB_power_mode_risk": {
+    "DATA_VBUS_divider_total_ohms": 200000,
+    "reverse_leakage_to_raise_unloaded_input_to_4V_A": 2e-05,
+    "B5819W_C8598_spec_IR_max_A_at_40V_25C": 0.001,
+    "actual_leakage_at_board_bias_and_temperature_measured": false,
+    "claim": "Potential false USB-presence detection. The 40 V leakage maximum is not a prediction of the actual leakage at 15 V."
+  },
+  "USB_ESD_bypass": {
+    "manufacturer_recommendation": "ST DS4260 Rev7 Figure17 page11, C_BUS=100 nF at VBUS/GND",
+    "existing_local_DATA_VBUS_capacitor": false,
+    "C_USB_actual_net": "V3V3",
+    "recommended_capacitance_F": 1e-07
+  },
+  "feature_limits": {
+    "RGB_works_on_PD_only": false,
+    "AS5600_fitted": false,
+    "firmware_in_repository": false,
+    "factory_motor_wire_gauge_confirmed": false,
+    "motor_rear_mounting_confirmed": false
+  },
+  "sources": [
+    {
+      "url": "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf",
+      "sections": "Tables625/627; pull resistances, ADC limits"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/raspberrypi/pico-sdk/master/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h",
+      "sections": "GPIO8/9 PDE reset fields"
+    },
+    {
+      "url": "https://www.allegromicro.com/-/media/files/datasheets/a4988-datasheet.pdf",
+      "sections": "Electrical characteristics page4, pinout, application, control timing"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/ina240.pdf",
+      "sections": "PW pinout page3; supply/common-mode/output/reference"
+    },
+    {
+      "url": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "sections": "Pinout, section2.3, Figure17 page11"
+    },
+    {
+      "url": "https://www.diodes.com/datasheet/download/AP63200-AP63201-AP63203-AP63205.pdf",
+      "sections": "Fixed-output reference design, section3 EN tied VIN"
+    },
+    {
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/4ac2c059be7c462694ab0715ce987a85.pdf?productCode=C8598",
+      "sections": "Manufacturer B5819W sheet page1, 40V and IR specification"
+    },
+    {
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/4f12eebccb4eda2c0038806df0155265.pdf?productCode=C970725",
+      "sections": "Existing manufacturer Chinese CH224DS1 V2.1 rating review retained"
+    }
+  ]
+}

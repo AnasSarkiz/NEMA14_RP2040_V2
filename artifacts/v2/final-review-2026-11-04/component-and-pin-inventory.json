@@ -1,0 +1,3334 @@
+[
+  {
+    "reference": "BZ1",
+    "manufacturer_part_number": "MLT-5020",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C94598"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 3,
+        "name": "pin3",
+        "net": null
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "BUZZER_SINK"
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      }
+    ]
+  },
+  {
+    "reference": "C_ADC",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_BOOTSTRAP",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "BUCK_BST"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "BUCK_SW"
+      }
+    ]
+  },
+  {
+    "reference": "C_BUCK_IN",
+    "manufacturer_part_number": "CL31A106KBHNNNE",
+    "value": 1e-05,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C13585"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "LOGIC_IN"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_BUCK_OUT1",
+    "manufacturer_part_number": "CL21A226MAQNNNE",
+    "value": 2.2e-05,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C45783"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_BUCK_OUT2",
+    "manufacturer_part_number": "CL21A226MAQNNNE",
+    "value": 2.2e-05,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C45783"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_BULK",
+    "manufacturer_part_number": "EEEFT1V470AR",
+    "value": 4.7e-05,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C193627"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "PD_VBUS"
+      }
+    ]
+  },
+  {
+    "reference": "C_BUZZER",
+    "manufacturer_part_number": "CL10A106KP8NNNC",
+    "value": 1e-05,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C19702"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_CP",
+    "manufacturer_part_number": "CL05B104KB5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C960916"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "CP1"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "CP2"
+      }
+    ]
+  },
+  {
+    "reference": "C_DRV_LOGIC",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_DV23",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V1V1"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_DV50",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V1V1"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_ENCODER",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_ENCODER_BULK",
+    "manufacturer_part_number": "CL05A105KA5NQNC",
+    "value": 1e-06,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C52923"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_FLASH",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_IA",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_IADC_A",
+    "manufacturer_part_number": "CL05B103KB5NNNC",
+    "value": 1e-08,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C15195"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "I_A_ADC"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_IADC_B",
+    "manufacturer_part_number": "CL05B103KB5NNNC",
+    "value": 1e-08,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C15195"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "I_B_ADC"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_IB",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_IO1",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_IO10",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_IO22",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_IO33",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_IO42",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_IO49",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_PD",
+    "manufacturer_part_number": "CL10A105KB8NNNC",
+    "value": 1e-06,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C15849"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "PD_VHV"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_REF",
+    "manufacturer_part_number": "CL05B103KB5NNNC",
+    "value": 1e-08,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C15195"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "VREF"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_TEMP",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_USB",
+    "manufacturer_part_number": "CL05B104KO5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1525"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_VCP",
+    "manufacturer_part_number": "CL05B104KB5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C960916"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "VCP"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "PD_VBUS"
+      }
+    ]
+  },
+  {
+    "reference": "C_VM",
+    "manufacturer_part_number": "CL05B104KB5NNNC",
+    "value": 1e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C960916"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_VM_SENSE",
+    "manufacturer_part_number": "CL05B103KB5NNNC",
+    "value": 1e-08,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C15195"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "VM_SENSE"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_VREG",
+    "manufacturer_part_number": "CL10B224KA8NNNC",
+    "value": 2.2e-07,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C21120"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "VREG"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_VREG_IN",
+    "manufacturer_part_number": "CL05A105KA5NQNC",
+    "value": 1e-06,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C52923"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_VREG_OUT",
+    "manufacturer_part_number": "CL05A105KA5NQNC",
+    "value": 1e-06,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C52923"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V1V1"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_XIN",
+    "manufacturer_part_number": "0402CG150J500NT",
+    "value": 1.5e-11,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1548"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "XIN"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "C_XOUT",
+    "manufacturer_part_number": "0402CG150J500NT",
+    "value": 1.5e-11,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C1548"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "XTAL_OUT"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "D_BUZZER",
+    "manufacturer_part_number": "B5819WS",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C64886"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "cathode",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "anode",
+        "net": "BUZZER_SINK"
+      }
+    ]
+  },
+  {
+    "reference": "D_DATA",
+    "manufacturer_part_number": "B5819W SL",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C8598"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "cathode",
+        "net": "LOGIC_IN"
+      },
+      {
+        "pin": 2,
+        "name": "anode",
+        "net": "DATA_VBUS"
+      }
+    ]
+  },
+  {
+    "reference": "D_PD",
+    "manufacturer_part_number": "B5819W SL",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C8598"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "cathode",
+        "net": "LOGIC_IN"
+      },
+      {
+        "pin": 2,
+        "name": "anode",
+        "net": "PD_VBUS"
+      }
+    ]
+  },
+  {
+    "reference": "D_PWR",
+    "manufacturer_part_number": "XL-1608SURC-06",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C965799"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "cathode",
+        "net": "GND"
+      },
+      {
+        "pin": 2,
+        "name": "anode",
+        "net": "PWR_LED_A"
+      }
+    ]
+  },
+  {
+    "reference": "D_STATUS",
+    "manufacturer_part_number": "LTST-C19HE1WT",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C458749"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "R_NEG",
+        "net": "STATUS_R_K"
+      },
+      {
+        "pin": 2,
+        "name": "G_NEG",
+        "net": "STATUS_G_K"
+      },
+      {
+        "pin": 3,
+        "name": "B_NEG",
+        "net": "STATUS_B_K"
+      },
+      {
+        "pin": 4,
+        "name": "_POS",
+        "net": "DATA_VBUS"
+      }
+    ]
+  },
+  {
+    "reference": "D_TVS",
+    "manufacturer_part_number": "SMF18A",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C19077512"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "J_DATA",
+    "manufacturer_part_number": "USB4145-03-0070-C",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C5815189"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "GND1",
+        "net": "GND"
+      },
+      {
+        "pin": 2,
+        "name": "DP1",
+        "net": "USB_DP"
+      },
+      {
+        "pin": 3,
+        "name": "VBUS1",
+        "net": "DATA_VBUS"
+      },
+      {
+        "pin": 4,
+        "name": "CC1",
+        "net": "DATA_CC1"
+      },
+      {
+        "pin": 5,
+        "name": "GND2",
+        "net": "GND"
+      },
+      {
+        "pin": 6,
+        "name": "DM1",
+        "net": "USB_DM"
+      },
+      {
+        "pin": 7,
+        "name": "SBU1",
+        "net": null
+      },
+      {
+        "pin": 8,
+        "name": "VBUS2",
+        "net": "DATA_VBUS"
+      },
+      {
+        "pin": 9,
+        "name": "GND3",
+        "net": "GND"
+      },
+      {
+        "pin": 10,
+        "name": "DM2",
+        "net": "USB_DM"
+      },
+      {
+        "pin": 11,
+        "name": "VBUS3",
+        "net": "DATA_VBUS"
+      },
+      {
+        "pin": 12,
+        "name": "SBU2",
+        "net": null
+      },
+      {
+        "pin": 13,
+        "name": "GND4",
+        "net": "GND"
+      },
+      {
+        "pin": 14,
+        "name": "DP2",
+        "net": "USB_DP"
+      },
+      {
+        "pin": 15,
+        "name": "CC2",
+        "net": "DATA_CC2"
+      },
+      {
+        "pin": 16,
+        "name": "VBUS4",
+        "net": "DATA_VBUS"
+      },
+      {
+        "pin": 17,
+        "name": "EH1",
+        "net": "GND"
+      },
+      {
+        "pin": 18,
+        "name": "EH2",
+        "net": "GND"
+      },
+      {
+        "pin": 19,
+        "name": "EH3",
+        "net": "GND"
+      },
+      {
+        "pin": 20,
+        "name": "EH4",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "J_MOTOR",
+    "manufacturer_part_number": "250-204",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C2765063"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "A_PLUS",
+        "net": "A_PLUS"
+      },
+      {
+        "pin": 2,
+        "name": "A_MINUS",
+        "net": "A_MINUS"
+      },
+      {
+        "pin": 3,
+        "name": "B_PLUS",
+        "net": "B_PLUS"
+      },
+      {
+        "pin": 4,
+        "name": "B_MINUS",
+        "net": "B_MINUS"
+      }
+    ]
+  },
+  {
+    "reference": "J_PD",
+    "manufacturer_part_number": "USB4145-03-0070-C",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C5815189"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "GND1",
+        "net": "GND"
+      },
+      {
+        "pin": 2,
+        "name": "DP1",
+        "net": null
+      },
+      {
+        "pin": 3,
+        "name": "VBUS1",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 4,
+        "name": "CC1",
+        "net": "PD_CC1"
+      },
+      {
+        "pin": 5,
+        "name": "GND2",
+        "net": "GND"
+      },
+      {
+        "pin": 6,
+        "name": "DM1",
+        "net": null
+      },
+      {
+        "pin": 7,
+        "name": "SBU1",
+        "net": null
+      },
+      {
+        "pin": 8,
+        "name": "VBUS2",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 9,
+        "name": "GND3",
+        "net": "GND"
+      },
+      {
+        "pin": 10,
+        "name": "DM2",
+        "net": null
+      },
+      {
+        "pin": 11,
+        "name": "VBUS3",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 12,
+        "name": "SBU2",
+        "net": null
+      },
+      {
+        "pin": 13,
+        "name": "GND4",
+        "net": "GND"
+      },
+      {
+        "pin": 14,
+        "name": "DP2",
+        "net": null
+      },
+      {
+        "pin": 15,
+        "name": "CC2",
+        "net": "PD_CC2"
+      },
+      {
+        "pin": 16,
+        "name": "VBUS4",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 17,
+        "name": "EH1",
+        "net": "GND"
+      },
+      {
+        "pin": 18,
+        "name": "EH2",
+        "net": "GND"
+      },
+      {
+        "pin": 19,
+        "name": "EH3",
+        "net": "GND"
+      },
+      {
+        "pin": 20,
+        "name": "EH4",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "L_BUCK",
+    "manufacturer_part_number": "SRN4018-4R7M",
+    "value": "4.7uH",
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C780206"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "BUCK_SW"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "V3V3"
+      }
+    ]
+  },
+  {
+    "reference": "Q_BUZZER",
+    "manufacturer_part_number": "DMN2300UFB4-7B",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C154728"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "BUZZER_GATE"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "BUZZER_SINK"
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "Q_STATUS_B",
+    "manufacturer_part_number": "DMN2300UFB4-7B",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C154728"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "LED_B"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "STATUS_B_C"
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "Q_STATUS_G",
+    "manufacturer_part_number": "DMN2300UFB4-7B",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C154728"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "LED_G"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "STATUS_G_C"
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "Q_STATUS_R",
+    "manufacturer_part_number": "DMN2300UFB4-7B",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C154728"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "LED_R"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "STATUS_R_C"
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_BOOT",
+    "manufacturer_part_number": "0402WGF1001TCE",
+    "value": 1000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C11702"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "QSPI_SS"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "BOOT_PAD"
+      }
+    ]
+  },
+  {
+    "reference": "R_BUZZER_GATE",
+    "manufacturer_part_number": "0402WGF1000TCE",
+    "value": 100,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25076"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "BUZZER_PWM"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "BUZZER_GATE"
+      }
+    ]
+  },
+  {
+    "reference": "R_BUZZER_PD",
+    "manufacturer_part_number": "0402WGF1003TCE",
+    "value": 100000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25741"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "BUZZER_GATE"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_CC1",
+    "manufacturer_part_number": "0402WGF5101TCE",
+    "value": 5100,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25905"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "DATA_CC1"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_CC2",
+    "manufacturer_part_number": "0402WGF5101TCE",
+    "value": 5100,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25905"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "DATA_CC2"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_DM",
+    "manufacturer_part_number": "0402WGF270JTCE",
+    "value": 27,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25100"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "MCU_DM"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "USB_DM"
+      }
+    ]
+  },
+  {
+    "reference": "R_DP",
+    "manufacturer_part_number": "0402WGF270JTCE",
+    "value": 27,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25100"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "MCU_DP"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "USB_DP"
+      }
+    ]
+  },
+  {
+    "reference": "R_ENABLE",
+    "manufacturer_part_number": "0402WGF1003TCE",
+    "value": 100000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25741"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "ENABLE_N"
+      }
+    ]
+  },
+  {
+    "reference": "R_FLASH_CS",
+    "manufacturer_part_number": "0402WGF1002TCE",
+    "value": 10000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25744"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "QSPI_SS"
+      }
+    ]
+  },
+  {
+    "reference": "R_IA",
+    "manufacturer_part_number": "0402WGF1000TCE",
+    "value": 100,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25076"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "I_A_RAW"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "I_A_ADC"
+      }
+    ]
+  },
+  {
+    "reference": "R_IB",
+    "manufacturer_part_number": "0402WGF1000TCE",
+    "value": 100,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25076"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "I_B_RAW"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "I_B_ADC"
+      }
+    ]
+  },
+  {
+    "reference": "R_PD",
+    "manufacturer_part_number": "0603WAF0000T5E",
+    "value": 0,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C21189"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "PD_VHV"
+      }
+    ]
+  },
+  {
+    "reference": "R_PD_CFG",
+    "manufacturer_part_number": "0402WGF5602TCE",
+    "value": 56000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25796"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "PD_CFG"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_PG",
+    "manufacturer_part_number": "0603WAF1002T5E",
+    "value": 10000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25804"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "PD_GOOD"
+      }
+    ]
+  },
+  {
+    "reference": "R_PWR_LED",
+    "manufacturer_part_number": "0402WGF3300TCE",
+    "value": 330,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25104"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "PWR_LED_A"
+      }
+    ]
+  },
+  {
+    "reference": "R_REF_H",
+    "manufacturer_part_number": "0603WAF3902T5E",
+    "value": 39000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C23153"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "VREF"
+      }
+    ]
+  },
+  {
+    "reference": "R_REF_L",
+    "manufacturer_part_number": "0402WGF1002TCE",
+    "value": 10000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25744"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "VREF"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_RUN",
+    "manufacturer_part_number": "0402WGF1002TCE",
+    "value": 10000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25744"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "RUN"
+      }
+    ]
+  },
+  {
+    "reference": "R_SA",
+    "manufacturer_part_number": "SR731JTTDR240F",
+    "value": 0.24,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C186557"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "SENSE1"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_SB",
+    "manufacturer_part_number": "SR731JTTDR240F",
+    "value": 0.24,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C186557"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "SENSE2"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_SHUNT_A",
+    "manufacturer_part_number": "ERJL06KF50MV",
+    "value": 0.05,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C713441"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "A_DRV_PLUS"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "A_PLUS"
+      }
+    ]
+  },
+  {
+    "reference": "R_SHUNT_B",
+    "manufacturer_part_number": "ERJL06KF50MV",
+    "value": 0.05,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C713441"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "B_DRV_PLUS"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "B_PLUS"
+      }
+    ]
+  },
+  {
+    "reference": "R_SLEEP",
+    "manufacturer_part_number": "0603WAF1003T5E",
+    "value": 100000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25803"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "SLEEP"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_STATUS_B",
+    "manufacturer_part_number": "0402WGF1001TCE",
+    "value": 1000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C11702"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "STATUS_B_K"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "STATUS_B_C"
+      }
+    ]
+  },
+  {
+    "reference": "R_STATUS_G",
+    "manufacturer_part_number": "0402WGF1001TCE",
+    "value": 1000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C11702"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "STATUS_G_K"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "STATUS_G_C"
+      }
+    ]
+  },
+  {
+    "reference": "R_STATUS_PD_B",
+    "manufacturer_part_number": "0402WGF1002TCE",
+    "value": 10000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25744"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "LED_B"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_STATUS_PD_G",
+    "manufacturer_part_number": "0402WGF1002TCE",
+    "value": 10000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25744"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "LED_G"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_STATUS_PD_R",
+    "manufacturer_part_number": "0402WGF1002TCE",
+    "value": 10000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25744"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "LED_R"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_STATUS_R",
+    "manufacturer_part_number": "0402WGF1001TCE",
+    "value": 1000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C11702"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "STATUS_R_K"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "STATUS_R_C"
+      }
+    ]
+  },
+  {
+    "reference": "R_TEMP_SCL",
+    "manufacturer_part_number": "0402WGF4701TCE",
+    "value": 4700,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25900"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "TEMP_SCL"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "V3V3"
+      }
+    ]
+  },
+  {
+    "reference": "R_TEMP_SDA",
+    "manufacturer_part_number": "0402WGF4701TCE",
+    "value": 4700,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25900"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "TEMP_SDA"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "V3V3"
+      }
+    ]
+  },
+  {
+    "reference": "R_USB_SENSE_H",
+    "manufacturer_part_number": "0402WGF1003TCE",
+    "value": 100000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25741"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "DATA_VBUS"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "DATA_PRESENT"
+      }
+    ]
+  },
+  {
+    "reference": "R_USB_SENSE_L",
+    "manufacturer_part_number": "0402WGF1003TCE",
+    "value": 100000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25741"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "DATA_PRESENT"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_VM_H",
+    "manufacturer_part_number": "0402WGF1003TCE",
+    "value": 100000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25741"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "VM_SENSE"
+      }
+    ]
+  },
+  {
+    "reference": "R_VM_L",
+    "manufacturer_part_number": "0402WGF1002TCE",
+    "value": 10000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C25744"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "VM_SENSE"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "R_XOUT",
+    "manufacturer_part_number": "0402WGF1001TCE",
+    "value": 1000,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C11702"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "XOUT"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "XTAL_OUT"
+      }
+    ]
+  },
+  {
+    "reference": "TP_3V3",
+    "manufacturer_part_number": null,
+    "value": null,
+    "supplier_part_numbers": null,
+    "layer": "bottom",
+    "do_not_place": true,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "V3V3"
+      }
+    ]
+  },
+  {
+    "reference": "TP_BOOT",
+    "manufacturer_part_number": null,
+    "value": null,
+    "supplier_part_numbers": null,
+    "layer": "top",
+    "do_not_place": true,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "BOOT_PAD"
+      }
+    ]
+  },
+  {
+    "reference": "TP_BOOT_GND",
+    "manufacturer_part_number": null,
+    "value": null,
+    "supplier_part_numbers": null,
+    "layer": "top",
+    "do_not_place": true,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "TP_GND",
+    "manufacturer_part_number": null,
+    "value": null,
+    "supplier_part_numbers": null,
+    "layer": "bottom",
+    "do_not_place": true,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "TP_RUN",
+    "manufacturer_part_number": null,
+    "value": null,
+    "supplier_part_numbers": null,
+    "layer": "bottom",
+    "do_not_place": true,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "RUN"
+      }
+    ]
+  },
+  {
+    "reference": "TP_SWCLK",
+    "manufacturer_part_number": null,
+    "value": null,
+    "supplier_part_numbers": null,
+    "layer": "bottom",
+    "do_not_place": true,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "SWCLK"
+      }
+    ]
+  },
+  {
+    "reference": "TP_SWDIO",
+    "manufacturer_part_number": null,
+    "value": null,
+    "supplier_part_numbers": null,
+    "layer": "bottom",
+    "do_not_place": true,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "SWDIO"
+      }
+    ]
+  },
+  {
+    "reference": "U_BUCK",
+    "manufacturer_part_number": "AP63203WU-7",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C780769"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "FB",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "EN",
+        "net": "LOGIC_IN"
+      },
+      {
+        "pin": 3,
+        "name": "VIN",
+        "net": "LOGIC_IN"
+      },
+      {
+        "pin": 4,
+        "name": "GND",
+        "net": "GND"
+      },
+      {
+        "pin": 5,
+        "name": "SW",
+        "net": "BUCK_SW"
+      },
+      {
+        "pin": 6,
+        "name": "BST",
+        "net": "BUCK_BST"
+      }
+    ]
+  },
+  {
+    "reference": "U_DRV",
+    "manufacturer_part_number": "A4988SETTR-T",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C38437"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "OUT2B",
+        "net": "B_MINUS"
+      },
+      {
+        "pin": 2,
+        "name": "ENABLE_N",
+        "net": "ENABLE_N"
+      },
+      {
+        "pin": 3,
+        "name": "GND",
+        "net": "GND"
+      },
+      {
+        "pin": 4,
+        "name": "CP1",
+        "net": "CP1"
+      },
+      {
+        "pin": 5,
+        "name": "CP2",
+        "net": "CP2"
+      },
+      {
+        "pin": 6,
+        "name": "VCP",
+        "net": "VCP"
+      },
+      {
+        "pin": 7,
+        "name": "NC7",
+        "net": null
+      },
+      {
+        "pin": 8,
+        "name": "VREG",
+        "net": "VREG"
+      },
+      {
+        "pin": 9,
+        "name": "MS1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 10,
+        "name": "MS2",
+        "net": "V3V3"
+      },
+      {
+        "pin": 11,
+        "name": "MS3",
+        "net": "V3V3"
+      },
+      {
+        "pin": 12,
+        "name": "RESET_N",
+        "net": "V3V3"
+      },
+      {
+        "pin": 13,
+        "name": "ROSC",
+        "net": "GND"
+      },
+      {
+        "pin": 14,
+        "name": "SLEEP",
+        "net": "SLEEP"
+      },
+      {
+        "pin": 15,
+        "name": "VDD",
+        "net": "V3V3"
+      },
+      {
+        "pin": 16,
+        "name": "STEP",
+        "net": "STEP"
+      },
+      {
+        "pin": 17,
+        "name": "REF",
+        "net": "VREF"
+      },
+      {
+        "pin": 18,
+        "name": "GND18",
+        "net": "GND"
+      },
+      {
+        "pin": 19,
+        "name": "DIR",
+        "net": "DIR"
+      },
+      {
+        "pin": 20,
+        "name": "NC20",
+        "net": null
+      },
+      {
+        "pin": 21,
+        "name": "OUT1B",
+        "net": "A_MINUS"
+      },
+      {
+        "pin": 22,
+        "name": "VBB1",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 23,
+        "name": "SENSE1",
+        "net": "SENSE1"
+      },
+      {
+        "pin": 24,
+        "name": "OUT1A",
+        "net": "A_DRV_PLUS"
+      },
+      {
+        "pin": 25,
+        "name": "NC25",
+        "net": null
+      },
+      {
+        "pin": 26,
+        "name": "OUT2A",
+        "net": "B_DRV_PLUS"
+      },
+      {
+        "pin": 27,
+        "name": "SENSE2",
+        "net": "SENSE2"
+      },
+      {
+        "pin": 28,
+        "name": "VBB2",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 29,
+        "name": "EP",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "U_ENCODER",
+    "manufacturer_part_number": "AS5600-ASOM",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C79815"
+      ]
+    },
+    "layer": "bottom",
+    "do_not_place": true,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "VDD5V",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "VDD3V3",
+        "net": "V3V3"
+      },
+      {
+        "pin": 3,
+        "name": "OUT",
+        "net": null
+      },
+      {
+        "pin": 4,
+        "name": "GND",
+        "net": "GND"
+      },
+      {
+        "pin": 5,
+        "name": "PGO",
+        "net": null
+      },
+      {
+        "pin": 6,
+        "name": "SDA",
+        "net": "TEMP_SDA"
+      },
+      {
+        "pin": 7,
+        "name": "SCL",
+        "net": "TEMP_SCL"
+      },
+      {
+        "pin": 8,
+        "name": "DIR",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "U_ESD",
+    "manufacturer_part_number": "USBLC6-2SC6",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C2687116"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "DP1",
+        "net": "USB_DP"
+      },
+      {
+        "pin": 2,
+        "name": "GND",
+        "net": "GND"
+      },
+      {
+        "pin": 3,
+        "name": "DM1",
+        "net": "USB_DM"
+      },
+      {
+        "pin": 4,
+        "name": "DM2",
+        "net": "USB_DM"
+      },
+      {
+        "pin": 5,
+        "name": "VBUS",
+        "net": "DATA_VBUS"
+      },
+      {
+        "pin": 6,
+        "name": "DP2",
+        "net": "USB_DP"
+      }
+    ]
+  },
+  {
+    "reference": "U_FLASH",
+    "manufacturer_part_number": "GD25Q16EEIGR",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C2986331"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "CS",
+        "net": "QSPI_SS"
+      },
+      {
+        "pin": 2,
+        "name": "IO1",
+        "net": "QSPI_SD1"
+      },
+      {
+        "pin": 3,
+        "name": "IO2",
+        "net": "QSPI_SD2"
+      },
+      {
+        "pin": 4,
+        "name": "GND",
+        "net": "GND"
+      },
+      {
+        "pin": 5,
+        "name": "IO0",
+        "net": "QSPI_SD0"
+      },
+      {
+        "pin": 6,
+        "name": "CLK",
+        "net": "QSPI_SCLK"
+      },
+      {
+        "pin": 7,
+        "name": "IO3",
+        "net": "QSPI_SD3"
+      },
+      {
+        "pin": 8,
+        "name": "VCC",
+        "net": "V3V3"
+      },
+      {
+        "pin": 9,
+        "name": "EP",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "U_IA",
+    "manufacturer_part_number": "INA240A1PWR",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C93965"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "NC",
+        "net": null
+      },
+      {
+        "pin": 2,
+        "name": "IN_POS",
+        "net": "A_DRV_PLUS"
+      },
+      {
+        "pin": 3,
+        "name": "IN_NEG",
+        "net": "A_PLUS"
+      },
+      {
+        "pin": 4,
+        "name": "GND",
+        "net": "GND"
+      },
+      {
+        "pin": 5,
+        "name": "VS",
+        "net": "V3V3"
+      },
+      {
+        "pin": 6,
+        "name": "REF2",
+        "net": "GND"
+      },
+      {
+        "pin": 7,
+        "name": "REF1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 8,
+        "name": "OUT",
+        "net": "I_A_RAW"
+      }
+    ]
+  },
+  {
+    "reference": "U_IB",
+    "manufacturer_part_number": "INA240A1PWR",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C93965"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "NC",
+        "net": null
+      },
+      {
+        "pin": 2,
+        "name": "IN_POS",
+        "net": "B_DRV_PLUS"
+      },
+      {
+        "pin": 3,
+        "name": "IN_NEG",
+        "net": "B_PLUS"
+      },
+      {
+        "pin": 4,
+        "name": "GND",
+        "net": "GND"
+      },
+      {
+        "pin": 5,
+        "name": "VS",
+        "net": "V3V3"
+      },
+      {
+        "pin": 6,
+        "name": "REF2",
+        "net": "GND"
+      },
+      {
+        "pin": 7,
+        "name": "REF1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 8,
+        "name": "OUT",
+        "net": "I_B_RAW"
+      }
+    ]
+  },
+  {
+    "reference": "U_MCU",
+    "manufacturer_part_number": "RP2040",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C2040"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "IOVDD1",
+        "net": "V3V3"
+      },
+      {
+        "pin": 2,
+        "name": "GPIO0",
+        "net": null
+      },
+      {
+        "pin": 3,
+        "name": "GPIO1",
+        "net": null
+      },
+      {
+        "pin": 4,
+        "name": "GPIO2",
+        "net": "LED_G"
+      },
+      {
+        "pin": 5,
+        "name": "GPIO3",
+        "net": "LED_B"
+      },
+      {
+        "pin": 6,
+        "name": "GPIO4",
+        "net": "TEMP_SDA"
+      },
+      {
+        "pin": 7,
+        "name": "GPIO5",
+        "net": "TEMP_SCL"
+      },
+      {
+        "pin": 8,
+        "name": "GPIO6",
+        "net": "STEP"
+      },
+      {
+        "pin": 9,
+        "name": "GPIO7",
+        "net": "DIR"
+      },
+      {
+        "pin": 10,
+        "name": "IOVDD10",
+        "net": "V3V3"
+      },
+      {
+        "pin": 11,
+        "name": "GPIO8",
+        "net": "ENABLE_N"
+      },
+      {
+        "pin": 12,
+        "name": "GPIO9",
+        "net": "SLEEP"
+      },
+      {
+        "pin": 13,
+        "name": "GPIO10",
+        "net": "PD_GOOD"
+      },
+      {
+        "pin": 14,
+        "name": "GPIO11",
+        "net": null
+      },
+      {
+        "pin": 15,
+        "name": "GPIO12",
+        "net": null
+      },
+      {
+        "pin": 16,
+        "name": "GPIO13",
+        "net": null
+      },
+      {
+        "pin": 17,
+        "name": "GPIO14",
+        "net": null
+      },
+      {
+        "pin": 18,
+        "name": "GPIO15",
+        "net": null
+      },
+      {
+        "pin": 19,
+        "name": "TESTEN",
+        "net": "GND"
+      },
+      {
+        "pin": 20,
+        "name": "XIN",
+        "net": "XIN"
+      },
+      {
+        "pin": 21,
+        "name": "XOUT",
+        "net": "XOUT"
+      },
+      {
+        "pin": 22,
+        "name": "IOVDD22",
+        "net": "V3V3"
+      },
+      {
+        "pin": 23,
+        "name": "DVDD23",
+        "net": "V1V1"
+      },
+      {
+        "pin": 24,
+        "name": "SWCLK",
+        "net": "SWCLK"
+      },
+      {
+        "pin": 25,
+        "name": "SWDIO",
+        "net": "SWDIO"
+      },
+      {
+        "pin": 26,
+        "name": "RUN",
+        "net": "RUN"
+      },
+      {
+        "pin": 27,
+        "name": "GPIO16",
+        "net": "BUZZER_PWM"
+      },
+      {
+        "pin": 28,
+        "name": "GPIO17",
+        "net": null
+      },
+      {
+        "pin": 29,
+        "name": "GPIO18",
+        "net": null
+      },
+      {
+        "pin": 30,
+        "name": "GPIO19",
+        "net": null
+      },
+      {
+        "pin": 31,
+        "name": "GPIO20",
+        "net": null
+      },
+      {
+        "pin": 32,
+        "name": "GPIO21",
+        "net": null
+      },
+      {
+        "pin": 33,
+        "name": "IOVDD33",
+        "net": "V3V3"
+      },
+      {
+        "pin": 34,
+        "name": "GPIO22",
+        "net": null
+      },
+      {
+        "pin": 35,
+        "name": "GPIO23",
+        "net": null
+      },
+      {
+        "pin": 36,
+        "name": "GPIO24",
+        "net": null
+      },
+      {
+        "pin": 37,
+        "name": "GPIO25",
+        "net": "LED_R"
+      },
+      {
+        "pin": 38,
+        "name": "GPIO26",
+        "net": "I_A_ADC"
+      },
+      {
+        "pin": 39,
+        "name": "GPIO27",
+        "net": "I_B_ADC"
+      },
+      {
+        "pin": 40,
+        "name": "GPIO28",
+        "net": "VM_SENSE"
+      },
+      {
+        "pin": 41,
+        "name": "GPIO29",
+        "net": "DATA_PRESENT"
+      },
+      {
+        "pin": 42,
+        "name": "IOVDD42",
+        "net": "V3V3"
+      },
+      {
+        "pin": 43,
+        "name": "ADC_AVDD",
+        "net": "V3V3"
+      },
+      {
+        "pin": 44,
+        "name": "VREG_IN",
+        "net": "V3V3"
+      },
+      {
+        "pin": 45,
+        "name": "VREG_OUT",
+        "net": "V1V1"
+      },
+      {
+        "pin": 46,
+        "name": "USB_DM",
+        "net": "MCU_DM"
+      },
+      {
+        "pin": 47,
+        "name": "USB_DP",
+        "net": "MCU_DP"
+      },
+      {
+        "pin": 48,
+        "name": "USB_VDD",
+        "net": "V3V3"
+      },
+      {
+        "pin": 49,
+        "name": "IOVDD49",
+        "net": "V3V3"
+      },
+      {
+        "pin": 50,
+        "name": "DVDD50",
+        "net": "V1V1"
+      },
+      {
+        "pin": 51,
+        "name": "QSPI_SD3",
+        "net": "QSPI_SD3"
+      },
+      {
+        "pin": 52,
+        "name": "QSPI_SCLK",
+        "net": "QSPI_SCLK"
+      },
+      {
+        "pin": 53,
+        "name": "QSPI_SD0",
+        "net": "QSPI_SD0"
+      },
+      {
+        "pin": 54,
+        "name": "QSPI_SD2",
+        "net": "QSPI_SD2"
+      },
+      {
+        "pin": 55,
+        "name": "QSPI_SD1",
+        "net": "QSPI_SD1"
+      },
+      {
+        "pin": 56,
+        "name": "QSPI_SS",
+        "net": "QSPI_SS"
+      },
+      {
+        "pin": 57,
+        "name": "GND",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "U_PD",
+    "manufacturer_part_number": "CH224A",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C42459160"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "VHV",
+        "net": "PD_VHV"
+      },
+      {
+        "pin": 2,
+        "name": "CFG2",
+        "net": null
+      },
+      {
+        "pin": 3,
+        "name": "CFG3",
+        "net": null
+      },
+      {
+        "pin": 4,
+        "name": "DP",
+        "net": null
+      },
+      {
+        "pin": 5,
+        "name": "DM",
+        "net": null
+      },
+      {
+        "pin": 6,
+        "name": "CC2",
+        "net": "PD_CC2"
+      },
+      {
+        "pin": 7,
+        "name": "CC1",
+        "net": "PD_CC1"
+      },
+      {
+        "pin": 8,
+        "name": "VBUS",
+        "net": "PD_VBUS"
+      },
+      {
+        "pin": 9,
+        "name": "CFG1",
+        "net": "PD_CFG"
+      },
+      {
+        "pin": 10,
+        "name": "PG",
+        "net": "PD_GOOD"
+      },
+      {
+        "pin": 11,
+        "name": "GND",
+        "net": "GND"
+      }
+    ]
+  },
+  {
+    "reference": "U_TEMP",
+    "manufacturer_part_number": "TMP102AIDRLR",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C99269"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "SCL",
+        "net": "TEMP_SCL"
+      },
+      {
+        "pin": 2,
+        "name": "GND",
+        "net": "GND"
+      },
+      {
+        "pin": 3,
+        "name": "ALERT",
+        "net": null
+      },
+      {
+        "pin": 4,
+        "name": "ADD0",
+        "net": "GND"
+      },
+      {
+        "pin": 5,
+        "name": "V_POS",
+        "net": "V3V3"
+      },
+      {
+        "pin": 6,
+        "name": "SDA",
+        "net": "TEMP_SDA"
+      }
+    ]
+  },
+  {
+    "reference": "Y_MCU",
+    "manufacturer_part_number": "ABM8-272-T3",
+    "value": null,
+    "supplier_part_numbers": {
+      "jlcpcb": [
+        "C20625731"
+      ]
+    },
+    "layer": "top",
+    "do_not_place": false,
+    "pins": [
+      {
+        "pin": 1,
+        "name": "pin1",
+        "net": "XIN"
+      },
+      {
+        "pin": 3,
+        "name": "pin3",
+        "net": "XTAL_OUT"
+      },
+      {
+        "pin": 4,
+        "name": "pin4",
+        "net": "GND"
+      },
+      {
+        "pin": 2,
+        "name": "pin2",
+        "net": "GND"
+      }
+    ]
+  }
+]

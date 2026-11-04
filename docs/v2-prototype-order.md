@@ -1,5 +1,10 @@
 # V2 prototype order handoff
 
+**Review hold, 4 November:** the independent electrical review recommends
+stronger ENABLE/SLEEP bias resistors and a local DATA_VBUS ESD bypass capacitor
+before ordering. These changes are not in the dev.7 files below. Read the
+[findings and release conditions](v2-independent-final-review-2026-11-04.md).
+
 Use only `artifacts/v2/order-review/` for this revision. Files elsewhere under
 `artifacts/` include historical V1 exports and must not be ordered as V2.
 The handoff manifest identifies the exact routed Circuit JSON and CAM hashes.

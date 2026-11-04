@@ -10,6 +10,16 @@ A checked item states its verified CAD/source scope. Firmware, physical assembly
 procurement and bench acceptance have their own unchecked items. Current routing
 passes; the complete board is **not yet signed off for a V2 order**.
 
+The [4 November independent review](v2-independent-final-review-2026-11-04.md)
+adds these open engineering actions; existing checked items retain their stated
+CAD scope:
+
+- [ ] Strengthen ENABLE_N/SLEEP hardware bias to 10 kΩ and regenerate the BOM.
+- [ ] Add local 100 nF DATA_VBUS-to-ground bypass beside U_ESD and requalify CAD/CAM.
+- [ ] Qualify PD-only USB-presence detection against reverse diode leakage.
+- [ ] Validate actual current/temperature; the existing 0.378 A calculation is
+  a supply/resistor-only model, not a complete maximum-current guarantee.
+
 ## Original NEMA14 requirements retained
 
 - [x] **RP2040 controller:** RP2040 C2040, external 2 MB QSPI flash, reset/BOOT

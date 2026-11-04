@@ -1,5 +1,5 @@
 {
-  "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2",
+  "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a",
   "scope": "Current V2 CAD, actual CAM and native preview; supplier, firmware and physical acceptance remain separate",
   "bottom_artwork": [
     {
@@ -29,14 +29,14 @@
     {
       "name": "tscircuit official wordmark",
       "bounds_mm": [
-        -7.667318160421518,
-        7.537155380173336,
-        1.0673251150705987,
-        9.262831087032204
+        3.6326818395784817,
+        -1.662844619826664,
+        12.367325115070598,
+        0.06283108703220387
       ],
       "stroke_width_mm": 0.15,
-      "pad_clearance_mm": 3.6324146587301724,
-      "edge_clearance_mm": 7.987168912967796
+      "pad_clearance_mm": 1.4982277576301293,
+      "edge_clearance_mm": 4.882674884929403
     }
   ],
   "source_warning_counts": {},
@@ -131,8 +131,8 @@
     "exit_code": 0,
     "result": "Fresh pin and schematic checks report zero diagnostics; negative-control warnings remain enabled."
   },
-  "reviewed_at_utc": "2026-11-04T12:45:13.192697+00:00",
-  "placement_source_sha256": "5943833f701810796b3e79fdffc4b866298d292836aba66e60af35d91ddb3619",
+  "reviewed_at_utc": "2026-11-04T12:58:44.862938+00:00",
+  "placement_source_sha256": "bdaca5c87fd9f8fb356803c3e2c4cc91d3cdca3a9708f31bb0a82af66ab5dca6",
   "all_requirements_closed": false,
   "fabrication_ready": false,
   "open_requirement_ids": [
@@ -155,9 +155,10 @@
   "prototype_order_files": "order-review/verification.json",
   "USB_fabrication_clearance_adaptation": "usb-fabrication-adaptation.json",
   "local_driver_bulk_check": "routing/local-power-verification.json",
-  "version": "2.0.0-dev.9",
+  "version": "2.0.0-dev.10",
   "startup_bias_and_ESD_bypass": "routing/startup-and-esd-verification.json",
   "existing_hardware_preserved": "routing/review-fixes-preservation.json",
   "fitted_top_parts": 98,
-  "port_label_update": "routing/port-label-update-verification.json"
+  "port_label_update": "routing/port-label-update-verification.json",
+  "wordmark_placement": "Empty middle-left underside; original scale and strokes; 1.498 mm minimum pad/hole clearance"
 }

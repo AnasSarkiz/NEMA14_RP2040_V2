@@ -1,7 +1,7 @@
 # V2 prototype order handoff
 
-**Current order package: 2.0.0-dev.9.** It adds large bottom PWR/DATA knockout
-legends; the BOM, CPL and electrical layout are unchanged from dev.8.
+**Current order package: 2.0.0-dev.10.** It relocates the wordmark to empty underside space and retains large
+bottom PWR/DATA knockout legends; the BOM, CPL and electrical layout are unchanged from dev.8.
 [Silkscreen update](v2-port-labels.md).
 
 **Dev.8 closed the two electrical-review fixes:** strong 10 kΩ

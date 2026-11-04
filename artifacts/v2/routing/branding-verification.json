@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "source_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2",
+  "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a",
   "exact_disclaimer": "For evaluation only; not FCC approved for resale.",
   "official_logo_paths_retained": true,
   "mirrored_for_underside_reading": true,
@@ -32,14 +32,14 @@
     {
       "name": "tscircuit official wordmark",
       "bounds_mm": [
-        -7.667318160421518,
-        7.537155380173336,
-        1.0673251150705987,
-        9.262831087032204
+        3.6326818395784817,
+        -1.662844619826664,
+        12.367325115070598,
+        0.06283108703220387
       ],
       "stroke_width_mm": 0.15,
-      "pad_clearance_mm": 3.6324146587301724,
-      "edge_clearance_mm": 7.987168912967796
+      "pad_clearance_mm": 1.4982277576301293,
+      "edge_clearance_mm": 4.882674884929403
     }
   ],
   "errors": [],

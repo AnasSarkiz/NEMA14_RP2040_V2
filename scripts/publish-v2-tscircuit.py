@@ -126,7 +126,7 @@ def stage(source_repository, revision):
         f'directions are verified. Built with tscircuit {meta["dependencies"]["tscircuit"]} / CLI {meta["dependencies"]["@tscircuit/cli"]}.\n\n'
         '**70/70 nets connected; 0 shorts; 0 native PCB DRC errors or warnings.**\n\n'
         'Fresh source, pin and schematic checks report zero diagnostics.\n\n'
-        'Large knockout PWR/DATA legends, the tscircuit wordmark and evaluation disclaimer are checked on the underside.\n\n'
+        'Large knockout PWR/DATA legends, the relocated tscircuit wordmark and evaluation disclaimer are checked on the underside.\n\n'
         'The default 3D preview includes the reference motor and four shorter, smoothly curved WAGO leads. Rear mounting and factory wire fit remain unverified.\n\n'
         'Strong 10 kohm ENABLE/SLEEP defaults and local USB ESD VBUS bypass are fitted.\n'
         'The 47 uF bulk capacitor is beside the driver with short feeds and local ground returns.\n'

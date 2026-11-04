@@ -2,7 +2,10 @@
 
 V2 has its own [GitHub repository](https://github.com/AnasSarkiz/NEMA14_RP2040_V2)
 and [tscircuit package](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d).
-This revision is **2.0.0-dev.9**. The working ordered V1 remains separate and unchanged.
+This revision is **2.0.0-dev.10**. The working ordered V1 remains separate and unchanged.
+
+**Wordmark:** moved into the empty middle-left underside area, preserving its
+original scale and strokes and clearing all pads and holes.
 
 **Port labels:** large bottom PWR/DATA knockout blocks, checked in the final Gerbers.
 [Artwork and preservation evidence](docs/v2-port-labels.md).

@@ -1,5 +1,5 @@
 {
-  "source_sha256": "30cec29e9f3a28590fdbd65cf6d73e8f45229f9e40dbe42ea85c35f8de820b5d",
+  "source_sha256": "99ee00316ea97768d378b9ad562eb065a559bd19730b2b0e9eb3bd86a7d5fee3",
   "directory": "artifacts/v2/order-review/cam",
   "parser_versions": {
     "gerbonara": "1.5.0",
@@ -9,7 +9,7 @@
   "parser_compatibility": "Only LR right-angle aperture transforms and unambiguous split-line G85 slots are converted to equivalent G00/M15/G01/M16/G05 routing analytically. Original Gerbers independently rendered by PyGerber. Input CAM bytes remain unchanged.",
   "files": {
     "B_Cu.gbr": {
-      "sha256": "47c81e40bf5e4d20da04b2a1aad2da0a49a89e01146e425b5ed9a181de656972",
+      "sha256": "499e483939e49f652ce54ca77bf6f4240a044b577755eb9050ee00981cdec437",
       "objects": 3700,
       "area_mm2": 757.639251592923,
       "bounds_mm": [
@@ -22,7 +22,7 @@
       "warnings": []
     },
     "B_Mask.gbr": {
-      "sha256": "41531e78a79eb8d98d0c80d598c66ba6b57886aa78e50e39aefafaee93aa6fc3",
+      "sha256": "783dd3716e8338e6fe641bd76fe9b731e7c079b1ce8b9d8275e0a2ff87600087",
       "objects": 37,
       "area_mm2": 71.37289947291342,
       "bounds_mm": [
@@ -43,9 +43,9 @@
       "warnings": []
     },
     "B_SilkScreen.gbr": {
-      "sha256": "1875baa216c1e3e39e0715305c87a2d71fe75af5e83bda70c549aba3f6c726ad",
+      "sha256": "44a9cc1ef7343f1d73133c4d3bd712b798535ccd7d341877f485a5feaf6013d9",
       "objects": 149,
-      "area_mm2": 71.50261143680653,
+      "area_mm2": 71.50261143719098,
       "bounds_mm": [
         -12.63,
         -16.760774,
@@ -56,7 +56,7 @@
       "warnings": []
     },
     "Edge_Cuts.gbr": {
-      "sha256": "76f9899ad3c10d6200d6bd76625a80f8626dec8b334a21e3a2f71ada5fe4d0fa",
+      "sha256": "a0f742e962a704f66136a6597591e4598d71084f2e7bb3296f61b7a8f49021a7",
       "objects": 4,
       "area_mm2": 6.899463298280807,
       "bounds_mm": [
@@ -69,7 +69,7 @@
       "warnings": []
     },
     "F_Cu.gbr": {
-      "sha256": "7d876f97455776e9c012b79513a6fae2adbb91fed9a83e993ffa3a013f5d47d8",
+      "sha256": "afb0369c7a6d25268b48afa4437edab6a6d0bde8838ad8c75ffaeee09419c75f",
       "objects": 3815,
       "area_mm2": 711.35114289558,
       "bounds_mm": [
@@ -82,7 +82,7 @@
       "warnings": []
     },
     "F_Fab.gbr": {
-      "sha256": "fff16483a1dfb399d2e3e2ebc8cd112c41c208e78e12388083914115ff5cd8bf",
+      "sha256": "3acf67f96c5854cf6b9cd394934b6436926a5b1b9ba34be056987609c25b4e0b",
       "objects": 598,
       "area_mm2": 38.52947630636947,
       "bounds_mm": [
@@ -95,7 +95,7 @@
       "warnings": []
     },
     "F_Mask.gbr": {
-      "sha256": "50b0afd7f000f9696601375f5abf8f22b93a7f45a050947f1a2ae1b0c8b89028",
+      "sha256": "a2e613a15c2038cef5bcbc5c486b91ed11a35e305aa52b2703095f6c9d27c096",
       "objects": 382,
       "area_mm2": 247.77419881725058,
       "bounds_mm": [
@@ -134,7 +134,7 @@
       "warnings": []
     },
     "In1_Cu.gbr": {
-      "sha256": "3835743417ce728c701f58016aa39e43920936487514170511734b6d77803253",
+      "sha256": "f9976ee3d9a45c6cd72bc911f1b040989d9da9a42c2c9a00ac358de8567ffd52",
       "objects": 4833,
       "area_mm2": 818.0261768147511,
       "bounds_mm": [
@@ -147,7 +147,7 @@
       "warnings": []
     },
     "In2_Cu.gbr": {
-      "sha256": "8fbc3842738e4a97e7583b774acc280ea465156eb60acb842dc389665aec3da1",
+      "sha256": "1e56f2f16825c49372cb28d0cdbf5f2e78bf56d3b1430b717dd09d746d056924",
       "objects": 4722,
       "area_mm2": 799.5501170095165,
       "bounds_mm": [
@@ -160,7 +160,7 @@
       "warnings": []
     },
     "drill-L1-L4.drl": {
-      "sha256": "07c9637af3c776af7051e4766fecf80c1e34b82df6b5c6208cdfb9abde7e22bb",
+      "sha256": "73f341c0e1a31a7b46e38d2c310d75c3e42e335bc76102e8cb6d044fbf4a1f60",
       "objects": 369,
       "G85_joined": 8,
       "parser_notices": [
@@ -173,7 +173,7 @@
       }
     },
     "drill_npth.drl": {
-      "sha256": "4d053651da3103e982a68dd27a6c915ec78b4cb1786270f778b32fbbe58632ca",
+      "sha256": "dfb70db21c42d995d4ec873ed4ed0ab64b4b95d3925612a74443d687f4f0bed2",
       "objects": 8,
       "G85_joined": 2,
       "parser_notices": [
@@ -189,24 +189,24 @@
   "issues": [],
   "archive": {
     "path": "/workspace/NEMA14_RP2040_V2_Standalone/artifacts/v2/order-review/review-cam.zip",
-    "sha256": "ffae47316b7283575acfbdf49b3bb12cd80576fb44b4889de273f60d2d2ea4aa",
+    "sha256": "6cb0afacd45b24b4c7ec8392cdc1a5e5c00bfac2d28a3b746cf64ef2804a45ac",
     "extracted_bytes_verified": true,
     "members": {
-      "B_Cu.gbr": "47c81e40bf5e4d20da04b2a1aad2da0a49a89e01146e425b5ed9a181de656972",
-      "B_Mask.gbr": "41531e78a79eb8d98d0c80d598c66ba6b57886aa78e50e39aefafaee93aa6fc3",
+      "B_Cu.gbr": "499e483939e49f652ce54ca77bf6f4240a044b577755eb9050ee00981cdec437",
+      "B_Mask.gbr": "783dd3716e8338e6fe641bd76fe9b731e7c079b1ce8b9d8275e0a2ff87600087",
       "B_Paste.gbr": "0faf53e13f2451ce4094c21d4f41063ad837a4e623ad7f4b9e0020098a1cce08",
-      "B_SilkScreen.gbr": "1875baa216c1e3e39e0715305c87a2d71fe75af5e83bda70c549aba3f6c726ad",
-      "Edge_Cuts.gbr": "76f9899ad3c10d6200d6bd76625a80f8626dec8b334a21e3a2f71ada5fe4d0fa",
-      "F_Cu.gbr": "7d876f97455776e9c012b79513a6fae2adbb91fed9a83e993ffa3a013f5d47d8",
-      "F_Fab.gbr": "fff16483a1dfb399d2e3e2ebc8cd112c41c208e78e12388083914115ff5cd8bf",
-      "F_Mask.gbr": "50b0afd7f000f9696601375f5abf8f22b93a7f45a050947f1a2ae1b0c8b89028",
+      "B_SilkScreen.gbr": "44a9cc1ef7343f1d73133c4d3bd712b798535ccd7d341877f485a5feaf6013d9",
+      "Edge_Cuts.gbr": "a0f742e962a704f66136a6597591e4598d71084f2e7bb3296f61b7a8f49021a7",
+      "F_Cu.gbr": "afb0369c7a6d25268b48afa4437edab6a6d0bde8838ad8c75ffaeee09419c75f",
+      "F_Fab.gbr": "3acf67f96c5854cf6b9cd394934b6436926a5b1b9ba34be056987609c25b4e0b",
+      "F_Mask.gbr": "a2e613a15c2038cef5bcbc5c486b91ed11a35e305aa52b2703095f6c9d27c096",
       "F_Paste.gbr": "d72cd9c2b23998c432eb890b1db6637a1df1f386de880ee693c3bdb14c4ac179",
       "F_SilkScreen.gbr": "621231c7d1a88219ce7960f124f0ee8ba2603ed0cc23ed3b8554c63658bd2bf5",
-      "In1_Cu.gbr": "3835743417ce728c701f58016aa39e43920936487514170511734b6d77803253",
-      "In2_Cu.gbr": "8fbc3842738e4a97e7583b774acc280ea465156eb60acb842dc389665aec3da1",
+      "In1_Cu.gbr": "f9976ee3d9a45c6cd72bc911f1b040989d9da9a42c2c9a00ac358de8567ffd52",
+      "In2_Cu.gbr": "1e56f2f16825c49372cb28d0cdbf5f2e78bf56d3b1430b717dd09d746d056924",
       "bom.csv": "eeab6954d3e53222a875837feb7b92861271b6c1b5d7283c540fe7533e3c36e5",
-      "drill-L1-L4.drl": "07c9637af3c776af7051e4766fecf80c1e34b82df6b5c6208cdfb9abde7e22bb",
-      "drill_npth.drl": "4d053651da3103e982a68dd27a6c915ec78b4cb1786270f778b32fbbe58632ca",
+      "drill-L1-L4.drl": "73f341c0e1a31a7b46e38d2c310d75c3e42e335bc76102e8cb6d044fbf4a1f60",
+      "drill_npth.drl": "dfb70db21c42d995d4ec873ed4ed0ab64b4b95d3925612a74443d687f4f0bed2",
       "pick_and_place.csv": "58d6dd1771b51b1a6862abbfc78bb60cf28650443529d03951424aa9ecf4022c"
     }
   },

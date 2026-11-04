@@ -1,6 +1,6 @@
 {
   "name": "NEMA14_RP2040_V2",
-  "version": "2.0.0-dev.9",
+  "version": "2.0.0-dev.10",
   "description": "NEMA14 RP2040 V2: checked four-layer routing, winding telemetry and WAGO spring terminal",
   "main": "index.circuit.json",
   "scripts": {

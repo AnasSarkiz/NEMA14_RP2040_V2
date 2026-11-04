@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "assembly_sha256": "925a2b51736e9453d5622fa3068d78daa922e1bc0d7f9f7f0fe322ad46adedb2",
-  "board_sha256": "d38d75b910262aa3832373616ef5f17c2295ddb66db24a131e07ac6e75d988b2",
-  "GLB_sha256": "57d8c4878d9a026b298068a2e35a9b9a5452ac20fd485edfb4ce5786717b0b87",
-  "GLB_bytes": 23710504,
+  "assembly_sha256": "cb8a7404a028ff78183bfdb717228036b5655fdd479adbed42f6d8c0d41ce3b1",
+  "board_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a",
+  "GLB_sha256": "8212af7995fdd115930aa80ac0f44495c734ea9e22650343f0656b4d70292728",
+  "GLB_bytes": 23709424,
   "GLB_version": 2,
   "exporter": "bun scripts/export-assembly-3d.ts --v2",
   "scope": "Native assembled GLB export and container integrity; mechanical/bench qualification remains separate"

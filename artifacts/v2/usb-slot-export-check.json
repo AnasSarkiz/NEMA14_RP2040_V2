@@ -2,7 +2,7 @@
   "purpose": "Diagnostic NPTH conversion only; not order files",
   "usb_slot_count": 2,
   "source": "artifacts/v2/source.circuit.json",
-  "source_sha256": "5943833f701810796b3e79fdffc4b866298d292836aba66e60af35d91ddb3619",
+  "source_sha256": "bdaca5c87fd9f8fb356803c3e2c4cc91d3cdca3a9708f31bb0a82af66ab5dca6",
   "slot_overall_mm": [
     1.7999984,
     1

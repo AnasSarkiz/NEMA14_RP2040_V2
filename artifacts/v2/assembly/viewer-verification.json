@@ -1,8 +1,8 @@
 {
   "passed": true,
-  "assembly_sha256": "925a2b51736e9453d5622fa3068d78daa922e1bc0d7f9f7f0fe322ad46adedb2",
-  "html_sha256": "e57ff40a79767409fde43077bc93e39463e6053780176f0f9b4d330062d41cd2",
-  "tested_at": "2026-11-04T12:48:46.278Z",
+  "assembly_sha256": "cb8a7404a028ff78183bfdb717228036b5655fdd479adbed42f6d8c0d41ce3b1",
+  "html_sha256": "c0074e283758e9e838a756655257ebd217585de7ed199900738e043dc392bc42",
+  "tested_at": "2026-11-04T13:02:47.521Z",
   "views_tested": [
     "3D",
     "PCB",
@@ -19,7 +19,7 @@
     "motor": {
       "type": "cad_component",
       "cad_component_id": "v2_assembly_cad_MOTOR_REFERENCE_CONCEPT",
-      "model_glb_url": "blob:http://127.0.0.1:36675/3b907e90-b0f0-4be0-a91c-eec3931e88bc",
+      "model_glb_url": "blob:http://127.0.0.1:41933/ce4832de-9948-4713-be87-5b716b9cff13",
       "position": {
         "x": 0,
         "y": 0,

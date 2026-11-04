@@ -1,9 +1,8 @@
 # V2 prototype order handoff
 
-**Review hold, 4 November:** the independent electrical review recommends
-stronger ENABLE/SLEEP bias resistors and a local DATA_VBUS ESD bypass capacitor
-before ordering. These changes are not in the dev.7 files below. Read the
-[findings and release conditions](v2-independent-final-review-2026-11-04.md).
+**2.0.0-dev.8 closes the two electrical-review fixes:** strong 10 kΩ
+ENABLE/SLEEP bias and local USB ESD bypass. Read the
+[implementation and remaining acceptance](v2-review-fixes.md).
 
 Use only `artifacts/v2/order-review/` for this revision. Files elsewhere under
 `artifacts/` include historical V1 exports and must not be ordered as V2.
@@ -32,6 +31,11 @@ The 100 Ω / 10 nF ADC output filters retain their 159 kHz corner. They suppress
 fast interference; firmware must sample/average the switching current. They
 do not create an averaged DC current measurement by themselves.
 
+The added C_ESD uses the existing Basic C1525 100 nF/16 V 0402 part. Its
+board-level placement courtyard is 0.10 mm around the unchanged supplier land
+envelope; copper and supplier body clearance are independently checked. All
+existing component positions and traces are preserved.
+
 ## JLCPCB handoff
 
 After generation, upload `NEMA14_RP2040_V2-Gerbers.zip`, `NEMA14_RP2040_V2-BOM.csv` and
@@ -42,7 +46,7 @@ Request four layers, 34.5 × 34.5 mm, 1.6 mm, ENIG, at least 35 µm outer copper
 and 17.5 µm inner copper. Layer order is F_Cu / In1_Cu / In2_Cu / B_Cu.
 Include both plated and non-plated drill files, including the USB locating slots.
 The four mounting holes are Ø3.2 mm at (±13, ±13), with board-centre origin.
-Do not mirror CPL coordinates. All 97 fitted parts are on top; seven bare probe
+Do not mirror CPL coordinates. All 98 fitted parts are on top; seven bare probe
 pads and the optional bottom encoder are excluded from purchased assembly.
 
 The stencil screen uses 100 µm thickness and checks each actual aperture's area

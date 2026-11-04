@@ -1,5 +1,9 @@
 # Independent engineering review — 4 November 2026
 
+**Follow-up:** findings 1 and 2 are implemented in dev.8. See
+[the fix evidence and current acceptance conditions](v2-review-fixes.md).
+This document preserves the original dev.7 review and its evidence.
+
 **Recommendation: address the startup-bias and USB ESD-bypass findings before
 ordering the next prototype.** The copper is connected and passes the fresh
 checks below, but that does not establish correct behavior at power-up or during

@@ -1,15 +1,15 @@
 {
   "stage": "routing engineering screen, not fabrication approval",
-  "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
-  "placement_source_sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3",
-  "physical_pin_nets_checked": 342,
+  "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
+  "placement_source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8",
+  "physical_pin_nets_checked": 344,
   "changed_pin_nets": [],
   "changed_placement_records": [],
   "nets_checked": 70,
   "disconnected_nets": [],
   "floating_copper_islands": [],
-  "traces": 664,
-  "vias": 356,
+  "traces": 666,
+  "vias": 357,
   "minimum_via_drill_edge_gap_mm": 0.23150729063673253,
   "minimum_terminal_via_drill_edge_gap_mm": 0.6750334258349298,
   "shorts": [],
@@ -220,7 +220,7 @@
     ],
     "GND": [
       0.16,
-      0.16
+      0.2
     ],
     "MCU_DM": [
       0.16,

@@ -528,5 +528,10 @@
     "pcbX": 0.45,
     "pcbY": -9.55,
     "pcbRotation": 0
+  },
+  "C_ESD": {
+    "pcbX": -16.7,
+    "pcbY": -1.18,
+    "pcbRotation": 90
   }
 }

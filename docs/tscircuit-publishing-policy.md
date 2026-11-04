@@ -3,9 +3,9 @@
 V2 uses **AnasSarkiz/NEMA14_RP2040_V2** on GitHub and tscircuit. The original
 **AnasSarkiz/NEMA14_RP2040** package is never modified by the V2 publisher.
 
-`npm run publish:v2:stage` prepares exactly six preview files: checked native
-PCB JSON, its compiled viewer copy, package/config metadata, README and a
-verification receipt. `npm run publish:tscircuit` uploads and reads back every
+`npm run publish:v2:stage` prepares exactly eight preview files: checked native
+PCB and motor/lead assembly JSON, their two compiled viewer copies,
+package/config metadata, README and a verification receipt. `npm run publish:tscircuit` uploads and reads back every
 file and the native preview. Every PCB record is preserved, except CAD model
 URLs are pinned to verified immutable GitHub assets. Local paths, V1 assembly,
 datasheets, models, histories and manufacturing downloads are excluded.

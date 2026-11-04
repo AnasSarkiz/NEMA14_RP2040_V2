@@ -58,7 +58,7 @@
   "minimum_A_MINUS_inner1_width_mm": 0.3,
   "USB_inner_signal_tracks_allowed": false,
   "required_main_inner1_ground_region_area_mm2": 700,
-  "rationale": "The fixed 39k/10k VREF divider and 0.24-ohm regulation resistors set 0.351 A nominal and <=0.379 A at +5% supply / 1% resistor extremes. A 0.30 mm, 17.5 um internal trace screens at >=0.410 A for a 20 C rise by IPC-2221; a 20 mm section dissipates under 10 mW at the maximum setting. Phase transitions are bounded to 20 mm per net, with >=0.30 mm main paths and independent Kelvin pickup checks. Ground-reference area, USB return continuity and measured thermal performance remain separate electrical-release checks.",
+  "rationale": "The fixed 39k/10k VREF divider and 0.24-ohm regulation resistors set 0.351 A nominal. Supply/resistor extremes alone give about 0.378 A; this is not a complete worst-case bound. Reference-input current, driver trip error, copper/etch tolerances and temperature require hardware validation. A 0.30 mm, 17.5 um internal trace screens nominally at about 0.410 A for a 20 C rise by IPC-2221. Actual width/length and Kelvin checks remain mandatory; ground-reference and thermal qualification remain separate.",
   "maximum_total_phase_inner1_length_mm": 20,
   "minimum_phase_inner1_width_mm": 0.3,
   "USB_construction_reference_buffer_mm": 0.4,

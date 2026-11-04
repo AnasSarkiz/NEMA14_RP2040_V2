@@ -541,6 +541,14 @@
       "parent": "U_DRV",
       "pin": 28,
       "limit_mm": 8
+    },
+    {
+      "type": "pin",
+      "child": "C_ESD",
+      "child_pin": 1,
+      "parent": "U_ESD",
+      "pin": 5,
+      "limit_mm": 2.5
     }
   ],
   "bottom_components": [

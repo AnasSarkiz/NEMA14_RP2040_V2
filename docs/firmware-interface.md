@@ -1,4 +1,4 @@
-# Current V2 firmware interface — 2.0.0-dev.2
+# Current V2 firmware interface — 2.0.0-dev.8
 
 This table describes the active V2 source. The older V1 contract is retained below.
 No application firmware is implemented in this repository. See the
@@ -22,6 +22,10 @@ Nominal current conversion is `I_A = (V_ADC - V_ZERO) / (20 × 0.05 Ω)` for eac
 channel, with approximately 1.65 V zero-current output and 1 V/A gain. Calibrate
 zero and gain and choose sampling/filtering for the switching bridges; the ADC
 channels are multiplexed. The fixed motor-current limit is about 0.351 A nominal.
+
+Hardware defaults now use 10 kΩ ENABLE_N pull-up and 10 kΩ SLEEP pull-down.
+Initialize GPIO8 high before waking GPIO9. Configure GPIO26–29 with the SDK ADC
+pad initialization so digital pulls/input buffers do not load measurements.
 
 Initialize the driver disabled. Verify PD_GOOD and the measured supply before
 motor enable, and validate supply-loss shutdown, boot and USB-presence behavior.

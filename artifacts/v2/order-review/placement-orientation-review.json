@@ -2588,8 +2588,8 @@
   },
   {
     "reference": "R_ENABLE",
-    "MPN": "0402WGF1003TCE",
-    "part": "C25741",
+    "MPN": "0402WGF1002TCE",
+    "part": "C25744",
     "center": {
       "x": 6.625,
       "y": 15.6
@@ -2613,8 +2613,8 @@
   },
   {
     "reference": "R_SLEEP",
-    "MPN": "0603WAF1003T5E",
-    "part": "C25803",
+    "MPN": "0603WAF1002T5E",
+    "part": "C25804",
     "center": {
       "x": 7.700000000000001,
       "y": -0.8900000000000006
@@ -3434,6 +3434,31 @@
         "name": "pin1",
         "x_mm": 16.475,
         "y_mm": 10.342184
+      }
+    ],
+    "supplier_pickup_approved": false
+  },
+  {
+    "reference": "C_ESD",
+    "MPN": "CL05B104KO5NNNC",
+    "part": "C1525",
+    "center": {
+      "x": -16.7,
+      "y": -1.18
+    },
+    "rotation_deg": 90,
+    "physical_pads": [
+      {
+        "pin": 2,
+        "name": "pin2",
+        "x_mm": -16.7,
+        "y_mm": -0.759884
+      },
+      {
+        "pin": 1,
+        "name": "pin1",
+        "x_mm": -16.7,
+        "y_mm": -1.6001159999999999
       }
     ],
     "supplier_pickup_approved": false

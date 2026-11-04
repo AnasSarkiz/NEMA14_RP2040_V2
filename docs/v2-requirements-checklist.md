@@ -1,7 +1,7 @@
 # V2 requirements and review checklist
 
-Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.7**, with routed-board SHA-256
-`7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178`.
+Reviewed against **NEMA14_RP2040_V2 2.0.0-dev.8**, with routed-board SHA-256
+`b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1`.
 The requirements below combine the original NEMA14 requests, the initial V2
 request and later accepted changes. The separate NEMA11 discussion is outside
 this board's scope.
@@ -11,13 +11,13 @@ procurement and bench acceptance have their own unchecked items. Current routing
 passes; the complete board is **not yet signed off for a V2 order**.
 
 The [4 November independent review](v2-independent-final-review-2026-11-04.md)
-adds these open engineering actions; existing checked items retain their stated
+is addressed by the following actions; checked items retain their stated
 CAD scope:
 
-- [ ] Strengthen ENABLE_N/SLEEP hardware bias to 10 kΩ and regenerate the BOM.
-- [ ] Add local 100 nF DATA_VBUS-to-ground bypass beside U_ESD and requalify CAD/CAM.
+- [x] Strengthen ENABLE_N/SLEEP hardware bias to 10 kΩ and regenerate the BOM.
+- [x] Add local 100 nF DATA_VBUS-to-ground bypass beside U_ESD and requalify CAD/CAM.
 - [ ] Qualify PD-only USB-presence detection against reverse diode leakage.
-- [ ] Validate actual current/temperature; the existing 0.378 A calculation is
+- [ ] Validate actual current/temperature; the 0.378 A calculation is
   a supply/resistor-only model, not a complete maximum-current guarantee.
 
 ## Original NEMA14 requirements retained
@@ -138,6 +138,9 @@ CAD scope:
   [USB reimport and repro](../references/v2/usb-reimport-2026-11-03/README.md).
 
 The 2.0.0-dev.7 update intentionally repacks the bulk capacitor, buzzer and nearby passives. All fitted identities/values and V2 physical pin/net assignments remain checked; the short wire shapes and motor/terminal poses are retained.
+The dev.8 review fixes add C_ESD and change only R_ENABLE/R_SLEEP values;
+all existing component positions, traces and vias are preserved. See
+[the implementation proof](v2-review-fixes.md).
 Unchecked items stay open until their stated evidence is available.
 
 - [x] **Driver bulk capacitor placement corrected:** 47 µF / 35 V retained,
@@ -145,7 +148,7 @@ Unchecked items stay open until their stated evidence is available.
   7.80/10.37 mm, two nearby GND returns; local ceramic remains fitted.
 - [x] **Fabricator-compatible locating-slot width:** native and exported
   capsules are 1.00 mm wide while preserving the imported tool centerlines.
-- [x] **No component-body collisions in the nominal CAD screen:** all 97
+- [x] **No component-body collisions in the nominal CAD screen:** all 98
   fitted supplier STEP bodies checked at 0.10 mm separation.
 
 [Prototype order handoff and remaining process/physical acceptance](v2-prototype-order.md).

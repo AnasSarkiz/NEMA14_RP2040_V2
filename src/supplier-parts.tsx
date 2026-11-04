@@ -23,6 +23,7 @@ import { A_0402WGF1000TCE } from "../imports/supplier/A_0402WGF1000TCE/A_0402WGF
 import { CL10A106KP8NNNC } from "../imports/supplier/CL10A106KP8NNNC/CL10A106KP8NNNC"
 import { B4B_PH_K_S_LF__SN_ } from "../imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_"
 import React from "react"
+import { withEsdBypassCourtyard } from "./esd-bypass-courtyard"
 import catalog from "./jlcpcb-catalog.json"
 import { A_0402WGF1001TCE } from "../imports/supplier/A_0402WGF1001TCE/A_0402WGF1001TCE"
 import { CL31A106KBHNNNE } from "../imports/supplier/CL31A106KBHNNNE/CL31A106KBHNNNE"
@@ -133,6 +134,10 @@ export function SupplierPart({name,...props}:any) {
  const id=(catalog.components as Record<string,string>)[name]
  if(!id || !parts[id]) throw new Error("Missing supplier import for "+name)
  if(props.footprint || props.cadModel) throw new Error("Supplier geometry override is forbidden: "+name)
+ if(name==='C_ESD'){
+  if(id!=='C1525')throw Error('Unexpected ESD bypass supplier part')
+  return withEsdBypassCourtyard((parts[id] as (props:any)=>React.ReactElement<any>)({name,...props}))
+ }
  // Imported mechanical data stays exact. Select the electrical primitive before
  // core source analysis, so a passive/custom part is not analyzed as an IC.
  const primitive = name==='Y_MCU' ? 'crystal'

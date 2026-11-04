@@ -43,6 +43,8 @@ check('Original 26 mm motor hole pitch, four 3.2 mm holes',len(mounts)==4 and {(
 check('Current channels reach distinct ADC0/ADC1 pins',on('U_MCU','GPIO26','I_A_ADC') and on('U_MCU','GPIO27','I_B_ADC'))
 check('Temperature bus moved to spare GPIO4/5',on('U_MCU','GPIO4','TEMP_SDA') and on('U_MCU','GPIO5','TEMP_SCL'))
 check('Voltage ADC and POWER_GOOD preserved',on('U_MCU','GPIO28','VM_SENSE') and on('U_MCU','GPIO10','PD_GOOD') and on('U_MCU','GPIO29','DATA_PRESENT'))
+check('Driver reset-bias resistors use strong 10 kOhm defaults',math.isclose(byname['R_ENABLE']['resistance'],10000) and math.isclose(byname['R_SLEEP']['resistance'],10000) and on('R_ENABLE','pin1','V3V3') and on('R_ENABLE','pin2','ENABLE_N') and on('R_SLEEP','pin1','SLEEP') and on('R_SLEEP','pin2','GND'))
+check('USB protection has its own fitted DATA_VBUS bypass',math.isclose(byname['C_ESD']['capacitance'],100e-9) and byname['C_ESD']['max_voltage_rating']>=10 and on('C_ESD','pin1','DATA_VBUS') and on('C_ESD','pin2','GND'))
 for phase,sense,out in [('A','SENSE1','OUT1A'),('B','SENSE2','OUT2A')]:
     amp='U_I'+phase;shunt='R_SHUNT_'+phase
     physical={p['pin_number']:p['name'] for p in ports.values() if p['source_component_id']==byname[amp]['source_component_id']}

@@ -7,8 +7,8 @@ V2 is published separately from the ordered V1:
 | V1 | [NEMA14_RP2040](https://github.com/AnasSarkiz/NEMA14_RP2040) | [NEMA14_RP2040](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040) |
 | V2 | [NEMA14_RP2040_V2](https://github.com/AnasSarkiz/NEMA14_RP2040_V2) | [NEMA14_RP2040_V2](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d) |
 
-The current revision is **2.0.0-dev.7**: local driver bulk placement and ground
-returns, a standard-width USB clearance-slot adaptation, completed routing and
+The current revision is **2.0.0-dev.8**: corrected driver reset bias and local
+USB ESD bypass, retained local driver bulk and USB-slot adaptation, and
 V2-specific prototype order files in GitHub. The short smooth wire/motor preview,
 readable artwork, source-analysis definitions and separate V1 package are retained.
 The exact published source revision is in the publication receipt.
@@ -19,7 +19,7 @@ all 88 OBJ/STEP assets are pinned to immutable commit
 metadata changes between the reviewed board and registry preview. All source,
 schematic, PCB, pin/net, trace, via, hole and pour records are preserved.
 
-The registry contains exactly eight files: native PCB and V2 assembly JSON, their compiled preview copies, package metadata, viewer configuration, README and verification receipt. The default preview is assembly.circuit.json; index.circuit.json remains the PCB. No V1 assembly, datasheets, supplier model files or manufacturing downloads are included. The public native-preview API matches the uploaded V2 assembly. The 88 supplier OBJ/STEP assets and one motor GLB remain in GitHub at the pinned source revision. The package
+The registry contains exactly eight files: native PCB and V2 assembly JSON, their compiled preview copies, package metadata, viewer configuration, README and verification receipt. The default preview is assembly.circuit.json; index.circuit.json remains the PCB. No V1 assembly, datasheets, supplier model files or manufacturing downloads are included. The public native-preview API matches the uploaded V2 assembly. The supplier OBJ/STEP assets and motor GLB remain in GitHub at the pinned source revision. The package
 page and a public WAGO model URL return HTTP 200; that model matches its recorded
 SHA-256. Full source, models, history and engineering evidence remain in GitHub.
 

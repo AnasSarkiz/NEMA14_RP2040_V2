@@ -43,7 +43,7 @@ def main():
     assert qualification['gerber_shorts']['passed'] and qualification['gerber_shorts']['source_sha256']==digest
     checks = {}
     for name in ['physical-routing-audit.json','native-drc.json','functional-routing-audit.json',
-                 'phase-current-screen.json','analysis-verification.json','local-power-verification.json','component-body-verification.json',
+                 'phase-current-screen.json','startup-and-esd-verification.json','review-fixes-preservation.json','analysis-verification.json','local-power-verification.json','component-body-verification.json',
                  'critical-silkscreen-verification.json','branding-verification.json']:
         p = ROOT/'artifacts/v2/routing'/name; report=json.loads(p.read_text())
         assert report['passed'] and report['source_sha256']==digest, 'Stale/failing check: '+name
@@ -70,7 +70,7 @@ def main():
     ports={e['pcb_port_id']:e for e in j if e['type']=='pcb_port'}
     source_ports={e['source_port_id']:e for e in j if e['type']=='source_port'}
     fitted={i:c for i,c in components.items() if not c.get('do_not_place') and sources[c['source_component_id']]['ftype']!='simple_test_point'}
-    assert len(fitted)==97 and all(c['layer']=='top' for c in fitted.values())
+    assert len(fitted)==98 and all(c['layer']=='top' for c in fitted.values())
     # Screen every actual aperture at 100 um. Supplier must approve this stencil
     # and the filled/capped exposed-pad vias listed separately below.
     thickness=.10; paste=[]; aperture_checks=[]; paste_records=[]

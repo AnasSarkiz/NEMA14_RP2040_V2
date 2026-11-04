@@ -1,11 +1,11 @@
 {
   "passed": true,
-  "source_sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3",
+  "source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8",
   "board_mm": [
     34.5,
     34.5
   ],
-  "top_courtyards_checked": 99,
+  "top_courtyards_checked": 100,
   "bottom_courtyards_checked": 6,
   "bottom_probe_pads": [
     "TP_3V3",
@@ -17,7 +17,7 @@
   "minimum_courtyard_gap_mm": 0.003723400000167132,
   "minimum_copper_to_board_edge_mm": 0.25100559999999916,
   "screw_head_envelope_diameter_mm": 6.4,
-  "critical_proximity_check_count": 67,
+  "critical_proximity_check_count": 68,
   "critical_proximity_checks": [
     {
       "type": "pair",
@@ -679,6 +679,16 @@
       "pin": 28,
       "limit_mm": 8,
       "actual_distance_mm": 4.031199999999999,
+      "passed": true
+    },
+    {
+      "type": "pin",
+      "child": "C_ESD",
+      "child_pin": 1,
+      "parent": "U_ESD",
+      "pin": 5,
+      "limit_mm": 2.5,
+      "actual_distance_mm": 2.200787999999999,
       "passed": true
     }
   ],

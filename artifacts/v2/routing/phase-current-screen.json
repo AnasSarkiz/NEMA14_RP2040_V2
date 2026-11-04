@@ -1,5 +1,5 @@
 {
-  "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
   "scope": "Fixed-current and copper sizing estimate; not thermal or electrical release",
   "supply_assumption_V": [
     3.3,
@@ -10,13 +10,19 @@
     "R_SA": 0.350765306122449,
     "R_SB": 0.350765306122449
   },
-  "maximum_trip_current_A": 0.37798107849175394,
+  "supply_resistor_only_current_bound_A": 0.37798107849175394,
+  "including_reference_input_current_model_A": 0.390616445972764,
+  "illustrative_additional_5_percent_trip_error_A": 0.41014726827140224,
+  "guaranteed_maximum_trip_current_A": null,
+  "limit_of_error_model": "A4988 trip-error limits are specified at VREF=2 V; this board uses approximately 0.673 V. The illustrative result does not establish a guaranteed current bound.",
   "internal_trace_width_mm": 0.3,
   "internal_copper_thickness_assumption_mm": 0.0175,
   "estimated_rise_budget_C": 20,
   "IPC2221_internal_current_capacity_A": 0.40998790578413474,
+  "IPC2221_capacity_at_20_percent_reduced_width_A": 0.34874764710936323,
+  "thermal_qualification_passed": false,
   "bounded_section_resistance_ohm": 0.06567619047619047,
-  "bounded_section_peak_loss_W": 0.009383137347923391,
+  "supply_resistor_only_section_loss_W": 0.009383137347923391,
   "inner1_phase_lengths_mm": {
     "A_DRV_PLUS": 13.881727983645293,
     "B_DRV_PLUS": 0.0,
@@ -26,6 +32,7 @@
     "B_MINUS": 0.0
   },
   "undersized_inner1_phase_traces": [],
+  "pass_criteria": "Nominal fixed-current sizing and actual routed width/length only; not a complete tolerance or thermal qualification",
   "passed": true,
   "fabrication_ready": false
 }

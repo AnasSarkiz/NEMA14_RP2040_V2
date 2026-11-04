@@ -1,10 +1,10 @@
 {
   "passed": true,
-  "board_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
-  "assembly_sha256": "7ebe1f8c54f575a62e3c31a42f594012c853ea67aebd0c56fe6657fa838af934",
+  "board_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
+  "assembly_sha256": "87410f3c2ff2f5385bcaa35c456e99caa43a2bec5732c53423eae88824a72372",
   "board_records_preserved": true,
   "mechanical_parts": 9,
-  "fitted_supplier_STEP_parts": 97,
+  "fitted_supplier_STEP_parts": 98,
   "mounting_hardware_included": false,
   "four_reference_rear_fastener_envelopes_checked": true,
   "four_physical_motor_pin_nets_verified": true,

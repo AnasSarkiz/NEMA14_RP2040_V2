@@ -97,8 +97,9 @@ export default function Nema14Controller({ routingDisabled = false, assemblyPrev
   {resistor('R_REF_H','39k','V3V3','VREF')}
   {resistor('R_REF_L','10k','VREF','GND')}
   {cap('C_REF','10nF','VREF')}
-  {resistor('R_ENABLE','100k','V3V3','ENABLE_N')}
-  {resistor('R_SLEEP','100k','SLEEP','GND')}
+  {/* Strong defaults override the RP2040 reset pulls and driver input leakage. */}
+  {resistor('R_ENABLE','10k','V3V3','ENABLE_N')}
+  {resistor('R_SLEEP','10k','SLEEP','GND')}
   <SupplierPart name="J_MOTOR" {...pinProps("J_MOTOR")} {...place("J_MOTOR")}
     connections={{A_PLUS:n('A_PLUS'),A_MINUS:n('A_MINUS'),B_PLUS:n('B_PLUS'),B_MINUS:n('B_MINUS')}} />
   <SupplierPart name="U_ESD" {...pinProps("U_ESD")}  pinLabels={{pin1:"DP1",pin2:"GND",pin3:"DM1",pin4:"DM2",pin5:"VBUS",pin6:"DP2"}} {...place("U_ESD")} connections={{DP1:n("USB_DP"),DP2:n("USB_DP"),DM1:n("USB_DM"),DM2:n("USB_DM"),VBUS:n("DATA_VBUS"),GND:n("GND")}} />
@@ -137,6 +138,8 @@ export default function Nema14Controller({ routingDisabled = false, assemblyPrev
   <SupplierPart name="C_ENCODER_BULK" layer="top" capacitance="1uF" maxVoltageRating={6.3} {...place("C_ENCODER_BULK")} connections={{pin1:n('V3V3'),pin2:n('GND')}} />
   {/* CH224A Table 5-1: 56 kΩ requests 15 V; CFG2/SCL and CFG3/SDA are unconnected. */}
   {resistor('R_PD_CFG','56k','PD_CFG','GND')}
+  {/* ST USBLC6-2 Figure 17: bypass its VBUS steering rail locally. */}
+  {cap('C_ESD','100nF','DATA_VBUS','GND')}
   <BottomMarkings />
   <SchematicNotes />
   </schematicsheet>

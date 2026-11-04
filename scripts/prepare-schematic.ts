@@ -162,6 +162,7 @@ export function prepareSchematic(json:any[]) {
  part({name:'J_DATA',x:4,y:14.1,section:'usb',box:[3.3,5.6],left:['EH1','EH2','EH3','EH4','GND1','GND2','SBU1','SBU2'],right:['VBUS1','VBUS2','CC1','CC2','DP1','DP2','DM1','DM2']})
  part({name:'R_CC1',x:8.3,y:16.4,section:'usb'});part({name:'R_CC2',x:11,y:16.4,section:'usb'});part({name:'U_ESD',x:10,y:11.3,section:'usb',box:[1.76,2.2],left:['DP1','DM1'],right:['DP2','DM2'],top:['VBUS'],bottom:['GND'],spacing:1.1})
  part({name:'R_DP',x:15.4,y:11.85,section:'usb',symbol:'boxresistor_left'});part({name:'R_DM',x:15.4,y:10.75,section:'usb',symbol:'boxresistor_left'})
+ part({name:'C_ESD',x:13,y:14.3,section:'usb'})
  caption('USB presence','Resistive divider to MCU; fixed 5 V input only',.6,8.6)
  part({name:'R_USB_SENSE_H',x:4,y:6.2,section:'sense'});part({name:'R_USB_SENSE_L',x:4,y:3.8,section:'sense'});connect(['R_USB_SENSE_H.2','R_USB_SENSE_L.1'])
  if(rp){caption('QSPI flash & boot selection','GD25Q16E; BOOT contact asserts the boot input',20,19);part({name:'U_FLASH',x:24.5,y:14.6,section:'flash',box:[1.76,3.2],left:['CS','CLK','IO0','IO1','IO2','IO3'],right:['VCC','GND','EP']});part({name:'C_FLASH',x:29.8,y:14.8,section:'flash'});part({name:'R_FLASH_CS',x:20,y:11.5,section:'flash'});part({name:'R_BOOT',x:23.5,y:7,section:'boot',symbol:'boxresistor_right'});part({name:'TP_BOOT',x:27,y:7,section:'boot'});part({name:'TP_BOOT_GND',x:27,y:5.5,section:'boot'})}

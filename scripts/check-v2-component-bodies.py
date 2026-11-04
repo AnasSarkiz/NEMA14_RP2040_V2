@@ -18,6 +18,6 @@ for a,b in itertools.combinations(parts,2):
  distance=parts[a].distance(parts[b])
  if distance<.1:rows.append({'a':a,'b':b,'distance_mm':distance,'intersection_volume_mm3':parts[a].intersect(parts[b]).Volume() if distance<1e-6 else 0})
 expected={names[e['source_component_id']] for e in j if e['type']=='pcb_component' and not e.get('do_not_place') and next(x for x in j if x['type']=='source_component' and x['source_component_id']==e['source_component_id'])['ftype']!='simple_test_point'}
-assert set(parts)==expected and len(parts)==97
+assert set(parts)==expected and len(parts)==98
 report={'passed':not rows,'source_sha256':hashlib.sha256(board_path.read_bytes()).hexdigest(),'fitted_STEP_parts_checked':len(parts),'minimum_screened_clearance_mm':.1,'close_pairs':rows,'scope':'Nominal supplier STEP component-to-component clearance; does not qualify assembly tolerances, plug/tool access or rear fastening'}
 Path('artifacts/v2/routing/component-body-verification.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2));raise SystemExit(bool(rows))

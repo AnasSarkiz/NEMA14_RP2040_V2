@@ -1,92 +1,102 @@
 {
   "passed": true,
-  "version": "2.0.0-dev.7",
-  "stage": "V2 local driver bulk fix and completed routing; prototype supplier acceptance remains separate",
-  "verified_at": "2026-11-03T23:32:48.833496+00:00",
-  "placement_source_sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3",
-  "routed_source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "version": "2.0.0-dev.8",
+  "stage": "V2 startup-bias and USB ESD bypass fixes; completed routing, supplier acceptance remains separate",
+  "verified_at": "2026-11-04T11:53:55.941378+00:00",
+  "placement_source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8",
+  "routed_source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
   "nets_checked": 70,
   "connected_net_groups": 70,
   "shorts": 0,
   "native_errors": 0,
   "native_warnings": 0,
   "floating_copper_islands": 0,
-  "physical_pin_nets_preserved": 342,
+  "physical_pin_nets_preserved": 344,
   "checks": {
     "physical-routing-audit.json": {
       "passed": true,
-      "sha256": "62b3a83c352e5139e4d70236df78f32c0b215f0df900117e53125330daedc0b8",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "5545fd1bfa213c5b34d53f64489d7221cc2b32f4b76edfb827db18cac4920bf9",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     },
     "native-drc.json": {
       "passed": true,
-      "sha256": "ae9b19f4df32a58f7d5ec73a17b7c32b5046f12b596463d0c7671dd9deb196bd",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "0fd95f8e928a8cfca9330f489696e2f44856210a58475d9929a42ae2807acda6",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     },
     "functional-routing-audit.json": {
       "passed": true,
-      "sha256": "288486312b411e571dbf7f30775e78bf3407b4cd76436d057e50e84bd2915126",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "024593471aa09e5f5b2bdd32d2ad3059b90ef61576fd69d681d5b0e6062512d6",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     },
     "phase-current-screen.json": {
       "passed": true,
-      "sha256": "46196f9d440f1340c500b63e381854f4aee84247e43259a56a74a6226bd74849",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "00eca4c3e1dcbd873577a27f943ce515d40100705c7cc9727448d263e90b0828",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+    },
+    "startup-and-esd-verification.json": {
+      "passed": true,
+      "sha256": "bfd445ae50a6f7d45c3cc29efa28d97c1309c701156cd101b2d10895903320c2",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
+    },
+    "review-fixes-preservation.json": {
+      "passed": true,
+      "sha256": "6a8c525233ae5ef46c2579973d144511b572016f430e348609da496c3e84b697",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     },
     "analysis-verification.json": {
       "passed": true,
-      "sha256": "736c27953e2252c1ad560e7e6047bdcd773006c88f21d5750c88c43ab498cdbe",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "912260a8e4e61b33418898fda152642ef901251b8463a982a3bd0915cc35e9e0",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     },
     "local-power-verification.json": {
       "passed": true,
-      "sha256": "343f991ae0585ebdfff1f9252c320382ae7182b15cea0947bae6ffcb8ceaa742",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "13ba571710ecddb02ed343ea699c33dd10800c100ddea0c276312417e1a73ca4",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     },
     "component-body-verification.json": {
       "passed": true,
-      "sha256": "ed39b56bcfb630ed3386ef51fb1c2fda47caeb1d17691ba4333c7f4272fb8be9",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "4698fe248644de9efcffada9a8d7c1590051126155e832dc1061503ef3951257",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     },
     "critical-silkscreen-verification.json": {
       "passed": true,
-      "sha256": "399c0cb94c95411dc095f3f0f074f9d670f72b988ad3ab5fad62c78843fb3ac1",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "5ecdc92cf53129d0c70da709f76672a19378e6030e63b55359ecd37af143828b",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     },
     "branding-verification.json": {
       "passed": true,
-      "sha256": "19d077a48355e623bc7e339a01edfb8b68dc4a4ac772f71b65ffc87ee6cdd001",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "77007bee59fe70284a93a2a6ce760cf3958d8a2a1e5c0f194799bf761b29bb6c",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     },
     "source-review.json": {
       "passed": true,
-      "sha256": "c246de77a0a785e59825387e2f60be109629ef77bc048af87df7d174b972b4c6",
-      "source_sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3"
+      "sha256": "851996b6b22133b41d98910031bec9fa03efce4b2c702e34fce73aeb56d56915",
+      "source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8"
     },
     "placement-verification.json": {
       "passed": true,
-      "sha256": "624cf207671e60e955e3c0ac67c492bb5599cfbbf98addab15bbfca7f71f3aad",
-      "source_sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3"
+      "sha256": "4e5c5392f9c438003b34b06c8e0fb073e3833adbe8474f933436020ab5f5b818",
+      "source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8"
     },
     "usb-fabrication-adaptation.json": {
       "passed": true,
-      "sha256": "87b4e13ee575d05a1e561c82021e30529eea5bbd5982fa122f6410d6f014cdf5",
-      "source_sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3"
+      "sha256": "24f0c7efe4c6a0bcda662f78f639842cf77f27eeb16cef0260074ef14be7595e",
+      "source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8"
     },
     "schema-verification.json": {
       "passed": true,
-      "sha256": "3e5ac2530dfa3531bfc956e4307fb15767e020da9c38219c19cb6ed5fd873101",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "d332680aefe28406bbfc7c6ebc6e46cd0fa6b8b70747d8d9986066b22bce9082",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     },
     "usb-slot-export-check.json": {
       "passed": true,
-      "sha256": "82d22039b238b73b13bec226d2704e2d78940b4e77f06be8a19ab16b4ea3ef5e",
-      "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178"
+      "sha256": "5c8dfb8ba18cb96bc000f9422a84df6feb11cddfccceee84f790276cc0b8282b",
+      "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1"
     }
   },
   "gerber_shorts": {
     "passed": true,
-    "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+    "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
     "command": [
       "tsci",
       "check",
@@ -100,7 +110,7 @@
       "100"
     ],
     "exit_code": 0,
-    "checked_at": "2026-11-03T23:32:08.638214+00:00",
+    "checked_at": "2026-11-04T11:52:10.630434+00:00",
     "layers": [
       "top",
       "inner1",
@@ -116,20 +126,5 @@
     "JLCPCB actual quote, stock, pickup and soldering/via/stencil process acceptance",
     "Factory motor wire gauge/retention and real rear assembly verification",
     "V2 firmware and first-board electrical/thermal/current-calibration checks"
-  ],
-  "assembly_preview": {
-    "passed": true,
-    "board_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
-    "assembly_sha256": "7ebe1f8c54f575a62e3c31a42f594012c853ea67aebd0c56fe6657fa838af934",
-    "native_viewer_verified": true,
-    "mechanical_parts": 9,
-    "factory_wire_fit_verified": false,
-    "motor_rear_attachment_verified": false
-  },
-  "prototype_CAM": {
-    "passed": true,
-    "order_verification_sha256": "0fb2ea8ae2b512642ab88c9e1b35e06ce859be390469cbbc0b32564f813c5808",
-    "actual_CAM_audit_sha256": "c38083a927b2fdfb2e4b5caf579ff31f86c013a41f515f5ac4e9d1399434a660",
-    "supplier_approval": false
-  }
+  ]
 }

@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
+  "checks": [
+    {
+      "check": "ENABLE hardware bias exceeds A4988 high threshold with RP2040 reset pull-down",
+      "passed": true,
+      "minimum_high_margin_V": 0.23719717138103125
+    },
+    {
+      "check": "SLEEP remains low with MCU high impedance and input leakage",
+      "passed": true,
+      "maximum_leakage_voltage_V": 0.21209999999999998
+    },
+    {
+      "check": "100 nF bypass is fitted on top across the USB protection supply",
+      "passed": true
+    },
+    {
+      "check": "Dense placement courtyard retains 0.10 mm around both unchanged supplier lands",
+      "passed": true
+    },
+    {
+      "check": "Bypass copper lands match the existing exact C1525 supplier import",
+      "passed": true
+    },
+    {
+      "check": "Bypass has a direct top feed shorter than 2 mm to U_ESD VBUS",
+      "passed": true,
+      "trace_length_mm": 1.7400736854144987
+    },
+    {
+      "check": "Bypass ground has a local plated return outside its pad",
+      "passed": true,
+      "top_return_length_mm": 0.6000814056909258
+    },
+    {
+      "check": "Bypass and ESD ground share a physical copper group",
+      "passed": true
+    }
+  ],
+  "scope": "Static reset-bias and actual local bypass copper; dynamic power, ESD and thermal validation remain bench work",
+  "fabrication_ready": false
+}

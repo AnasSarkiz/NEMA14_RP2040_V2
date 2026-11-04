@@ -1,25 +1,27 @@
 {
-  "board_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
-  "version": "2.0.0-dev.7",
+  "board_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
+  "version": "2.0.0-dev.8",
   "stage": "V2 prototype supplier DFM/quote handoff",
   "fabrication_ready": false,
   "supplier_process_stock_pickup_approval": false,
   "checks": {
-    "physical-routing-audit.json": "62b3a83c352e5139e4d70236df78f32c0b215f0df900117e53125330daedc0b8",
-    "native-drc.json": "ae9b19f4df32a58f7d5ec73a17b7c32b5046f12b596463d0c7671dd9deb196bd",
-    "functional-routing-audit.json": "288486312b411e571dbf7f30775e78bf3407b4cd76436d057e50e84bd2915126",
-    "phase-current-screen.json": "46196f9d440f1340c500b63e381854f4aee84247e43259a56a74a6226bd74849",
-    "analysis-verification.json": "736c27953e2252c1ad560e7e6047bdcd773006c88f21d5750c88c43ab498cdbe",
-    "local-power-verification.json": "343f991ae0585ebdfff1f9252c320382ae7182b15cea0947bae6ffcb8ceaa742",
-    "component-body-verification.json": "ed39b56bcfb630ed3386ef51fb1c2fda47caeb1d17691ba4333c7f4272fb8be9",
-    "critical-silkscreen-verification.json": "399c0cb94c95411dc095f3f0f074f9d670f72b988ad3ab5fad62c78843fb3ac1",
-    "branding-verification.json": "19d077a48355e623bc7e339a01edfb8b68dc4a4ac772f71b65ffc87ee6cdd001"
+    "physical-routing-audit.json": "5545fd1bfa213c5b34d53f64489d7221cc2b32f4b76edfb827db18cac4920bf9",
+    "native-drc.json": "0fd95f8e928a8cfca9330f489696e2f44856210a58475d9929a42ae2807acda6",
+    "functional-routing-audit.json": "024593471aa09e5f5b2bdd32d2ad3059b90ef61576fd69d681d5b0e6062512d6",
+    "phase-current-screen.json": "00eca4c3e1dcbd873577a27f943ce515d40100705c7cc9727448d263e90b0828",
+    "startup-and-esd-verification.json": "bfd445ae50a6f7d45c3cc29efa28d97c1309c701156cd101b2d10895903320c2",
+    "review-fixes-preservation.json": "6a8c525233ae5ef46c2579973d144511b572016f430e348609da496c3e84b697",
+    "analysis-verification.json": "912260a8e4e61b33418898fda152642ef901251b8463a982a3bd0915cc35e9e0",
+    "local-power-verification.json": "13ba571710ecddb02ed343ea699c33dd10800c100ddea0c276312417e1a73ca4",
+    "component-body-verification.json": "4698fe248644de9efcffada9a8d7c1590051126155e832dc1061503ef3951257",
+    "critical-silkscreen-verification.json": "5ecdc92cf53129d0c70da709f76672a19378e6030e63b55359ecd37af143828b",
+    "branding-verification.json": "77007bee59fe70284a93a2a6ce760cf3958d8a2a1e5c0f194799bf761b29bb6c"
   },
-  "fitted_components": 97,
-  "unique_BOM_lines": 45,
+  "fitted_components": 98,
+  "unique_BOM_lines": 44,
   "bare_probe_pads_excluded": 7,
   "optional_encoder_excluded": true,
-  "order_source_sha256": "04af9b0ec55febab9064dc76be03d57f72a2f9e5105682108b0ad1470f69c28f",
+  "order_source_sha256": "9498e6d9aebe18c15efda416d1258a323bc837fa308b3bd1649be19e9ac1b1f9",
   "stencil_thickness_mm": 0.1,
   "minimum_aperture_area_ratio": 0.6678577078001382,
   "aperture_checks": [
@@ -2182,13 +2184,25 @@
       "pad": "pcb_smtpad_365",
       "area_ratio": 0.9669334201700038,
       "area_mm2": 0.1496742154896819
+    },
+    {
+      "reference": "C_ESD",
+      "pad": "pcb_smtpad_366",
+      "area_ratio": 0.9086561384784475,
+      "area_mm2": 0.13230071539804025
+    },
+    {
+      "reference": "C_ESD",
+      "pad": "pcb_smtpad_367",
+      "area_ratio": 0.9086561384784472,
+      "area_mm2": 0.13230071539804017
     }
   ],
   "silkscreen": [
     {
       "layer": "F",
-      "original_area_mm2": 77.42279283805031,
-      "clipped_area_mm2": 71.76928838763452
+      "original_area_mm2": 77.82325487350234,
+      "clipped_area_mm2": 71.94189783078511
     },
     {
       "layer": "B",
@@ -2197,22 +2211,22 @@
     }
   ],
   "unchanged_native_copper_mask_outline_drill": {
-    "F_Cu.gbr": "7092749e1fe55ad075b5c3304af668df04395cf29900c43f9304f02fcf4d3eea",
-    "F_Mask.gbr": "6072ba5a05c31eed978691022cebb44dd85a8a7bb744671444a42d2d06a184fe",
-    "B_Cu.gbr": "8b5c7fb3562582a7edb78d36e5809005b8ad4becde5bf8d2730e27dfe824dd56",
-    "B_Mask.gbr": "862d8562a9d57c31139a3a354dcba7c12f595ad9f5d992393add012590e0287f",
-    "Edge_Cuts.gbr": "a8fa53605f128a017af5dc91b64eb6cb4e077156f284ab93cce1f517d6b3d0e1",
-    "In1_Cu.gbr": "d4f3f6c6090025856aa80e6c1e40ecc85bd6b8b699ad6e059cd7ab9435e100f8",
-    "In2_Cu.gbr": "a0681d660b9721ade4d236c36b6394bf5ef72f94a1d7b61f42c2b480fa6f2f54",
-    "drill-L1-L4.drl": "608857e62c841de2487361b5285593b7d52513b6e20ca1e383f64357cf75475b",
-    "drill_npth.drl": "56cdfe83acca33774b18b3ea916eda69c86ae097450b7f04e36945de84732fc5"
+    "F_Cu.gbr": "3fad83660312b7116d76dfbd36dd3b75bfa14df6474ebacad2bf54e20b0416e5",
+    "F_Mask.gbr": "11d74b043351a95324e32d00cb131530e027a9828a2dccdb92458ab3efaa5e9d",
+    "B_Cu.gbr": "e8f76d8862d8aae6417939826b58f182b8800c8df71340be3d2d99b5a958932f",
+    "B_Mask.gbr": "86e9d289a376cd02b00c846b9df83120a8c2f52f567780da7ac2fd2ba4e653cb",
+    "Edge_Cuts.gbr": "4e85c24e9620f61d61ebd1ff674fd39dbfaa506dad49ebc14871d2d5d5173fa9",
+    "In1_Cu.gbr": "71227272c91c30d1cba6acea1f71b3e92dd1236e948b8efee51c67c9896c30b6",
+    "In2_Cu.gbr": "5dfd1455d5f9cc0a9fedddb9b4cc6c16aa96ded3c0b37d873c5fb0e7baaca2c9",
+    "drill-L1-L4.drl": "3eed720815063044f8717c2b06ba5907e698c1ccf1e72ca5865af25db6b1f9bb",
+    "drill_npth.drl": "249744262f6367a651592c903e1159fb4a48a5f7f589aa5dd6ca173bf879e82f"
   },
   "files": {
     "Thermal-Via-Process.csv": "44da851404730af559c224c94c8d21f2b98dec7ab54f67f22e9cba58410e5702",
-    "NEMA14_RP2040_V2-Gerbers.zip": "d87e62be52dbdf6cc54d2a7341cc8936d42d325072273af1435453484ec3ad03",
+    "NEMA14_RP2040_V2-Gerbers.zip": "96778686688ef96713ad4a53af13d198cdbf9130ff1ca0b1bc9512d6b84306d0",
     "Through-Hole-Joints.csv": "42a24b486fa7ca91900bb576876b7fd540850a2de00b3d37c0c3e88050bb870e",
-    "NEMA14_RP2040_V2-BOM.csv": "dbb4323135dfa175bae20a1372d051b360d0c09c48e793992774c72ebece9436",
-    "NEMA14_RP2040_V2-CPL.csv": "247214306fdde5ac7c1c9026a6104b92302b1e3159aac17e0c743cceec854e05"
+    "NEMA14_RP2040_V2-BOM.csv": "2f0138d6cfa239d8d0fc009ea0f4f0c4ceb0ffc40ca89d2e7a8d62b01665de2b",
+    "NEMA14_RP2040_V2-CPL.csv": "62665d4904f58ca3aaadff75e05e6fbf2b36a1b764acaa24eead153dfdf96ce4"
   },
   "open_acceptance": [
     "JLCPCB live stock/quote and exact pickup rotation approval",

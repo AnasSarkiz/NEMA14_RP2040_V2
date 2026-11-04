@@ -1,6 +1,6 @@
 {
   "name": "NEMA14_RP2040_V2",
-  "version": "2.0.0-dev.7",
+  "version": "2.0.0-dev.8",
   "description": "NEMA14 RP2040 V2: checked four-layer routing, winding telemetry and WAGO spring terminal",
   "main": "index.circuit.json",
   "scripts": {
@@ -53,7 +53,8 @@
     "check:v2:release": "python3 scripts/check-v2.py --require-release",
     "check:v2:bodies": "/workspace/.routing-venv/bin/python scripts/check-v2-component-bodies.py",
     "check:v2:order": "python3 scripts/check-v2-order.py",
-    "assembly:viewer:check": "node scripts/check-v2-native-viewer.cjs"
+    "assembly:viewer:check": "node scripts/check-v2-native-viewer.cjs",
+    "check:v2:startup-esd": "/workspace/.routing-venv/bin/python scripts/check-v2-startup-and-esd.py"
   },
   "repository": {
     "type": "git",

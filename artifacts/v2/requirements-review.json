@@ -1,5 +1,5 @@
 {
-  "source_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
   "scope": "Current V2 CAD, actual CAM and native preview; supplier, firmware and physical acceptance remain separate",
   "bottom_artwork": [
     {
@@ -290,6 +290,18 @@
       "status": "decision_or_acceptance_needed",
       "item": "RGB common anode is DATA_VBUS powered",
       "evidence": "RGB is unavailable on PD-only power; 3.3 V power LED remains available."
+    },
+    {
+      "id": "ELEC-02",
+      "status": "resolved_in_CAD",
+      "item": "Strong 10 kohm driver reset bias",
+      "evidence": "routing/startup-and-esd-verification.json"
+    },
+    {
+      "id": "ELEC-03",
+      "status": "resolved_in_CAD",
+      "item": "Local 100 nF USB protection VBUS bypass, unchanged supplier lands and checked dense courtyard",
+      "evidence": "routing/startup-and-esd-verification.json; routing/component-body-verification.json"
     }
   ],
   "schematic_placement_check": {
@@ -297,8 +309,8 @@
     "exit_code": 0,
     "result": "Fresh pin and schematic checks report zero diagnostics; negative-control warnings remain enabled."
   },
-  "reviewed_at_utc": "2026-11-03T23:43:24.325393+00:00",
-  "placement_source_sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3",
+  "reviewed_at_utc": "2026-11-04T11:59:41.181220+00:00",
+  "placement_source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8",
   "all_requirements_closed": false,
   "fabrication_ready": false,
   "open_requirement_ids": [
@@ -320,5 +332,9 @@
   "CAD_source_routing_CAM_checks_passed": true,
   "prototype_order_files": "order-review/verification.json",
   "USB_fabrication_clearance_adaptation": "usb-fabrication-adaptation.json",
-  "local_driver_bulk_check": "routing/local-power-verification.json"
+  "local_driver_bulk_check": "routing/local-power-verification.json",
+  "version": "2.0.0-dev.8",
+  "startup_bias_and_ESD_bypass": "routing/startup-and-esd-verification.json",
+  "existing_hardware_preserved": "routing/review-fixes-preservation.json",
+  "fitted_top_parts": 98
 }

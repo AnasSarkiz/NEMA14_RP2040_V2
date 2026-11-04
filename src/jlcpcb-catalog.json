@@ -32,8 +32,8 @@
     "R_SB": "C186557",
     "R_REF_H": "C23153",
     "R_REF_L": "C25744",
-    "R_ENABLE": "C25741",
-    "R_SLEEP": "C25803",
+    "R_ENABLE": "C25744",
+    "R_SLEEP": "C25804",
     "C_PD": "C15849",
     "C_IO1": "C1525",
     "C_IO10": "C1525",
@@ -97,7 +97,8 @@
     "R_STATUS_PD_R": "C25744",
     "R_STATUS_PD_G": "C25744",
     "R_STATUS_PD_B": "C25744",
-    "J_MOTOR": "C2765063"
+    "J_MOTOR": "C2765063",
+    "C_ESD": "C1525"
   },
   "parts": {
     "C11702": {

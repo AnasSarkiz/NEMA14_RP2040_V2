@@ -1,7 +1,7 @@
 {
   "stage": "source and placement engineering checks; routing reviewed separately",
   "fabrication_ready": false,
-  "sha256": "0691fc8648fe4a18cdca1852d259ca1eb8ceb9e05e008ed4c95d95bfeba783f3",
+  "sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8",
   "checks": [
     {
       "check": "34.5 x 34.5 mm, four-layer, 1.6 mm board",
@@ -21,6 +21,14 @@
     },
     {
       "check": "Voltage ADC and POWER_GOOD preserved",
+      "pass": true
+    },
+    {
+      "check": "Driver reset-bias resistors use strong 10 kOhm defaults",
+      "pass": true
+    },
+    {
+      "check": "USB protection has its own fitted DATA_VBUS bypass",
       "pass": true
     },
     {
@@ -136,7 +144,7 @@
       "pass": true
     }
   ],
-  "passed": 33,
+  "passed": 35,
   "failed": 0,
   "native_error_count": 0,
   "native_errors": [],

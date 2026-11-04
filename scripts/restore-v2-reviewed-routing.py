@@ -11,7 +11,7 @@ try:
     assert sha(root/'artifacts/v2/source.circuit.json')==manifest['placement_source_sha256'],'Source changed; saved copper needs requalification'
     digest=sha(candidate)
     assert digest==manifest['routed_source_sha256'],'Saved copper changed; run the full qualification checks'
-    for name in ['physical-routing-audit.json','native-drc.json','functional-routing-audit.json','phase-current-screen.json','analysis-verification.json','local-power-verification.json','component-body-verification.json','critical-silkscreen-verification.json','branding-verification.json']:
+    for name in ['physical-routing-audit.json','native-drc.json','functional-routing-audit.json','phase-current-screen.json','startup-and-esd-verification.json','review-fixes-preservation.json','analysis-verification.json','local-power-verification.json','component-body-verification.json','critical-silkscreen-verification.json','branding-verification.json']:
         report=json.loads((directory/name).read_text())
         assert report['source_sha256']==digest and report['passed'],name+' is missing a passing check for this copper'
         assert sha(directory/name)==manifest['checks'][name]['sha256'],name+' changed after verification'

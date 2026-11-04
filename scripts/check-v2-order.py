@@ -19,11 +19,11 @@ rows=list(csv.DictReader((D/'NEMA14_RP2040_V2-BOM.csv').open()));refs={}
 for row in rows:
     for ref in row['Designator'].split(','):
         assert ref not in refs;refs[ref]=row;assert row['LCSC Part #'] in fitted[ref]['supplier_part_numbers']['jlcpcb'];assert row['Comment']==fitted[ref]['manufacturer_part_number']
-cpl=list(csv.DictReader((D/'NEMA14_RP2040_V2-CPL.csv').open()));assert len(cpl)==len(refs)==len(fitted)==97 and set(refs)==set(fitted)=={r['Designator'] for r in cpl}
+cpl=list(csv.DictReader((D/'NEMA14_RP2040_V2-CPL.csv').open()));assert len(cpl)==len(refs)==len(fitted)==98 and set(refs)==set(fitted)=={r['Designator'] for r in cpl}
 assert all(r['Layer']=='Top' for r in cpl)
 report={'passed':True,'ready_for_supplier_DFM_quote_review':True,'board_sha256':sha(b),'order_source_sha256':m['order_source_sha256'],
         'actual_CAM_audit_sha256':sha(D/'cam/audit.json'),'manifest_sha256':sha(D/'manifest.json'),'upload_file_hashes':m['files'],
-        'fitted_parts':97,'BOM_lines':len(rows),'CPL_placements':97,'physical_net_groups':70,'shorts':0,'native_DRC_errors':0,'native_DRC_warnings':0,
+        'fitted_parts':98,'BOM_lines':len(rows),'CPL_placements':98,'physical_net_groups':70,'shorts':0,'native_DRC_errors':0,'native_DRC_warnings':0,
         'unchanged_native_copper_mask_outline_drills':True,'intentional_no_connect_islands':a['connectivity']['unassigned_islands'],
         'supplier_process_stock_pickup_approval':False,'factory_wire_fit_verified':False,'production_release_approved':False,
         'pending_supplier_and_physical_acceptance':m['open_acceptance'],'scope':'Exact prototype upload files and actual CAM geometry, not procurement, tested hardware, or production approval'}

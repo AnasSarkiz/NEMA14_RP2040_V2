@@ -2,11 +2,11 @@
 
 V2 has its own [GitHub repository](https://github.com/AnasSarkiz/NEMA14_RP2040_V2)
 and [tscircuit package](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d).
-This revision is **2.0.0-dev.7**. The working ordered V1 remains separate and unchanged.
+This revision is **2.0.0-dev.8**. The working ordered V1 remains separate and unchanged.
 
-**4 November engineering review:** address the ENABLE/SLEEP bias and local USB
-ESD bypass recommendations before ordering. Hardware and order files have not
-yet been changed. [Findings and fresh checks](docs/v2-independent-final-review-2026-11-04.md).
+**4 November review fixes:** ENABLE/SLEEP now use 10 kΩ defaults and C_ESD adds
+local 100 nF bypass at USBLC6 VBUS. Existing components, traces and vias retain
+their positions. [Implementation and acceptance](docs/v2-review-fixes.md).
 
 [Prototype order files](artifacts/v2/order-review/) · [Order/process instructions](docs/v2-prototype-order.md) ·
 [Requirements checklist](docs/v2-requirements-checklist.md) · [Verification](artifacts/v2/routing/verification.json)
@@ -14,17 +14,17 @@ yet been changed. [Findings and fresh checks](docs/v2-independent-final-review-2
 The existing 47 µF / 35 V bulk capacitor is now beside the driver. Its positive
 land is 4.03/5.02 mm from the two VBB pins; the conservative complete copper-path
 bounds are 7.80/10.37 mm. Two nearby ground returns connect it to the driver
-and planes. The buzzer and nearby passives were repacked. All 97 fitted parts,
-values and the V2 physical pin/net assignments are retained, with every fitted
-component on top. Both encoder capacitors remain on top.
+and planes. The buzzer and nearby passives were repacked. There are now 98 fitted
+parts, all on top. Only the two driver-bias resistor values change; the new
+bypass reuses C1525 already in the BOM. Both encoder capacitors remain on top.
 
 **70/70 physical nets connected; zero shorts, zero native PCB DRC errors or
-warnings, and zero floating copper.** Independent checks preserve all 342
+warnings, and zero floating copper.** Independent checks preserve all 344
 physical pin/net assignments, verify six ≥0.30 mm winding-current paths, all
 four shunt-only Kelvin pickups, and a top-only crystal circuit without vias.
-The current routing contains 664 trace records and 356 through vias.
-All 97 fitted supplier STEP bodies pass the component-clearance screen.
-Source/pin/schematic diagnostics are zero; 33 source checks and 67 placement
+The current routing contains 666 trace records and 357 through vias.
+All 98 fitted supplier STEP bodies pass the component-clearance screen.
+Source/pin/schematic diagnostics are zero; 35 source checks and 68 placement
 proximity checks pass. These are CAD screens, not tested V2 hardware.
 
 34.5 × 34.5 × 1.6 mm, four layers, WAGO 250-204 / C2765063, separate upright

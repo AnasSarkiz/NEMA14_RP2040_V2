@@ -1,0 +1,9 @@
+{
+  "baseline_revision": "5526add",
+  "baseline_sha256": "7adf7b27d291aa7312d1c5bec6c1d24b3fc17ea6c653c7e9eba962114c56d178",
+  "source_sha256": "f8b57f12dce5864eefa3ab28320bb962d72b6f5faf67d0c2892660116c5129d8",
+  "old_trace_or_via_records_removed": [],
+  "added_capacitor": "C_ESD, 100 nF/16 V C1525, 0402, top; 0.10 mm board-level placement courtyard",
+  "existing_thermal_via_process_exception_preserved": true,
+  "stage": "Routing seed; not qualification"
+}

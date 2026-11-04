@@ -1,0 +1,427 @@
+{
+  "passed": true,
+  "source_sha256": "b34f080b1114ee5febc3f45b73aab43332fdd9b7c91105030e03dd3d13b806f1",
+  "baseline_revision": "5526add",
+  "checks": [
+    {
+      "check": "Every existing trace, via, terminal, placement and electrical connection is preserved",
+      "passed": true,
+      "changed_records": []
+    },
+    {
+      "check": "Existing inner ground reference and bottom copper pours are exact",
+      "passed": true,
+      "pours_checked": 30
+    },
+    {
+      "check": "Only the two intended existing resistor identities/values change",
+      "passed": true,
+      "changes": [
+        {
+          "reference": "R_ENABLE",
+          "before_MPN": "0402WGF1003TCE",
+          "after_MPN": "0402WGF1002TCE"
+        },
+        {
+          "reference": "R_SLEEP",
+          "before_MPN": "0603WAF1003T5E",
+          "after_MPN": "0603WAF1002T5E"
+        }
+      ]
+    },
+    {
+      "check": "The only added source component is the USB bypass",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_0",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_1",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_2",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_3",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_4",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_5",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_6",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_7",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_8",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_9",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_10",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_11",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_12",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_13",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_14",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_15",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_16",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_17",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_18",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_19",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_20",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_21",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_22",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_23",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_24",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_25",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_26",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_27",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_28",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_29",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_30",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_31",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_32",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_33",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_34",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_35",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_36",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_37",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_38",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_39",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_40",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_41",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_42",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_43",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_44",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_45",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_46",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_47",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_48",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_49",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_50",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_51",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_52",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_53",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_54",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_55",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_56",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_57",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_58",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_59",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_60",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_61",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_62",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_63",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_64",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_65",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_66",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_67",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_68",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_69",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_70",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_71",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_72",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_73",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_74",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_75",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_76",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_77",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_78",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_79",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_80",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_81",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_82",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_83",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_84",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_85",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_86",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_87",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_88",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_89",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_90",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_91",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_92",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_93",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_94",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_95",
+      "passed": true
+    },
+    {
+      "check": "Existing CAD transform cad_component_96",
+      "passed": true
+    }
+  ],
+  "scope": "Exact preservation of existing routed hardware, poses and source connections; top ground clearance adapts only around the added bypass",
+  "fabrication_ready": false
+}

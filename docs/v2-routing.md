@@ -13,11 +13,11 @@ unchanged.
 [Standalone tscircuit viewer](../artifacts/v2/routing/NEMA14-V2-routing-viewer.html) ·
 [Verification manifest](../artifacts/v2/routing/verification.json)
 
-The saved four-layer board contains 664 trace records and 356 through vias.
+The saved four-layer board contains 666 trace records and 357 through vias.
 Every report in the manifest is bound to the exact routed JSON SHA-256. The
 independent physical audit uses the actual supplier pad, wire, plated-barrel and
 pour geometry. It finds zero foreign-net clearance, board-edge, mounting-hole,
-keepout or construction violations. All 342 physical pin/net assignments and
+keepout or construction violations. All 344 physical pin/net assignments and
 all source placement records match the reviewed source.
 
 Native DRC, independent connectivity/clearance, schema, source, placement and
@@ -33,6 +33,11 @@ The 2.0.0-dev.7 update uses tscircuit 0.0.3062 / core 0.0.2259 / CLI 0.1.2429.
 Both USB locating holes are capsules from the latest import; J_DATA rotates 90°
 and J_PD stays at 0°. Export checks verify the actual drill direction.
 [Investigation and repro](../references/v2/usb-reimport-2026-11-03/README.md).
+
+The dev.8 update adds the local USB ESD bypass and 10 kΩ driver reset bias.
+All prior traces/vias and component poses are exact; one top GND region gains
+clearance around the added bypass. Its 0402 lands/body remain the supplier
+geometry, with a board-level 0.10 mm placement courtyard.
 
 ## Construction rules
 
@@ -51,7 +56,9 @@ USB locating holes and plated lands retain their imported geometry; the separate
 mounting-hole waiver. NPTH copper overlaps are rejected.
 
 The current screen uses the actual fixed VREF network: nominal current limit
-0.351 A, screened worst-case trip 0.378 A. Two inner1 phase sections are 13.882
+0.351 A. The 0.378 A supply/resistor-only result is not a complete maximum-current
+bound; the report separately models reference input current and illustrates
+driver trip error. Two inner1 phase sections are 13.882
 and 8.824 mm long, at least 0.30 mm wide. The 17.5 µm internal-copper / 20 °C
 IPC-2221 estimate is 0.410 A. This sizing estimate does not qualify operating
 temperature or authorize raising the current limit. USB ground reference,

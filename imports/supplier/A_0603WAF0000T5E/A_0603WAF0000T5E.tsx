@@ -1,6 +1,6 @@
 import React from "react"
-const objPath = "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040/4121abe07485b9b255c787decec68f6dc0cac1b0/imports/supplier/ERJPA3F1001V/ERJPA3F1001V.obj"
-const stepPath = "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040/4121abe07485b9b255c787decec68f6dc0cac1b0/imports/supplier/ERJPA3F1001V/ERJPA3F1001V.step"
+const objPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C441922.obj"
+const stepPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C441922.step"
 import type { ResistorProps } from "@tscircuit/props"
 
 export const A_0603WAF0000T5E = (props: Omit<ResistorProps, "resistance">) => {

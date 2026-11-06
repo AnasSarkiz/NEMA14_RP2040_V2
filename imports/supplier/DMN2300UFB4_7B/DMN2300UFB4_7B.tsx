@@ -1,6 +1,6 @@
 import React from "react"
-import objPath from "./DMN2300UFB4_7B.obj"
-import stepPath from "./DMN2300UFB4_7B.step"
+const objPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C154728.obj?uuid=c4a72fda97734ddfadf5f796f604199d"
+const stepPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C154728.step?uuid=c4a72fda97734ddfadf5f796f604199d"
 import type { ChipProps } from "@tscircuit/props"
 
 const pinLabels = {

@@ -1,10 +1,11 @@
 {
   "passed": true,
-  "assembly_sha256": "cb8a7404a028ff78183bfdb717228036b5655fdd479adbed42f6d8c0d41ce3b1",
-  "board_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a",
+  "assembly_sha256": "4be28e9542bb87b1953b2a6707180449cad2e5f81d4898410577ef225b79a252",
+  "board_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a",
   "GLB_sha256": "8212af7995fdd115930aa80ac0f44495c734ea9e22650343f0656b4d70292728",
   "GLB_bytes": 23709424,
   "GLB_version": 2,
   "exporter": "bun scripts/export-assembly-3d.ts --v2",
-  "scope": "Native assembled GLB export and container integrity; mechanical/bench qualification remains separate"
+  "scope": "Native assembled GLB export and container integrity; mechanical/bench qualification remains separate",
+  "GLB_byte_identical_to_dev10": true
 }

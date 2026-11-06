@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "baseline_revision": "23fcd146dc8d56445e79f04d57a1587bfda97569",
+  "assembly_sha256": "4be28e9542bb87b1953b2a6707180449cad2e5f81d4898410577ef225b79a252",
+  "GLB_sha256": "8212af7995fdd115930aa80ac0f44495c734ea9e22650343f0656b4d70292728",
+  "GLB_bytes": 23709424,
+  "entire_export_byte_identical": true,
+  "native_viewer_visually_inspected": true
+}

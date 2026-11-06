@@ -1,6 +1,6 @@
 import React from "react"
-import objPath from "./EEEFT1V470AR.obj"
-import stepPath from "./EEEFT1V470AR.step"
+const objPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C193627.obj"
+const stepPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C193627.step"
 import type { CapacitorProps } from "@tscircuit/props"
 
 export const EEEFT1V470AR = (props: Omit<CapacitorProps, "capacitance">) => {

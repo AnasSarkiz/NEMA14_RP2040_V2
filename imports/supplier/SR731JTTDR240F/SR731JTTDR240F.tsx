@@ -1,6 +1,6 @@
 import React from "react"
-import objPath from "./SR731JTTDR240F.obj"
-import stepPath from "./SR731JTTDR240F.step"
+const objPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C186557.obj"
+const stepPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C186557.step"
 import type { ResistorProps } from "@tscircuit/props"
 
 export const SR731JTTDR240F = (props: Omit<ResistorProps, "resistance">) => {

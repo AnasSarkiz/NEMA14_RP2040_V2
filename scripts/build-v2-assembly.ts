@@ -1,6 +1,5 @@
 import {readFileSync,writeFileSync,mkdirSync} from 'node:fs'
 import {createHash} from 'node:crypto'
-import {resolve} from 'node:path'
 import {getV2MotorHarness} from '../src/v2-motor-harness'
 const bytes=readFileSync('artifacts/v2/routing/freerouted.circuit.json'),board=JSON.parse(bytes.toString()),baseline=JSON.parse(readFileSync('artifacts/v1-ordered/assembly.circuit.json','utf8'))
 const sources=new Map(baseline.filter((e:any)=>e.type==='source_component').map((e:any)=>[e.source_component_id,e]))
@@ -10,7 +9,7 @@ const add=(name:string,cad:any,ftype='subassembly',display_name=name)=>{
  extras.push({type:'source_component',source_component_id:id,ftype,name,display_name},{...cad,type:'cad_component',cad_component_id:'v2_assembly_cad_'+name,source_component_id:id})
 }
 const original=(name:string)=>structuredClone(baseline.find((e:any)=>e.type==='cad_component'&&(sources.get(e.source_component_id) as any)?.name===name))
-const motor=original('MOTOR_REFERENCE_CONCEPT');motor.model_glb_url=resolve('imports/assembly/nema14-dimensional-reference.glb');motor.rotation.z=180
+const motor=original('MOTOR_REFERENCE_CONCEPT');motor.model_glb_url=JSON.parse(readFileSync('imports/assembly/provenance.json','utf8')).url;motor.rotation.z=180
 add('MOTOR_REFERENCE_CONCEPT',motor,'motor','14HM11-0404S dimensional reference; rear retention and outlet detail unverified')
 // Rear fasteners in the reference model occupy the proposed spacer centres.
 // Omit mounting hardware until the real rear interface is qualified.

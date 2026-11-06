@@ -1,6 +1,6 @@
 import React from "react"
-import objPath from "./B5819WS.obj"
-import stepPath from "./B5819WS.step"
+const objPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C64886.obj"
+const stepPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C64886.step"
 import type { DiodeProps } from "@tscircuit/props"
 
 const pinLabels = {

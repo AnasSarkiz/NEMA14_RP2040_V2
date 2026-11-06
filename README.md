@@ -1,8 +1,10 @@
 # NEMA14 RP2040 V2
 
+3D models use byte-verified modelcdn assets for Board Blend photorealistic renders. See [the hosting migration and validation](docs/v2-model-hosting.md).
+
 V2 has its own [GitHub repository](https://github.com/AnasSarkiz/NEMA14_RP2040_V2)
 and [tscircuit package](https://tscircuit.com/AnasSarkiz/NEMA14_RP2040_V2#3d).
-This revision is **2.0.0-dev.10**. The working ordered V1 remains separate and unchanged.
+This revision is **2.0.0-dev.11**. The working ordered V1 remains separate and unchanged.
 
 **Wordmark:** moved into the empty middle-left underside area, preserving its
 original scale and strokes and clearing all pads and holes.

@@ -1,7 +1,7 @@
 """Publish the checked V2 as a separate, lean engineering-preview package.
 
 No source compilation, rerouting, fabrication downloads or V1 registry writes.
-Only CAD URLs change, to immutable byte-verified GitHub supplier assets.
+Only CAD URLs change, to byte-verified modelcdn assets.
 """
 import argparse
 import base64
@@ -62,27 +62,33 @@ def stage(source_repository, revision):
     assert not tree.get('truncated'), 'Need a complete public GitHub source tree'
     blobs = {e['path']: e['sha'] for e in tree['tree'] if e['type'] == 'blob'}
     assert blobs['artifacts/v2/routing/freerouted.circuit.json'] == blob(original), 'Public GitHub source differs'
+    hosting=json.loads((ROOT/'artifacts/v2/model-hosting/preservation-verification.json').read_text())
+    assert hosting['passed'] and hosting['board_sha256']==sha(original), 'Model migration preservation check stale'
+    validator=json.loads((ROOT/'artifacts/v2/model-hosting/board-blend-verification.json').read_text())
+    assert validator['passed']
+    validated={e['sha256'] for e in validator['checked'] if e['passed']}
+    assert sha(original) in validated, 'Run Board Blend validation before publishing'
     records = json.loads(original)
     published = json.loads(original)
     assets = {}
+    model_manifest=json.loads((ROOT/'src/model-cdn-manifest.json').read_text())['assets']
+    by_url={a['url']:(relative,a) for relative,a in model_manifest.items()}
     def pin_models(rows):
         for e in rows:
             if e['type'] != 'cad_component': continue
             for field in ['model_obj_url','model_step_url','model_glb_url']:
                 value=e.get(field)
                 if not value: continue
-                path=urllib.parse.unquote(urllib.parse.urlparse(value).path)
-                relative=next((prefix+path.split('/'+prefix,1)[1] for prefix in ['imports/supplier/','imports/assembly/'] if '/'+prefix in path),None)
-                assert relative, 'Unexpected model path: '+path
-                local=(ROOT/relative).resolve()
-                assert local.is_relative_to((ROOT/'imports').resolve())
-                data=local.read_bytes();assert blobs[relative]==blob(data),'Public model differs: '+relative
-                e[field]=f'https://raw.githubusercontent.com/{source_repository}/{revision}/{relative}'
-                assets[relative]={'sha256':sha(data),'git_blob_sha':blob(data),'url':e[field]}
+                assert urllib.parse.urlparse(value).hostname == 'modelcdn.tscircuit.com', value
+                relative,asset=by_url[value]
+                data=(ROOT/relative).read_bytes()
+                assert sha(data)==asset['sha256'] and blobs[relative]==blob(data), 'Public model differs: '+relative
+                assets[relative]={'sha256':sha(data),'git_blob_sha':blob(data),'url':value}
         return rows
     published=pin_models(published)
     assembly_bytes=(ROOT/'assembly.circuit.json').read_bytes()
     assert blobs['assembly.circuit.json']==blob(assembly_bytes),'Public assembly source differs'
+    assert sha(assembly_bytes) in validated, 'Assembly Board Blend validation is stale'
     assembly=json.loads(assembly_bytes);assert assembly[:len(records)]==records,'Assembly altered the PCB'
     assembly_check=json.loads((ROOT/'artifacts/v2/assembly/assembly-verification.json').read_text())
     assert assembly_check['passed'] and assembly_check['assembly_sha256']==sha(assembly_bytes) and assembly_check['board_sha256']==sha(original)
@@ -114,7 +120,9 @@ def stage(source_repository, revision):
         'shorts': 0, 'native_errors': 0, 'native_warnings': 0,
         'native_warning_scope': 'PCB DRC', 'source_library_warning_count': len(source_warnings),
         'fabrication_ready': False, 'manufacturing_downloads_included': False,
-        'supplier_assets': assets,
+        'supplier_assets': assets, 'model_host':'modelcdn.tscircuit.com',
+        'board_blend_validator_revision':validator['validator_revision'],
+        'model_hosting_preservation_sha256':sha((ROOT/'artifacts/v2/model-hosting/preservation-verification.json').read_bytes()),
     }
     source_url = f'https://github.com/{source_repository}/tree/{revision}'
     readme = (
@@ -127,6 +135,7 @@ def stage(source_repository, revision):
         '**70/70 nets connected; 0 shorts; 0 native PCB DRC errors or warnings.**\n\n'
         'Fresh source, pin and schematic checks report zero diagnostics.\n\n'
         'Large knockout PWR/DATA legends, the relocated tscircuit wordmark and evaluation disclaimer are checked on the underside.\n\n'
+        'All external 3D model resources use byte-verified modelcdn.tscircuit.com URLs. Geometry, transforms, scale and supplier selections are unchanged.\n\n'
         'The default 3D preview includes the reference motor and four shorter, smoothly curved WAGO leads. Rear mounting and factory wire fit remain unverified.\n\n'
         'Strong 10 kohm ENABLE/SLEEP defaults and local USB ESD VBUS bypass are fitted.\n'
         'The 47 uF bulk capacitor is beside the driver with short feeds and local ground returns.\n'
@@ -195,7 +204,8 @@ def publish(meta, files, proof, verify_only=False):
         release = post('package_releases/create', {'package_name_with_version': version})['package_release']
     rid = release['package_release_id']
     rows = get('package_files/list', package_release_id=rid)['package_files']
-    assert {e['file_path'] for e in rows} <= set(files), 'Unexpected files; no deletion is authorized here'
+    generated={'dist/render/angled.png','dist/render/top.png','dist/render/bottom.png'}
+    assert {e['file_path'] for e in rows} <= set(files) | generated, 'Unexpected files; no deletion is authorized here'
     if not verify_only:
         for path, data in files.items():
             archive = base64.b64encode(gzip.compress(encode({'files': [
@@ -208,7 +218,7 @@ def publish(meta, files, proof, verify_only=False):
     # This is a bounded manual publication. Automatic GitHub integration is a
     # separate service setting and is not required for repo/model links to work.
     rows = get('package_files/list', package_release_id=rid)['package_files']
-    assert {e['file_path'] for e in rows} == set(files)
+    assert set(files) <= {e['file_path'] for e in rows} <= set(files) | generated
     verified = []
     for path, expected in files.items():
         remote = get('package_files/get', package_release_id=rid, file_path=path)['package_file']

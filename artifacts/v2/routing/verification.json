@@ -1,10 +1,10 @@
 {
   "passed": true,
-  "version": "2.0.0-dev.10",
+  "version": "2.0.0-dev.11",
   "stage": "V2 wordmark in empty underside space and large knockout port legends; completed routing, supplier acceptance remains separate",
-  "verified_at": "2026-11-04T13:02:37.382447+00:00",
-  "placement_source_sha256": "bdaca5c87fd9f8fb356803c3e2c4cc91d3cdca3a9708f31bb0a82af66ab5dca6",
-  "routed_source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a",
+  "verified_at": "2026-11-06T20:16:23.373436+00:00",
+  "placement_source_sha256": "e7a50bd6625bf5c873562cc6a6b2add99d1b518596a9836fe7ec2b84d53c4f88",
+  "routed_source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a",
   "nets_checked": 70,
   "connected_net_groups": 70,
   "shorts": 0,
@@ -15,88 +15,88 @@
   "checks": {
     "physical-routing-audit.json": {
       "passed": true,
-      "sha256": "0d8268b96678cedeffeb51d783c630914f9f9416ca27c8100181e3a5ca4913e5",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "b1b763e9c83f125eedb34a9d2ea31b5795b11ab429ab76916ecc3e6dd20699b8",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "native-drc.json": {
       "passed": true,
-      "sha256": "150694b0d24417f219613666db55940154d3467f1264102dcb5dd07e46c1ad68",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "162713eabca234d1986dbafbda83641ac8ae8a95f1bdf7843e0fa604d0c428f8",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "functional-routing-audit.json": {
       "passed": true,
-      "sha256": "bc273da54c59f4fbaf4a00c3a5c694055fbe8ccc134c00b703903b83bebdf778",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "3efa118cd45b6c4296ebf6bfaccb3c1e1828b14686d68a91eb01a85144b8865f",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "phase-current-screen.json": {
       "passed": true,
-      "sha256": "2c4106314cab3e7ec9097e6243c8b312fd0ec54d0bbdfe00e309f57967d6e7d9",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "6d4c0959a6110b5efc41fb9e707ad2424594286b6f6488907aea295163e05bc3",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "startup-and-esd-verification.json": {
       "passed": true,
-      "sha256": "c914adf1d610e3f58206230ace7f10004da270bf820044a2127e291f95d62e28",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "b1bb57b1945d6e82a3a7f9542b03919bb06417d8686b7cc94955c82c6ab4f805",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "review-fixes-preservation.json": {
       "passed": true,
-      "sha256": "f836a9e52ccf18b3c905a81cd00b1eca34fc2c19728fe45571ce0c38e356c731",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "6c1eecf2d8bd5559d89e820a8c611db4849656db5b2449f807341e0588e4a0bc",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "analysis-verification.json": {
       "passed": true,
-      "sha256": "b117a809e0723f374a3064bd9c25b4fd8f84e82c6d3b52f993a686eca6096e1a",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "744604c90d5165cf373ff0c0c54f5bd3e99673eea73bb6c26fa0c23316a1610f",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "local-power-verification.json": {
       "passed": true,
-      "sha256": "7a7e39c9624048dc42981429fc7367b1ce5e3653eb4f51b2d25faeef15ec1eb5",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "2435fc6b3e38bda3044b0cb27aabb8ae5e3aac2e93811edc682afcac11215d04",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "component-body-verification.json": {
       "passed": true,
-      "sha256": "dcfb16212faabfdaedcf874115cf32b13f82c0a880858590863223d639f2a726",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "3d05b76a6a851c1da74d68df04d746f535f213e899676b72feb95d6366725b29",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "critical-silkscreen-verification.json": {
       "passed": true,
-      "sha256": "19db5254ca72fd75ffded7ab000a810ffefa569c0dcf53e53de9ce7ff8e9b85e",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "d8845d82b181618e7f6d6b46e40ba4a5c1a1a0c5170722d20d11cdc346f176f6",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "branding-verification.json": {
       "passed": true,
-      "sha256": "5b420d2536667883723e027ced3f97f398fc927d8ccda926384f07c11776bd48",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "c68c15a126dc9c89ffcf53f37e18d546f1dc0fa0b09131a101b6c863b752f788",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "source-review.json": {
       "passed": true,
-      "sha256": "6c320a6f369b10a41b6d5fb767b925807b3daec086b407467f370df40612dfb6",
-      "source_sha256": "bdaca5c87fd9f8fb356803c3e2c4cc91d3cdca3a9708f31bb0a82af66ab5dca6"
+      "sha256": "42a77398febe9ea40586f121cefa7b88ad34a4e57d63e2c76465e627e6893dc3",
+      "source_sha256": "e7a50bd6625bf5c873562cc6a6b2add99d1b518596a9836fe7ec2b84d53c4f88"
     },
     "placement-verification.json": {
       "passed": true,
-      "sha256": "38dd26786868dc0451e588b664e95f32d0bda776e1866230dbfeef2401ae6fb3",
-      "source_sha256": "bdaca5c87fd9f8fb356803c3e2c4cc91d3cdca3a9708f31bb0a82af66ab5dca6"
+      "sha256": "c15d8982248bce72e888df77873c822852010676f2aa3147358e6a50b7a4405f",
+      "source_sha256": "e7a50bd6625bf5c873562cc6a6b2add99d1b518596a9836fe7ec2b84d53c4f88"
     },
     "usb-fabrication-adaptation.json": {
       "passed": true,
-      "sha256": "1406337b38407feb27e5720f52e649c2597f7c80c64e656304999d28a6555179",
-      "source_sha256": "bdaca5c87fd9f8fb356803c3e2c4cc91d3cdca3a9708f31bb0a82af66ab5dca6"
+      "sha256": "7cd8ecedf8cefd7f95b8ba3004b1ad1f3101c5d721cb7015440127c16bf13d2e",
+      "source_sha256": "e7a50bd6625bf5c873562cc6a6b2add99d1b518596a9836fe7ec2b84d53c4f88"
     },
     "schema-verification.json": {
       "passed": true,
-      "sha256": "f9ef414e85f3a9ed12645dec2b2629ad9dd6baea1cad6ddc064092d5f4616ecf",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "5abf38c5083ad85311ff498f0fabfd1b691d9a09ff0fba9c6a6f4c4820fbce39",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     },
     "usb-slot-export-check.json": {
       "passed": true,
-      "sha256": "157e58cb13298fb856166f0984ae0b18a6978a29c73c83ae2dd5b6632d381ea8",
-      "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a"
+      "sha256": "6d1671903b209b015f4ff2199d492ea3f99752caa94c2c069b94074aba5b5dc8",
+      "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a"
     }
   },
   "gerber_shorts": {
     "passed": true,
-    "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a",
+    "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a",
     "command": [
       "tsci",
       "check",
@@ -110,7 +110,7 @@
       "100"
     ],
     "exit_code": 0,
-    "checked_at": "2026-11-04T13:02:14.786730+00:00",
+    "checked_at": "2026-11-06T20:16:21.068641+00:00",
     "layers": [
       "top",
       "inner1",

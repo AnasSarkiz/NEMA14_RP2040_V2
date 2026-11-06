@@ -1,6 +1,6 @@
 import React from "react"
-const objPath = "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040/4121abe07485b9b255c787decec68f6dc0cac1b0/imports/supplier/A_0402CG150J500NT/A_0402CG150J500NT.obj"
-const stepPath = "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040/4121abe07485b9b255c787decec68f6dc0cac1b0/imports/supplier/A_0402CG150J500NT/A_0402CG150J500NT.step"
+const objPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C1548.obj"
+const stepPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C1548.step"
 import type { CapacitorProps } from "@tscircuit/props"
 
 const pinAttributes = {

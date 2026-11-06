@@ -2,6 +2,7 @@
 import argparse, base64, hashlib, html as html_escape, json, re
 from pathlib import Path
 from urllib.parse import urlparse, unquote
+from v2_model_assets import local_model
 
 ROOT=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser(description=__doc__)
@@ -25,8 +26,13 @@ for element in circuit:
     for field in ['model_obj_url','model_glb_url']:
         obj=element.get(field)
         if not obj:continue
+        if obj.startswith('https://modelcdn.tscircuit.com/'):
+            path=local_model(obj)
+        else:
+            path=None
         decoded=unquote(urlparse(obj).path)
-        if '/imports/supplier/' in decoded:
+        if path is not None:pass
+        elif '/imports/supplier/' in decoded:
             path=ROOT/('imports/supplier/'+decoded.split('/imports/supplier/',1)[1])
         elif '/imports/assembly/' in decoded:
             path=ROOT/('imports/assembly/'+decoded.split('/imports/assembly/',1)[1])

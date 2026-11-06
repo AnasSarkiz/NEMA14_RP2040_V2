@@ -6,6 +6,7 @@ import { execFileSync } from "node:child_process"
 import { Resvg } from "@resvg/resvg-js"
 const cleanSvg=(svg:string)=>svg.replace(/[ \t]+$/gm,"")
 import Board from "../src/board"
+import {normalizeV2ModelUrls} from "./v2-model-assets"
 import { classifySource } from "./classify-source"
 import { prepareSchematic } from "./prepare-schematic"
 import { normalizeMetadata } from "./normalize-metadata"
@@ -19,7 +20,7 @@ circuit.pcbRoutingDisabled = true
 circuit._featureMspSchematicTraceRouting = false
 circuit.add(<Board routingDisabled />)
 await circuit.renderUntilSettled()
-const raw = prepareV2Silkscreen(prepareV2UsbDrills(normalizeMetadata(classifySource(circuit.getCircuitJson()))))
+const raw = prepareV2Silkscreen(prepareV2UsbDrills(normalizeMetadata(classifySource(normalizeV2ModelUrls(circuit.getCircuitJson())))))
 mkdirSync("artifacts/v2", {recursive:true})
 writeFileSync("artifacts/v2/raw.circuit.json", JSON.stringify(raw,null,2)+"\n")
 const json = prepareSchematic(raw)

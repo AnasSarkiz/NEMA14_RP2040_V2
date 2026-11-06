@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "validator_repository": "https://github.com/tscircuit/board-blend",
+  "validator_revision": "761a2e743410000f260f48ac215f8a85ce7b6bea",
+  "validator_sha256": "c016a796de0a328ff2b6630da51ff42e329975ea6499bd624a3d184c7f0f20ff",
+  "dev10_reproduced_error": "Model resource host is not allowed.",
+  "checked": [
+    {
+      "path": "artifacts/v2/routing/freerouted.circuit.json",
+      "sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a",
+      "passed": true,
+      "github_negative_control_rejected": true
+    },
+    {
+      "path": "artifacts/v2/source.circuit.json",
+      "sha256": "e7a50bd6625bf5c873562cc6a6b2add99d1b518596a9836fe7ec2b84d53c4f88",
+      "passed": true,
+      "github_negative_control_rejected": true
+    },
+    {
+      "path": "assembly.circuit.json",
+      "sha256": "4be28e9542bb87b1953b2a6707180449cad2e5f81d4898410577ef225b79a252",
+      "passed": true,
+      "github_negative_control_rejected": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "source_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a",
+  "source_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a",
   "scope": "High-priority text only, native Gerber ink; 0.20 mm exposed-pad/hole and label clearance, 0.25 mm board edge; fitted-body and screw-head visibility; not a full CAM release",
   "critical_label_count": 14,
   "motor_pin_net_and_column_checks_passed": true,

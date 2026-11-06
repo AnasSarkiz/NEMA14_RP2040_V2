@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "baseline_revision": "23fcd146dc8d56445e79f04d57a1587bfda97569",
+  "assets": 87,
+  "files": {
+    "artifacts/v2/routing/freerouted.circuit.json": {
+      "model_url_references": 196,
+      "all_other_records_exactly_unchanged": true
+    },
+    "artifacts/v2/source.circuit.json": {
+      "model_url_references": 196,
+      "all_other_records_exactly_unchanged": true
+    },
+    "assembly.circuit.json": {
+      "model_url_references": 197,
+      "all_other_records_exactly_unchanged": true
+    }
+  },
+  "board_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a",
+  "source_sha256": "e7a50bd6625bf5c873562cc6a6b2add99d1b518596a9836fe7ec2b84d53c4f88",
+  "assembly_sha256": "4be28e9542bb87b1953b2a6707180449cad2e5f81d4898410577ef225b79a252",
+  "geometry_transforms_scale_supplier_choices_and_wires_preserved": true
+}

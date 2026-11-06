@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs"
 import { createHash } from "node:crypto"
 import { execFileSync } from "node:child_process"
 import { convertCircuitJsonToGltf } from "circuit-json-to-gltf"
+import { localModelAsset } from './v2-model-assets'
 const assemblyOut=process.argv.includes("--v2")?"artifacts/v2/assembly":"artifacts/top-assembly"
 const root=process.cwd(), cache="/tmp/nema14-assembly-model-cache"
 mkdirSync(cache,{recursive:true})
@@ -9,7 +10,7 @@ const nativeFetch=globalThis.fetch
 const modelDownloads:any[]=[]
 globalThis.fetch=(async(input:any,init:any)=>{
  const url=String(input instanceof Request?input.url:input)
- let local=url.startsWith(root+"/")?url:undefined
+ let local=localModelAsset(url)??(url.startsWith(root+"/")?url:undefined)
  const marker="/imports/supplier/",at=url.indexOf(marker)
  if(at>=0) local=root+url.slice(at)
  if(local && existsSync(local)) return new Response(readFileSync(local),{status:200})

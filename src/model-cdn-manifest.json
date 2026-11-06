@@ -1,0 +1,875 @@
+{
+  "workflow": "modelcdn documented fetch-and-cache; motor URL from original provenance",
+  "assets": {
+    "imports/assembly/nema14-dimensional-reference.glb": {
+      "url": "https://modelcdn.tscircuit.com/jscad_models/nema17_bodywidth35.2mm_bodylength28.2mm_holespacing26mm_holediameter3mm_holedepth4mm_shaftlength24mm_shaftdiameter5mm_dshaft_flatdepth0.5mm_flatlength15mm_nowires_wireangle270deg.glb",
+      "sha256": "ca178224b858dff7f5f297ebedfcfc445e048313cd843ccac854ecb489f8fe18",
+      "bytes": 1213112,
+      "model_source_part": null,
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/gltf-binary",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A4988SETTR_T/A4988SETTR_T.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C38437.obj",
+      "sha256": "01eb47f12909a50a9f70825ab23b31c6be4b33ffe26bd7c8697f94077b87ebd9",
+      "bytes": 80209,
+      "model_source_part": "C38437",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A4988SETTR_T/A4988SETTR_T.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C38437.step",
+      "sha256": "578a8ff75c4016df2d5e6e332aba2899ef713bf2d1c439906bc57edf2a57e121",
+      "bytes": 1874198,
+      "model_source_part": "C38437",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/ABM8_272_T3/ABM8_272_T3.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C20625731.obj",
+      "sha256": "4b75001f08c9e627eb8c88ca2c599b8b278cbe76d399495cfd15b2fc366c45a7",
+      "bytes": 133015,
+      "model_source_part": "C20625731",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/ABM8_272_T3/ABM8_272_T3.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C20625731.step",
+      "sha256": "55aee3da5b1518e84230f692ed298823bc71771ac97e871a21b265f0b4f8232b",
+      "bytes": 1285360,
+      "model_source_part": "C20625731",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/AP63203WU_7/AP63203WU_7.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C780769.obj",
+      "sha256": "6bf633f38ffa66eddae4e52f2e0134e27604a77f2e70a2a65f73e02b6c5d5d69",
+      "bytes": 82763,
+      "model_source_part": "C780769",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/AP63203WU_7/AP63203WU_7.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C780769.step",
+      "sha256": "4420c424f4a2941b36f28b622f6950c965439c7c9525e1961bb8384ef58a6dd9",
+      "bytes": 1646923,
+      "model_source_part": "C780769",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402CG150J500NT/A_0402CG150J500NT.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C1548.obj",
+      "sha256": "11ff3d0e00ddf06caa7ba9e7a4127aa407425d2dbeb9d33203f865f52a44590d",
+      "bytes": 55992,
+      "model_source_part": "C1548",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402CG150J500NT/A_0402CG150J500NT.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C1548.step",
+      "sha256": "b49e77a39a55d45c078607d8c791cc5521719fc0140e660f44a3e122fe57af14",
+      "bytes": 1481985,
+      "model_source_part": "C1548",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF1000TCE/A_0402WGF1000TCE.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25076.obj",
+      "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
+      "bytes": 18730,
+      "model_source_part": "C25076",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF1000TCE/A_0402WGF1000TCE.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25076.step",
+      "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
+      "bytes": 1068271,
+      "model_source_part": "C25076",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF1001TCE/A_0402WGF1001TCE.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C11702.obj",
+      "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
+      "bytes": 18730,
+      "model_source_part": "C11702",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF1001TCE/A_0402WGF1001TCE.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C11702.step",
+      "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
+      "bytes": 1068271,
+      "model_source_part": "C11702",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF1002TCE/A_0402WGF1002TCE.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25744.obj",
+      "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
+      "bytes": 18730,
+      "model_source_part": "C25744",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF1002TCE/A_0402WGF1002TCE.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25744.step",
+      "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
+      "bytes": 1068271,
+      "model_source_part": "C25744",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF1003TCE/A_0402WGF1003TCE.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25741.obj",
+      "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
+      "bytes": 18730,
+      "model_source_part": "C25741",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF1003TCE/A_0402WGF1003TCE.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25741.step",
+      "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
+      "bytes": 1068271,
+      "model_source_part": "C25741",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF270JTCE/A_0402WGF270JTCE.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25100.obj",
+      "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
+      "bytes": 18730,
+      "model_source_part": "C25100",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF270JTCE/A_0402WGF270JTCE.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25100.step",
+      "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
+      "bytes": 1068271,
+      "model_source_part": "C25100",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF3300TCE/A_0402WGF3300TCE.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25104.obj",
+      "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
+      "bytes": 18730,
+      "model_source_part": "C25104",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF3300TCE/A_0402WGF3300TCE.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25104.step",
+      "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
+      "bytes": 1068271,
+      "model_source_part": "C25104",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25900.obj",
+      "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
+      "bytes": 18730,
+      "model_source_part": "C25900",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25900.step",
+      "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
+      "bytes": 1068271,
+      "model_source_part": "C25900",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF5101TCE/A_0402WGF5101TCE.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25905.obj",
+      "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
+      "bytes": 18730,
+      "model_source_part": "C25905",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0402WGF5101TCE/A_0402WGF5101TCE.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25905.step",
+      "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
+      "bytes": 1068271,
+      "model_source_part": "C25905",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25804.obj",
+      "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+      "bytes": 78929,
+      "model_source_part": "C25804",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25804.step",
+      "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
+      "bytes": 1046696,
+      "model_source_part": "C25804",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C23153.obj",
+      "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+      "bytes": 78929,
+      "model_source_part": "C23153",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C23153.step",
+      "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
+      "bytes": 1046696,
+      "model_source_part": "C23153",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_250_204/A_250_204.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2765063.obj",
+      "sha256": "0ba19a68b312003e9c166fd4efd56ec3d4aa98a250e96874093be280f72fd11d",
+      "bytes": 125518,
+      "model_source_part": "C2765063",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/A_250_204/A_250_204.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2765063.step",
+      "sha256": "7cfb807c6d3eb57ff0120aec790591d6fb3b71e85dd4b88cb383ddc99a1eb3a9",
+      "bytes": 1962289,
+      "model_source_part": "C2765063",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/B5819WS/B5819WS.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C64886.obj",
+      "sha256": "d80b1280ab715ab64d8d0d839353d728435d675c64844a6df39248f1918a22c9",
+      "bytes": 130036,
+      "model_source_part": "C64886",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/B5819WS/B5819WS.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C64886.step",
+      "sha256": "9d3d6f4ee4b582bb1ba7152befc7da6217084253623b730b996aacec436ec089",
+      "bytes": 1128708,
+      "model_source_part": "C64886",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/B5819W_SL/B5819W_SL.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C8598.obj",
+      "sha256": "7c8e2c97e9b3e5c32c1eca57a40e13681407e988333317e3024a8635b37b7344",
+      "bytes": 61981,
+      "model_source_part": "C8598",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/B5819W_SL/B5819W_SL.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C8598.step",
+      "sha256": "f2468af30d27a00c11bf5070ed3293c491829997423ccad7906ca52893418de7",
+      "bytes": 1130934,
+      "model_source_part": "C8598",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CH224K/CH224K.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C970725.obj",
+      "sha256": "9fceace97b3056c9b525486645e2f69ac9290eee319061ac743edf3570fb6296",
+      "bytes": 60457,
+      "model_source_part": "C970725",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CH224K/CH224K.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C970725.step",
+      "sha256": "d18445242d4c9c099a3b99743d6cf639e9433f0b32efd8152de33d2d4984c8a7",
+      "bytes": 1724834,
+      "model_source_part": "C970725",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL05A105KA5NQNC/CL05A105KA5NQNC.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C52923.obj",
+      "sha256": "11ff3d0e00ddf06caa7ba9e7a4127aa407425d2dbeb9d33203f865f52a44590d",
+      "bytes": 55992,
+      "model_source_part": "C52923",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL05A105KA5NQNC/CL05A105KA5NQNC.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C52923.step",
+      "sha256": "b49e77a39a55d45c078607d8c791cc5521719fc0140e660f44a3e122fe57af14",
+      "bytes": 1481985,
+      "model_source_part": "C52923",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL05B103KB5NNNC/CL05B103KB5NNNC.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C15195.obj",
+      "sha256": "11ff3d0e00ddf06caa7ba9e7a4127aa407425d2dbeb9d33203f865f52a44590d",
+      "bytes": 55992,
+      "model_source_part": "C15195",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL05B103KB5NNNC/CL05B103KB5NNNC.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C15195.step",
+      "sha256": "b49e77a39a55d45c078607d8c791cc5521719fc0140e660f44a3e122fe57af14",
+      "bytes": 1481985,
+      "model_source_part": "C15195",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL05B104KB5NNNC/CL05B104KB5NNNC.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C960916.obj",
+      "sha256": "11ff3d0e00ddf06caa7ba9e7a4127aa407425d2dbeb9d33203f865f52a44590d",
+      "bytes": 55992,
+      "model_source_part": "C960916",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL05B104KB5NNNC/CL05B104KB5NNNC.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C960916.step",
+      "sha256": "b49e77a39a55d45c078607d8c791cc5521719fc0140e660f44a3e122fe57af14",
+      "bytes": 1481985,
+      "model_source_part": "C960916",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL05B104KO5NNNC/CL05B104KO5NNNC.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C1525.obj",
+      "sha256": "11ff3d0e00ddf06caa7ba9e7a4127aa407425d2dbeb9d33203f865f52a44590d",
+      "bytes": 55992,
+      "model_source_part": "C1525",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL05B104KO5NNNC/CL05B104KO5NNNC.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C1525.step",
+      "sha256": "b49e77a39a55d45c078607d8c791cc5521719fc0140e660f44a3e122fe57af14",
+      "bytes": 1481985,
+      "model_source_part": "C1525",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C15849.obj",
+      "sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
+      "bytes": 57506,
+      "model_source_part": "C15849",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C15849.step",
+      "sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
+      "bytes": 1468156,
+      "model_source_part": "C15849",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL10A106KP8NNNC/CL10A106KP8NNNC.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C19702.obj",
+      "sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
+      "bytes": 57506,
+      "model_source_part": "C19702",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL10A106KP8NNNC/CL10A106KP8NNNC.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C19702.step",
+      "sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
+      "bytes": 1468156,
+      "model_source_part": "C19702",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C21120.obj",
+      "sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
+      "bytes": 57506,
+      "model_source_part": "C21120",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C21120.step",
+      "sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
+      "bytes": 1468156,
+      "model_source_part": "C21120",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL21A226MAQNNNE/CL21A226MAQNNNE.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C45783.obj",
+      "sha256": "a6ecf4d78195d1f061b045e187fdff13726b03dc2475a4f11803b44d86adebc1",
+      "bytes": 57153,
+      "model_source_part": "C45783",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL21A226MAQNNNE/CL21A226MAQNNNE.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C45783.step",
+      "sha256": "67f86cfc9ebba2ff889d65b12f5d49d5a90b265b73635a931d68c6a27d34e11f",
+      "bytes": 1480687,
+      "model_source_part": "C45783",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL31A106KBHNNNE/CL31A106KBHNNNE.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C13585.obj",
+      "sha256": "d725fdbb4ab326035448275626e2022faef2bcdf473e3b7654e25f6308d096c0",
+      "bytes": 120447,
+      "model_source_part": "C13585",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/CL31A106KBHNNNE/CL31A106KBHNNNE.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C13585.step",
+      "sha256": "a3b636a587c98bf5baa4dcd6af15732c43a5f396ec40d2b987bd6db5417c8265",
+      "bytes": 1169799,
+      "model_source_part": "C13585",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/DMN2300UFB4_7B/DMN2300UFB4_7B.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C154728.obj?uuid=c4a72fda97734ddfadf5f796f604199d",
+      "sha256": "310882fefbe8a4a1b7b28b691a8221ef7033e0392c7fc15bc6f78f75b555c3a2",
+      "bytes": 49468,
+      "model_source_part": "C154728",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/DMN2300UFB4_7B/DMN2300UFB4_7B.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C154728.step?uuid=c4a72fda97734ddfadf5f796f604199d",
+      "sha256": "6a9b9c68d076d0fd14ee931163968ea614359a0a5dbc1f045723d3bdd3179095",
+      "bytes": 1468099,
+      "model_source_part": "C154728",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/EEEFT1V470AR/EEEFT1V470AR.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C193627.obj",
+      "sha256": "410964d6d5209f3e3b6457ba713973858c49730e46819aeeade153b0eec1d162",
+      "bytes": 162125,
+      "model_source_part": "C193627",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/EEEFT1V470AR/EEEFT1V470AR.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C193627.step",
+      "sha256": "8cb9d32ef03387a75d8f5f58c0bebc026279848a23f464ae8116ef7acb4a1dab",
+      "bytes": 1112119,
+      "model_source_part": "C193627",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/ERJL06KF50MV/ERJL06KF50MV.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C713441.obj",
+      "sha256": "6bbe05c8bf2262e8c377c9a7cb422b1725e8842352dcd40bc47f3a573bb08a84",
+      "bytes": 18763,
+      "model_source_part": "C713441",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/ERJL06KF50MV/ERJL06KF50MV.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C713441.step",
+      "sha256": "fc4726ad0364128aa67ad16e76bace8fa7a85fb80514f68d5fbf53d114860b6f",
+      "bytes": 1067918,
+      "model_source_part": "C713441",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/ERJPA3F1001V/ERJPA3F1001V.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C441922.obj",
+      "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+      "bytes": 78929,
+      "model_source_part": "C441922",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/ERJPA3F1001V/ERJPA3F1001V.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C441922.step",
+      "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
+      "bytes": 1046696,
+      "model_source_part": "C441922",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/GD25Q16EEIGR/GD25Q16EEIGR.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2986331.obj",
+      "sha256": "a0a193afc869824c333a2720df80d5266114ac8f11734b8a5ef0e93a325f83ed",
+      "bytes": 86770,
+      "model_source_part": "C2986331",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/GD25Q16EEIGR/GD25Q16EEIGR.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2986331.step",
+      "sha256": "2dd22ac0001afff0442bc446a8b088ace9dc27630dd4d061bd9837e310011c20",
+      "bytes": 1087615,
+      "model_source_part": "C2986331",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/INA240A1PWR/INA240A1PWR.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C93965.obj",
+      "sha256": "2299384de12bc8840655718ec32399565cc67fe7c9ce99237fa5bfe232b1a2c7",
+      "bytes": 71795,
+      "model_source_part": "C93965",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/INA240A1PWR/INA240A1PWR.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C93965.step",
+      "sha256": "5214bbca4ac829802d67878b1c6ca4197101a1db594bd882650feafb375a2ee7",
+      "bytes": 541879,
+      "model_source_part": "C93965",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/LTST_C19HE1WT/LTST_C19HE1WT.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C458749.obj",
+      "sha256": "91d2ed9dbc575337fd7846c7fffc5d6380171764896dfc49ed433cf571c81d1b",
+      "bytes": 34547,
+      "model_source_part": "C458749",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/LTST_C19HE1WT/LTST_C19HE1WT.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C458749.step",
+      "sha256": "4d884195af669a79ba1a7ccb92c3839d71d0b835ba2fb1ecc412eba220364593",
+      "bytes": 1458582,
+      "model_source_part": "C458749",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/MLT_5020/MLT_5020.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C94598.obj",
+      "sha256": "bb843b8f6a60474d75146187d2a08d8d5c8e1ac4b9e2ff4331cc13beef10191a",
+      "bytes": 35677,
+      "model_source_part": "C94598",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/MLT_5020/MLT_5020.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C94598.step",
+      "sha256": "867309604960a2d7b111a32890275508b957a192f906f17a71728fc991489fac",
+      "bytes": 1435098,
+      "model_source_part": "C94598",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/RP2040/RP2040.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2040.obj",
+      "sha256": "a3a668d5b1ab3b8962838676908b1a52503a1374525738f51d09eef15bbcd39e",
+      "bytes": 167735,
+      "model_source_part": "C2040",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/RP2040/RP2040.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2040.step",
+      "sha256": "174a866c06fe9b824f197259a77cb3b39625ba986ddd7214fb32f0d873eb4bbd",
+      "bytes": 2121609,
+      "model_source_part": "C2040",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/SMF18A/SMF18A.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C19077512.obj",
+      "sha256": "da7ea2615c07f6b32365b75ea560ce49a73847950b28adc2758b09e13fab6d3a",
+      "bytes": 41142,
+      "model_source_part": "C19077512",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/SMF18A/SMF18A.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C19077512.step",
+      "sha256": "09d6262e2e56a71ebe143062f98e269803bdd3ebbb9d1202f29942ae90e5109f",
+      "bytes": 1090348,
+      "model_source_part": "C19077512",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/SR731JTTDR240F/SR731JTTDR240F.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C186557.obj",
+      "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+      "bytes": 78929,
+      "model_source_part": "C186557",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/SR731JTTDR240F/SR731JTTDR240F.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C186557.step",
+      "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
+      "bytes": 1046696,
+      "model_source_part": "C186557",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/SRN4018_4R7M/SRN4018_4R7M.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C780206.obj",
+      "sha256": "108e122d483c901c50656619eb0b126d30b2570239c220269cf2ff7b06bb5103",
+      "bytes": 296904,
+      "model_source_part": "C780206",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/SRN4018_4R7M/SRN4018_4R7M.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C780206.step",
+      "sha256": "602eb8887a3d6867e46f5d07ff979eb717ad6d2f6ffd317763873cddebdab782",
+      "bytes": 1360285,
+      "model_source_part": "C780206",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/TMP102AIDRLR/TMP102AIDRLR.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C99269.obj?uuid=ec2270bac0544bf5afe06b24e8356512",
+      "sha256": "bc86540062da17394ffedde912df61cf4e9388c732bf220ad4f3237430ae3c59",
+      "bytes": 104973,
+      "model_source_part": "C99269",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/TMP102AIDRLR/TMP102AIDRLR.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C99269.step?uuid=ec2270bac0544bf5afe06b24e8356512",
+      "sha256": "2fa2e0f7cefa8b58279161303b6e060e28345b91cc712c9c548aa9b06a56d4b6",
+      "bytes": 2388676,
+      "model_source_part": "C99269",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C5815189.obj",
+      "sha256": "39f20ea318cd7eb64a56cd55d4d793922c83ebfdb6ce5314f968fcda7aee196e",
+      "bytes": 452380,
+      "model_source_part": "C5815189",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C5815189.step",
+      "sha256": "37a757d880a4d9fd7245a628c6d26d1d405e234fb7ea8a957dfd7486c6544327",
+      "bytes": 4904228,
+      "model_source_part": "C5815189",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2687116.obj",
+      "sha256": "b4a68fd1399fd2ab9e7baf51fd4bb6dd8b2a8be45c2b632e1f2c84723c5d7e45",
+      "bytes": 565628,
+      "model_source_part": "C2687116",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2687116.step",
+      "sha256": "53901e8dbe77366e4c00f90fd3613933fd2db1f1453ddc9eee51d8a18d44dbff",
+      "bytes": 3277419,
+      "model_source_part": "C2687116",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/XL_1608SURC_06/XL_1608SURC_06.obj": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C965799.obj",
+      "sha256": "48b853b32050e3b0fe52d090b0c82f45539d9917a32d294915d0ef32bb8fbbee",
+      "bytes": 42469,
+      "model_source_part": "C965799",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "application/octet-stream",
+      "access_control_allow_origin": "*"
+    },
+    "imports/supplier/XL_1608SURC_06/XL_1608SURC_06.step": {
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C965799.step",
+      "sha256": "fab2695222ffaa79870ed46cefbbc99c0c4f0c2752ed686b150d2720065b3be6",
+      "bytes": 1476247,
+      "model_source_part": "C965799",
+      "http_status": 200,
+      "no_redirect": true,
+      "content_type": "model/step",
+      "access_control_allow_origin": "*"
+    }
+  }
+}

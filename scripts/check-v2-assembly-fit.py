@@ -4,6 +4,7 @@ This checks nominal CAD envelopes; factory wire fit and motor rear retention
 remain unqualified. Internal clamp contact/strip depth is not modeled.
 """
 from pathlib import Path
+from v2_model_assets import local_model
 import json,math,hashlib,itertools
 import cadquery as cq
 R=Path(__file__).resolve().parents[1];board_bytes=(R/'artifacts/v2/routing/freerouted.circuit.json').read_bytes();board=json.loads(board_bytes);assembly_bytes=(R/'assembly.circuit.json').read_bytes();j=json.loads(assembly_bytes);h=json.loads((R/'artifacts/v2/assembly/harness-definition.json').read_text())
@@ -17,7 +18,7 @@ def lower(a,b):return math.sqrt(sum(max(a[k]-b[k+3],b[k]-a[k+3],0)**2 for k in r
 def add(name,s):parts[name]=s;bounds[name]=bb(s)
 for e in board:
  if e['type']!='cad_component' or not e.get('model_step_url') or e['source_component_id'] in dnp:continue
- path=R/('imports/supplier/'+e['model_step_url'].split('/imports/supplier/')[-1])
+ path=local_model(e['model_step_url'])
  if str(path) not in cache:cache[str(path)]=cq.importers.importStep(str(path)).val()
  shape=cache[str(path)];origin=e['model_origin_position'];shape=shape.translate(tuple(-origin[k] for k in 'xyz'))
  for k,axis in zip('xyz',[(1,0,0),(0,1,0),(0,0,1)]):

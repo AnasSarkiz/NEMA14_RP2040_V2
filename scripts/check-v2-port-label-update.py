@@ -1,6 +1,7 @@
 """Verify enlarged port legends, translated wordmark and final bottom ink."""
 import hashlib, importlib.util, json, subprocess, tempfile, zipfile
 from pathlib import Path
+from v2_model_assets import without_model_urls
 from shapely.geometry import box, shape, LineString
 from shapely.ops import unary_union
 
@@ -29,7 +30,7 @@ for original, moved in zip(old_logo['routes'], new_logo['routes']):
     logo_ids.add(record['pcb_silkscreen_path_id'])
 def retained(rows):
     kept = [e for e in rows if e.get('pcb_silkscreen_text_id') not in ids and e.get('pcb_silkscreen_path_id') not in logo_ids]
-    keyed = {(e['type'], e.get(e['type'] + '_id')): e for e in kept}
+    keyed = {(e['type'], e.get(e['type'] + '_id')): e for e in without_model_urls(kept)}
     assert len(keyed) == len(kept), 'Duplicate record identity'
     return keyed
 assert retained(old) == retained(new), 'Unexpected change outside three silkscreen legends'

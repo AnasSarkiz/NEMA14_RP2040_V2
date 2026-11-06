@@ -1,6 +1,6 @@
 import React from "react"
-const objPath = "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040/4121abe07485b9b255c787decec68f6dc0cac1b0/imports/supplier/A4988SETTR_T/A4988SETTR_T.obj"
-const stepPath = "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040/4121abe07485b9b255c787decec68f6dc0cac1b0/imports/supplier/A4988SETTR_T/A4988SETTR_T.step"
+const objPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C38437.obj"
+const stepPath = "https://modelcdn.tscircuit.com/easyeda_models/assets/C38437.step"
 import type { ChipProps } from "@tscircuit/props"
 
 const pinLabels = {

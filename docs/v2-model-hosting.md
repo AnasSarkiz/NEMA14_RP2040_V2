@@ -44,3 +44,19 @@ Validation:
   status and download its PNG. This does not retry an old release's saved input.
 
 Evidence and final render status are in `artifacts/v2/model-hosting/`.
+
+Final result: **2.0.0-dev.11** published as release
+`d2d5cb42-e81f-49ce-8943-77a2035a0429`. The new angled render succeeded on
+2026-11-06 at 20:24:21 UTC using this release's `dist/index/circuit.json`.
+The PNG was downloaded and visually inspected. See the
+[render](../artifacts/v2/model-hosting/photorealistic-angled.png) and
+[render receipt](../artifacts/v2/model-hosting/photorealistic-render-verification.json).
+
+All 87 external assets return HTTP 200 without redirects, with browser CORS
+access, and match original SHA-256 digests. The entire rebuilt assembly GLB is
+also byte-identical to dev.10 (`8212af7995fdd115930aa80ac0f44495c734ea9e22650343f0656b4d70292728`).
+The real Board Blend validator passes on the downloaded published file, and the
+refreshed checks retain 70 connected nets, zero shorts, zero native DRC errors or
+warnings and a passing manufacturing audit. There is no remaining model-hosting
+or render-verification blocker. Existing mechanical and electrical prototype
+qualification limits remain outside this URL-only repair.

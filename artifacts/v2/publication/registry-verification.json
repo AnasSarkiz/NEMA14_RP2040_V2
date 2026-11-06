@@ -2,16 +2,16 @@
   "passed": true,
   "scope": "V2 engineering preview; not manufacturing release",
   "package": "AnasSarkiz/NEMA14_RP2040_V2",
-  "version": "2.0.0-dev.10",
+  "version": "2.0.0-dev.11",
   "github_repository": "AnasSarkiz/NEMA14_RP2040_V2",
   "github_source_repository": "AnasSarkiz/NEMA14_RP2040_V2",
-  "github_source_revision": "775c1bedbde623a851b0ebc5fd7c4b9f166a0919",
+  "github_source_revision": "1bedc87e95d88da2487e9e01c44a7dc101105816",
   "separate_github_repository_pending": false,
-  "reviewed_board_sha256": "e5bc01df4c1de53ab8aa459546d5a6552320c93c960945f3966feffa8d444f4a",
-  "published_board_sha256": "9376c9635dccdd0306b077eea96dc44e497a7a50eaf45220665fd2c67ea93d66",
+  "reviewed_board_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a",
+  "published_board_sha256": "ff59bde24d537373fc4e7de56a2012a306e773e3b02c5bf5c4ef89082c804c04",
   "only_CAD_model_URL_metadata_changed": true,
-  "assembly_sha256": "cb8a7404a028ff78183bfdb717228036b5655fdd479adbed42f6d8c0d41ce3b1",
-  "published_assembly_sha256": "1d80b286e2de125890a74714be0cfee8baf1deba49efc620c62e0f5ec80e802f",
+  "assembly_sha256": "4be28e9542bb87b1953b2a6707180449cad2e5f81d4898410577ef225b79a252",
+  "published_assembly_sha256": "c309a2d0262204bfb534983c3c64bf4dddf919b3754b3646156f1626067e30b6",
   "assembly_mechanical_parts": 9,
   "motor_rear_attachment_verified": false,
   "factory_wire_fit_verified": false,
@@ -28,461 +28,464 @@
     "imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.obj": {
       "sha256": "39f20ea318cd7eb64a56cd55d4d793922c83ebfdb6ce5314f968fcda7aee196e",
       "git_blob_sha": "ea5e62f35a77963c7c43f4d2561c42b33222f744",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C5815189.obj"
     },
     "imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.step": {
       "sha256": "37a757d880a4d9fd7245a628c6d26d1d405e234fb7ea8a957dfd7486c6544327",
       "git_blob_sha": "b3a4f77c87f0afc0915133dcc33a0fe98a28db2f",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C5815189.step"
     },
     "imports/supplier/CH224K/CH224K.obj": {
       "sha256": "9fceace97b3056c9b525486645e2f69ac9290eee319061ac743edf3570fb6296",
       "git_blob_sha": "fa9562cba5794382edf0c2da505d2e2b39c42271",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CH224K/CH224K.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C970725.obj"
     },
     "imports/supplier/CH224K/CH224K.step": {
       "sha256": "d18445242d4c9c099a3b99743d6cf639e9433f0b32efd8152de33d2d4984c8a7",
       "git_blob_sha": "b361ce4cf8659f5bcf83b54b789d7221e8d17e8a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CH224K/CH224K.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C970725.step"
     },
     "imports/supplier/ERJPA3F1001V/ERJPA3F1001V.obj": {
       "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "git_blob_sha": "17a0cd79c723f7e024e9a24a1cca0de94f825c4a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/ERJPA3F1001V/ERJPA3F1001V.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C441922.obj"
     },
     "imports/supplier/ERJPA3F1001V/ERJPA3F1001V.step": {
       "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "git_blob_sha": "bef99e1e73f3dd946d92824287a7024fb5e251c3",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/ERJPA3F1001V/ERJPA3F1001V.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C441922.step"
     },
     "imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.obj": {
       "sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "git_blob_sha": "0f1d6cbfe24038fc6c25e2442022b0d2945c47a3",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C15849.obj"
     },
     "imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.step": {
       "sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "git_blob_sha": "66f25b115e3c7b51b1e302b78686da56d4592ea8",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C15849.step"
     },
     "imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.obj": {
       "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "git_blob_sha": "17a0cd79c723f7e024e9a24a1cca0de94f825c4a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25804.obj"
     },
     "imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.step": {
       "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "git_blob_sha": "bef99e1e73f3dd946d92824287a7024fb5e251c3",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25804.step"
     },
     "imports/supplier/RP2040/RP2040.obj": {
       "sha256": "a3a668d5b1ab3b8962838676908b1a52503a1374525738f51d09eef15bbcd39e",
       "git_blob_sha": "238275b01661c76c88f7a543088730b7d5ef091f",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/RP2040/RP2040.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2040.obj"
     },
     "imports/supplier/RP2040/RP2040.step": {
       "sha256": "174a866c06fe9b824f197259a77cb3b39625ba986ddd7214fb32f0d873eb4bbd",
       "git_blob_sha": "9a83228b26a871e49def803b09002ea30cd98697",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/RP2040/RP2040.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2040.step"
     },
     "imports/supplier/CL05B104KO5NNNC/CL05B104KO5NNNC.obj": {
       "sha256": "11ff3d0e00ddf06caa7ba9e7a4127aa407425d2dbeb9d33203f865f52a44590d",
       "git_blob_sha": "493046f61da74cdcb89fe53f042d06a6d8e2ea5d",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL05B104KO5NNNC/CL05B104KO5NNNC.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C1525.obj"
     },
     "imports/supplier/CL05B104KO5NNNC/CL05B104KO5NNNC.step": {
       "sha256": "b49e77a39a55d45c078607d8c791cc5521719fc0140e660f44a3e122fe57af14",
       "git_blob_sha": "142dc17d562e60e5125b1279fa9ab8e22206d6a1",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL05B104KO5NNNC/CL05B104KO5NNNC.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C1525.step"
     },
     "imports/supplier/CL05A105KA5NQNC/CL05A105KA5NQNC.obj": {
       "sha256": "11ff3d0e00ddf06caa7ba9e7a4127aa407425d2dbeb9d33203f865f52a44590d",
       "git_blob_sha": "493046f61da74cdcb89fe53f042d06a6d8e2ea5d",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL05A105KA5NQNC/CL05A105KA5NQNC.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C52923.obj"
     },
     "imports/supplier/CL05A105KA5NQNC/CL05A105KA5NQNC.step": {
       "sha256": "b49e77a39a55d45c078607d8c791cc5521719fc0140e660f44a3e122fe57af14",
       "git_blob_sha": "142dc17d562e60e5125b1279fa9ab8e22206d6a1",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL05A105KA5NQNC/CL05A105KA5NQNC.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C52923.step"
     },
     "imports/supplier/GD25Q16EEIGR/GD25Q16EEIGR.obj": {
       "sha256": "a0a193afc869824c333a2720df80d5266114ac8f11734b8a5ef0e93a325f83ed",
       "git_blob_sha": "e7fd9bd3daf723c00ac7506796941952ad1b26e6",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/GD25Q16EEIGR/GD25Q16EEIGR.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2986331.obj"
     },
     "imports/supplier/GD25Q16EEIGR/GD25Q16EEIGR.step": {
       "sha256": "2dd22ac0001afff0442bc446a8b088ace9dc27630dd4d061bd9837e310011c20",
       "git_blob_sha": "7b6349b7c17b1a8d756ef13b76b1fca9bd90c915",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/GD25Q16EEIGR/GD25Q16EEIGR.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2986331.step"
     },
     "imports/supplier/A_0402WGF1002TCE/A_0402WGF1002TCE.obj": {
       "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
       "git_blob_sha": "8a1a17237dcf7892fe33ca27245e99235a303621",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF1002TCE/A_0402WGF1002TCE.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25744.obj"
     },
     "imports/supplier/A_0402WGF1002TCE/A_0402WGF1002TCE.step": {
       "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
       "git_blob_sha": "899cceb769462514da0576df0d1334a079647b2a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF1002TCE/A_0402WGF1002TCE.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25744.step"
     },
     "imports/supplier/A_0402WGF1001TCE/A_0402WGF1001TCE.obj": {
       "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
       "git_blob_sha": "8a1a17237dcf7892fe33ca27245e99235a303621",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF1001TCE/A_0402WGF1001TCE.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C11702.obj"
     },
     "imports/supplier/A_0402WGF1001TCE/A_0402WGF1001TCE.step": {
       "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
       "git_blob_sha": "899cceb769462514da0576df0d1334a079647b2a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF1001TCE/A_0402WGF1001TCE.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C11702.step"
     },
     "imports/supplier/ABM8_272_T3/ABM8_272_T3.obj": {
       "sha256": "4b75001f08c9e627eb8c88ca2c599b8b278cbe76d399495cfd15b2fc366c45a7",
       "git_blob_sha": "75886493388a4b26ab2c462c143a4817235db9ae",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/ABM8_272_T3/ABM8_272_T3.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C20625731.obj"
     },
     "imports/supplier/ABM8_272_T3/ABM8_272_T3.step": {
       "sha256": "55aee3da5b1518e84230f692ed298823bc71771ac97e871a21b265f0b4f8232b",
       "git_blob_sha": "d0884dc446b69f614be33cd80522774138fa1690",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/ABM8_272_T3/ABM8_272_T3.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C20625731.step"
     },
     "imports/supplier/A_0402CG150J500NT/A_0402CG150J500NT.obj": {
       "sha256": "11ff3d0e00ddf06caa7ba9e7a4127aa407425d2dbeb9d33203f865f52a44590d",
       "git_blob_sha": "493046f61da74cdcb89fe53f042d06a6d8e2ea5d",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402CG150J500NT/A_0402CG150J500NT.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C1548.obj"
     },
     "imports/supplier/A_0402CG150J500NT/A_0402CG150J500NT.step": {
       "sha256": "b49e77a39a55d45c078607d8c791cc5521719fc0140e660f44a3e122fe57af14",
       "git_blob_sha": "142dc17d562e60e5125b1279fa9ab8e22206d6a1",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402CG150J500NT/A_0402CG150J500NT.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C1548.step"
     },
     "imports/supplier/A_0402WGF270JTCE/A_0402WGF270JTCE.obj": {
       "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
       "git_blob_sha": "8a1a17237dcf7892fe33ca27245e99235a303621",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF270JTCE/A_0402WGF270JTCE.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25100.obj"
     },
     "imports/supplier/A_0402WGF270JTCE/A_0402WGF270JTCE.step": {
       "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
       "git_blob_sha": "899cceb769462514da0576df0d1334a079647b2a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF270JTCE/A_0402WGF270JTCE.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25100.step"
     },
     "imports/supplier/A_0402WGF5101TCE/A_0402WGF5101TCE.obj": {
       "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
       "git_blob_sha": "8a1a17237dcf7892fe33ca27245e99235a303621",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF5101TCE/A_0402WGF5101TCE.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25905.obj"
     },
     "imports/supplier/A_0402WGF5101TCE/A_0402WGF5101TCE.step": {
       "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
       "git_blob_sha": "899cceb769462514da0576df0d1334a079647b2a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF5101TCE/A_0402WGF5101TCE.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25905.step"
     },
     "imports/supplier/A_0402WGF1003TCE/A_0402WGF1003TCE.obj": {
       "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
       "git_blob_sha": "8a1a17237dcf7892fe33ca27245e99235a303621",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF1003TCE/A_0402WGF1003TCE.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25741.obj"
     },
     "imports/supplier/A_0402WGF1003TCE/A_0402WGF1003TCE.step": {
       "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
       "git_blob_sha": "899cceb769462514da0576df0d1334a079647b2a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF1003TCE/A_0402WGF1003TCE.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25741.step"
     },
     "imports/supplier/CL05B103KB5NNNC/CL05B103KB5NNNC.obj": {
       "sha256": "11ff3d0e00ddf06caa7ba9e7a4127aa407425d2dbeb9d33203f865f52a44590d",
       "git_blob_sha": "493046f61da74cdcb89fe53f042d06a6d8e2ea5d",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL05B103KB5NNNC/CL05B103KB5NNNC.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C15195.obj"
     },
     "imports/supplier/CL05B103KB5NNNC/CL05B103KB5NNNC.step": {
       "sha256": "b49e77a39a55d45c078607d8c791cc5521719fc0140e660f44a3e122fe57af14",
       "git_blob_sha": "142dc17d562e60e5125b1279fa9ab8e22206d6a1",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL05B103KB5NNNC/CL05B103KB5NNNC.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C15195.step"
     },
     "imports/supplier/AP63203WU_7/AP63203WU_7.obj": {
       "sha256": "6bf633f38ffa66eddae4e52f2e0134e27604a77f2e70a2a65f73e02b6c5d5d69",
       "git_blob_sha": "3ce773a77ffe4e4366e625ee872403b2016b921c",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/AP63203WU_7/AP63203WU_7.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C780769.obj"
     },
     "imports/supplier/AP63203WU_7/AP63203WU_7.step": {
       "sha256": "4420c424f4a2941b36f28b622f6950c965439c7c9525e1961bb8384ef58a6dd9",
       "git_blob_sha": "e0bd0946522fc2218df8db5f62e82d8dbbaf01e0",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/AP63203WU_7/AP63203WU_7.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C780769.step"
     },
     "imports/supplier/SRN4018_4R7M/SRN4018_4R7M.obj": {
       "sha256": "108e122d483c901c50656619eb0b126d30b2570239c220269cf2ff7b06bb5103",
       "git_blob_sha": "b17e1240a8c38b991445d7c6d770aef575dc8bfd",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/SRN4018_4R7M/SRN4018_4R7M.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C780206.obj"
     },
     "imports/supplier/SRN4018_4R7M/SRN4018_4R7M.step": {
       "sha256": "602eb8887a3d6867e46f5d07ff979eb717ad6d2f6ffd317763873cddebdab782",
       "git_blob_sha": "f5e8dcf7d65e6ae77318576ef59304ca48c8c687",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/SRN4018_4R7M/SRN4018_4R7M.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C780206.step"
     },
     "imports/supplier/CL31A106KBHNNNE/CL31A106KBHNNNE.obj": {
       "sha256": "d725fdbb4ab326035448275626e2022faef2bcdf473e3b7654e25f6308d096c0",
       "git_blob_sha": "311b0342cd3390f258eee41b601af78990bd429c",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL31A106KBHNNNE/CL31A106KBHNNNE.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C13585.obj"
     },
     "imports/supplier/CL31A106KBHNNNE/CL31A106KBHNNNE.step": {
       "sha256": "a3b636a587c98bf5baa4dcd6af15732c43a5f396ec40d2b987bd6db5417c8265",
       "git_blob_sha": "57ffe167f3c8f30f151cecfc47092c29331a3766",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL31A106KBHNNNE/CL31A106KBHNNNE.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C13585.step"
     },
     "imports/supplier/CL21A226MAQNNNE/CL21A226MAQNNNE.obj": {
       "sha256": "a6ecf4d78195d1f061b045e187fdff13726b03dc2475a4f11803b44d86adebc1",
       "git_blob_sha": "68f179c016e9949985d624b5f4dc206f16a64301",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL21A226MAQNNNE/CL21A226MAQNNNE.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C45783.obj"
     },
     "imports/supplier/CL21A226MAQNNNE/CL21A226MAQNNNE.step": {
       "sha256": "67f86cfc9ebba2ff889d65b12f5d49d5a90b265b73635a931d68c6a27d34e11f",
       "git_blob_sha": "77216ece0b9ac96bad2f6c3de9a6168bb2c2ff22",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL21A226MAQNNNE/CL21A226MAQNNNE.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C45783.step"
     },
     "imports/supplier/B5819W_SL/B5819W_SL.obj": {
       "sha256": "7c8e2c97e9b3e5c32c1eca57a40e13681407e988333317e3024a8635b37b7344",
       "git_blob_sha": "e5e57d9efeaec3bd7726a32e0329cbf64749b065",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/B5819W_SL/B5819W_SL.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C8598.obj"
     },
     "imports/supplier/B5819W_SL/B5819W_SL.step": {
       "sha256": "f2468af30d27a00c11bf5070ed3293c491829997423ccad7906ca52893418de7",
       "git_blob_sha": "0c420cea0336c38731eafc3e1375ec1ccdf7afe4",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/B5819W_SL/B5819W_SL.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C8598.step"
     },
     "imports/supplier/A4988SETTR_T/A4988SETTR_T.obj": {
       "sha256": "01eb47f12909a50a9f70825ab23b31c6be4b33ffe26bd7c8697f94077b87ebd9",
       "git_blob_sha": "8297d836a3bbfc1a448271a2241858023783459e",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A4988SETTR_T/A4988SETTR_T.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C38437.obj"
     },
     "imports/supplier/A4988SETTR_T/A4988SETTR_T.step": {
       "sha256": "578a8ff75c4016df2d5e6e332aba2899ef713bf2d1c439906bc57edf2a57e121",
       "git_blob_sha": "2882b3fc845996507fe8f89930e105936a953e35",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A4988SETTR_T/A4988SETTR_T.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C38437.step"
     },
     "imports/supplier/CL05B104KB5NNNC/CL05B104KB5NNNC.obj": {
       "sha256": "11ff3d0e00ddf06caa7ba9e7a4127aa407425d2dbeb9d33203f865f52a44590d",
       "git_blob_sha": "493046f61da74cdcb89fe53f042d06a6d8e2ea5d",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL05B104KB5NNNC/CL05B104KB5NNNC.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C960916.obj"
     },
     "imports/supplier/CL05B104KB5NNNC/CL05B104KB5NNNC.step": {
       "sha256": "b49e77a39a55d45c078607d8c791cc5521719fc0140e660f44a3e122fe57af14",
       "git_blob_sha": "142dc17d562e60e5125b1279fa9ab8e22206d6a1",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL05B104KB5NNNC/CL05B104KB5NNNC.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C960916.step"
     },
     "imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.obj": {
       "sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "git_blob_sha": "0f1d6cbfe24038fc6c25e2442022b0d2945c47a3",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C21120.obj"
     },
     "imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.step": {
       "sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "git_blob_sha": "66f25b115e3c7b51b1e302b78686da56d4592ea8",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C21120.step"
     },
     "imports/supplier/EEEFT1V470AR/EEEFT1V470AR.obj": {
       "sha256": "410964d6d5209f3e3b6457ba713973858c49730e46819aeeade153b0eec1d162",
       "git_blob_sha": "6156b824a9a23bb7f5e9b37cb87a201d8d82c25b",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/EEEFT1V470AR/EEEFT1V470AR.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C193627.obj"
     },
     "imports/supplier/EEEFT1V470AR/EEEFT1V470AR.step": {
       "sha256": "8cb9d32ef03387a75d8f5f58c0bebc026279848a23f464ae8116ef7acb4a1dab",
       "git_blob_sha": "552cb5755a1bf5839b8a0e7de195766546ef95ce",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/EEEFT1V470AR/EEEFT1V470AR.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C193627.step"
     },
     "imports/supplier/SR731JTTDR240F/SR731JTTDR240F.obj": {
       "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "git_blob_sha": "17a0cd79c723f7e024e9a24a1cca0de94f825c4a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/SR731JTTDR240F/SR731JTTDR240F.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C186557.obj"
     },
     "imports/supplier/SR731JTTDR240F/SR731JTTDR240F.step": {
       "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "git_blob_sha": "bef99e1e73f3dd946d92824287a7024fb5e251c3",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/SR731JTTDR240F/SR731JTTDR240F.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C186557.step"
     },
     "imports/supplier/ERJL06KF50MV/ERJL06KF50MV.obj": {
       "sha256": "6bbe05c8bf2262e8c377c9a7cb422b1725e8842352dcd40bc47f3a573bb08a84",
       "git_blob_sha": "6673bb80855f34665ce1040d85111eaf5005c3f6",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/ERJL06KF50MV/ERJL06KF50MV.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C713441.obj"
     },
     "imports/supplier/ERJL06KF50MV/ERJL06KF50MV.step": {
       "sha256": "fc4726ad0364128aa67ad16e76bace8fa7a85fb80514f68d5fbf53d114860b6f",
       "git_blob_sha": "78beb696e9c1d4fc5bfa83cc5ef68e3f361be6cb",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/ERJL06KF50MV/ERJL06KF50MV.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C713441.step"
     },
     "imports/supplier/INA240A1PWR/INA240A1PWR.obj": {
       "sha256": "2299384de12bc8840655718ec32399565cc67fe7c9ce99237fa5bfe232b1a2c7",
       "git_blob_sha": "3312cb5439a2a2d1dcd3d27df62adeeb45588f5b",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/INA240A1PWR/INA240A1PWR.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C93965.obj"
     },
     "imports/supplier/INA240A1PWR/INA240A1PWR.step": {
       "sha256": "5214bbca4ac829802d67878b1c6ca4197101a1db594bd882650feafb375a2ee7",
       "git_blob_sha": "80683b74e734ef7ff8af5002232fa7677a180cb9",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/INA240A1PWR/INA240A1PWR.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C93965.step"
     },
     "imports/supplier/A_0402WGF1000TCE/A_0402WGF1000TCE.obj": {
       "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
       "git_blob_sha": "8a1a17237dcf7892fe33ca27245e99235a303621",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF1000TCE/A_0402WGF1000TCE.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25076.obj"
     },
     "imports/supplier/A_0402WGF1000TCE/A_0402WGF1000TCE.step": {
       "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
       "git_blob_sha": "899cceb769462514da0576df0d1334a079647b2a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF1000TCE/A_0402WGF1000TCE.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25076.step"
     },
     "imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.obj": {
       "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "git_blob_sha": "17a0cd79c723f7e024e9a24a1cca0de94f825c4a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C23153.obj"
     },
     "imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.step": {
       "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "git_blob_sha": "bef99e1e73f3dd946d92824287a7024fb5e251c3",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C23153.step"
     },
     "imports/supplier/A_250_204/A_250_204.obj": {
       "sha256": "0ba19a68b312003e9c166fd4efd56ec3d4aa98a250e96874093be280f72fd11d",
       "git_blob_sha": "7cf9d1a16d7320d0bc26c4ef79646a103525fe25",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_250_204/A_250_204.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2765063.obj"
     },
     "imports/supplier/A_250_204/A_250_204.step": {
       "sha256": "7cfb807c6d3eb57ff0120aec790591d6fb3b71e85dd4b88cb383ddc99a1eb3a9",
       "git_blob_sha": "fb8c63110eb20c6d91136f83fffa9226012cab10",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_250_204/A_250_204.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2765063.step"
     },
     "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.obj": {
       "sha256": "b4a68fd1399fd2ab9e7baf51fd4bb6dd8b2a8be45c2b632e1f2c84723c5d7e45",
       "git_blob_sha": "1c92e3f571ab6e696b02c60f5c121e35d3ce0d09",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/USBLC6_2SC6/USBLC6_2SC6.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2687116.obj"
     },
     "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.step": {
       "sha256": "53901e8dbe77366e4c00f90fd3613933fd2db1f1453ddc9eee51d8a18d44dbff",
       "git_blob_sha": "59aa5ab2a4b2c85e5e28394ae0694b4125ffae32",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/USBLC6_2SC6/USBLC6_2SC6.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C2687116.step"
     },
     "imports/supplier/SMF18A/SMF18A.obj": {
       "sha256": "da7ea2615c07f6b32365b75ea560ce49a73847950b28adc2758b09e13fab6d3a",
       "git_blob_sha": "c74ba063e03ac38c5133f4507e717169fdd5eb9a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/SMF18A/SMF18A.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C19077512.obj"
     },
     "imports/supplier/SMF18A/SMF18A.step": {
       "sha256": "09d6262e2e56a71ebe143062f98e269803bdd3ebbb9d1202f29942ae90e5109f",
       "git_blob_sha": "14fda76a64f978936f910d81152eb79bb61f1cd4",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/SMF18A/SMF18A.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C19077512.step"
     },
     "imports/supplier/TMP102AIDRLR/TMP102AIDRLR.obj": {
       "sha256": "bc86540062da17394ffedde912df61cf4e9388c732bf220ad4f3237430ae3c59",
       "git_blob_sha": "3f9bf69893017e4c99556333ef9b5abb24a71337",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/TMP102AIDRLR/TMP102AIDRLR.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C99269.obj?uuid=ec2270bac0544bf5afe06b24e8356512"
     },
     "imports/supplier/TMP102AIDRLR/TMP102AIDRLR.step": {
       "sha256": "2fa2e0f7cefa8b58279161303b6e060e28345b91cc712c9c548aa9b06a56d4b6",
       "git_blob_sha": "72c4b2fe9912c2fa162f3e493f2f525d5e233a13",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/TMP102AIDRLR/TMP102AIDRLR.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C99269.step?uuid=ec2270bac0544bf5afe06b24e8356512"
     },
     "imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.obj": {
       "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
       "git_blob_sha": "8a1a17237dcf7892fe33ca27245e99235a303621",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25900.obj"
     },
     "imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.step": {
       "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
       "git_blob_sha": "899cceb769462514da0576df0d1334a079647b2a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25900.step"
     },
     "imports/supplier/XL_1608SURC_06/XL_1608SURC_06.obj": {
       "sha256": "48b853b32050e3b0fe52d090b0c82f45539d9917a32d294915d0ef32bb8fbbee",
       "git_blob_sha": "2dbd275cbafb2ce437278939e20bca7bb8f9b910",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/XL_1608SURC_06/XL_1608SURC_06.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C965799.obj"
     },
     "imports/supplier/XL_1608SURC_06/XL_1608SURC_06.step": {
       "sha256": "fab2695222ffaa79870ed46cefbbc99c0c4f0c2752ed686b150d2720065b3be6",
       "git_blob_sha": "29961e7703519b8d0bc61cd62f631df99b5a62e6",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/XL_1608SURC_06/XL_1608SURC_06.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C965799.step"
     },
     "imports/supplier/A_0402WGF3300TCE/A_0402WGF3300TCE.obj": {
       "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
       "git_blob_sha": "8a1a17237dcf7892fe33ca27245e99235a303621",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF3300TCE/A_0402WGF3300TCE.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25104.obj"
     },
     "imports/supplier/A_0402WGF3300TCE/A_0402WGF3300TCE.step": {
       "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
       "git_blob_sha": "899cceb769462514da0576df0d1334a079647b2a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/A_0402WGF3300TCE/A_0402WGF3300TCE.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C25104.step"
     },
     "imports/supplier/LTST_C19HE1WT/LTST_C19HE1WT.obj": {
       "sha256": "91d2ed9dbc575337fd7846c7fffc5d6380171764896dfc49ed433cf571c81d1b",
       "git_blob_sha": "0e8d07393266a5db4b116cdbac2906d4521fa543",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/LTST_C19HE1WT/LTST_C19HE1WT.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C458749.obj"
     },
     "imports/supplier/LTST_C19HE1WT/LTST_C19HE1WT.step": {
       "sha256": "4d884195af669a79ba1a7ccb92c3839d71d0b835ba2fb1ecc412eba220364593",
       "git_blob_sha": "c2efa4abe941983aa1ec6dcb50e60df4ad105e7e",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/LTST_C19HE1WT/LTST_C19HE1WT.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C458749.step"
     },
     "imports/supplier/DMN2300UFB4_7B/DMN2300UFB4_7B.obj": {
       "sha256": "310882fefbe8a4a1b7b28b691a8221ef7033e0392c7fc15bc6f78f75b555c3a2",
       "git_blob_sha": "231b2c986d38ba66578dc0120c9a25d3ad22285c",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/DMN2300UFB4_7B/DMN2300UFB4_7B.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C154728.obj?uuid=c4a72fda97734ddfadf5f796f604199d"
     },
     "imports/supplier/DMN2300UFB4_7B/DMN2300UFB4_7B.step": {
       "sha256": "6a9b9c68d076d0fd14ee931163968ea614359a0a5dbc1f045723d3bdd3179095",
       "git_blob_sha": "b1452adad033228f6e3fe9a05a6af4d1ddc77cae",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/DMN2300UFB4_7B/DMN2300UFB4_7B.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C154728.step?uuid=c4a72fda97734ddfadf5f796f604199d"
     },
     "imports/supplier/MLT_5020/MLT_5020.obj": {
       "sha256": "bb843b8f6a60474d75146187d2a08d8d5c8e1ac4b9e2ff4331cc13beef10191a",
       "git_blob_sha": "35f9ab7cc5a04d7077979d6f2c3c9147854871aa",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/MLT_5020/MLT_5020.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C94598.obj"
     },
     "imports/supplier/MLT_5020/MLT_5020.step": {
       "sha256": "867309604960a2d7b111a32890275508b957a192f906f17a71728fc991489fac",
       "git_blob_sha": "4516f6a517dc2a72414de616ffa196a19fda78b8",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/MLT_5020/MLT_5020.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C94598.step"
     },
     "imports/supplier/B5819WS/B5819WS.obj": {
       "sha256": "d80b1280ab715ab64d8d0d839353d728435d675c64844a6df39248f1918a22c9",
       "git_blob_sha": "8a3f7e55c0733150d12372891b0a9d412bf9b749",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/B5819WS/B5819WS.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C64886.obj"
     },
     "imports/supplier/B5819WS/B5819WS.step": {
       "sha256": "9d3d6f4ee4b582bb1ba7152befc7da6217084253623b730b996aacec436ec089",
       "git_blob_sha": "9d1920b137123e8b73eb46b4faee12be0f728355",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/B5819WS/B5819WS.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C64886.step"
     },
     "imports/supplier/CL10A106KP8NNNC/CL10A106KP8NNNC.obj": {
       "sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "git_blob_sha": "0f1d6cbfe24038fc6c25e2442022b0d2945c47a3",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL10A106KP8NNNC/CL10A106KP8NNNC.obj"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C19702.obj"
     },
     "imports/supplier/CL10A106KP8NNNC/CL10A106KP8NNNC.step": {
       "sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "git_blob_sha": "66f25b115e3c7b51b1e302b78686da56d4592ea8",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/supplier/CL10A106KP8NNNC/CL10A106KP8NNNC.step"
+      "url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C19702.step"
     },
     "imports/assembly/nema14-dimensional-reference.glb": {
       "sha256": "ca178224b858dff7f5f297ebedfcfc445e048313cd843ccac854ecb489f8fe18",
       "git_blob_sha": "be790526ed6af0dbeac638f0a92dee5c5d381c14",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA14_RP2040_V2/775c1bedbde623a851b0ebc5fd7c4b9f166a0919/imports/assembly/nema14-dimensional-reference.glb"
+      "url": "https://modelcdn.tscircuit.com/jscad_models/nema17_bodywidth35.2mm_bodylength28.2mm_holespacing26mm_holediameter3mm_holedepth4mm_shaftlength24mm_shaftdiameter5mm_dshaft_flatdepth0.5mm_flatlength15mm_nowires_wireangle270deg.glb"
     }
   },
-  "verified_at": "2026-11-04T13:06:32.448054+00:00",
-  "release_id": "b7eb48ea-b083-4544-a5c1-92479f29387b",
+  "model_host": "modelcdn.tscircuit.com",
+  "board_blend_validator_revision": "761a2e743410000f260f48ac215f8a85ce7b6bea",
+  "model_hosting_preservation_sha256": "d0eb63fa5f9f1c2b9e43e380375411f9a05a2f297ffeba8bd439b4681e4da08a",
+  "verified_at": "2026-11-06T20:25:13.627650+00:00",
+  "release_id": "d2d5cb42-e81f-49ce-8943-77a2035a0429",
   "registry_files_verified": [
     {
       "path": "index.circuit.json",
-      "sha256": "9376c9635dccdd0306b077eea96dc44e497a7a50eaf45220665fd2c67ea93d66"
+      "sha256": "ff59bde24d537373fc4e7de56a2012a306e773e3b02c5bf5c4ef89082c804c04"
     },
     {
       "path": "assembly.circuit.json",
-      "sha256": "1d80b286e2de125890a74714be0cfee8baf1deba49efc620c62e0f5ec80e802f"
+      "sha256": "c309a2d0262204bfb534983c3c64bf4dddf919b3754b3646156f1626067e30b6"
     },
     {
       "path": "dist/assembly/circuit.json",
-      "sha256": "1d80b286e2de125890a74714be0cfee8baf1deba49efc620c62e0f5ec80e802f"
+      "sha256": "c309a2d0262204bfb534983c3c64bf4dddf919b3754b3646156f1626067e30b6"
     },
     {
       "path": "dist/index/circuit.json",
-      "sha256": "9376c9635dccdd0306b077eea96dc44e497a7a50eaf45220665fd2c67ea93d66"
+      "sha256": "ff59bde24d537373fc4e7de56a2012a306e773e3b02c5bf5c4ef89082c804c04"
     },
     {
       "path": "package.json",
-      "sha256": "2538e09245dad2dfb60d9211ed69f3c31b1ad0982ab5aed8f4d8781f2fe27e5b"
+      "sha256": "e0b578969b2f11eebf7657ea7f7d21dac8795f4483e1048106ea3ebb5deaa02f"
     },
     {
       "path": "tscircuit.config.json",
@@ -490,11 +493,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "6a5c7543f4a749b7c7a2f95bd6450a2305e391f632191979bb863cafeac63e29"
+      "sha256": "daa0eb9540074fa110da688e7a0f258f56542ed27f951d857481d9207af194bf"
     },
     {
       "path": "verification.json",
-      "sha256": "3cd50e61aa3b62f17f1e48828357559263e1442493eda3e831af0d40c23a8379"
+      "sha256": "dd766ec5e34fadd74adcf973963d33d084d99460158149159273c5511a2df296"
     }
   ],
   "public_native_preview_verified": true,

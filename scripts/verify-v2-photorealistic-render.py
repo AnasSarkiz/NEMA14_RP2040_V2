@@ -12,7 +12,7 @@ assert publication['version']=='2.0.0-dev.11' and publication['release_id']==arg
 rid=args.release_id;token=json.loads(Path('/workspace/.config/tscircuit-nodejs/config.json').read_text())['sessionToken']
 def request(endpoint,body=None,query=None):
  url=API+endpoint+('?' + urllib.parse.urlencode(query) if query else '')
- req=urllib.request.Request(url,data=json.dumps(body).encode() if body is not None else None,headers={'Authorization':'Bearer '+token,'Content-Type':'application/json'})
+ req=urllib.request.Request(url,data=json.dumps(body).encode() if body is not None else None,headers={'Authorization':'Bearer '+token,**({'Content-Type':'application/json'} if body is not None else {})})
  with urllib.request.urlopen(req,timeout=120) as response:return response.status,response.read()
 _,data=request('package_files/get',query={'package_release_id':rid,'file_path':'dist/index/circuit.json'})
 rows=json.loads(json.loads(data)['package_file']['content_text']);local=json.loads((R/'artifacts/v2/routing/freerouted.circuit.json').read_text());assert rows==local

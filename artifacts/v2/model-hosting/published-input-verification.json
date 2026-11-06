@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "version": "2.0.0-dev.11",
+  "release_id": "d2d5cb42-e81f-49ce-8943-77a2035a0429",
+  "file_path": "dist/index/circuit.json",
+  "published_sha256": "ff59bde24d537373fc4e7de56a2012a306e773e3b02c5bf5c4ef89082c804c04",
+  "real_Board_Blend_validator_passed": true,
+  "all_models_on_modelcdn": true,
+  "native_preview_matches_assembly": true,
+  "public_registry_files_verified": 8
+}

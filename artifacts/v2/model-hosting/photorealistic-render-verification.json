@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "version": "2.0.0-dev.11",
+  "release_id": "d2d5cb42-e81f-49ce-8943-77a2035a0429",
+  "fresh_render_created": true,
+  "create_http_status": 202,
+  "input_path": "dist/index/circuit.json",
+  "board_sha256": "1c3dc7e8773da539be2ae1b8cd7d033dde3ca23741297a3baccf76f637e8ad8a",
+  "render_image": {
+    "package_release_render_image_id": "46e3700c-f81b-4465-81a8-7f515161dcee",
+    "package_release_id": "d2d5cb42-e81f-49ce-8943-77a2035a0429",
+    "angle": "angled",
+    "status": "succeeded",
+    "circuit_json_file_path": "dist/index/circuit.json",
+    "created_at": "2026-11-06T20:22:19.698Z",
+    "completed_at": "2026-11-06T20:24:21.382Z",
+    "error": null,
+    "image_url": "/package_releases/get_render_image_file?package_release_id=d2d5cb42-e81f-49ce-8943-77a2035a0429&angle=angled",
+    "file_path": "dist/render/angled.png"
+  },
+  "status_history": [
+    {
+      "status": "queued",
+      "observed_at": "2026-11-06T20:22:20.010612+00:00"
+    },
+    {
+      "status": "running",
+      "observed_at": "2026-11-06T20:22:28.157030+00:00"
+    },
+    {
+      "status": "succeeded",
+      "observed_at": "2026-11-06T20:24:22.926026+00:00"
+    }
+  ],
+  "image_sha256": "73c47654d4fd3b9ae9e5071dd6afca08b0763c16e9032cbe39dfb415a9f0584b",
+  "image_bytes": 1133413,
+  "visually_inspected": true,
+  "appearance_check": "Expected board outline, USB-C connectors, WAGO terminal and component layout present; exact geometry/transforms independently proven by byte-identical full assembly GLB."
+}

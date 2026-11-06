@@ -22,6 +22,24 @@
       "sha256": "4be28e9542bb87b1953b2a6707180449cad2e5f81d4898410577ef225b79a252",
       "passed": true,
       "github_negative_control_rejected": true
+    },
+    {
+      "path": "artifacts/v2/publication/stage/dist/index/circuit.json",
+      "sha256": "ff59bde24d537373fc4e7de56a2012a306e773e3b02c5bf5c4ef89082c804c04",
+      "passed": true,
+      "github_negative_control_rejected": true
+    },
+    {
+      "path": "artifacts/v2/publication/stage/dist/assembly/circuit.json",
+      "sha256": "c309a2d0262204bfb534983c3c64bf4dddf919b3754b3646156f1626067e30b6",
+      "passed": true,
+      "github_negative_control_rejected": true
+    },
+    {
+      "path": "/tmp/nema14-dev11-published.json",
+      "sha256": "ff59bde24d537373fc4e7de56a2012a306e773e3b02c5bf5c4ef89082c804c04",
+      "passed": true,
+      "github_negative_control_rejected": true
     }
   ]
 }
